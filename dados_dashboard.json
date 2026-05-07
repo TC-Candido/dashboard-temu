@@ -1,5 +1,5 @@
 {
-  "geradoEm": "07/05/2026 09:18",
+  "geradoEm": "07/05/2026 09:21",
   "kpis": {
     "totalProjetos": 11,
     "totalContainers": 25,
@@ -14,16 +14,12 @@
     "": 2
   },
   "fornecedorCounts": {
-    "Mong Ging": 2,
+    "Mong Ging": 4,
     "Wusen": 2,
-    "Temu China": 1,
-    "Honesty": 9,
+    "Temu": 9,
+    "Honesty": 10,
     "Muhe\nSanhe\nTemu\nWusan": 1,
-    "Mong Ging\nHonesty": 1,
-    "Temu": 6,
-    "Mong Ging\nTemu": 1,
-    "Muhe": 2,
-    "TEMU": 1
+    "Muhe": 2
   },
   "proximosETD": [
     {
@@ -47,7 +43,7 @@
       "embarque": "TEMU109",
       "codProjeto": "TL-00099",
       "projeto": "Projeto San Bernardo - Parte 01",
-      "fornecedor": "Mong Ging + Temu China",
+      "fornecedor": "Mong Ging + Temu",
       "destino": "Asuncion",
       "qtdCntr": 10,
       "tipoCntr": "40HC",
@@ -185,7 +181,7 @@
       "embarque": "TEMU109",
       "codProjeto": "TL-00099",
       "projeto": "Projeto San Bernardo - Parte 01",
-      "fornecedor": "Mong Ging + Temu China",
+      "fornecedor": "Mong Ging + Temu",
       "destino": "Asuncion",
       "qtdCntr": 10,
       "tipoCntr": "40HC",
@@ -287,7 +283,7 @@
       "embarque": "TEMU113",
       "codProjeto": "TL-00105",
       "projeto": "Projeto Reposição Isaka",
-      "fornecedor": "Mong Ging\nHonesty + Temu",
+      "fornecedor": "Mong Ging +\nHonesty + Temu",
       "destino": "Asuncion",
       "qtdCntr": 2,
       "tipoCntr": "40HC + 20GP",
@@ -304,7 +300,7 @@
       "embarque": "TEMU115",
       "codProjeto": "TL-00099",
       "projeto": "Projeto San Bernardo - Parte 01",
-      "fornecedor": "Mong Ging\nTemu + Muhe",
+      "fornecedor": "Mong Ging +\nTemu + Muhe",
       "destino": "Asuncion",
       "qtdCntr": 8,
       "tipoCntr": "7*40HC\n1*20GP",
@@ -338,7 +334,7 @@
       "embarque": "TEMU107",
       "codProjeto": "TL-00112\nTL-00108",
       "projeto": "Elton Endler\nProjeto Nilson Shimdt",
-      "fornecedor": "TEMU",
+      "fornecedor": "Temu",
       "destino": "",
       "qtdCntr": 1,
       "tipoCntr": "20GP",
