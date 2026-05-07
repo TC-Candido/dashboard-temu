@@ -1,5 +1,5 @@
 {
-  "geradoEm": "07/05/2026 09:21",
+  "geradoEm": "07/05/2026 09:27",
   "kpis": {
     "totalProjetos": 11,
     "totalContainers": 25,
@@ -10,16 +10,17 @@
     "FINALIZADO": 2,
     "SOBRE AGUAS": 6,
     "AGUARDANDO EMBARQUE": 2,
-    "EM PRODUÇÃO": 11,
-    "": 2
+    "EM PRODUÇÃO": 12,
+    "FECHAR PEDIDO I PAGAMENTO": 1
   },
   "fornecedorCounts": {
     "Mong Ging": 4,
     "Wusen": 2,
-    "Temu": 9,
+    "Temu": 10,
     "Honesty": 10,
-    "Muhe\nSanhe\nTemu\nWusan": 1,
-    "Muhe": 2
+    "Muhe": 3,
+    "Sanhe": 1,
+    "Wusan": 1
   },
   "proximosETD": [
     {
@@ -249,7 +250,7 @@
       "embarque": "TEMU111",
       "codProjeto": "TL-00104\nTL-00106",
       "projeto": "Projeto Jair Ansolin\nCooperativa Itaipu",
-      "fornecedor": "Muhe\nSanhe\nTemu\nWusan",
+      "fornecedor": "Muhe + Sanhe + Temu + Wusan",
       "destino": "Navegantes",
       "qtdCntr": 1,
       "tipoCntr": "40HC",
@@ -260,7 +261,7 @@
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
       "chegando10": false,
-      "observacoes": ""
+      "observacoes": "juntou os embarques - Embarque TEMU114 Ita"
     },
     {
       "embarque": "TEMU104",
@@ -477,7 +478,7 @@
       "prontidao": "2026-10-19 00:00:00",
       "etd": "29/10/2026",
       "eta": "16/12/2026",
-      "status": "",
+      "status": "FECHAR PEDIDO I PAGAMENTO",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
       "chegando10": false,
@@ -494,7 +495,7 @@
       "prontidao": "2026-05-07 00:00:00",
       "etd": "17/05/2026",
       "eta": "04/07/2026",
-      "status": "",
+      "status": "EM PRODUÇÃO",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
       "chegando10": false,
