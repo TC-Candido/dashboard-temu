@@ -1,10 +1,10 @@
 {
-  "geradoEm": "07/05/2026 16:34",
+  "geradoEm": "11/05/2026 08:34",
   "kpis": {
     "totalProjetos": 11,
     "totalContainers": 25,
-    "etd7dias": 1,
-    "chegando10dias": 1
+    "etd7dias": 2,
+    "chegando10dias": 0
   },
   "statusCounts": {
     "FINALIZADO": 2,
@@ -20,7 +20,8 @@
     "Honesty": 10,
     "Muhe": 3,
     "Sanhe": 1,
-    "Wusan": 1
+    "Wusan": 1,
+    "honesty": 1
   },
   "proximosETD": [
     {
@@ -37,7 +38,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": ""
     },
     {
@@ -77,7 +78,7 @@
     {
       "embarque": "TEMU103",
       "codProjeto": "TL-00101\nTL-00109\nTL-00110",
-      "projeto": "Projeto Agroter 3 + Fabiana (Inlets) + Martinelli",
+      "projeto": "Projeto Agroter 3 + Fabiana (Inlets)  - 2° embarque",
       "fornecedor": "Honesty",
       "destino": "Itajai",
       "qtdCntr": 6,
@@ -111,7 +112,7 @@
     {
       "embarque": "TEMU105",
       "codProjeto": "TL-00101",
-      "projeto": "Projeto Agroter 5",
+      "projeto": "Projeto Agroter 5 + Martinelli - 4° embarque",
       "fornecedor": "Honesty",
       "destino": "Navegantes",
       "qtdCntr": 4,
@@ -175,7 +176,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": ""
     },
     {
@@ -198,7 +199,7 @@
     {
       "embarque": "TEMU103",
       "codProjeto": "TL-00101\nTL-00109\nTL-00110",
-      "projeto": "Projeto Agroter 3 + Fabiana (Inlets) + Martinelli",
+      "projeto": "Projeto Agroter 3 + Fabiana (Inlets)  - 2° embarque",
       "fornecedor": "Honesty",
       "destino": "Itajai",
       "qtdCntr": 6,
@@ -266,7 +267,7 @@
     {
       "embarque": "TEMU104",
       "codProjeto": "TL-00101",
-      "projeto": "Projeto Agroter 4",
+      "projeto": "Projeto Agroter 4 - 3° embarque",
       "fornecedor": "Honesty",
       "destino": "Navegantes",
       "qtdCntr": 4,
@@ -317,7 +318,7 @@
     {
       "embarque": "TEMU105",
       "codProjeto": "TL-00101",
-      "projeto": "Projeto Agroter 5",
+      "projeto": "Projeto Agroter 5 + Martinelli - 4° embarque",
       "fornecedor": "Honesty",
       "destino": "Navegantes",
       "qtdCntr": 4,
@@ -441,11 +442,11 @@
       "destino": "",
       "qtdCntr": 0,
       "tipoCntr": "",
-      "prontidao": "",
+      "prontidao": "2026-05-22 00:00:00",
       "etd": null,
       "eta": null,
       "status": "EM PRODUÇÃO",
-      "statusOp": "Sem Prontidão e ETD",
+      "statusOp": "Pronto - Aguardando ETD",
       "etd7dias": false,
       "chegando10": false,
       "observacoes": ""
@@ -488,7 +489,7 @@
       "embarque": "TEMU106",
       "codProjeto": "TL-00111",
       "projeto": "Laura Novak + estoque",
-      "fornecedor": "Muhe + Temu",
+      "fornecedor": "Muhe + Temu + honesty",
       "destino": "",
       "qtdCntr": 0,
       "tipoCntr": "",
@@ -497,7 +498,7 @@
       "eta": "04/07/2026",
       "status": "EM PRODUÇÃO",
       "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
+      "etd7dias": true,
       "chegando10": false,
       "observacoes": ""
     },
