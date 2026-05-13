@@ -1,14 +1,14 @@
 {
-  "geradoEm": "13/05/2026 15:21",
+  "geradoEm": "13/05/2026 15:35",
   "kpis": {
     "totalSaldo": 1125816.9,
     "qtdAberto": 17,
-    "venc30": 166464.22,
-    "vencidos": 14768.03
+    "venc30": 0,
+    "vencidos": 0
   },
   "fornSaldo": {
     "Honesty": 741570.61,
-    "Temu": 373493.08999999997,
+    "Temu": 373493.09,
     "Muhe": 10753.2
   },
   "statusCounts": {
@@ -16,168 +16,7 @@
     "Aguardando 2ª Parcela": 6,
     "Sem prazo - Verificar": 3
   },
-  "proximos": [
-    {
-      "projeto": "Elton Endler",
-      "codProjeto": "TL-00112",
-      "embarque": "TEMU107",
-      "fornecedor": "Temu",
-      "fatura": "26TM0637",
-      "valor": 21097.18,
-      "pct1": 30.0,
-      "pago1": 6329.15,
-      "pct2": 70.0,
-      "pago2": 14768.03,
-      "pct3": 0,
-      "pago3": 0,
-      "saldo": 14768.03,
-      "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "11/05/2026",
-      "previsaoDias": -2,
-      "previsaoLabel": "2d atrás",
-      "statusVenc": "Vencido"
-    },
-    {
-      "projeto": "Projeto Jair Ansolin",
-      "codProjeto": "TL-00104",
-      "embarque": "TEMU110",
-      "fornecedor": "Honesty",
-      "fatura": "SH-ZXH-260205",
-      "valor": 104748.0,
-      "pct1": 30.0,
-      "pago1": 30431.0,
-      "pct2": 30.0,
-      "pago2": 52374.0,
-      "pct3": 40.0,
-      "pago3": 21943.0,
-      "saldo": 21943.0,
-      "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "17/05/2026",
-      "previsaoDias": 4,
-      "previsaoLabel": "4 dias",
-      "statusVenc": "Vence em 30 dias"
-    },
-    {
-      "projeto": "Projeto Jair Ansolin",
-      "codProjeto": "TL-00104",
-      "embarque": "TEMU110",
-      "fornecedor": "Muhe",
-      "fatura": "MHZ20260218",
-      "valor": 2037.0,
-      "pct1": 40.0,
-      "pago1": 814.8,
-      "pct2": 60.0,
-      "pago2": 1222.2,
-      "pct3": 0,
-      "pago3": 0,
-      "saldo": 1222.2,
-      "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "17/05/2026",
-      "previsaoDias": 4,
-      "previsaoLabel": "4 dias",
-      "statusVenc": "Vence em 30 dias"
-    },
-    {
-      "projeto": "Projeto Copacol",
-      "codProjeto": "TL-00107",
-      "embarque": "TEMU116",
-      "fornecedor": "Temu",
-      "fatura": "26TM0623",
-      "valor": 58041.58,
-      "pct1": 30.0,
-      "pago1": 17412.47,
-      "pct2": 70.0,
-      "pago2": 40629.11,
-      "pct3": 0,
-      "pago3": 0,
-      "saldo": 40629.11,
-      "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "22/05/2026",
-      "previsaoDias": 9,
-      "previsaoLabel": "9 dias",
-      "statusVenc": "Vence em 30 dias"
-    },
-    {
-      "projeto": "Projeto Agroter 3",
-      "codProjeto": "TL-00101",
-      "embarque": "TEMU103",
-      "fornecedor": "Honesty",
-      "fatura": "Second Batch Shipment",
-      "valor": 141260.0,
-      "pct1": 30.0,
-      "pago1": 42378.0,
-      "pct2": 30.0,
-      "pago2": 42378.0,
-      "pct3": 40.0,
-      "pago3": 56504.0,
-      "saldo": 56504.0,
-      "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "26/05/2026",
-      "previsaoDias": 13,
-      "previsaoLabel": "13 dias",
-      "statusVenc": "Vence em 30 dias"
-    },
-    {
-      "projeto": "Projeto Agroter 5 + Martinelli - 4° embarque",
-      "codProjeto": "TL-00101",
-      "embarque": "TEMU105",
-      "fornecedor": "Honesty",
-      "fatura": "3rd Batch Shipment",
-      "valor": 108282.0,
-      "pct1": 30.0,
-      "pago1": 32484.6,
-      "pct2": 30.0,
-      "pago2": 32485.0,
-      "pct3": 30.0,
-      "pago3": 43312.4,
-      "saldo": 43312.4,
-      "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "30/05/2026",
-      "previsaoDias": 17,
-      "previsaoLabel": "17 dias",
-      "statusVenc": "Vence em 30 dias"
-    },
-    {
-      "projeto": "Projeto Nilson Shimdt",
-      "codProjeto": "TL-00108",
-      "embarque": "TEMU107",
-      "fornecedor": "Temu",
-      "fatura": "26TM0627",
-      "valor": 4076.45,
-      "pct1": 30.0,
-      "pago1": 1222.93,
-      "pct2": 70.0,
-      "pago2": 2853.51,
-      "pct3": 0,
-      "pago3": 0,
-      "saldo": 2853.51,
-      "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "05/06/2026",
-      "previsaoDias": 23,
-      "previsaoLabel": "23 dias",
-      "statusVenc": "Vence em 30 dias"
-    },
-    {
-      "projeto": "Projeto Agroter 5",
-      "codProjeto": "",
-      "embarque": "",
-      "fornecedor": "Honesty",
-      "fatura": "4th Batch Shipment",
-      "valor": 107837.65,
-      "pct1": 30.0,
-      "pago1": 32351.3,
-      "pct2": 30.0,
-      "pago2": 32351.3,
-      "pct3": 30.0,
-      "pago3": 43135.06,
-      "saldo": 43135.06,
-      "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "20/07/2026",
-      "previsaoDias": 68,
-      "previsaoLabel": "68 dias",
-      "statusVenc": "Em dia"
-    }
-  ],
+  "proximos": [],
   "cambios": [
     {
       "projeto": "Projeto Agroter 1",
@@ -255,9 +94,9 @@
       "saldo": 56504.0,
       "statusCambio": "Aguardando 3ª Parcela",
       "previsao": "26/05/2026",
-      "previsaoDias": 13,
-      "previsaoLabel": "13 dias",
-      "statusVenc": "Vence em 30 dias"
+      "previsaoDias": null,
+      "previsaoLabel": null,
+      "statusVenc": "Sem previsão"
     },
     {
       "projeto": "Projeto Agroter 5 + Martinelli - 4° embarque",
@@ -275,9 +114,9 @@
       "saldo": 43312.4,
       "statusCambio": "Aguardando 3ª Parcela",
       "previsao": "30/05/2026",
-      "previsaoDias": 17,
-      "previsaoLabel": "17 dias",
-      "statusVenc": "Vence em 30 dias"
+      "previsaoDias": null,
+      "previsaoLabel": null,
+      "statusVenc": "Sem previsão"
     },
     {
       "projeto": "Projeto Agroter 5 + Martinelli - 4° embarque",
@@ -295,8 +134,8 @@
       "saldo": 0.0,
       "statusCambio": "Pago Total",
       "previsao": "03/07/2026",
-      "previsaoDias": 51,
-      "previsaoLabel": "51 dias",
+      "previsaoDias": null,
+      "previsaoLabel": null,
       "statusVenc": "Quitado"
     },
     {
@@ -315,9 +154,9 @@
       "saldo": 43135.06,
       "statusCambio": "Aguardando 3ª Parcela",
       "previsao": "20/07/2026",
-      "previsaoDias": 68,
-      "previsaoLabel": "68 dias",
-      "statusVenc": "Em dia"
+      "previsaoDias": null,
+      "previsaoLabel": null,
+      "statusVenc": "Sem previsão"
     },
     {
       "projeto": "Projeto Martinelli",
@@ -435,9 +274,9 @@
       "saldo": 21943.0,
       "statusCambio": "Aguardando 3ª Parcela",
       "previsao": "17/05/2026",
-      "previsaoDias": 4,
-      "previsaoLabel": "4 dias",
-      "statusVenc": "Vence em 30 dias"
+      "previsaoDias": null,
+      "previsaoLabel": null,
+      "statusVenc": "Sem previsão"
     },
     {
       "projeto": "Projeto Jair Ansolin",
@@ -475,9 +314,9 @@
       "saldo": 1222.2,
       "statusCambio": "Aguardando 3ª Parcela",
       "previsao": "17/05/2026",
-      "previsaoDias": 4,
-      "previsaoLabel": "4 dias",
-      "statusVenc": "Vence em 30 dias"
+      "previsaoDias": null,
+      "previsaoLabel": null,
+      "statusVenc": "Sem previsão"
     },
     {
       "projeto": "Projeto Jair Ansolin",
@@ -535,9 +374,9 @@
       "saldo": 40629.11,
       "statusCambio": "Aguardando 3ª Parcela",
       "previsao": "22/05/2026",
-      "previsaoDias": 9,
-      "previsaoLabel": "9 dias",
-      "statusVenc": "Vence em 30 dias"
+      "previsaoDias": null,
+      "previsaoLabel": null,
+      "statusVenc": "Sem previsão"
     },
     {
       "projeto": "Projeto Nilson Shimdt",
@@ -555,9 +394,9 @@
       "saldo": 2853.51,
       "statusCambio": "Aguardando 3ª Parcela",
       "previsao": "05/06/2026",
-      "previsaoDias": 23,
-      "previsaoLabel": "23 dias",
-      "statusVenc": "Vence em 30 dias"
+      "previsaoDias": null,
+      "previsaoLabel": null,
+      "statusVenc": "Sem previsão"
     },
     {
       "projeto": "Projeto Amostra  - CHINA",
@@ -735,9 +574,9 @@
       "saldo": 14768.03,
       "statusCambio": "Aguardando 3ª Parcela",
       "previsao": "11/05/2026",
-      "previsaoDias": -2,
-      "previsaoLabel": "2d atrás",
-      "statusVenc": "Vencido"
+      "previsaoDias": null,
+      "previsaoLabel": null,
+      "statusVenc": "Sem previsão"
     },
     {
       "projeto": "San Bernardo - Parte 2",
