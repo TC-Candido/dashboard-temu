@@ -202,7 +202,7 @@ if os.path.exists(TEMPLATE_HTML):
     with open(TEMPLATE_HTML, "r", encoding="utf-8") as f:
         html = f.read()
     dados_js = json.dumps(dados, ensure_ascii=False)
-    html = html.replace("/*DADOS_PLACEHOLDER*/", f"const DADOS_EMBEDDED = {dados_js};")
+    html = html.replace("var DADOS = DADOS_JSON;", f"var DADOS = {dados_js};")
     with open(OUTPUT_HTML, "w", encoding="utf-8") as f:
         f.write(html)
     print("HTML atualizado com dados embutidos!")

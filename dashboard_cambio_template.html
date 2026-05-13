@@ -203,16 +203,19 @@ function renderPie(statusCounts) {
   }).join('');
 }
 function renderFilters(cambios) {
-  var statuses = [];
-  cambios.filter(function(c) { return c.saldo > 0; }).forEach(function(c) { if (c.statusVenc && statuses.indexOf(c.statusVenc) < 0) statuses.push(c.statusVenc); });
-  var btns = [['todos', 'Todos']].concat(statuses.map(function(s) { return [s, s]; }));
-  document.getElementById('filter-btns').innerHTML = btns.map(function(pair) {
-    return '<button class="filter-btn' + (currentFilter === pair[0] ? ' active' : '') + '" onclick="setFilter(this.dataset.val)" data-val="' + pair[0] + '">' + pair[1] + '</button>';
-  }).join('');
+  var total = cambios.length;
+  var aberto = cambios.filter(function(c) { return c.saldo > 0; }).length;
+  var quitado = cambios.filter(function(c) { return c.saldo <= 0; }).length;
+  document.getElementById('filter-btns').innerHTML =
+    '<button class="filter-btn' + (currentFilter==='todos'?' active':'') + '" onclick="setFilter(this.dataset.val)" data-val="todos">Todos (' + total + ')</button>' +
+    '<button class="filter-btn' + (currentFilter==='aberto'?' active':'') + '" onclick="setFilter(this.dataset.val)" data-val="aberto">Em aberto (' + aberto + ')</button>' +
+    '<button class="filter-btn' + (currentFilter==='quitado'?' active':'') + '" onclick="setFilter(this.dataset.val)" data-val="quitado">Quitados (' + quitado + ')</button>';
 }
 function applyFilters() {
-  var data = DADOS.cambios.filter(function(c) { return c.saldo > 0; });
-  if (currentFilter !== 'todos') data = data.filter(function(c) { return c.statusVenc === currentFilter; });
+  var data;
+  if (currentFilter === 'aberto') data = DADOS.cambios.filter(function(c) { return c.saldo > 0; });
+  else if (currentFilter === 'quitado') data = DADOS.cambios.filter(function(c) { return c.saldo <= 0; });
+  else data = DADOS.cambios;
   if (currentSearch) {
     var q = currentSearch.toLowerCase();
     data = data.filter(function(c) { return (c.projeto||'').toLowerCase().indexOf(q) >= 0 || (c.fornecedor||'').toLowerCase().indexOf(q) >= 0 || (c.fatura||'').toLowerCase().indexOf(q) >= 0 || (c.embarque||'').toLowerCase().indexOf(q) >= 0; });
