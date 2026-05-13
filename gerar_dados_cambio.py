@@ -8,6 +8,8 @@ from datetime import datetime
 
 EXCEL_PATH = r"C:\Users\ACER\Taalex Systemtechnik GmbH\Importação - Documentos\Importação Temu\Processo 2026\Controle Importação l Temu - 2026 - 2.xlsx"
 OUTPUT_JSON = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dados_cambio.json")
+OUTPUT_HTML = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dashboard_cambio.html")
+TEMPLATE_HTML = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dashboard_cambio_template.html")
 
 def safe_str(val):
     try:
@@ -26,14 +28,20 @@ def safe_num(val):
         return 0
 
 def dias_para(date_val, hoje):
-    if pd.isna(date_val) or date_val is None:
+    if date_val is None:
         return None
+    try:
+        if pd.isna(date_val):
+            return None
+    except:
+        pass
     try:
         if isinstance(date_val, str):
             d = datetime.strptime(date_val, "%d/%m/%Y")
         else:
-            d = pd.to_datetime(date_val)
-            d = d.to_pydatetime()
+            d = pd.to_datetime(date_val).to_pydatetime()
+        if d.year < 2000:
+            return None
         diff = (d.replace(hour=0,minute=0,second=0,microsecond=0) - hoje).days
         return diff
     except:
@@ -67,48 +75,59 @@ tmp = tempfile.NamedTemporaryFile(suffix=".xlsx", delete=False)
 tmp.close()
 try:
     shutil.copy2(EXCEL_PATH, tmp.name)
-    df = pd.read_excel(tmp.name, sheet_name="Cambio Fornecedor", header=None)
+    df = pd.read_excel(tmp.name, sheet_name="Cambio Fornecedor", header=0, dtype=str)
 finally:
     try:
         os.unlink(tmp.name)
     except:
         pass
 
-# Promover cabeçalhos
-df.columns = df.iloc[0]
-df = df[1:].reset_index(drop=True)
-df.columns = [str(c).strip() if c is not None else f"Col_{i}" for i, c in enumerate(df.columns)]
+df.columns = [str(c).strip() if str(c) != 'nan' else f"Col_{i}" for i, c in enumerate(df.columns)]
 
 hoje = datetime.today().replace(hour=0, minute=0, second=0, microsecond=0)
 
 cambios = []
 for _, row in df.iterrows():
-    projeto   = safe_str(row.get("Projeto"))
-    cod       = safe_str(row.get("CodProjeto"))
-    embarque  = safe_str(row.get("Embarque"))
-    fornecedor= safe_str(row.get("Fornecedor"))
-    fatura    = safe_str(row.get("Fatura"))
-    valor     = safe_num(row.get("Valor"))
-    pct1      = safe_num(row.get("1ª Parcela - %"))
-    pago1     = safe_num(list(row)[list(df.columns).index("1ª Parcela - %") + 1] if "1ª Parcela - %" in list(df.columns) else 0)
-    pct2      = safe_num(row.get("2ª Parcela - %"))
-    pago2     = safe_num(list(row)[list(df.columns).index("2ª Parcela - %") + 1] if "2ª Parcela - %" in list(df.columns) else 0)
-    pct3      = safe_num(row.get("3ª Parcela - %"))
-    pago3     = safe_num(list(row)[list(df.columns).index("3ª Parcela - %") + 1] if "3ª Parcela - %" in list(df.columns) else 0)
-    saldo     = safe_num(row.get("Saldo a Pagar Fabrica"))
-    status_c  = safe_str(row.get("Status Câmbio"))
-    prev_raw  = row.get("Previsão.Pagamento Final")
+    projeto    = safe_str(row.get("Projeto"))
+    cod        = safe_str(row.get("CodProjeto"))
+    embarque   = safe_str(row.get("Embarque"))
+    fornecedor = safe_str(row.get("Fornecedor"))
+    fatura     = safe_str(row.get("Fatura"))
 
     if not projeto or not fornecedor:
         continue
-    if projeto in ["Projeto", ""] or fornecedor == "":
-        continue
 
+    def get_num(col):
+        return safe_num(row.get(col, 0))
+
+    valor  = get_num("Valor")
+    pct1   = get_num("1ª Parcela - %")
+    pct2   = get_num("2ª Parcela - %")
+    pct3   = get_num("3ª Parcela - %")
+    saldo  = get_num("Saldo a Pagar Fabrica")
+    status_c = safe_str(row.get("Status Câmbio", ""))
+
+    # Pago parcelas — colunas sem nome
+    cols = list(df.columns)
+    def get_col_after(name):
+        try:
+            idx = cols.index(name)
+            return safe_num(row.iloc[idx + 1])
+        except:
+            return 0
+
+    pago1 = get_col_after("1ª Parcela - %")
+    pago2 = get_col_after("2ª Parcela - %")
+    pago3 = get_col_after("3ª Parcela - %")
+
+    prev_raw = row.get("Previsão.Pagamento Final", None)
     prev_diff = dias_para(prev_raw, hoje)
-    prev_str  = None
-    if prev_raw is not None and not (isinstance(prev_raw, float) and pd.isna(prev_raw)):
+    prev_str = None
+    if prev_raw and str(prev_raw) not in ['nan', 'None', '']:
         try:
             prev_str = pd.to_datetime(prev_raw).strftime("%d/%m/%Y")
+            if pd.to_datetime(prev_raw).year < 2000:
+                prev_str = None
         except:
             pass
 
@@ -117,7 +136,7 @@ for _, row in df.iterrows():
     cambios.append({
         "projeto":    projeto,
         "codProjeto": cod,
-        "embarque":   embarque if embarque not in ["0", ""] else "",
+        "embarque":   "" if embarque in ["0"] else embarque,
         "fornecedor": fornecedor,
         "fatura":     fatura,
         "valor":      round(valor, 2),
@@ -135,42 +154,38 @@ for _, row in df.iterrows():
         "statusVenc": sv
     })
 
-# KPIs
-total_saldo   = sum(c["saldo"] for c in cambios if c["saldo"] > 0)
-qtd_aberto    = sum(1 for c in cambios if c["saldo"] > 0)
-venc_30       = sum(c["saldo"] for c in cambios if c["saldo"] > 0 and c["statusVenc"] == "Vence em 30 dias")
-vencidos      = sum(c["saldo"] for c in cambios if c["saldo"] > 0 and c["statusVenc"] == "Vencido")
+total_saldo = sum(c["saldo"] for c in cambios if c["saldo"] > 0)
+qtd_aberto  = sum(1 for c in cambios if c["saldo"] > 0)
+venc_30     = sum(c["saldo"] for c in cambios if c["saldo"] > 0 and c["statusVenc"] == "Vence em 30 dias")
+vencidos    = sum(c["saldo"] for c in cambios if c["saldo"] > 0 and c["statusVenc"] == "Vencido")
 
-# Por fornecedor
 forn_saldo = {}
 for c in cambios:
     if c["saldo"] > 0:
         for f in c["fornecedor"].split("+"):
             f = f.strip()
             if f:
-                forn_saldo[f] = forn_saldo.get(f, 0) + c["saldo"]
+                forn_saldo[f] = round(forn_saldo.get(f, 0) + c["saldo"], 2)
 forn_saldo = dict(sorted(forn_saldo.items(), key=lambda x: x[1], reverse=True))
 
-# Por status câmbio
 status_counts = {}
 for c in cambios:
     if c["saldo"] > 0:
         s = c["statusCambio"] or "Sem status"
         status_counts[s] = status_counts.get(s, 0) + 1
 
-# Próximos vencimentos
 proximos = sorted(
     [c for c in cambios if c["saldo"] > 0 and c["previsaoDias"] is not None],
     key=lambda x: x["previsaoDias"]
 )[:8]
 
 dados = {
-    "geradoEm": datetime.now().strftime("%d/%m/%Y %H:%M"),
+    "geradoEm":    datetime.now().strftime("%d/%m/%Y %H:%M"),
     "kpis": {
-        "totalSaldo":  round(total_saldo, 2),
-        "qtdAberto":   qtd_aberto,
-        "venc30":      round(venc_30, 2),
-        "vencidos":    round(vencidos, 2)
+        "totalSaldo": round(total_saldo, 2),
+        "qtdAberto":  qtd_aberto,
+        "venc30":     round(venc_30, 2),
+        "vencidos":   round(vencidos, 2)
     },
     "fornSaldo":    forn_saldo,
     "statusCounts": status_counts,
@@ -178,12 +193,23 @@ dados = {
     "cambios":      cambios
 }
 
+# Salva JSON
 with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
     json.dump(dados, f, ensure_ascii=False, indent=2)
+
+# Embutir dados no HTML
+if os.path.exists(TEMPLATE_HTML):
+    with open(TEMPLATE_HTML, "r", encoding="utf-8") as f:
+        html = f.read()
+    dados_js = json.dumps(dados, ensure_ascii=False)
+    html = html.replace("/*DADOS_PLACEHOLDER*/", f"const DADOS_EMBEDDED = {dados_js};")
+    with open(OUTPUT_HTML, "w", encoding="utf-8") as f:
+        f.write(html)
+    print("HTML atualizado com dados embutidos!")
 
 print(f"Dados gerados com sucesso!")
 print(f"Total câmbios: {len(cambios)}")
 print(f"Em aberto: {qtd_aberto}")
 print(f"Total saldo: $ {total_saldo:,.2f}")
 print(f"Vencidos: $ {vencidos:,.2f}")
-print(f"Arquivo salvo: {OUTPUT_JSON}")
+print(f"JSON salvo: {OUTPUT_JSON}")
