@@ -1,5 +1,5 @@
 {
-  "geradoEm": "13/05/2026 15:58",
+  "geradoEm": "13/05/2026 16:34",
   "kpis": {
     "totalSaldo": 1125816.9,
     "qtdAberto": 17,
@@ -36,7 +36,8 @@
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado"
+      "statusVenc": "Quitado",
+      "pagoEUA": 0.0
     },
     {
       "projeto": "Projeto Agroter 1",
@@ -56,7 +57,8 @@
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado"
+      "statusVenc": "Quitado",
+      "pagoEUA": 0.0
     },
     {
       "projeto": "Projeto Agroter 2",
@@ -76,7 +78,8 @@
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado"
+      "statusVenc": "Quitado",
+      "pagoEUA": 0.0
     },
     {
       "projeto": "Projeto Agroter 3",
@@ -96,7 +99,8 @@
       "previsao": "26/05/2026",
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão"
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 0.0
     },
     {
       "projeto": "Projeto Agroter 5 + Martinelli - 4° embarque",
@@ -116,7 +120,8 @@
       "previsao": "30/05/2026",
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão"
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 0.0
     },
     {
       "projeto": "Projeto Agroter 5 + Martinelli - 4° embarque",
@@ -136,7 +141,8 @@
       "previsao": "03/07/2026",
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado"
+      "statusVenc": "Quitado",
+      "pagoEUA": 1765.4
     },
     {
       "projeto": "Projeto Agroter 5",
@@ -156,7 +162,8 @@
       "previsao": "20/07/2026",
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão"
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 0.0
     },
     {
       "projeto": "Projeto Martinelli",
@@ -176,7 +183,8 @@
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado"
+      "statusVenc": "Quitado",
+      "pagoEUA": 0.0
     },
     {
       "projeto": "Projeto Fabiana (Inlets)",
@@ -196,7 +204,8 @@
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado"
+      "statusVenc": "Quitado",
+      "pagoEUA": 1400.0
     },
     {
       "projeto": "Projeto Romitec",
@@ -216,7 +225,8 @@
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado"
+      "statusVenc": "Quitado",
+      "pagoEUA": 0.0
     },
     {
       "projeto": "Projeto Cvale",
@@ -236,7 +246,8 @@
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado"
+      "statusVenc": "Quitado",
+      "pagoEUA": 14339.51
     },
     {
       "projeto": "Projeto Cvale",
@@ -256,7 +267,8 @@
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado"
+      "statusVenc": "Quitado",
+      "pagoEUA": 2884.68
     },
     {
       "projeto": "Projeto Jair Ansolin",
@@ -276,7 +288,8 @@
       "previsao": "17/05/2026",
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão"
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 0.0
     },
     {
       "projeto": "Projeto Jair Ansolin",
@@ -296,7 +309,8 @@
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado"
+      "statusVenc": "Quitado",
+      "pagoEUA": 0.0
     },
     {
       "projeto": "Projeto Jair Ansolin",
@@ -316,7 +330,8 @@
       "previsao": "17/05/2026",
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão"
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 2037.0
     },
     {
       "projeto": "Projeto Jair Ansolin",
@@ -336,7 +351,8 @@
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado"
+      "statusVenc": "Quitado",
+      "pagoEUA": 4316.0
     },
     {
       "projeto": "Cooperativa Itaipu",
@@ -356,7 +372,8 @@
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado"
+      "statusVenc": "Quitado",
+      "pagoEUA": 3209.0
     },
     {
       "projeto": "Projeto Copacol",
@@ -376,7 +393,8 @@
       "previsao": "22/05/2026",
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão"
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 0.0
     },
     {
       "projeto": "Projeto Nilson Shimdt",
@@ -396,7 +414,8 @@
       "previsao": "05/06/2026",
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão"
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 4076.45
     },
     {
       "projeto": "Projeto Amostra  - CHINA",
@@ -416,7 +435,8 @@
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado"
+      "statusVenc": "Quitado",
+      "pagoEUA": 0.0
     },
     {
       "projeto": "Projeto Reposição Isaka",
@@ -436,7 +456,8 @@
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado"
+      "statusVenc": "Quitado",
+      "pagoEUA": 0.0
     },
     {
       "projeto": "Projeto Reposição Isaka",
@@ -456,7 +477,8 @@
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado"
+      "statusVenc": "Quitado",
+      "pagoEUA": 0.0
     },
     {
       "projeto": "Projeto San Bernardo - Parte 01",
@@ -476,7 +498,8 @@
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado"
+      "statusVenc": "Quitado",
+      "pagoEUA": 0.0
     },
     {
       "projeto": "Projeto San Bernardo - Parte 01",
@@ -496,7 +519,8 @@
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado"
+      "statusVenc": "Quitado",
+      "pagoEUA": 0.0
     },
     {
       "projeto": "Projeto San Bernardo - Parte 01",
@@ -516,7 +540,8 @@
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado"
+      "statusVenc": "Quitado",
+      "pagoEUA": 0.0
     },
     {
       "projeto": "Projeto San Bernardo - Parte 01",
@@ -536,7 +561,8 @@
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado"
+      "statusVenc": "Quitado",
+      "pagoEUA": 0.0
     },
     {
       "projeto": "Projeto San Bernardo - Parte 01",
@@ -556,7 +582,8 @@
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado"
+      "statusVenc": "Quitado",
+      "pagoEUA": 0.0
     },
     {
       "projeto": "Elton Endler",
@@ -576,7 +603,8 @@
       "previsao": "11/05/2026",
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão"
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 0.0
     },
     {
       "projeto": "San Bernardo - Parte 2",
@@ -596,7 +624,8 @@
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão"
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 47666.26
     },
     {
       "projeto": "San Bernardo - Parte 2",
@@ -616,7 +645,8 @@
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão"
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 0.0
     },
     {
       "projeto": "San Bernardo - Parte 2",
@@ -636,7 +666,8 @@
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão"
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 0.0
     },
     {
       "projeto": "San Bernardo - Parte 2",
@@ -656,7 +687,8 @@
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão"
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 59490.95
     },
     {
       "projeto": "San Bernardo - Parte 2",
@@ -676,7 +708,8 @@
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão"
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 209052.0
     },
     {
       "projeto": "San Bernardo - Parte 2",
@@ -696,7 +729,8 @@
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão"
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 0.0
     },
     {
       "projeto": "San Bernardo - Parte 2",
@@ -716,7 +750,8 @@
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão"
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 13320.0
     },
     {
       "projeto": "Laura Novak + estoque",
@@ -736,7 +771,8 @@
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão"
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 0.0
     },
     {
       "projeto": "Laura Novak + estoque",
@@ -756,7 +792,8 @@
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão"
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 56561.5
     },
     {
       "projeto": "Projeto amostra - VCP",
@@ -776,7 +813,8 @@
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado"
+      "statusVenc": "Quitado",
+      "pagoEUA": 762.32
     },
     {
       "projeto": "Projeto amostra - VCP",
@@ -796,7 +834,8 @@
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado"
+      "statusVenc": "Quitado",
+      "pagoEUA": 0.0
     },
     {
       "projeto": "Projeto amostra - ALEMANHA",
@@ -816,7 +855,8 @@
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado"
+      "statusVenc": "Quitado",
+      "pagoEUA": 0.0
     },
     {
       "projeto": "Projeto amostra - China",
@@ -836,7 +876,8 @@
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado"
+      "statusVenc": "Quitado",
+      "pagoEUA": 0.0
     }
   ]
 }
