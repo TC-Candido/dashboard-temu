@@ -1,10 +1,10 @@
 {
-  "geradoEm": "14/05/2026 14:28",
+  "geradoEm": "14/05/2026 14:34",
   "kpis": {
     "totalSaldo": 1125816.9,
     "qtdAberto": 17,
-    "venc30": 166464.22,
-    "vencidos": 14768.03
+    "venc30": 181232.25,
+    "vencidos": 0
   },
   "fornSaldo": {
     "Honesty": 741570.61,
@@ -17,27 +17,6 @@
     "Sem prazo - Verificar": 3
   },
   "proximos": [
-    {
-      "projeto": "Elton Endler",
-      "codProjeto": "TL-00112",
-      "embarque": "TEMU107",
-      "fornecedor": "Temu",
-      "fatura": "26TM0637",
-      "valor": 21097.18,
-      "pct1": 30.0,
-      "pago1": 6329.15,
-      "pct2": 70.0,
-      "pago2": 14768.03,
-      "pct3": 0,
-      "pago3": 0,
-      "saldo": 14768.03,
-      "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "11/05/2026",
-      "previsaoDias": -3,
-      "previsaoLabel": "3d atrás",
-      "statusVenc": "Vencido",
-      "pagoEUA": 0.0
-    },
     {
       "projeto": "Projeto Jair Ansolin",
       "codProjeto": "TL-00104",
@@ -140,6 +119,27 @@
       "previsao": "30/05/2026",
       "previsaoDias": 16,
       "previsaoLabel": "16 dias",
+      "statusVenc": "Vence em 30 dias",
+      "pagoEUA": 0.0
+    },
+    {
+      "projeto": "Elton Endler",
+      "codProjeto": "TL-00112",
+      "embarque": "TEMU107",
+      "fornecedor": "Temu",
+      "fatura": "26TM0637",
+      "valor": 21097.18,
+      "pct1": 30.0,
+      "pago1": 6329.15,
+      "pct2": 70.0,
+      "pago2": 14768.03,
+      "pct3": 0,
+      "pago3": 0,
+      "saldo": 14768.03,
+      "statusCambio": "Aguardando 3ª Parcela",
+      "previsao": "31/05/2026",
+      "previsaoDias": 17,
+      "previsaoLabel": "17 dias",
       "statusVenc": "Vence em 30 dias",
       "pagoEUA": 0.0
     },
@@ -769,10 +769,10 @@
       "pago3": 0,
       "saldo": 14768.03,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "11/05/2026",
-      "previsaoDias": -3,
-      "previsaoLabel": "3d atrás",
-      "statusVenc": "Vencido",
+      "previsao": "31/05/2026",
+      "previsaoDias": 17,
+      "previsaoLabel": "17 dias",
+      "statusVenc": "Vence em 30 dias",
       "pagoEUA": 0.0
     },
     {
