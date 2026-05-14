@@ -27,7 +27,7 @@ body{background:#111;font-family:'Segoe UI',system-ui,sans-serif;color:#fff;min-
 .kpi-val.red{color:#E74C3C;}
 .kpi-delta{font-size:11px;margin-top:6px;}
 .green{color:#27AE60;}.amber{color:#E67E22;}.red-t{color:#E74C3C;}.gray{color:rgba(255,255,255,.3);}
-.mid-row{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;}
+.mid-row{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:10px;}
 .card{background:#242424;border-radius:10px;padding:14px 16px;border:1px solid rgba(255,255,255,.06);}
 .card-title{font-size:10px;font-weight:600;color:rgba(255,255,255,.35);margin-bottom:12px;text-transform:uppercase;letter-spacing:.07em;}
 .bar-row{display:flex;align-items:center;gap:8px;margin-bottom:8px;}
@@ -77,8 +77,9 @@ tbody tr:hover td{background:rgba(255,255,255,.03);}
 .footer-text{font-size:10px;color:rgba(255,255,255,.15);}
 .status-dot{width:7px;height:7px;border-radius:50%;display:inline-block;margin-right:5px;}
 .error-msg{background:#1E1010;border:1px solid rgba(192,57,43,.3);border-radius:8px;padding:16px;text-align:center;color:rgba(255,255,255,.5);font-size:13px;}
-@media(max-width:900px){.kpi-row{grid-template-columns:repeat(2,1fr);}.mid-row{grid-template-columns:1fr;}}
-@media(max-width:600px){.kpi-row{grid-template-columns:1fr;}.hdr-right{display:none;}}
+@media(max-width:1100px){.mid-row{grid-template-columns:repeat(2,1fr);}}
+@media(max-width:900px){.kpi-row{grid-template-columns:repeat(2,1fr);}.mid-row{grid-template-columns:repeat(2,1fr);}}
+@media(max-width:600px){.kpi-row{grid-template-columns:1fr;}.mid-row{grid-template-columns:1fr;}.hdr-right{display:none;}}
 </style>
 </head>
 <body>
@@ -112,8 +113,12 @@ tbody tr:hover td{background:rgba(255,255,255,.03);}
         <div id="status-bars"></div>
       </div>
       <div class="card">
-        <div class="card-title">Próximos ETD / ETA</div>
-        <div id="timeline"></div>
+        <div class="card-title">Próximos ETD</div>
+        <div id="timeline-etd"></div>
+      </div>
+      <div class="card">
+        <div class="card-title">Próximos ETA</div>
+        <div id="timeline-eta"></div>
       </div>
       <div class="card">
         <div class="card-title">Por fornecedor</div>
@@ -225,19 +230,19 @@ function renderStatusBars(counts) {
     </div>`).join('');
 }
 
-function renderTimeline(proximos) {
+function renderTimeline(items, campo, elId, vazio) {
   const colors = ['#E74C3C','#E67E22','#3498DB','#27AE60','#9B59B6','#555'];
-  document.getElementById('timeline').innerHTML = proximos.slice(0,5).map((e,i)=>`
+  document.getElementById(elId).innerHTML = items.slice(0,5).map((e,i)=>`
     <div class="tl-item">
       <div class="tl-dot-wrap">
         <div class="tl-dot" style="background:${colors[i%colors.length]};"></div>
-        ${i<proximos.length-1?'<div class="tl-line"></div>':''}
+        ${i<items.slice(0,5).length-1?'<div class="tl-line"></div>':''}
       </div>
       <div class="tl-content">
-        <div class="tl-name">${e.embarque} <span class="badge b-amber">${e.etd}</span></div>
+        <div class="tl-name">${e.embarque} <span class="badge b-amber">${e[campo]}</span></div>
         <div class="tl-sub">${e.projeto||''} — ${e.fornecedor||''}</div>
       </div>
-    </div>`).join('')||'<div style="color:rgba(255,255,255,.25);font-size:12px;">Nenhum ETD programado</div>';
+    </div>`).join('')||`<div style="color:rgba(255,255,255,.25);font-size:12px;">${vazio}</div>`;
 }
 
 function renderPie(counts) {
@@ -259,16 +264,35 @@ function renderPie(counts) {
     </div>`).join('');
 }
 
+function finalizado15dias(e) {
+  if ((e.status||'').toUpperCase() !== 'FINALIZADO') return false;
+  if (!e.eta) return true;
+  const p = e.eta.split('/');
+  const etaDate = new Date(p[2], p[1]-1, p[0]);
+  const hoje = new Date(); hoje.setHours(0,0,0,0);
+  return Math.round((hoje - etaDate) / 86400000) > 15;
+}
+
 function renderFilters(embarques) {
-  const statuses = [...new Set(embarques.map(e=>e.status).filter(Boolean))];
-  const btns = [['todos','Todos'],...statuses.map(s=>[s,s.charAt(0)+s.slice(1).toLowerCase()])];
+  const statuses = [...new Set(embarques.map(e=>e.status).filter(Boolean))].filter(s=>s.toUpperCase()!=='FINALIZADO');
+  const btns = [
+    ['todos','Todos'],
+    ...statuses.map(s=>[s, s.charAt(0)+s.slice(1).toLowerCase()]),
+    ['finalizados','Finalizados']
+  ];
   document.getElementById('filter-btns').innerHTML = btns.map(([val,label])=>`
     <button class="filter-btn${currentFilter===val?' active':''}" onclick="setFilter('${val}')">${label}</button>`).join('');
 }
 
 function applyFilters() {
   let data = allData.embarques;
-  if (currentFilter !== 'todos') data = data.filter(e=>e.status===currentFilter);
+  if (currentFilter === 'finalizados') {
+    data = data.filter(e=>(e.status||'').toUpperCase()==='FINALIZADO');
+  } else if (currentFilter === 'todos') {
+    data = data.filter(e=>!finalizado15dias(e));
+  } else {
+    data = data.filter(e=>e.status===currentFilter);
+  }
   if (currentSearch) {
     const q = currentSearch.toLowerCase();
     data = data.filter(e=>(e.embarque||'').toLowerCase().includes(q)||(e.projeto||'').toLowerCase().includes(q)||(e.fornecedor||'').toLowerCase().includes(q));
@@ -319,10 +343,7 @@ function clearSearch() {
 }
 function setFilter(val) {
   currentFilter = val;
-  document.querySelectorAll('.filter-btn').forEach(b=>{
-    b.classList.toggle('active', b.textContent.trim().toLowerCase()===(val==='todos'?'todos':val.charAt(0)+val.slice(1).toLowerCase()));
-    if(val==='todos'&&b.textContent.trim()==='Todos') b.classList.add('active');
-  });
+  renderFilters(allData.embarques);
   applyFilters();
 }
 function sortTable(key) {
@@ -347,7 +368,8 @@ async function loadData() {
     const alerta = alertaETD(allData.embarques);
     renderKPIs(allData.kpis, alerta);
     renderStatusBars(allData.statusCounts);
-    renderTimeline(allData.proximosETD);
+    renderTimeline(allData.proximosETD, 'etd', 'timeline-etd', 'Nenhum ETD programado');
+    renderTimeline(allData.proximosETA||[], 'eta', 'timeline-eta', 'Nenhum ETA programado');
     renderPie(allData.fornecedorCounts);
     renderFilters(allData.embarques);
     applyFilters();
