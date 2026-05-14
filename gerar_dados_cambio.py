@@ -36,10 +36,7 @@ def dias_para(date_val, hoje):
     except:
         pass
     try:
-        if isinstance(date_val, str):
-            d = datetime.strptime(date_val, "%d/%m/%Y")
-        else:
-            d = pd.to_datetime(date_val).to_pydatetime()
+        d = pd.to_datetime(date_val, dayfirst=False).to_pydatetime()
         if d.year < 2000:
             return None
         diff = (d.replace(hour=0,minute=0,second=0,microsecond=0) - hoje).days
@@ -105,6 +102,7 @@ for _, row in df.iterrows():
     pct2   = get_num("2ª Parcela - %")
     pct3   = get_num("3ª Parcela - %")
     saldo  = get_num("Saldo a Pagar Fabrica")
+    pago_eua = get_num("Saldo pago pelos EUA")
     status_c = safe_str(row.get("Status Câmbio", ""))
 
     # Pago parcelas — colunas sem nome
@@ -151,7 +149,8 @@ for _, row in df.iterrows():
         "previsao":   prev_str,
         "previsaoDias": prev_diff,
         "previsaoLabel": formatar_dias(prev_diff),
-        "statusVenc": sv
+        "statusVenc": sv,
+        "pagoEUA": round(pago_eua, 2)
     })
 
 total_saldo = sum(c["saldo"] for c in cambios if c["saldo"] > 0)
@@ -202,7 +201,7 @@ if os.path.exists(TEMPLATE_HTML):
     with open(TEMPLATE_HTML, "r", encoding="utf-8") as f:
         html = f.read()
     dados_js = json.dumps(dados, ensure_ascii=False)
-    html = html.replace("var DADOS = DADOS_JSON;", f"var DADOS = {dados_js};")
+    html = html.replace("var DADOS = __DADOS_JSON__;", f"var DADOS = {dados_js};")
     with open(OUTPUT_HTML, "w", encoding="utf-8") as f:
         f.write(html)
     print("HTML atualizado com dados embutidos!")
