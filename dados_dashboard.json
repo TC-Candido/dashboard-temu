@@ -1,10 +1,10 @@
 {
-  "geradoEm": "13/05/2026 16:34",
+  "geradoEm": "14/05/2026 10:34",
   "kpis": {
     "totalProjetos": 11,
     "totalContainers": 25,
     "etd7dias": 3,
-    "chegando10dias": 0
+    "chegando10dias": 1
   },
   "statusCounts": {
     "FINALIZADO": 2,
@@ -55,7 +55,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": ""
     },
     {
@@ -193,7 +193,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": ""
     },
     {
@@ -333,7 +333,7 @@
       "observacoes": ""
     },
     {
-      "embarque": "TEMU119\nTEMU128",
+      "embarque": "TEMU119",
       "codProjeto": "TL-00111",
       "projeto": "Estoque + Fabiana (Inlets)",
       "fornecedor": "Muhe\nHonesty",
