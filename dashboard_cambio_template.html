@@ -138,8 +138,8 @@ tbody tr:hover td{background:rgba(255,255,255,.03);}
             <th style="text-align:right">Pago P3</th>
             <th style="text-align:right" onclick="sortTable('saldo')">Saldo</th>
             <th>Status Cambio</th>
-            <th style="text-align:right">Pago EUA</th>
             <th onclick="sortTable('previsaoDias')">Previsao</th>
+            <th style="text-align:right">Pago EUA</th>
           </tr></thead>
           <tbody id="tableBody"></tbody>
         </table>
@@ -281,7 +281,7 @@ function applyFilters(){
   var q=currentSearch;
   count.textContent=(q||currentFilter!=='todos')?(filteredData.length+(filteredData.length===1?' resultado':' resultados')):'';
   tbody.innerHTML=filteredData.map(function(c){
-    return '<tr><td style="font-weight:600;">'+hl(c.projeto,q)+'</td><td>'+(hl(c.embarque,q)||'--')+'</td><td>'+hl(c.fornecedor,q)+'</td><td style="color:rgba(255,255,255,.5);">'+(c.fatura||'--')+'</td><td style="text-align:right;">'+fmtUSD(c.valor)+'</td><td style="text-align:center;color:rgba(255,255,255,.4);">'+fmtPct(c.pct1)+'</td><td style="text-align:right;">'+(c.pago1?fmtUSD(c.pago1):'--')+'</td><td style="text-align:center;color:rgba(255,255,255,.4);">'+fmtPct(c.pct2)+'</td><td style="text-align:right;">'+(c.pago2?fmtUSD(c.pago2):'--')+'</td><td style="text-align:center;color:rgba(255,255,255,.4);">'+fmtPct(c.pct3)+'</td><td style="text-align:right;">'+(c.pago3?fmtUSD(c.pago3):'--')+'</td><td style="text-align:right;font-weight:600;color:'+(c.statusVenc==='Vencido'?'#E74C3C':c.statusVenc==='Vence em 30 dias'?'#E67E22':'#fff')+';">'+fmtUSD(c.saldo)+'</td><td><span class="badge b-blue">'+(c.statusCambio||'--')+'</span></td>'+'<td style="text-align:right;color:'+(c.pagoEUA>0?'#82E0AA':'rgba(255,255,255,.3)')+';">'+(c.pagoEUA>0?fmtUSD(c.pagoEUA):'--')+'</td><td>'+badgeVenc(c.statusVenc,c.previsaoLabel||'',c.previsao||'')+'</td></tr>';
+    return '<tr><td style="font-weight:600;">'+hl(c.projeto,q)+'</td><td>'+(hl(c.embarque,q)||'--')+'</td><td>'+hl(c.fornecedor,q)+'</td><td style="color:rgba(255,255,255,.5);">'+(c.fatura||'--')+'</td><td style="text-align:right;">'+fmtUSD(c.valor)+'</td><td style="text-align:center;color:rgba(255,255,255,.4);">'+fmtPct(c.pct1)+'</td><td style="text-align:right;">'+(c.pago1?fmtUSD(c.pago1):'--')+'</td><td style="text-align:center;color:rgba(255,255,255,.4);">'+fmtPct(c.pct2)+'</td><td style="text-align:right;">'+(c.pago2?fmtUSD(c.pago2):'--')+'</td><td style="text-align:center;color:rgba(255,255,255,.4);">'+fmtPct(c.pct3)+'</td><td style="text-align:right;">'+(c.pago3?fmtUSD(c.pago3):'--')+'</td><td style="text-align:right;font-weight:600;color:'+(c.statusVenc==='Vencido'?'#E74C3C':c.statusVenc==='Vence em 30 dias'?'#E67E22':'#fff')+';">'+fmtUSD(c.saldo)+'</td><td><span class="badge b-blue">'+(c.statusCambio||'--')+'</span></td>'+'<td>'+badgeVenc(c.statusVenc,c.previsaoLabel||'',c.previsao||'')+'</td>'+'<td style="text-align:right;color:'+(c.pagoEUA>0?'#82E0AA':'rgba(255,255,255,.3)')+';">'+(c.pagoEUA>0?fmtUSD(c.pagoEUA):'--')+'</td></tr>';
   }).join('');
 }
 function filterTable(val){currentSearch=val;document.getElementById('clearBtn').style.display=val?'block':'none';applyFilters();}
