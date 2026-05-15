@@ -1,9 +1,9 @@
 {
-  "geradoEm": "15/05/2026 13:34",
+  "geradoEm": "15/05/2026 14:00",
   "kpis": {
     "totalSaldo": 1125816.9,
     "qtdAberto": 17,
-    "venc30": 181232.25,
+    "venc30": 124728.25,
     "vencidos": 0
   },
   "fornSaldo": {
@@ -12,9 +12,9 @@
     "Muhe": 10753.2
   },
   "statusCounts": {
-    "Aguardando 3ª Parcela": 8,
-    "Aguardando 2ª Parcela": 6,
-    "Sem prazo - Verificar": 3
+    "Sem prazo - Verificar": 4,
+    "Aguardando 3ª Parcela": 7,
+    "Aguardando 2ª Parcela": 6
   },
   "proximos": [
     {
@@ -77,27 +77,6 @@
       "previsao": "22/05/2026",
       "previsaoDias": 7,
       "previsaoLabel": "7 dias",
-      "statusVenc": "Vence em 30 dias",
-      "pagoEUA": 0.0
-    },
-    {
-      "projeto": "Projeto Agroter 3",
-      "codProjeto": "TL-00101",
-      "embarque": "TEMU103",
-      "fornecedor": "Honesty",
-      "fatura": "Second Batch Shipment",
-      "valor": 141260.0,
-      "pct1": 30.0,
-      "pago1": 42378.0,
-      "pct2": 30.0,
-      "pago2": 42378.0,
-      "pct3": 40.0,
-      "pago3": 56504.0,
-      "saldo": 56504.0,
-      "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "26/05/2026",
-      "previsaoDias": 11,
-      "previsaoLabel": "11 dias",
       "statusVenc": "Vence em 30 dias",
       "pagoEUA": 0.0
     },
@@ -264,11 +243,11 @@
       "pct3": 40.0,
       "pago3": 56504.0,
       "saldo": 56504.0,
-      "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "26/05/2026",
-      "previsaoDias": 11,
-      "previsaoLabel": "11 dias",
-      "statusVenc": "Vence em 30 dias",
+      "statusCambio": "Sem prazo - Verificar",
+      "previsao": null,
+      "previsaoDias": null,
+      "previsaoLabel": null,
+      "statusVenc": "Sem previsão",
       "pagoEUA": 0.0
     },
     {
