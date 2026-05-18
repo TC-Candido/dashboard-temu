@@ -1,10 +1,10 @@
 {
-  "geradoEm": "15/05/2026 19:34",
+  "geradoEm": "18/05/2026 09:00",
   "kpis": {
     "totalSaldo": 1125816.9,
     "qtdAberto": 17,
-    "venc30": 124728.25,
-    "vencidos": 0
+    "venc30": 101563.05,
+    "vencidos": 23165.2
   },
   "fornSaldo": {
     "Honesty": 741570.61,
@@ -33,9 +33,9 @@
       "saldo": 21943.0,
       "statusCambio": "Aguardando 3ª Parcela",
       "previsao": "17/05/2026",
-      "previsaoDias": 2,
-      "previsaoLabel": "2 dias",
-      "statusVenc": "Vence em 30 dias",
+      "previsaoDias": -1,
+      "previsaoLabel": "1d atrás",
+      "statusVenc": "Vencido",
       "pagoEUA": 0.0
     },
     {
@@ -54,9 +54,9 @@
       "saldo": 1222.2,
       "statusCambio": "Aguardando 3ª Parcela",
       "previsao": "17/05/2026",
-      "previsaoDias": 2,
-      "previsaoLabel": "2 dias",
-      "statusVenc": "Vence em 30 dias",
+      "previsaoDias": -1,
+      "previsaoLabel": "1d atrás",
+      "statusVenc": "Vencido",
       "pagoEUA": 2037.0
     },
     {
@@ -75,8 +75,8 @@
       "saldo": 40629.11,
       "statusCambio": "Aguardando 3ª Parcela",
       "previsao": "22/05/2026",
-      "previsaoDias": 7,
-      "previsaoLabel": "7 dias",
+      "previsaoDias": 4,
+      "previsaoLabel": "4 dias",
       "statusVenc": "Vence em 30 dias",
       "pagoEUA": 0.0
     },
@@ -96,8 +96,8 @@
       "saldo": 43312.4,
       "statusCambio": "Aguardando 3ª Parcela",
       "previsao": "30/05/2026",
-      "previsaoDias": 15,
-      "previsaoLabel": "15 dias",
+      "previsaoDias": 12,
+      "previsaoLabel": "12 dias",
       "statusVenc": "Vence em 30 dias",
       "pagoEUA": 0.0
     },
@@ -117,8 +117,8 @@
       "saldo": 14768.03,
       "statusCambio": "Aguardando 3ª Parcela",
       "previsao": "31/05/2026",
-      "previsaoDias": 16,
-      "previsaoLabel": "16 dias",
+      "previsaoDias": 13,
+      "previsaoLabel": "13 dias",
       "statusVenc": "Vence em 30 dias",
       "pagoEUA": 0.0
     },
@@ -138,8 +138,8 @@
       "saldo": 2853.51,
       "statusCambio": "Aguardando 3ª Parcela",
       "previsao": "05/06/2026",
-      "previsaoDias": 21,
-      "previsaoLabel": "21 dias",
+      "previsaoDias": 18,
+      "previsaoLabel": "18 dias",
       "statusVenc": "Vence em 30 dias",
       "pagoEUA": 4076.45
     },
@@ -159,8 +159,8 @@
       "saldo": 43135.06,
       "statusCambio": "Aguardando 3ª Parcela",
       "previsao": "20/07/2026",
-      "previsaoDias": 66,
-      "previsaoLabel": "66 dias",
+      "previsaoDias": 63,
+      "previsaoLabel": "63 dias",
       "statusVenc": "Em dia",
       "pagoEUA": 0.0
     }
@@ -266,8 +266,8 @@
       "saldo": 43312.4,
       "statusCambio": "Aguardando 3ª Parcela",
       "previsao": "30/05/2026",
-      "previsaoDias": 15,
-      "previsaoLabel": "15 dias",
+      "previsaoDias": 12,
+      "previsaoLabel": "12 dias",
       "statusVenc": "Vence em 30 dias",
       "pagoEUA": 0.0
     },
@@ -287,8 +287,8 @@
       "saldo": 0.0,
       "statusCambio": "Pago Total",
       "previsao": "03/07/2026",
-      "previsaoDias": 49,
-      "previsaoLabel": "49 dias",
+      "previsaoDias": 46,
+      "previsaoLabel": "46 dias",
       "statusVenc": "Quitado",
       "pagoEUA": 1765.4
     },
@@ -308,8 +308,8 @@
       "saldo": 43135.06,
       "statusCambio": "Aguardando 3ª Parcela",
       "previsao": "20/07/2026",
-      "previsaoDias": 66,
-      "previsaoLabel": "66 dias",
+      "previsaoDias": 63,
+      "previsaoLabel": "63 dias",
       "statusVenc": "Em dia",
       "pagoEUA": 0.0
     },
@@ -434,9 +434,9 @@
       "saldo": 21943.0,
       "statusCambio": "Aguardando 3ª Parcela",
       "previsao": "17/05/2026",
-      "previsaoDias": 2,
-      "previsaoLabel": "2 dias",
-      "statusVenc": "Vence em 30 dias",
+      "previsaoDias": -1,
+      "previsaoLabel": "1d atrás",
+      "statusVenc": "Vencido",
       "pagoEUA": 0.0
     },
     {
@@ -476,9 +476,9 @@
       "saldo": 1222.2,
       "statusCambio": "Aguardando 3ª Parcela",
       "previsao": "17/05/2026",
-      "previsaoDias": 2,
-      "previsaoLabel": "2 dias",
-      "statusVenc": "Vence em 30 dias",
+      "previsaoDias": -1,
+      "previsaoLabel": "1d atrás",
+      "statusVenc": "Vencido",
       "pagoEUA": 2037.0
     },
     {
@@ -539,8 +539,8 @@
       "saldo": 40629.11,
       "statusCambio": "Aguardando 3ª Parcela",
       "previsao": "22/05/2026",
-      "previsaoDias": 7,
-      "previsaoLabel": "7 dias",
+      "previsaoDias": 4,
+      "previsaoLabel": "4 dias",
       "statusVenc": "Vence em 30 dias",
       "pagoEUA": 0.0
     },
@@ -560,8 +560,8 @@
       "saldo": 2853.51,
       "statusCambio": "Aguardando 3ª Parcela",
       "previsao": "05/06/2026",
-      "previsaoDias": 21,
-      "previsaoLabel": "21 dias",
+      "previsaoDias": 18,
+      "previsaoLabel": "18 dias",
       "statusVenc": "Vence em 30 dias",
       "pagoEUA": 4076.45
     },
@@ -749,8 +749,8 @@
       "saldo": 14768.03,
       "statusCambio": "Aguardando 3ª Parcela",
       "previsao": "31/05/2026",
-      "previsaoDias": 16,
-      "previsaoLabel": "16 dias",
+      "previsaoDias": 13,
+      "previsaoLabel": "13 dias",
       "statusVenc": "Vence em 30 dias",
       "pagoEUA": 0.0
     },
