@@ -1,10 +1,10 @@
 {
-  "geradoEm": "18/05/2026 09:00",
+  "geradoEm": "18/05/2026 09:34",
   "kpis": {
     "totalSaldo": 1125816.9,
     "qtdAberto": 17,
     "venc30": 101563.05,
-    "vencidos": 23165.2
+    "vencidos": 79669.2
   },
   "fornSaldo": {
     "Honesty": 741570.61,
@@ -12,11 +12,32 @@
     "Muhe": 10753.2
   },
   "statusCounts": {
-    "Sem prazo - Verificar": 4,
-    "Aguardando 3ª Parcela": 7,
-    "Aguardando 2ª Parcela": 6
+    "Aguardando 3ª Parcela": 8,
+    "Aguardando 2ª Parcela": 6,
+    "Sem prazo - Verificar": 3
   },
   "proximos": [
+    {
+      "projeto": "Projeto Agroter 3",
+      "codProjeto": "TL-00101",
+      "embarque": "TEMU103",
+      "fornecedor": "Honesty",
+      "fatura": "Second Batch Shipment",
+      "valor": 141260.0,
+      "pct1": 30.0,
+      "pago1": 42378.0,
+      "pct2": 30.0,
+      "pago2": 42378.0,
+      "pct3": 40.0,
+      "pago3": 56504.0,
+      "saldo": 56504.0,
+      "statusCambio": "Aguardando 3ª Parcela",
+      "previsao": "16/05/2026",
+      "previsaoDias": -2,
+      "previsaoLabel": "2d atrás",
+      "statusVenc": "Vencido",
+      "pagoEUA": 0.0
+    },
     {
       "projeto": "Projeto Jair Ansolin",
       "codProjeto": "TL-00104",
@@ -243,11 +264,11 @@
       "pct3": 40.0,
       "pago3": 56504.0,
       "saldo": 56504.0,
-      "statusCambio": "Sem prazo - Verificar",
-      "previsao": null,
-      "previsaoDias": null,
-      "previsaoLabel": null,
-      "statusVenc": "Sem previsão",
+      "statusCambio": "Aguardando 3ª Parcela",
+      "previsao": "16/05/2026",
+      "previsaoDias": -2,
+      "previsaoLabel": "2d atrás",
+      "statusVenc": "Vencido",
       "pagoEUA": 0.0
     },
     {
@@ -286,9 +307,9 @@
       "pago3": 0.0,
       "saldo": 0.0,
       "statusCambio": "Pago Total",
-      "previsao": "03/07/2026",
-      "previsaoDias": 46,
-      "previsaoLabel": "46 dias",
+      "previsao": "04/07/2026",
+      "previsaoDias": 47,
+      "previsaoLabel": "47 dias",
       "statusVenc": "Quitado",
       "pagoEUA": 1765.4
     },
