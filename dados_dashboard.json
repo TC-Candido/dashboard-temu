@@ -1,9 +1,9 @@
 {
-  "geradoEm": "20/05/2026 23:34",
+  "geradoEm": "21/05/2026 00:00",
   "kpis": {
     "totalProjetos": 11,
     "totalContainers": 27,
-    "etd7dias": 2,
+    "etd7dias": 1,
     "chegando10dias": 2
   },
   "statusCounts": {
@@ -432,7 +432,7 @@
       "eta": "15/07/2026",
       "status": "AGUARDANDO EMBARQUE",
       "statusOp": "Prontidão e ETD OK",
-      "etd7dias": true,
+      "etd7dias": false,
       "chegando10": false,
       "observacoes": ""
     },
