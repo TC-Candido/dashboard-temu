@@ -1,10 +1,10 @@
 {
-  "geradoEm": "21/05/2026 09:00",
+  "geradoEm": "21/05/2026 09:34",
   "kpis": {
     "totalSaldo": 1125816.9,
     "qtdAberto": 17,
-    "venc30": 83941.51,
-    "vencidos": 40786.74
+    "venc30": 98709.54,
+    "vencidos": 82522.71
   },
   "fornSaldo": {
     "Honesty": 741570.61,
@@ -12,32 +12,11 @@
     "Muhe": 10753.2
   },
   "statusCounts": {
-    "Sem prazo - Verificar": 4,
-    "Aguardando 3ª Parcela": 7,
-    "Aguardando 2ª Parcela": 6
+    "Aguardando 3ª Parcela": 8,
+    "Aguardando 2ª Parcela": 6,
+    "Sem prazo - Verificar": 3
   },
   "proximos": [
-    {
-      "projeto": "Elton Endler",
-      "codProjeto": "TL-00112",
-      "embarque": "TEMU107",
-      "fornecedor": "Temu",
-      "fatura": "26TM0637",
-      "valor": 21097.18,
-      "pct1": 30.0,
-      "pago1": 6329.15,
-      "pct2": 70.0,
-      "pago2": 14768.03,
-      "pct3": 0,
-      "pago3": 0,
-      "saldo": 14768.03,
-      "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "04/04/2026",
-      "previsaoDias": -47,
-      "previsaoLabel": "47d atrás",
-      "statusVenc": "Vencido",
-      "pagoEUA": 0.0
-    },
     {
       "projeto": "Projeto Nilson Shimdt",
       "codProjeto": "TL-00108",
@@ -58,6 +37,27 @@
       "previsaoLabel": "7d atrás",
       "statusVenc": "Vencido",
       "pagoEUA": 4076.45
+    },
+    {
+      "projeto": "Projeto Agroter 3",
+      "codProjeto": "TL-00101",
+      "embarque": "TEMU103",
+      "fornecedor": "Honesty",
+      "fatura": "Second Batch Shipment",
+      "valor": 141260.0,
+      "pct1": 30.0,
+      "pago1": 42378.0,
+      "pct2": 30.0,
+      "pago2": 42378.0,
+      "pct3": 40.0,
+      "pago3": 56504.0,
+      "saldo": 56504.0,
+      "statusCambio": "Aguardando 3ª Parcela",
+      "previsao": "15/05/2026",
+      "previsaoDias": -6,
+      "previsaoLabel": "6d atrás",
+      "statusVenc": "Vencido",
+      "pagoEUA": 0.0
     },
     {
       "projeto": "Projeto Jair Ansolin",
@@ -140,6 +140,27 @@
       "previsao": "30/05/2026",
       "previsaoDias": 9,
       "previsaoLabel": "9 dias",
+      "statusVenc": "Vence em 30 dias",
+      "pagoEUA": 0.0
+    },
+    {
+      "projeto": "Elton Endler",
+      "codProjeto": "TL-00112",
+      "embarque": "TEMU107",
+      "fornecedor": "Temu",
+      "fatura": "26TM0637",
+      "valor": 21097.18,
+      "pct1": 30.0,
+      "pago1": 6329.15,
+      "pct2": 70.0,
+      "pago2": 14768.03,
+      "pct3": 0,
+      "pago3": 0,
+      "saldo": 14768.03,
+      "statusCambio": "Aguardando 3ª Parcela",
+      "previsao": "31/05/2026",
+      "previsaoDias": 10,
+      "previsaoLabel": "10 dias",
       "statusVenc": "Vence em 30 dias",
       "pagoEUA": 0.0
     },
@@ -243,11 +264,11 @@
       "pct3": 40.0,
       "pago3": 56504.0,
       "saldo": 56504.0,
-      "statusCambio": "Sem prazo - Verificar",
-      "previsao": null,
-      "previsaoDias": null,
-      "previsaoLabel": null,
-      "statusVenc": "Sem previsão",
+      "statusCambio": "Aguardando 3ª Parcela",
+      "previsao": "15/05/2026",
+      "previsaoDias": -6,
+      "previsaoLabel": "6d atrás",
+      "statusVenc": "Vencido",
       "pagoEUA": 0.0
     },
     {
@@ -748,10 +769,10 @@
       "pago3": 0,
       "saldo": 14768.03,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "04/04/2026",
-      "previsaoDias": -47,
-      "previsaoLabel": "47d atrás",
-      "statusVenc": "Vencido",
+      "previsao": "31/05/2026",
+      "previsaoDias": 10,
+      "previsaoLabel": "10 dias",
+      "statusVenc": "Vence em 30 dias",
       "pagoEUA": 0.0
     },
     {
