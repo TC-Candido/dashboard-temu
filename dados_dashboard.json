@@ -1,9 +1,9 @@
 {
-  "geradoEm": "25/05/2026 14:00",
+  "geradoEm": "25/05/2026 14:34",
   "kpis": {
     "totalProjetos": 11,
     "totalContainers": 29,
-    "etd7dias": 2,
+    "etd7dias": 3,
     "chegando10dias": 2
   },
   "statusCounts": {
@@ -25,23 +25,6 @@
     "Muhe\nHonesty": 1
   },
   "proximosETD": [
-    {
-      "embarque": "TEMU119",
-      "codProjeto": "TL-00111",
-      "projeto": "Estoque + Fabiana (Inlets)",
-      "fornecedor": "Muhe\nHonesty",
-      "destino": "",
-      "qtdCntr": 2,
-      "tipoCntr": "20GP",
-      "prontidao": "2026-05-13 00:00:00",
-      "etd": "30/05/2020",
-      "eta": "07/05/2020",
-      "status": "AGUARDANDO EMBARQUE",
-      "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": ""
-    },
     {
       "embarque": "TEMU108",
       "codProjeto": "TL-00099",
@@ -126,26 +109,26 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": ""
-    }
-  ],
-  "proximosETA": [
+    },
     {
-      "embarque": "TEMU119",
-      "codProjeto": "TL-00111",
-      "projeto": "Estoque + Fabiana (Inlets)",
-      "fornecedor": "Muhe\nHonesty",
-      "destino": "",
-      "qtdCntr": 2,
-      "tipoCntr": "20GP",
-      "prontidao": "2026-05-13 00:00:00",
-      "etd": "30/05/2020",
-      "eta": "07/05/2020",
-      "status": "AGUARDANDO EMBARQUE",
+      "embarque": "TEMU111",
+      "codProjeto": "TL-00104\nTL-00106",
+      "projeto": "Projeto Jair Ansolin\nCooperativa Itaipu",
+      "fornecedor": "Muhe + Sanhe + Temu + Wusan",
+      "destino": "Navegantes",
+      "qtdCntr": 1,
+      "tipoCntr": "40HC",
+      "prontidao": "2026-04-04 00:00:00",
+      "etd": "26/04/2026",
+      "eta": "10/06/2026",
+      "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
       "chegando10": false,
-      "observacoes": ""
-    },
+      "observacoes": "juntou os embarques - Embarque TEMU114 Ita"
+    }
+  ],
+  "proximosETA": [
     {
       "embarque": "TEMU108",
       "codProjeto": "TL-00099",
@@ -230,6 +213,23 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "juntou os embarques - Embarque TEMU114 Ita"
+    },
+    {
+      "embarque": "TEMU110",
+      "codProjeto": "TL-00104",
+      "projeto": "Projeto Jair Ansolin",
+      "fornecedor": "Honesty",
+      "destino": "Navegantes",
+      "qtdCntr": 4,
+      "tipoCntr": "40HC",
+      "prontidao": "2026-03-20 00:00:00",
+      "etd": "12/04/2026",
+      "eta": "16/06/2026",
+      "status": "SOBRE AGUAS",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": ""
     }
   ],
   "embarques": [
@@ -412,11 +412,11 @@
       "qtdCntr": 2,
       "tipoCntr": "20GP",
       "prontidao": "2026-05-13 00:00:00",
-      "etd": "30/05/2020",
-      "eta": "07/05/2020",
+      "etd": "30/05/2026",
+      "eta": "05/07/2026",
       "status": "AGUARDANDO EMBARQUE",
       "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
+      "etd7dias": true,
       "chegando10": false,
       "observacoes": ""
     },
