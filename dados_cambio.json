@@ -1,5 +1,5 @@
 {
-  "geradoEm": "25/05/2026 16:34",
+  "geradoEm": "25/05/2026 17:00",
   "kpis": {
     "totalSaldo": 1135347.9,
     "qtdAberto": 18,
@@ -32,9 +32,9 @@
       "pago3": 0,
       "saldo": 40629.11,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "14/05/2026",
-      "previsaoDias": -11,
-      "previsaoLabel": "11d atrás",
+      "previsao": "17/05/2026",
+      "previsaoDias": -8,
+      "previsaoLabel": "8d atrás",
       "statusVenc": "Vencido",
       "pagoEUA": 0.0
     },
@@ -580,9 +580,9 @@
       "pago3": 0,
       "saldo": 40629.11,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "14/05/2026",
-      "previsaoDias": -11,
-      "previsaoLabel": "11d atrás",
+      "previsao": "17/05/2026",
+      "previsaoDias": -8,
+      "previsaoLabel": "8d atrás",
       "statusVenc": "Vencido",
       "pagoEUA": 0.0
     },
