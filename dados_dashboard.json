@@ -1,10 +1,10 @@
 {
-  "geradoEm": "24/05/2026 23:34",
+  "geradoEm": "25/05/2026 00:00",
   "kpis": {
     "totalProjetos": 11,
     "totalContainers": 24,
     "etd7dias": 1,
-    "chegando10dias": 4
+    "chegando10dias": 3
   },
   "statusCounts": {
     "FINALIZADO": 2,
@@ -56,7 +56,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": ""
     },
     {
@@ -160,7 +160,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": ""
     },
     {
@@ -298,7 +298,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": ""
     },
     {
