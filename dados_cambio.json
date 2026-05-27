@@ -1,20 +1,20 @@
 {
-  "geradoEm": "27/05/2026 13:34",
+  "geradoEm": "27/05/2026 14:00",
   "kpis": {
-    "totalSaldo": 1051931.82,
-    "qtdAberto": 17,
+    "totalSaldo": 1042400.82,
+    "qtdAberto": 16,
     "venc30": 60933.94,
     "vencidos": 120298.31
   },
   "fornSaldo": {
     "Honesty": 658154.53,
     "Temu": 373493.09,
-    "Muhe": 20284.2
+    "Muhe": 10753.2
   },
   "statusCounts": {
     "Aguardando 3ª Parcela": 8,
-    "Aguardando 2ª Parcela": 6,
-    "Sem prazo - Verificar": 3
+    "Sem prazo - Verificar": 3,
+    "Aguardando 2ª Parcela": 5
   },
   "proximos": [
     {
@@ -389,12 +389,12 @@
       "pago2": 9531.0,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 9531.0,
-      "statusCambio": "Aguardando 2ª Parcela",
+      "saldo": 0.0,
+      "statusCambio": "Pago Total",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão",
+      "statusVenc": "Quitado",
       "pagoEUA": 0.0
     },
     {
