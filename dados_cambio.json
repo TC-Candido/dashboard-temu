@@ -1,20 +1,20 @@
 {
-  "geradoEm": "27/05/2026 14:00",
+  "geradoEm": "27/05/2026 14:34",
   "kpis": {
-    "totalSaldo": 1042400.82,
-    "qtdAberto": 16,
+    "totalSaldo": 1019090.82,
+    "qtdAberto": 15,
     "venc30": 60933.94,
     "vencidos": 120298.31
   },
   "fornSaldo": {
-    "Honesty": 658154.53,
+    "Honesty": 634844.53,
     "Temu": 373493.09,
     "Muhe": 10753.2
   },
   "statusCounts": {
     "Aguardando 3ª Parcela": 8,
     "Sem prazo - Verificar": 3,
-    "Aguardando 2ª Parcela": 5
+    "Aguardando 2ª Parcela": 4
   },
   "proximos": [
     {
@@ -158,9 +158,9 @@
       "pago3": 0,
       "saldo": 2853.51,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "10/06/2026",
-      "previsaoDias": 14,
-      "previsaoLabel": "14 dias",
+      "previsao": "16/06/2026",
+      "previsaoDias": 20,
+      "previsaoLabel": "20 dias",
       "statusVenc": "Vence em 30 dias",
       "pagoEUA": 4076.45
     },
@@ -601,9 +601,9 @@
       "pago3": 0,
       "saldo": 2853.51,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "10/06/2026",
-      "previsaoDias": 14,
-      "previsaoLabel": "14 dias",
+      "previsao": "16/06/2026",
+      "previsaoDias": 20,
+      "previsaoLabel": "20 dias",
       "statusVenc": "Vence em 30 dias",
       "pagoEUA": 4076.45
     },
@@ -935,12 +935,12 @@
       "pago2": 23310.0,
       "pct3": 40.0,
       "pago3": 0.0,
-      "saldo": 23310.0,
-      "statusCambio": "Aguardando 2ª Parcela",
+      "saldo": 0.0,
+      "statusCambio": "Pago Total",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão",
+      "statusVenc": "Quitado",
       "pagoEUA": 0.0
     },
     {
