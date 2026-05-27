@@ -1,19 +1,19 @@
 {
-  "geradoEm": "27/05/2026 10:00",
+  "geradoEm": "27/05/2026 10:34",
   "kpis": {
-    "totalSaldo": 1135347.9,
-    "qtdAberto": 18,
+    "totalSaldo": 1051931.82,
+    "qtdAberto": 17,
     "venc30": 60933.94,
     "vencidos": 120298.31
   },
   "fornSaldo": {
-    "Honesty": 741570.61,
+    "Honesty": 658154.53,
     "Temu": 373493.09,
     "Muhe": 20284.2
   },
   "statusCounts": {
     "Aguardando 3ª Parcela": 8,
-    "Aguardando 2ª Parcela": 7,
+    "Aguardando 2ª Parcela": 6,
     "Sem prazo - Verificar": 3
   },
   "proximos": [
@@ -805,17 +805,17 @@
       "valor": 119166.08,
       "pct1": 30.0,
       "pago1": 35750.0,
-      "pct2": 30.0,
-      "pago2": 35749.82,
-      "pct3": 40.0,
-      "pago3": 47666.26,
-      "saldo": 83416.08,
-      "statusCambio": "Aguardando 2ª Parcela",
+      "pct2": 70.0,
+      "pago2": 83416.08,
+      "pct3": 0.0,
+      "pago3": 0.0,
+      "saldo": 0.0,
+      "statusCambio": "Pago Total",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão",
-      "pagoEUA": 47666.26
+      "statusVenc": "Quitado",
+      "pagoEUA": 0.0
     },
     {
       "projeto": "San Bernardo - Parte 2",
