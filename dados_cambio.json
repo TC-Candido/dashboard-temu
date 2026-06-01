@@ -1,5 +1,5 @@
 {
-  "geradoEm": "01/06/2026 18:00",
+  "geradoEm": "01/06/2026 18:34",
   "kpis": {
     "totalSaldo": 939421.62,
     "qtdAberto": 12,
@@ -82,7 +82,7 @@
     {
       "projeto": "Projeto Nilson Shimdt",
       "codProjeto": "TL-00108",
-      "embarque": "TEMU107",
+      "embarque": "TEMU117",
       "fornecedor": "Temu",
       "fatura": "26TM0627",
       "valor": 4076.45,
@@ -525,7 +525,7 @@
     {
       "projeto": "Projeto Nilson Shimdt",
       "codProjeto": "TL-00108",
-      "embarque": "TEMU107",
+      "embarque": "TEMU117",
       "fornecedor": "Temu",
       "fatura": "26TM0627",
       "valor": 4076.45,
@@ -542,6 +542,27 @@
       "previsaoLabel": "15 dias",
       "statusVenc": "Vence em 30 dias",
       "pagoEUA": 4076.45
+    },
+    {
+      "projeto": "Elton Endler",
+      "codProjeto": "TL-00112",
+      "embarque": "TEMU107",
+      "fornecedor": "Temu",
+      "fatura": "26TM0637",
+      "valor": 21097.18,
+      "pct1": 30.0,
+      "pago1": 6329.15,
+      "pct2": 70.0,
+      "pago2": 14768.03,
+      "pct3": 0,
+      "pago3": 0,
+      "saldo": 14768.03,
+      "statusCambio": "Aguardando 2ª Parcela",
+      "previsao": "08/06/2026",
+      "previsaoDias": 7,
+      "previsaoLabel": "7 dias",
+      "statusVenc": "Vence em 30 dias",
+      "pagoEUA": 0.0
     },
     {
       "projeto": "Projeto Amostra  - CHINA",
@@ -712,27 +733,6 @@
       "pagoEUA": 0.0
     },
     {
-      "projeto": "Elton Endler",
-      "codProjeto": "TL-00112",
-      "embarque": "TEMU107",
-      "fornecedor": "Temu",
-      "fatura": "26TM0637",
-      "valor": 21097.18,
-      "pct1": 30.0,
-      "pago1": 6329.15,
-      "pct2": 70.0,
-      "pago2": 14768.03,
-      "pct3": 0,
-      "pago3": 0,
-      "saldo": 14768.03,
-      "statusCambio": "Aguardando 2ª Parcela",
-      "previsao": "08/06/2026",
-      "previsaoDias": 7,
-      "previsaoLabel": "7 dias",
-      "statusVenc": "Vence em 30 dias",
-      "pagoEUA": 0.0
-    },
-    {
       "projeto": "San Bernardo - Parte 2",
       "codProjeto": "TL-00100",
       "embarque": "TEMU118",
@@ -821,7 +821,7 @@
       "codProjeto": "TL-00100",
       "embarque": "TEMU124",
       "fornecedor": "Honesty",
-      "fatura": "SH-ZXH-260409",
+      "fatura": "SH-ZXH-260416",
       "valor": 522630.0,
       "pct1": 30.0,
       "pago1": 156789.0,
