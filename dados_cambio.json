@@ -1,19 +1,19 @@
 {
-  "geradoEm": "03/06/2026 12:34",
+  "geradoEm": "03/06/2026 13:34",
   "kpis": {
-    "totalSaldo": 924653.59,
-    "qtdAberto": 11,
-    "venc30": 46165.91,
+    "totalSaldo": 921800.08,
+    "qtdAberto": 10,
+    "venc30": 43312.4,
     "vencidos": 40629.11
   },
   "fornSaldo": {
     "Honesty": 556397.53,
-    "Temu": 358725.06,
+    "Temu": 355871.55,
     "Muhe": 9531.0
   },
   "statusCounts": {
     "Aguardando 3ª Parcela": 2,
-    "Aguardando 2ª Parcela": 9
+    "Aguardando 2ª Parcela": 8
   },
   "proximos": [
     {
@@ -57,27 +57,6 @@
       "previsaoLabel": "2 dias",
       "statusVenc": "Vence em 30 dias",
       "pagoEUA": 0.0
-    },
-    {
-      "projeto": "Projeto Nilson Shimdt",
-      "codProjeto": "TL-00108",
-      "embarque": "TEMU117",
-      "fornecedor": "Temu",
-      "fatura": "26TM0627",
-      "valor": 4076.45,
-      "pct1": 30.0,
-      "pago1": 1222.93,
-      "pct2": 70.0,
-      "pago2": 2853.51,
-      "pct3": 0,
-      "pago3": 0,
-      "saldo": 2853.51,
-      "statusCambio": "Aguardando 2ª Parcela",
-      "previsao": "16/06/2026",
-      "previsaoDias": 13,
-      "previsaoLabel": "13 dias",
-      "statusVenc": "Vence em 30 dias",
-      "pagoEUA": 4076.45
     },
     {
       "projeto": "Projeto Agroter 5",
@@ -514,12 +493,12 @@
       "pago2": 2853.51,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 2853.51,
-      "statusCambio": "Aguardando 2ª Parcela",
+      "saldo": 0.0,
+      "statusCambio": "Pago Total",
       "previsao": "16/06/2026",
       "previsaoDias": 13,
       "previsaoLabel": "13 dias",
-      "statusVenc": "Vence em 30 dias",
+      "statusVenc": "Quitado",
       "pagoEUA": 4076.45
     },
     {
