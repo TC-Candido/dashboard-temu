@@ -1,10 +1,10 @@
 {
-  "geradoEm": "02/06/2026 23:34",
+  "geradoEm": "03/06/2026 00:34",
   "kpis": {
     "totalProjetos": 11,
     "totalContainers": 31,
     "etd7dias": 3,
-    "chegando10dias": 3
+    "chegando10dias": 1
   },
   "statusCounts": {
     "FINALIZADO": 2,
@@ -73,7 +73,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": ""
     },
     {
@@ -90,7 +90,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": ""
     },
     {
@@ -177,7 +177,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": ""
     },
     {
@@ -194,7 +194,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": ""
     },
     {
@@ -315,7 +315,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": ""
     },
     {
@@ -332,7 +332,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": ""
     },
     {
