@@ -1,10 +1,10 @@
 {
-  "geradoEm": "03/06/2026 13:34",
+  "geradoEm": "03/06/2026 14:34",
   "kpis": {
     "totalSaldo": 921800.08,
     "qtdAberto": 10,
     "venc30": 43312.4,
-    "vencidos": 40629.11
+    "vencidos": 0
   },
   "fornSaldo": {
     "Honesty": 556397.53,
@@ -16,27 +16,6 @@
     "Aguardando 2ª Parcela": 8
   },
   "proximos": [
-    {
-      "projeto": "Projeto Copacol",
-      "codProjeto": "TL-00107",
-      "embarque": "TEMU116",
-      "fornecedor": "Temu",
-      "fatura": "26TM0623",
-      "valor": 58041.58,
-      "pct1": 30.0,
-      "pago1": 17412.47,
-      "pct2": 70.0,
-      "pago2": 40629.11,
-      "pct3": 0,
-      "pago3": 0,
-      "saldo": 40629.11,
-      "statusCambio": "Aguardando 2ª Parcela",
-      "previsao": "17/05/2026",
-      "previsaoDias": -17,
-      "previsaoLabel": "17d atrás",
-      "statusVenc": "Vencido",
-      "pagoEUA": 0.0
-    },
     {
       "projeto": "Projeto Agroter 5 + Martinelli - 4° embarque",
       "codProjeto": "TL-00101",
@@ -474,10 +453,10 @@
       "pago3": 0,
       "saldo": 40629.11,
       "statusCambio": "Aguardando 2ª Parcela",
-      "previsao": "17/05/2026",
-      "previsaoDias": -17,
-      "previsaoLabel": "17d atrás",
-      "statusVenc": "Vencido",
+      "previsao": null,
+      "previsaoDias": null,
+      "previsaoLabel": null,
+      "statusVenc": "Sem previsão",
       "pagoEUA": 0.0
     },
     {
