@@ -1,11 +1,11 @@
 {
-  "geradoEm": "03/06/2026 23:34",
+  "geradoEm": "04/06/2026 00:00",
   "kpis": {
     "totalGeral": 813000.0,
-    "totalSemana": 504000.0,
-    "totalQuinzena": 813000.0,
-    "totalMes": 813000.0,
-    "qtdChegando": 3
+    "totalSemana": 0,
+    "totalQuinzena": 309000.0,
+    "totalMes": 309000.0,
+    "qtdChegando": 1
   },
   "composicao": {
     "impostos": 475000.0,
@@ -25,8 +25,8 @@
       "totalCambio": 1221000.0,
       "totalChegada": 461000.0,
       "previsao": "03/06/2026",
-      "diasChegada": 0,
-      "semanaLabel": "Esta semana"
+      "diasChegada": -1,
+      "semanaLabel": "Atrasado"
     },
     {
       "projeto": "Projeto Romitec",
@@ -40,8 +40,8 @@
       "totalCambio": 68000.0,
       "totalChegada": 43000.0,
       "previsao": "03/06/2026",
-      "diasChegada": 0,
-      "semanaLabel": "Esta semana"
+      "diasChegada": -1,
+      "semanaLabel": "Atrasado"
     },
     {
       "projeto": "Projeto Jair Ansolin",
@@ -55,7 +55,7 @@
       "totalCambio": 844000.0,
       "totalChegada": 309000.0,
       "previsao": "16/06/2026",
-      "diasChegada": 13,
+      "diasChegada": 12,
       "semanaLabel": "Próximos 15 dias"
     }
   ]
