@@ -1,5 +1,5 @@
 {
-  "geradoEm": "09/06/2026 09:00",
+  "geradoEm": "09/06/2026 09:34",
   "kpis": {
     "totalSaldo": 921800.08,
     "qtdAberto": 10,
@@ -13,7 +13,8 @@
   },
   "statusCounts": {
     "Aguardando 3ª Parcela": 2,
-    "Aguardando 2ª Parcela": 8
+    "Aguardando 2ª Parcela": 7,
+    "Sem prazo - Verificar": 1
   },
   "proximos": [
     {
@@ -767,7 +768,7 @@
       "pct3": 40.0,
       "pago3": 209052.0,
       "saldo": 365841.0,
-      "statusCambio": "Aguardando 2ª Parcela",
+      "statusCambio": "Sem prazo - Verificar",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,

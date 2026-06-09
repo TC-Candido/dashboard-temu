@@ -1,9 +1,9 @@
 {
-  "geradoEm": "09/06/2026 09:00",
+  "geradoEm": "09/06/2026 09:34",
   "kpis": {
     "totalProjetos": 11,
     "totalContainers": 24,
-    "etd7dias": 1,
+    "etd7dias": 2,
     "chegando10dias": 2
   },
   "statusCounts": {
@@ -26,6 +26,23 @@
   },
   "proximosETD": [
     {
+      "embarque": "TEMU119",
+      "codProjeto": "TL-00111",
+      "projeto": "Estoque + Fabiana (Inlets)",
+      "fornecedor": "Muhe\nHonesty",
+      "destino": "",
+      "qtdCntr": 2,
+      "tipoCntr": "20GP",
+      "prontidao": "2026-05-13 00:00:00",
+      "etd": "30/05/2020",
+      "eta": "07/05/2020",
+      "status": "AGUARDANDO EMBARQUE",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": ""
+    },
+    {
       "embarque": "TEMU103",
       "codProjeto": "TL-00101\nTL-00109\nTL-00110",
       "projeto": "Projeto Agroter 3  - 2° embarque",
@@ -109,23 +126,6 @@
       "etd7dias": false,
       "chegando10": true,
       "observacoes": ""
-    },
-    {
-      "embarque": "TEMU111",
-      "codProjeto": "TL-00104\nTL-00106",
-      "projeto": "Projeto Jair Ansolin\nCooperativa Itaipu",
-      "fornecedor": "Muhe + Sanhe + Temu + Wusan",
-      "destino": "Navegantes",
-      "qtdCntr": 1,
-      "tipoCntr": "40HC",
-      "prontidao": "2026-04-04 00:00:00",
-      "etd": "26/04/2026",
-      "eta": "10/06/2026",
-      "status": "SOBRE AGUAS",
-      "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
-      "chegando10": true,
-      "observacoes": "juntou os embarques - Embarque TEMU114 Ita"
     }
   ],
   "proximosETA": [
@@ -147,6 +147,23 @@
       "observacoes": ""
     },
     {
+      "embarque": "TEMU119",
+      "codProjeto": "TL-00111",
+      "projeto": "Estoque + Fabiana (Inlets)",
+      "fornecedor": "Muhe\nHonesty",
+      "destino": "",
+      "qtdCntr": 2,
+      "tipoCntr": "20GP",
+      "prontidao": "2026-05-13 00:00:00",
+      "etd": "30/05/2020",
+      "eta": "07/05/2020",
+      "status": "AGUARDANDO EMBARQUE",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": ""
+    },
+    {
       "embarque": "TEMU108",
       "codProjeto": "TL-00099",
       "projeto": "Projeto San Bernardo - Parte 01",
@@ -213,23 +230,6 @@
       "etd7dias": false,
       "chegando10": true,
       "observacoes": "juntou os embarques - Embarque TEMU114 Ita"
-    },
-    {
-      "embarque": "TEMU110",
-      "codProjeto": "TL-00104",
-      "projeto": "Projeto Jair Ansolin",
-      "fornecedor": "Honesty",
-      "destino": "Navegantes",
-      "qtdCntr": 4,
-      "tipoCntr": "40HC",
-      "prontidao": "2026-03-20 00:00:00",
-      "etd": "12/04/2026",
-      "eta": "16/06/2026",
-      "status": "SOBRE AGUAS",
-      "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
-      "chegando10": true,
-      "observacoes": ""
     }
   ],
   "embarques": [
@@ -446,8 +446,8 @@
       "qtdCntr": 2,
       "tipoCntr": "20GP",
       "prontidao": "2026-05-13 00:00:00",
-      "etd": "30/05/2026",
-      "eta": "05/07/2026",
+      "etd": "30/05/2020",
+      "eta": "07/05/2020",
       "status": "AGUARDANDO EMBARQUE",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
@@ -506,6 +506,23 @@
       "observacoes": ""
     },
     {
+      "embarque": "TEMU125",
+      "codProjeto": "TL-00100",
+      "projeto": "San Bernardo - Parte 2",
+      "fornecedor": "Honesty",
+      "destino": "Asuncion",
+      "qtdCntr": 12,
+      "tipoCntr": "40hc",
+      "prontidao": "2026-06-03 00:00:00",
+      "etd": "13/06/2026",
+      "eta": "12/08/2026",
+      "status": "EM PRODUÇÃO",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": true,
+      "chegando10": false,
+      "observacoes": ""
+    },
+    {
       "embarque": "TEMU107",
       "codProjeto": "TL-00112\nTL-00108",
       "projeto": "Elton Endler\nProjeto Nilson Shimdt",
@@ -545,8 +562,8 @@
       "projeto": "San Bernardo - Parte 2",
       "fornecedor": "Temu",
       "destino": "Asuncion",
-      "qtdCntr": 0,
-      "tipoCntr": "",
+      "qtdCntr": 3,
+      "tipoCntr": "40hc",
       "prontidao": "2026-06-11 00:00:00",
       "etd": "21/06/2026",
       "eta": "08/08/2026",
@@ -584,23 +601,6 @@
       "prontidao": "2026-06-15 00:00:00",
       "etd": "25/06/2026",
       "eta": "12/08/2026",
-      "status": "EM PRODUÇÃO",
-      "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": ""
-    },
-    {
-      "embarque": "TEMU125",
-      "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
-      "fornecedor": "Honesty",
-      "destino": "Asuncion",
-      "qtdCntr": 17,
-      "tipoCntr": "40HC",
-      "prontidao": "2026-06-12 00:00:00",
-      "etd": "22/06/2026",
-      "eta": "19/08/2026",
       "status": "EM PRODUÇÃO",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
