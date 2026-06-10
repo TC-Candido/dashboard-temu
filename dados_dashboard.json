@@ -1,5 +1,5 @@
 {
-  "geradoEm": "10/06/2026 00:00",
+  "geradoEm": "10/06/2026 09:34",
   "kpis": {
     "totalProjetos": 11,
     "totalContainers": 24,
@@ -494,7 +494,7 @@
       "projeto": "San Bernardo - Parte 2",
       "fornecedor": "Honesty",
       "destino": "Asuncion",
-      "qtdCntr": 0,
+      "qtdCntr": 6,
       "tipoCntr": "40hc",
       "prontidao": "2026-06-03 00:00:00",
       "etd": "13/06/2026",
