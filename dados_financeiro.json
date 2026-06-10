@@ -1,5 +1,5 @@
 {
-  "geradoEm": "10/06/2026 10:00",
+  "geradoEm": "10/06/2026 10:34",
   "kpis": {
     "totalGeral": 813000.0,
     "totalSemana": 309000.0,
@@ -17,7 +17,7 @@
       "projeto": "Projeto Agroter 3  - 2° embarque",
       "codProjeto": "TL-00101\nTL-00109\nTL-00110",
       "embarque": "TEMU103",
-      "status": "ATRACADO",
+      "status": "DESEMBRAÇO",
       "cif": 838000.0,
       "impostos": 273000.0,
       "despesas": 110000.0,
@@ -32,7 +32,7 @@
       "projeto": "Projeto Romitec",
       "codProjeto": "TL-00103",
       "embarque": "TEMU111",
-      "status": "ATRACADO",
+      "status": "EMITIR NF",
       "cif": 36000.0,
       "impostos": 12000.0,
       "despesas": 20000.0,
