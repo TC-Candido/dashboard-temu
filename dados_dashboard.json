@@ -1,16 +1,16 @@
 {
-  "geradoEm": "15/06/2026 14:34",
+  "geradoEm": "15/06/2026 15:00",
   "kpis": {
     "totalProjetos": 11,
-    "totalContainers": 26,
+    "totalContainers": 25,
     "etd7dias": 1,
     "chegando10dias": 1
   },
   "statusCounts": {
     "FINALIZADO": 2,
     "EMITIR NF": 3,
-    "DESEMBRAÇO": 1,
-    "SOBRE AGUAS": 7,
+    "DESEMBRAÇO": 2,
+    "SOBRE AGUAS": 6,
     "EM PRODUÇÃO": 11,
     "": 1
   },
@@ -121,7 +121,7 @@
       "prontidao": "2026-04-04 00:00:00",
       "etd": "26/04/2026",
       "eta": "11/06/2026",
-      "status": "SOBRE AGUAS",
+      "status": "DESEMBRAÇO",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
       "chegando10": false,
@@ -225,7 +225,7 @@
       "prontidao": "2026-04-04 00:00:00",
       "etd": "26/04/2026",
       "eta": "11/06/2026",
-      "status": "SOBRE AGUAS",
+      "status": "DESEMBRAÇO",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
       "chegando10": false,
@@ -346,7 +346,7 @@
       "prontidao": "2026-04-04 00:00:00",
       "etd": "26/04/2026",
       "eta": "11/06/2026",
-      "status": "SOBRE AGUAS",
+      "status": "DESEMBRAÇO",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
       "chegando10": false,
