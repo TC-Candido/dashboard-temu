@@ -1,5 +1,5 @@
 {
-  "geradoEm": "15/06/2026 15:00",
+  "geradoEm": "15/06/2026 16:34",
   "kpis": {
     "totalProjetos": 11,
     "totalContainers": 25,
@@ -25,23 +25,6 @@
     "Muhe\nHonesty": 1
   },
   "proximosETD": [
-    {
-      "embarque": "TEMU125",
-      "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
-      "fornecedor": "Honesty",
-      "destino": "Asuncion",
-      "qtdCntr": 0,
-      "tipoCntr": "40hc",
-      "prontidao": "",
-      "etd": "10/01/1900",
-      "eta": "10/03/1900",
-      "status": "EM PRODUÇÃO",
-      "statusOp": "Sem Prontidão",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": ""
-    },
     {
       "embarque": "TEMU108",
       "codProjeto": "TL-00099",
@@ -111,7 +94,7 @@
       "observacoes": ""
     },
     {
-      "embarque": "TEMU111",
+      "embarque": "TEMU114",
       "codProjeto": "TL-00104\nTL-00106",
       "projeto": "Projeto Jair Ansolin\nCooperativa Itaipu",
       "fornecedor": "Muhe + Sanhe + Temu + Wusan",
@@ -126,26 +109,26 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "juntou os embarques - Embarque TEMU114 Ita"
+    },
+    {
+      "embarque": "TEMU113",
+      "codProjeto": "TL-00105",
+      "projeto": "Projeto Reposição Isaka",
+      "fornecedor": "Mong Ging +\nHonesty + Temu",
+      "destino": "Asuncion",
+      "qtdCntr": 2,
+      "tipoCntr": "40HC + 20GP",
+      "prontidao": "2026-04-09 00:00:00",
+      "etd": "02/05/2026",
+      "eta": "01/07/2026",
+      "status": "SOBRE AGUAS",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "09/04 - Linerado para Isaka organizar o embarque; Aguardando dados o agente"
     }
   ],
   "proximosETA": [
-    {
-      "embarque": "TEMU125",
-      "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
-      "fornecedor": "Honesty",
-      "destino": "Asuncion",
-      "qtdCntr": 0,
-      "tipoCntr": "40hc",
-      "prontidao": "",
-      "etd": "10/01/1900",
-      "eta": "10/03/1900",
-      "status": "EM PRODUÇÃO",
-      "statusOp": "Sem Prontidão",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": ""
-    },
     {
       "embarque": "TEMU103",
       "codProjeto": "TL-00101\nTL-00109\nTL-00110",
@@ -215,7 +198,7 @@
       "observacoes": ""
     },
     {
-      "embarque": "TEMU111",
+      "embarque": "TEMU114",
       "codProjeto": "TL-00104\nTL-00106",
       "projeto": "Projeto Jair Ansolin\nCooperativa Itaipu",
       "fornecedor": "Muhe + Sanhe + Temu + Wusan",
@@ -230,6 +213,23 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "juntou os embarques - Embarque TEMU114 Ita"
+    },
+    {
+      "embarque": "TEMU110",
+      "codProjeto": "TL-00104",
+      "projeto": "Projeto Jair Ansolin",
+      "fornecedor": "Honesty",
+      "destino": "Navegantes",
+      "qtdCntr": 4,
+      "tipoCntr": "40HC",
+      "prontidao": "2026-03-20 00:00:00",
+      "etd": "12/04/2026",
+      "eta": "23/06/2026",
+      "status": "SOBRE AGUAS",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": false,
+      "chegando10": true,
+      "observacoes": ""
     }
   ],
   "embarques": [
@@ -336,7 +336,7 @@
       "observacoes": ""
     },
     {
-      "embarque": "TEMU111",
+      "embarque": "TEMU114",
       "codProjeto": "TL-00104\nTL-00106",
       "projeto": "Projeto Jair Ansolin\nCooperativa Itaipu",
       "fornecedor": "Muhe + Sanhe + Temu + Wusan",
@@ -531,8 +531,8 @@
       "qtdCntr": 0,
       "tipoCntr": "40hc",
       "prontidao": "",
-      "etd": "10/01/1900",
-      "eta": "10/03/1900",
+      "etd": "25/06/2026",
+      "eta": "24/08/2026",
       "status": "EM PRODUÇÃO",
       "statusOp": "Sem Prontidão",
       "etd7dias": false,
