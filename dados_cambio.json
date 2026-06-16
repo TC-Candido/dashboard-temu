@@ -1,19 +1,19 @@
 {
-  "geradoEm": "15/06/2026 22:00",
+  "geradoEm": "15/06/2026 22:34",
   "kpis": {
-    "totalSaldo": 937995.04,
-    "qtdAberto": 13,
+    "totalSaldo": 943315.04,
+    "qtdAberto": 14,
     "venc30": 49596.3,
     "vencidos": 0
   },
   "fornSaldo": {
-    "Honesty": 556397.53,
+    "Honesty": 561717.53,
     "Temu": 372066.51,
     "Muhe": 9531.0
   },
   "statusCounts": {
     "Aguardando 3ª Parcela": 2,
-    "Aguardando 2ª Parcela": 10,
+    "Aguardando 2ª Parcela": 11,
     "Sem prazo - Verificar": 1
   },
   "proximos": [
@@ -760,20 +760,20 @@
       "embarque": "TEMU122",
       "fornecedor": "Honesty",
       "fatura": "SH-ZXH-260416-A",
-      "valor": 148727.07,
+      "valor": 153347.07,
       "pct1": 30.0,
       "pago1": 44618.0,
-      "pct2": 30.0,
-      "pago2": 44618.12,
-      "pct3": 40.0,
-      "pago3": 59490.95,
-      "saldo": 104109.07,
+      "pct2": 70.0,
+      "pago2": 108729.07,
+      "pct3": 0.0,
+      "pago3": 0.0,
+      "saldo": 108729.07,
       "statusCambio": "Aguardando 2ª Parcela",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
       "statusVenc": "Sem previsão",
-      "pagoEUA": 59490.95
+      "pagoEUA": 0.0
     },
     {
       "projeto": "San Bernardo - Parte 2",
@@ -823,24 +823,24 @@
       "embarque": "TEMU127",
       "fornecedor": "Honesty",
       "fatura": "SH-ZXH-260425",
-      "valor": 33300.0,
+      "valor": 34000.0,
       "pct1": 30.0,
       "pago1": 9990.0,
       "pct2": 70.0,
       "pago2": 23310.0,
       "pct3": 40.0,
-      "pago3": 0.0,
-      "saldo": 0.0,
-      "statusCambio": "Pago Total",
+      "pago3": 700.0,
+      "saldo": 700.0,
+      "statusCambio": "Aguardando 2ª Parcela",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado",
-      "pagoEUA": 0.0
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 700.0
     },
     {
-      "projeto": "Laura Novak + estoque",
-      "codProjeto": "",
+      "projeto": "Laura Novak + estoque+Sensor",
+      "codProjeto": "TL-00111",
       "embarque": "TEMU106",
       "fornecedor": "Muhe",
       "fatura": "MHY20260420",
@@ -860,8 +860,8 @@
       "pagoEUA": 0.0
     },
     {
-      "projeto": "Laura Novak + estoque",
-      "codProjeto": "",
+      "projeto": "Laura Novak + estoque+Sensor",
+      "codProjeto": "TL-00111",
       "embarque": "TEMU106",
       "fornecedor": "Temu",
       "fatura": "26TM0628",
