@@ -1,5 +1,5 @@
 {
-  "geradoEm": "15/06/2026 22:34",
+  "geradoEm": "15/06/2026 23:00",
   "kpis": {
     "totalProjetos": 11,
     "totalContainers": 25,
@@ -649,11 +649,11 @@
       "destino": "Asuncion",
       "qtdCntr": 0,
       "tipoCntr": "",
-      "prontidao": "",
+      "prontidao": "2026-06-19 00:00:00",
       "etd": null,
       "eta": null,
       "status": "",
-      "statusOp": "Sem Prontidão e ETD",
+      "statusOp": "Pronto - Aguardando ETD",
       "etd7dias": false,
       "chegando10": false,
       "observacoes": ""
