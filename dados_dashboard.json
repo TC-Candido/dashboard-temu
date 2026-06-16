@@ -1,5 +1,5 @@
 {
-  "geradoEm": "16/06/2026 08:00",
+  "geradoEm": "16/06/2026 10:00",
   "kpis": {
     "totalProjetos": 11,
     "totalContainers": 25,
@@ -528,13 +528,13 @@
       "projeto": "San Bernardo - Parte 2",
       "fornecedor": "Honesty",
       "destino": "Asuncion",
-      "qtdCntr": 0,
+      "qtdCntr": 13,
       "tipoCntr": "40hc",
-      "prontidao": "",
-      "etd": "25/06/2026",
-      "eta": "24/08/2026",
+      "prontidao": "2026-07-07 00:00:00",
+      "etd": "22/07/2026",
+      "eta": "20/09/2026",
       "status": "EM PRODUÇÃO",
-      "statusOp": "Sem Prontidão",
+      "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
       "chegando10": false,
       "observacoes": ""
