@@ -1,5 +1,5 @@
 {
-  "geradoEm": "17/06/2026 15:34",
+  "geradoEm": "17/06/2026 16:00",
   "kpis": {
     "totalSaldo": 1214020.62,
     "qtdAberto": 18,
@@ -829,13 +829,13 @@
       "pago2": 23310.0,
       "pct3": 40.0,
       "pago3": 700.0,
-      "saldo": 0,
+      "saldo": 0.0,
       "statusCambio": "Pago Total",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
       "statusVenc": "Quitado",
-      "pagoEUA": 700.0
+      "pagoEUA": 0.0
     },
     {
       "projeto": "Laura Novak + estoque+Sensor",
