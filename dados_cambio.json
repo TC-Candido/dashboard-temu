@@ -1,5 +1,5 @@
 {
-  "geradoEm": "17/06/2026 04:00",
+  "geradoEm": "17/06/2026 04:34",
   "kpis": {
     "totalSaldo": 1214020.62,
     "qtdAberto": 18,
@@ -77,7 +77,7 @@
       "previsaoDias": 33,
       "previsaoLabel": "33 dias",
       "statusVenc": "Em dia",
-      "pagoEUA": 0.0
+      "pagoEUA": 0
     }
   ],
   "cambios": [
@@ -226,7 +226,7 @@
       "previsaoDias": 33,
       "previsaoLabel": "33 dias",
       "statusVenc": "Em dia",
-      "pagoEUA": 0.0
+      "pagoEUA": 0
     },
     {
       "projeto": "Projeto Martinelli",
@@ -436,7 +436,7 @@
       "previsaoDias": null,
       "previsaoLabel": null,
       "statusVenc": "Sem previsão",
-      "pagoEUA": 0.0
+      "pagoEUA": 9.0
     },
     {
       "projeto": "Projeto Copacol",
@@ -1108,7 +1108,7 @@
       "previsaoDias": null,
       "previsaoLabel": null,
       "statusVenc": "Quitado",
-      "pagoEUA": 0.0
+      "pagoEUA": 68.0
     }
   ]
 }
