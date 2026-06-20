@@ -1,5 +1,5 @@
 {
-  "geradoEm": "20/06/2026 19:00",
+  "geradoEm": "20/06/2026 19:34",
   "kpis": {
     "totalSaldo": 1214020.62,
     "qtdAberto": 18,
@@ -52,9 +52,9 @@
       "pago3": 0,
       "saldo": 6283.9,
       "statusCambio": "Aguardando 2ª Parcela",
-      "previsao": "11/07/2026",
-      "previsaoDias": 21,
-      "previsaoLabel": "21 dias",
+      "previsao": "07/07/2026",
+      "previsaoDias": 17,
+      "previsaoLabel": "17 dias",
       "statusVenc": "Vence em 30 dias",
       "pagoEUA": 8977.0
     },
@@ -474,9 +474,9 @@
       "pago3": 0,
       "saldo": 0.0,
       "statusCambio": "Pago Total",
-      "previsao": "16/07/2026",
-      "previsaoDias": 26,
-      "previsaoLabel": "26 dias",
+      "previsao": "17/07/2026",
+      "previsaoDias": 27,
+      "previsaoLabel": "27 dias",
       "statusVenc": "Quitado",
       "pagoEUA": 4076.45
     },
@@ -495,9 +495,9 @@
       "pago3": 0,
       "saldo": 0.0,
       "statusCambio": "Pago Total",
-      "previsao": "08/06/2026",
-      "previsaoDias": -12,
-      "previsaoLabel": "12d atrás",
+      "previsao": "30/06/2026",
+      "previsaoDias": 10,
+      "previsaoLabel": "10 dias",
       "statusVenc": "Quitado",
       "pagoEUA": 0.0
     },
@@ -516,9 +516,9 @@
       "pago3": 0,
       "saldo": 6283.9,
       "statusCambio": "Aguardando 2ª Parcela",
-      "previsao": "11/07/2026",
-      "previsaoDias": 21,
-      "previsaoLabel": "21 dias",
+      "previsao": "07/07/2026",
+      "previsaoDias": 17,
+      "previsaoLabel": "17 dias",
       "statusVenc": "Vence em 30 dias",
       "pagoEUA": 8977.0
     },
@@ -839,7 +839,7 @@
     },
     {
       "projeto": "Laura Novak + estoque+Sensor",
-      "codProjeto": "TL-00111",
+      "codProjeto": "",
       "embarque": "TEMU106",
       "fornecedor": "Muhe",
       "fatura": "MHY20260420",
@@ -860,7 +860,7 @@
     },
     {
       "projeto": "Laura Novak + estoque+Sensor",
-      "codProjeto": "TL-00111",
+      "codProjeto": "",
       "embarque": "TEMU106",
       "fornecedor": "Temu",
       "fatura": "26TM0628",
@@ -881,7 +881,7 @@
     },
     {
       "projeto": "Boa Fé Climatização",
-      "codProjeto": "0",
+      "codProjeto": "TL-00113",
       "embarque": "TEMU130",
       "fornecedor": "Temu",
       "fatura": "26TM0672",
