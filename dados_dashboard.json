@@ -1,5 +1,5 @@
 {
-  "geradoEm": "25/06/2026 09:34",
+  "geradoEm": "25/06/2026 13:27",
   "kpis": {
     "totalProjetos": 12,
     "totalContainers": 31,
@@ -647,8 +647,8 @@
       "projeto": "Boa Fé Climatização",
       "fornecedor": "Temu",
       "destino": "Navegantes",
-      "qtdCntr": 0,
-      "tipoCntr": "",
+      "qtdCntr": 1,
+      "tipoCntr": "40HC",
       "prontidao": "2026-06-19 00:00:00",
       "etd": "29/06/2026",
       "eta": null,
