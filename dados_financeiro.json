@@ -1,5 +1,5 @@
 {
-  "geradoEm": "25/06/2026 21:00",
+  "geradoEm": "26/06/2026 08:34",
   "kpis": {
     "totalGeral": 813000.0,
     "totalSemana": 0,
@@ -25,14 +25,14 @@
       "totalCambio": 1221000.0,
       "totalChegada": 461000.0,
       "previsao": "06/03/2020",
-      "diasChegada": -2302,
+      "diasChegada": -2303,
       "semanaLabel": "Atrasado"
     },
     {
       "projeto": "Projeto Romitec",
       "codProjeto": "TL-00103",
       "embarque": "TEMU111",
-      "status": "EMITIR NF",
+      "status": "FINALIZADO",
       "cif": 36000.0,
       "impostos": 12000.0,
       "despesas": 20000.0,
@@ -40,7 +40,7 @@
       "totalCambio": 68000.0,
       "totalChegada": 43000.0,
       "previsao": "03/06/2026",
-      "diasChegada": -22,
+      "diasChegada": -23,
       "semanaLabel": "Atrasado"
     },
     {
@@ -55,7 +55,7 @@
       "totalCambio": 844000.0,
       "totalChegada": 309000.0,
       "previsao": "23/06/2026",
-      "diasChegada": -2,
+      "diasChegada": -3,
       "semanaLabel": "Atrasado"
     }
   ]
