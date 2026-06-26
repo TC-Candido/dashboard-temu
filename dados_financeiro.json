@@ -1,5 +1,5 @@
 {
-  "geradoEm": "26/06/2026 15:00",
+  "geradoEm": "26/06/2026 15:34",
   "kpis": {
     "totalGeral": 813000.0,
     "totalSemana": 0,
@@ -29,6 +29,21 @@
       "semanaLabel": "Atrasado"
     },
     {
+      "projeto": "Projeto Jair Ansolin",
+      "codProjeto": "TL-00104",
+      "embarque": "TEMU110",
+      "status": "SOBRE AGUAS",
+      "cif": 582000.0,
+      "impostos": 190000.0,
+      "despesas": 72000.0,
+      "frete": 47000.0,
+      "totalCambio": 844000.0,
+      "totalChegada": 309000.0,
+      "previsao": "26/05/2020",
+      "diasChegada": -2222,
+      "semanaLabel": "Atrasado"
+    },
+    {
       "projeto": "Projeto Romitec",
       "codProjeto": "TL-00103",
       "embarque": "TEMU111",
@@ -41,21 +56,6 @@
       "totalChegada": 43000.0,
       "previsao": "03/06/2026",
       "diasChegada": -23,
-      "semanaLabel": "Atrasado"
-    },
-    {
-      "projeto": "Projeto Jair Ansolin",
-      "codProjeto": "TL-00104",
-      "embarque": "TEMU110",
-      "status": "SOBRE AGUAS",
-      "cif": 582000.0,
-      "impostos": 190000.0,
-      "despesas": 72000.0,
-      "frete": 47000.0,
-      "totalCambio": 844000.0,
-      "totalChegada": 309000.0,
-      "previsao": "23/06/2026",
-      "diasChegada": -3,
       "semanaLabel": "Atrasado"
     }
   ]
