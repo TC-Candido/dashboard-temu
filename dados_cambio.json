@@ -1,19 +1,19 @@
 {
-  "geradoEm": "26/06/2026 21:34",
+  "geradoEm": "26/06/2026 22:00",
   "kpis": {
-    "totalSaldo": 1608343.14,
-    "qtdAberto": 20,
+    "totalSaldo": 1242502.14,
+    "qtdAberto": 19,
     "venc30": 92731.36,
     "vencidos": 0
   },
   "fornSaldo": {
-    "Honesty": 846610.98,
     "Temu": 752201.16,
+    "Honesty": 480769.98,
     "Muhe": 9531.0
   },
   "statusCounts": {
     "Aguardando 3ª Parcela": 2,
-    "Aguardando 2ª Parcela": 18
+    "Aguardando 2ª Parcela": 17
   },
   "proximos": [
     {
@@ -780,27 +780,6 @@
       "embarque": "TEMU124",
       "fornecedor": "Honesty",
       "fatura": "SH-ZXH-260416",
-      "valor": 522630.0,
-      "pct1": 30.0,
-      "pago1": 156789.0,
-      "pct2": 30.0,
-      "pago2": 156789.0,
-      "pct3": 40.0,
-      "pago3": 209052.0,
-      "saldo": 365841.0,
-      "statusCambio": "Aguardando 2ª Parcela",
-      "previsao": null,
-      "previsaoDias": null,
-      "previsaoLabel": null,
-      "statusVenc": "Sem previsão",
-      "pagoEUA": 209052.0
-    },
-    {
-      "projeto": "San Bernardo - Parte 2",
-      "codProjeto": "TL-00100",
-      "embarque": "TEMU124",
-      "fornecedor": "Honesty",
-      "fatura": "SH-ZXH-260416",
       "valor": 214711.17,
       "pct1": 30.0,
       "pago1": 64413.0,
@@ -827,8 +806,8 @@
       "pago1": 92376.0,
       "pct2": 30.0,
       "pago2": 109464.0,
-      "pct3": 0,
-      "pago3": 0,
+      "pct3": 40.0,
+      "pago3": 134560.35,
       "saldo": 244024.35,
       "statusCambio": "Aguardando 2ª Parcela",
       "previsao": null,
