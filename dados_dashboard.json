@@ -1,10 +1,10 @@
 {
-  "geradoEm": "29/06/2026 14:00",
+  "geradoEm": "29/06/2026 14:34",
   "kpis": {
     "totalProjetos": 12,
     "totalContainers": 27,
     "etd7dias": 1,
-    "chegando10dias": 1
+    "chegando10dias": 0
   },
   "statusCounts": {
     "FINALIZADO": 7,
@@ -82,11 +82,11 @@
       "tipoCntr": "40HC + 20GP",
       "prontidao": "2026-04-09 00:00:00",
       "etd": "02/05/2026",
-      "eta": "09/07/2026",
+      "eta": "11/07/2026",
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": "09/04 - Linerado para Isaka organizar o embarque; Aguardando dados o agente"
     },
     {
@@ -152,11 +152,11 @@
       "tipoCntr": "40HC + 20GP",
       "prontidao": "2026-04-09 00:00:00",
       "etd": "02/05/2026",
-      "eta": "09/07/2026",
+      "eta": "11/07/2026",
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": "09/04 - Linerado para Isaka organizar o embarque; Aguardando dados o agente"
     },
     {
@@ -375,11 +375,11 @@
       "tipoCntr": "40HC + 20GP",
       "prontidao": "2026-04-09 00:00:00",
       "etd": "02/05/2026",
-      "eta": "09/07/2026",
+      "eta": "11/07/2026",
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": "09/04 - Linerado para Isaka organizar o embarque; Aguardando dados o agente"
     },
     {
