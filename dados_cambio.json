@@ -1,10 +1,10 @@
 {
-  "geradoEm": "29/06/2026 08:34",
+  "geradoEm": "29/06/2026 09:00",
   "kpis": {
     "totalSaldo": 1242502.14,
     "qtdAberto": 19,
-    "venc30": 92731.36,
-    "vencidos": 0
+    "venc30": 86447.46,
+    "vencidos": 6283.9
   },
   "fornSaldo": {
     "Temu": 752201.16,
@@ -16,6 +16,27 @@
     "Aguardando 2ª Parcela": 17
   },
   "proximos": [
+    {
+      "projeto": "Projeto Climaves",
+      "codProjeto": "",
+      "embarque": "TEMU131",
+      "fornecedor": "Temu",
+      "fatura": "26TM0748",
+      "valor": 8977.0,
+      "pct1": 30.0,
+      "pago1": 2693.1,
+      "pct2": 70.0,
+      "pago2": 6283.9,
+      "pct3": 0,
+      "pago3": 0,
+      "saldo": 6283.9,
+      "statusCambio": "Aguardando 2ª Parcela",
+      "previsao": "27/05/2026",
+      "previsaoDias": -33,
+      "previsaoLabel": "33d atrás",
+      "statusVenc": "Vencido",
+      "pagoEUA": 8977.0
+    },
     {
       "projeto": "Projeto Agroter 5 + Martinelli - 4° embarque",
       "codProjeto": "TL-00101",
@@ -36,27 +57,6 @@
       "previsaoLabel": "5 dias",
       "statusVenc": "Vence em 30 dias",
       "pagoEUA": 0.0
-    },
-    {
-      "projeto": "Projeto Climaves",
-      "codProjeto": "",
-      "embarque": "TEMU131",
-      "fornecedor": "Temu",
-      "fatura": "26TM0748",
-      "valor": 8977.0,
-      "pct1": 30.0,
-      "pago1": 2693.1,
-      "pct2": 70.0,
-      "pago2": 6283.9,
-      "pct3": 0,
-      "pago3": 0,
-      "saldo": 6283.9,
-      "statusCambio": "Aguardando 2ª Parcela",
-      "previsao": "07/07/2026",
-      "previsaoDias": 8,
-      "previsaoLabel": "8 dias",
-      "statusVenc": "Vence em 30 dias",
-      "pagoEUA": 8977.0
     },
     {
       "projeto": "Projeto Agroter 5",
@@ -474,9 +474,9 @@
       "pago3": 0,
       "saldo": 0.0,
       "statusCambio": "Pago Total",
-      "previsao": "17/07/2026",
-      "previsaoDias": 18,
-      "previsaoLabel": "18 dias",
+      "previsao": "21/06/2026",
+      "previsaoDias": -8,
+      "previsaoLabel": "8d atrás",
       "statusVenc": "Quitado",
       "pagoEUA": 4076.45
     },
@@ -495,9 +495,9 @@
       "pago3": 0,
       "saldo": 0.0,
       "statusCambio": "Pago Total",
-      "previsao": "30/06/2026",
-      "previsaoDias": 1,
-      "previsaoLabel": "Amanhã",
+      "previsao": "16/06/2026",
+      "previsaoDias": -13,
+      "previsaoLabel": "13d atrás",
       "statusVenc": "Quitado",
       "pagoEUA": 0.0
     },
@@ -516,10 +516,10 @@
       "pago3": 0,
       "saldo": 6283.9,
       "statusCambio": "Aguardando 2ª Parcela",
-      "previsao": "07/07/2026",
-      "previsaoDias": 8,
-      "previsaoLabel": "8 dias",
-      "statusVenc": "Vence em 30 dias",
+      "previsao": "27/05/2026",
+      "previsaoDias": -33,
+      "previsaoLabel": "33d atrás",
+      "statusVenc": "Vencido",
       "pagoEUA": 8977.0
     },
     {
