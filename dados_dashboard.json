@@ -1,8 +1,8 @@
 {
-  "geradoEm": "29/06/2026 16:00",
+  "geradoEm": "29/06/2026 16:34",
   "kpis": {
     "totalProjetos": 12,
-    "totalContainers": 27,
+    "totalContainers": 26,
     "etd7dias": 1,
     "chegando10dias": 0
   },
@@ -196,11 +196,11 @@
     {
       "embarque": "TEMU119",
       "codProjeto": "TL-00111",
-      "projeto": "Estoque + Fabiana (Inlets)",
+      "projeto": "Estoque + Laura",
       "fornecedor": "Muhe\nHonesty",
       "destino": "Navegantes",
-      "qtdCntr": 2,
-      "tipoCntr": "20GP",
+      "qtdCntr": 1,
+      "tipoCntr": "40HC",
       "prontidao": "2026-05-13 00:00:00",
       "etd": "05/06/2026",
       "eta": "21/07/2026",
@@ -419,11 +419,11 @@
     {
       "embarque": "TEMU119",
       "codProjeto": "TL-00111",
-      "projeto": "Estoque + Fabiana (Inlets)",
+      "projeto": "Estoque + Laura",
       "fornecedor": "Muhe\nHonesty",
       "destino": "Navegantes",
-      "qtdCntr": 2,
-      "tipoCntr": "20GP",
+      "qtdCntr": 1,
+      "tipoCntr": "40HC",
       "prontidao": "2026-05-13 00:00:00",
       "etd": "05/06/2026",
       "eta": "21/07/2026",
