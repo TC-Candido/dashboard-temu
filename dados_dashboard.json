@@ -1,8 +1,8 @@
 {
-  "geradoEm": "30/06/2026 17:00",
+  "geradoEm": "30/06/2026 17:34",
   "kpis": {
     "totalProjetos": 12,
-    "totalContainers": 26,
+    "totalContainers": 25,
     "etd7dias": 1,
     "chegando10dias": 1
   },
@@ -216,8 +216,8 @@
       "projeto": "Projeto San Bernardo - Parte 01",
       "fornecedor": "Mong Ging +\nTemu + Muhe",
       "destino": "Asuncion",
-      "qtdCntr": 8,
-      "tipoCntr": "7*40HC\n1*20GP",
+      "qtdCntr": 7,
+      "tipoCntr": "7*40HC",
       "prontidao": "2026-04-04 00:00:00",
       "etd": "22/05/2026",
       "eta": "31/07/2026",
@@ -439,8 +439,8 @@
       "projeto": "Projeto San Bernardo - Parte 01",
       "fornecedor": "Mong Ging +\nTemu + Muhe",
       "destino": "Asuncion",
-      "qtdCntr": 8,
-      "tipoCntr": "7*40HC\n1*20GP",
+      "qtdCntr": 7,
+      "tipoCntr": "7*40HC",
       "prontidao": "2026-04-04 00:00:00",
       "etd": "22/05/2026",
       "eta": "31/07/2026",
