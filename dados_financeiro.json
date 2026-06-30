@@ -1,5 +1,5 @@
 {
-  "geradoEm": "30/06/2026 10:34",
+  "geradoEm": "30/06/2026 11:00",
   "kpis": {
     "totalGeral": 813000.0,
     "totalSemana": 0,
@@ -24,8 +24,8 @@
       "frete": 47000.0,
       "totalCambio": 844000.0,
       "totalChegada": 309000.0,
-      "previsao": "26/05/2026",
-      "diasChegada": -35,
+      "previsao": "26/05/2020",
+      "diasChegada": -2226,
       "semanaLabel": "Atrasado"
     },
     {

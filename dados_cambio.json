@@ -1,5 +1,5 @@
 {
-  "geradoEm": "30/06/2026 10:34",
+  "geradoEm": "30/06/2026 11:00",
   "kpis": {
     "totalSaldo": 1242502.14,
     "qtdAberto": 19,
@@ -202,9 +202,9 @@
       "pago3": 56504.0,
       "saldo": 0.0,
       "statusCambio": "Pago Total",
-      "previsao": "15/05/2026",
-      "previsaoDias": -46,
-      "previsaoLabel": "46d atrás",
+      "previsao": null,
+      "previsaoDias": null,
+      "previsaoLabel": null,
       "statusVenc": "Quitado",
       "pagoEUA": 0.0
     },
