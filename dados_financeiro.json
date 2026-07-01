@@ -1,5 +1,5 @@
 {
-  "geradoEm": "30/06/2026 23:34",
+  "geradoEm": "01/07/2026 00:00",
   "kpis": {
     "totalGeral": 813000.0,
     "totalSemana": 0,
@@ -25,7 +25,7 @@
       "totalCambio": 844000.0,
       "totalChegada": 309000.0,
       "previsao": "26/05/2020",
-      "diasChegada": -2226,
+      "diasChegada": -2227,
       "semanaLabel": "Atrasado"
     },
     {
@@ -40,7 +40,7 @@
       "totalCambio": 1221000.0,
       "totalChegada": 461000.0,
       "previsao": "03/06/2026",
-      "diasChegada": -27,
+      "diasChegada": -28,
       "semanaLabel": "Atrasado"
     },
     {
@@ -55,7 +55,7 @@
       "totalCambio": 68000.0,
       "totalChegada": 43000.0,
       "previsao": "03/06/2026",
-      "diasChegada": -27,
+      "diasChegada": -28,
       "semanaLabel": "Atrasado"
     }
   ]
