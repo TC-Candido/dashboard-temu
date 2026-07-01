@@ -1,5 +1,5 @@
 {
-  "geradoEm": "01/07/2026 12:34",
+  "geradoEm": "01/07/2026 13:00",
   "kpis": {
     "totalProjetos": 12,
     "totalContainers": 25,
@@ -10,13 +10,13 @@
     "FINALIZADO": 7,
     "EMITIR NF": 1,
     "SOBRE AGUAS": 6,
-    "EM PRODUÇÃO": 10,
+    "EM PRODUÇÃO": 11,
     "": 4
   },
   "fornecedorCounts": {
     "Honesty": 9,
     "Mong Ging": 2,
-    "Temu": 12,
+    "Temu": 13,
     "Muhe\nHonesty": 1,
     "Muhe": 1
   },
@@ -40,6 +40,23 @@
     },
     {
       "embarque": "TEMU134",
+      "codProjeto": "TL-00100",
+      "projeto": "San Bernardo - Parte 2",
+      "fornecedor": "Temu",
+      "destino": "Asuncion",
+      "qtdCntr": 0,
+      "tipoCntr": "still not ready",
+      "prontidao": "",
+      "etd": "10/01/1900",
+      "eta": null,
+      "status": "",
+      "statusOp": "Sem Prontidão",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": ""
+    },
+    {
+      "embarque": "TEMU135",
       "codProjeto": "TL-00100",
       "projeto": "San Bernardo - Parte 2",
       "fornecedor": "Temu",
@@ -100,23 +117,6 @@
       "prontidao": "2026-05-03 00:00:00",
       "etd": "22/05/2026",
       "eta": "15/07/2026",
-      "status": "SOBRE AGUAS",
-      "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": ""
-    },
-    {
-      "embarque": "TEMU115",
-      "codProjeto": "TL-00099",
-      "projeto": "Projeto San Bernardo - Parte 01",
-      "fornecedor": "Mong Ging +\nTemu + Muhe",
-      "destino": "Asuncion",
-      "qtdCntr": 7,
-      "tipoCntr": "7*40HC",
-      "prontidao": "2026-04-04 00:00:00",
-      "etd": "22/05/2026",
-      "eta": "31/07/2026",
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
@@ -519,6 +519,23 @@
       "observacoes": ""
     },
     {
+      "embarque": "TEMU132",
+      "codProjeto": "TL-00100",
+      "projeto": "San Bernardo - Parte 2",
+      "fornecedor": "Temu",
+      "destino": "Asuncion",
+      "qtdCntr": 1,
+      "tipoCntr": "40hc",
+      "prontidao": "2026-07-01 00:00:00",
+      "etd": null,
+      "eta": null,
+      "status": "EM PRODUÇÃO",
+      "statusOp": "Pronto - Aguardando ETD",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": ""
+    },
+    {
       "embarque": "TEMU121",
       "codProjeto": "TL-00100",
       "projeto": "San Bernardo - Parte 2",
@@ -587,23 +604,6 @@
       "observacoes": ""
     },
     {
-      "embarque": "TEMU132",
-      "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
-      "fornecedor": "Temu",
-      "destino": "Asuncion",
-      "qtdCntr": 0,
-      "tipoCntr": "still not ready",
-      "prontidao": "2026-08-15 00:00:00",
-      "etd": "25/08/2026",
-      "eta": "24/10/2026",
-      "status": "",
-      "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": ""
-    },
-    {
       "embarque": "TEMU133",
       "codProjeto": "TL-00100",
       "projeto": "San Bernardo - Parte 2",
@@ -622,6 +622,23 @@
     },
     {
       "embarque": "TEMU134",
+      "codProjeto": "TL-00100",
+      "projeto": "San Bernardo - Parte 2",
+      "fornecedor": "Temu",
+      "destino": "Asuncion",
+      "qtdCntr": 0,
+      "tipoCntr": "still not ready",
+      "prontidao": "",
+      "etd": "10/01/1900",
+      "eta": null,
+      "status": "",
+      "statusOp": "Sem Prontidão",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": ""
+    },
+    {
+      "embarque": "TEMU135",
       "codProjeto": "TL-00100",
       "projeto": "San Bernardo - Parte 2",
       "fornecedor": "Temu",
