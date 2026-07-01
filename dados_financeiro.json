@@ -1,16 +1,16 @@
 {
-  "geradoEm": "01/07/2026 10:00",
+  "geradoEm": "01/07/2026 10:34",
   "kpis": {
-    "totalGeral": 813000.0,
+    "totalGeral": 1459000.0,
     "totalSemana": 0,
-    "totalQuinzena": 0,
-    "totalMes": 0,
-    "qtdChegando": 0
+    "totalQuinzena": 646000.0,
+    "totalMes": 646000.0,
+    "qtdChegando": 2
   },
   "composicao": {
-    "impostos": 475000.0,
-    "despesas": 202000.0,
-    "frete": 136000.0
+    "impostos": 939000.0,
+    "despesas": 384000.0,
+    "frete": 386000.0
   },
   "projetos": [
     {
@@ -42,6 +42,36 @@
       "previsao": "03/06/2026",
       "diasChegada": -28,
       "semanaLabel": "Atrasado"
+    },
+    {
+      "projeto": "Projeto Agroter 5 + Martinelli - 4° embarque",
+      "codProjeto": "TL-00101",
+      "embarque": "TEMU105",
+      "status": "SOBRE AGUAS",
+      "cif": 748000.0,
+      "impostos": 244000.0,
+      "despesas": 100000.0,
+      "frete": 145000.0,
+      "totalCambio": 1092000.0,
+      "totalChegada": 344000.0,
+      "previsao": "15/07/2026",
+      "diasChegada": 14,
+      "semanaLabel": "Próximos 15 dias"
+    },
+    {
+      "projeto": "Projeto Agroter 4 - 3° embarque",
+      "codProjeto": "TL-00101",
+      "embarque": "TEMU104",
+      "status": "SOBRE AGUAS",
+      "cif": 674000.0,
+      "impostos": 220000.0,
+      "despesas": 82000.0,
+      "frete": 105000.0,
+      "totalCambio": 976000.0,
+      "totalChegada": 302000.0,
+      "previsao": "15/07/2026",
+      "diasChegada": 14,
+      "semanaLabel": "Próximos 15 dias"
     },
     {
       "projeto": "Projeto Jair Ansolin",
