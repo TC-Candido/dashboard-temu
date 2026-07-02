@@ -1,20 +1,20 @@
 {
-  "geradoEm": "02/07/2026 10:34",
+  "geradoEm": "02/07/2026 11:00",
   "kpis": {
-    "totalSaldo": 2485004.28,
-    "qtdAberto": 20,
+    "totalSaldo": 1282273.86,
+    "qtdAberto": 27,
     "venc30": 92731.36,
     "vencidos": 0
   },
   "fornSaldo": {
-    "Temu": 1994703.3,
+    "Temu": 791972.88,
     "Honesty": 480769.98,
     "Muhe": 9531.0
   },
   "statusCounts": {
     "Aguardando 3ª Parcela": 2,
     "Aguardando 2ª Parcela": 17,
-    "Sem status": 1
+    "Sem prazo - Verificar": 8
   },
   "proximos": [
     {
@@ -1187,13 +1187,13 @@
       "pago2": 0,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 1242502.14,
-      "statusCambio": "",
+      "saldo": 2424.77,
+      "statusCambio": "Sem prazo - Verificar",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
       "statusVenc": "Sem previsão",
-      "pagoEUA": 374875.53
+      "pagoEUA": 0
     },
     {
       "projeto": "San Bernardo - Parte 2",
@@ -1208,12 +1208,12 @@
       "pago2": 0,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 0,
-      "statusCambio": "",
+      "saldo": 2424.77,
+      "statusCambio": "Sem prazo - Verificar",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado",
+      "statusVenc": "Sem previsão",
       "pagoEUA": 0
     },
     {
@@ -1229,12 +1229,12 @@
       "pago2": 0,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 0,
-      "statusCambio": "",
+      "saldo": 2481.97,
+      "statusCambio": "Sem prazo - Verificar",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado",
+      "statusVenc": "Sem previsão",
       "pagoEUA": 0
     },
     {
@@ -1250,12 +1250,12 @@
       "pago2": 0,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 0,
-      "statusCambio": "",
+      "saldo": 2481.97,
+      "statusCambio": "Sem prazo - Verificar",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado",
+      "statusVenc": "Sem previsão",
       "pagoEUA": 0
     },
     {
@@ -1267,16 +1267,16 @@
       "valor": 11911.25,
       "pct1": 30.0,
       "pago1": 3573.38,
-      "pct2": 70.0,
+      "pct2": 0,
       "pago2": 0,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 0,
-      "statusCambio": "",
+      "saldo": 8337.88,
+      "statusCambio": "Sem prazo - Verificar",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado",
+      "statusVenc": "Sem previsão",
       "pagoEUA": 0
     },
     {
@@ -1288,16 +1288,16 @@
       "valor": 11911.25,
       "pct1": 30.0,
       "pago1": 3573.38,
-      "pct2": 70.0,
+      "pct2": 0,
       "pago2": 0,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 0,
-      "statusCambio": "",
+      "saldo": 8337.88,
+      "statusCambio": "Sem prazo - Verificar",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado",
+      "statusVenc": "Sem previsão",
       "pagoEUA": 0
     },
     {
@@ -1313,12 +1313,12 @@
       "pago2": 0,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 0,
-      "statusCambio": "",
+      "saldo": 6641.24,
+      "statusCambio": "Sem prazo - Verificar",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado",
+      "statusVenc": "Sem previsão",
       "pagoEUA": 0
     },
     {
@@ -1334,12 +1334,12 @@
       "pago2": 0,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 0,
-      "statusCambio": "",
+      "saldo": 6641.24,
+      "statusCambio": "Sem prazo - Verificar",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado",
+      "statusVenc": "Sem previsão",
       "pagoEUA": 0
     }
   ]
