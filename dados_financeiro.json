@@ -1,10 +1,10 @@
 {
-  "geradoEm": "02/07/2026 09:34",
+  "geradoEm": "02/07/2026 10:00",
   "kpis": {
-    "totalGeral": 1459000.0,
+    "totalGeral": 1709000.0,
     "totalSemana": 0,
-    "totalQuinzena": 646000.0,
-    "totalMes": 646000.0,
+    "totalQuinzena": 896000.0,
+    "totalMes": 896000.0,
     "qtdChegando": 2
   },
   "composicao": {
@@ -53,7 +53,7 @@
       "despesas": 100000.0,
       "frete": 145000.0,
       "totalCambio": 1092000.0,
-      "totalChegada": 344000.0,
+      "totalChegada": 489000.0,
       "previsao": "15/07/2026",
       "diasChegada": 13,
       "semanaLabel": "Próximos 15 dias"
@@ -68,7 +68,7 @@
       "despesas": 82000.0,
       "frete": 105000.0,
       "totalCambio": 976000.0,
-      "totalChegada": 302000.0,
+      "totalChegada": 407000.0,
       "previsao": "15/07/2026",
       "diasChegada": 13,
       "semanaLabel": "Próximos 15 dias"
