@@ -1,5 +1,5 @@
 {
-  "geradoEm": "05/07/2026 23:34",
+  "geradoEm": "06/07/2026 00:00",
   "kpis": {
     "totalGeral": 1807000.0,
     "totalSemana": 0,
@@ -25,7 +25,7 @@
       "totalCambio": 189000.0,
       "totalChegada": 98000.0,
       "previsao": "07/05/2020",
-      "diasChegada": -2250,
+      "diasChegada": -2251,
       "semanaLabel": "Atrasado"
     },
     {
@@ -40,7 +40,7 @@
       "totalCambio": 1221000.0,
       "totalChegada": 461000.0,
       "previsao": "03/06/2026",
-      "diasChegada": -32,
+      "diasChegada": -33,
       "semanaLabel": "Atrasado"
     },
     {
@@ -55,7 +55,7 @@
       "totalCambio": 68000.0,
       "totalChegada": 43000.0,
       "previsao": "03/06/2026",
-      "diasChegada": -32,
+      "diasChegada": -33,
       "semanaLabel": "Atrasado"
     },
     {
@@ -70,7 +70,7 @@
       "totalCambio": 844000.0,
       "totalChegada": 309000.0,
       "previsao": "23/06/2026",
-      "diasChegada": -12,
+      "diasChegada": -13,
       "semanaLabel": "Atrasado"
     },
     {
@@ -85,7 +85,7 @@
       "totalCambio": 1092000.0,
       "totalChegada": 489000.0,
       "previsao": "15/07/2026",
-      "diasChegada": 10,
+      "diasChegada": 9,
       "semanaLabel": "Próximos 15 dias"
     },
     {
