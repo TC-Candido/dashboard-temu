@@ -1,5 +1,5 @@
 {
-  "geradoEm": "08/07/2026 10:00",
+  "geradoEm": "08/07/2026 10:34",
   "kpis": {
     "totalProjetos": 12,
     "totalContainers": 32,
@@ -541,9 +541,9 @@
       "projeto": "San Bernardo - Parte 2",
       "fornecedor": "Temu",
       "destino": "Asuncion",
-      "qtdCntr": 0,
-      "tipoCntr": "QUESTIONADO",
-      "prontidao": "2026-07-01 00:00:00",
+      "qtdCntr": 4,
+      "tipoCntr": "40hc",
+      "prontidao": "2026-07-15 00:00:00",
       "etd": null,
       "eta": null,
       "status": "",
