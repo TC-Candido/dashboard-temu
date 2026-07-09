@@ -1,9 +1,9 @@
 {
-  "geradoEm": "09/07/2026 09:00",
+  "geradoEm": "09/07/2026 09:34",
   "kpis": {
     "totalGeral": 1807000.0,
     "totalSemana": 896000.0,
-    "totalQuinzena": 994000.0,
+    "totalQuinzena": 896000.0,
     "totalMes": 994000.0,
     "qtdChegando": 3
   },
@@ -99,9 +99,9 @@
       "frete": 34000.0,
       "totalCambio": 189000.0,
       "totalChegada": 98000.0,
-      "previsao": "21/07/2026",
-      "diasChegada": 12,
-      "semanaLabel": "Próximos 15 dias"
+      "previsao": "28/07/2026",
+      "diasChegada": 19,
+      "semanaLabel": "Este mês"
     }
   ]
 }

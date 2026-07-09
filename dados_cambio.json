@@ -1,10 +1,10 @@
 {
-  "geradoEm": "09/07/2026 09:00",
+  "geradoEm": "09/07/2026 09:34",
   "kpis": {
     "totalSaldo": 1222340.82,
     "qtdAberto": 33,
-    "venc30": 49418.96,
-    "vencidos": 43312.4
+    "venc30": 6283.9,
+    "vencidos": 86447.46
   },
   "fornSaldo": {
     "Temu": 796452.84,
@@ -32,11 +32,32 @@
       "pago3": 43312.4,
       "saldo": 43312.4,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "04/07/2026",
-      "previsaoDias": -5,
-      "previsaoLabel": "5d atrás",
+      "previsao": "05/07/2026",
+      "previsaoDias": -4,
+      "previsaoLabel": "4d atrás",
       "statusVenc": "Vencido",
       "pagoEUA": 0.0
+    },
+    {
+      "projeto": "Projeto Agroter 5 + Martinelli - 4° embarque",
+      "codProjeto": "TL-00101",
+      "embarque": "TEMU105",
+      "fornecedor": "Honesty",
+      "fatura": "4th Batch Shipment",
+      "valor": 107837.65,
+      "pct1": 30.0,
+      "pago1": 32351.3,
+      "pct2": 30.0,
+      "pago2": 32351.3,
+      "pct3": 30.0,
+      "pago3": 43135.06,
+      "saldo": 43135.06,
+      "statusCambio": "Aguardando 3ª Parcela",
+      "previsao": "05/07/2026",
+      "previsaoDias": -4,
+      "previsaoLabel": "4d atrás",
+      "statusVenc": "Vencido",
+      "pagoEUA": 0
     },
     {
       "projeto": "Projeto Climaves",
@@ -58,27 +79,6 @@
       "previsaoLabel": "2 dias",
       "statusVenc": "Vence em 30 dias",
       "pagoEUA": 8977.0
-    },
-    {
-      "projeto": "Projeto Agroter 5 + Martinelli - 4° embarque",
-      "codProjeto": "TL-00101",
-      "embarque": "TEMU105",
-      "fornecedor": "Honesty",
-      "fatura": "4th Batch Shipment",
-      "valor": 107837.65,
-      "pct1": 30.0,
-      "pago1": 32351.3,
-      "pct2": 30.0,
-      "pago2": 32351.3,
-      "pct3": 30.0,
-      "pago3": 43135.06,
-      "saldo": 43135.06,
-      "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "20/07/2026",
-      "previsaoDias": 11,
-      "previsaoLabel": "11 dias",
-      "statusVenc": "Vence em 30 dias",
-      "pagoEUA": 0
     },
     {
       "projeto": "San Bernardo - Parte 2",
@@ -202,9 +202,9 @@
       "pago3": 43312.4,
       "saldo": 43312.4,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "04/07/2026",
-      "previsaoDias": -5,
-      "previsaoLabel": "5d atrás",
+      "previsao": "05/07/2026",
+      "previsaoDias": -4,
+      "previsaoLabel": "4d atrás",
       "statusVenc": "Vencido",
       "pagoEUA": 0.0
     },
@@ -244,10 +244,10 @@
       "pago3": 43135.06,
       "saldo": 43135.06,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "20/07/2026",
-      "previsaoDias": 11,
-      "previsaoLabel": "11 dias",
-      "statusVenc": "Vence em 30 dias",
+      "previsao": "05/07/2026",
+      "previsaoDias": -4,
+      "previsaoLabel": "4d atrás",
+      "statusVenc": "Vencido",
       "pagoEUA": 0
     },
     {
@@ -923,9 +923,9 @@
       "pagoEUA": 0.0
     },
     {
-      "projeto": "Laura Novak + estoque+Sensor",
+      "projeto": "Estoque + Laura",
       "codProjeto": "",
-      "embarque": "TEMU106",
+      "embarque": "TEMU119\nTEMU128",
       "fornecedor": "Muhe",
       "fatura": "MHY20260420",
       "valor": 15685.0,
@@ -944,7 +944,7 @@
       "pagoEUA": 0.0
     },
     {
-      "projeto": "Laura Novak + estoque+Sensor",
+      "projeto": "Estoque + Sensor + TV + Tablets +  Brindes em geral",
       "codProjeto": "",
       "embarque": "TEMU106",
       "fornecedor": "Temu",

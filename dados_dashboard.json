@@ -1,5 +1,5 @@
 {
-  "geradoEm": "09/07/2026 09:00",
+  "geradoEm": "09/07/2026 09:34",
   "kpis": {
     "totalProjetos": 12,
     "totalContainers": 32,
@@ -21,23 +21,6 @@
     "Muhe": 1
   },
   "proximosETD": [
-    {
-      "embarque": "TEMU119",
-      "codProjeto": "TL-00111",
-      "projeto": "Estoque + Laura",
-      "fornecedor": "Muhe\nHonesty",
-      "destino": "Navegantes",
-      "qtdCntr": 1,
-      "tipoCntr": "40HC",
-      "prontidao": "2026-05-13 00:00:00",
-      "etd": "30/05/2020",
-      "eta": "21/07/2026",
-      "status": "SOBRE AGUAS",
-      "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": ""
-    },
     {
       "embarque": "TEMU113",
       "codProjeto": "TL-00105",
@@ -117,6 +100,23 @@
       "prontidao": "2026-05-20 00:00:00",
       "etd": "14/06/2026",
       "eta": "13/08/2026",
+      "status": "SOBRE AGUAS",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": ""
+    },
+    {
+      "embarque": "TEMU122",
+      "codProjeto": "TL-00100",
+      "projeto": "San Bernardo - Parte 2",
+      "fornecedor": "Honesty",
+      "destino": "Asuncion",
+      "qtdCntr": 6,
+      "tipoCntr": "20GP",
+      "prontidao": "2026-06-08 00:00:00",
+      "etd": "02/07/2026",
+      "eta": "11/09/2026",
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
@@ -202,10 +202,10 @@
       "qtdCntr": 1,
       "tipoCntr": "40HC",
       "prontidao": "2026-05-13 00:00:00",
-      "etd": "30/05/2020",
-      "eta": "21/07/2026",
+      "etd": null,
+      "eta": "28/07/2026",
       "status": "SOBRE AGUAS",
-      "statusOp": "Prontidão e ETD OK",
+      "statusOp": "Pronto - Aguardando ETD",
       "etd7dias": false,
       "chegando10": false,
       "observacoes": ""
@@ -425,10 +425,10 @@
       "qtdCntr": 1,
       "tipoCntr": "40HC",
       "prontidao": "2026-05-13 00:00:00",
-      "etd": "30/05/2020",
-      "eta": "21/07/2026",
+      "etd": null,
+      "eta": "28/07/2026",
       "status": "SOBRE AGUAS",
-      "statusOp": "Prontidão e ETD OK",
+      "statusOp": "Pronto - Aguardando ETD",
       "etd7dias": false,
       "chegando10": false,
       "observacoes": ""
