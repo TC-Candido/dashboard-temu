@@ -1,9 +1,9 @@
 {
-  "geradoEm": "09/07/2026 23:34",
+  "geradoEm": "10/07/2026 00:00",
   "kpis": {
     "totalProjetos": 12,
     "totalContainers": 32,
-    "etd7dias": 1,
+    "etd7dias": 0,
     "chegando10dias": 3
   },
   "statusCounts": {
@@ -514,7 +514,7 @@
       "eta": "18/09/2026",
       "status": "EM PRODUÇÃO",
       "statusOp": "Prontidão e ETD OK",
-      "etd7dias": true,
+      "etd7dias": false,
       "chegando10": false,
       "observacoes": ""
     },
