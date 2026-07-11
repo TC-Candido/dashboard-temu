@@ -1,10 +1,10 @@
 {
-  "geradoEm": "10/07/2026 23:34",
+  "geradoEm": "11/07/2026 00:00",
   "kpis": {
     "totalProjetos": 12,
     "totalContainers": 32,
     "etd7dias": 0,
-    "chegando10dias": 3
+    "chegando10dias": 2
   },
   "statusCounts": {
     "FINALIZADO": 7,
@@ -35,7 +35,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": "09/04 - Linerado para Isaka organizar o embarque; Aguardando dados o agente"
     },
     {
@@ -156,7 +156,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": "09/04 - Linerado para Isaka organizar o embarque; Aguardando dados o agente"
     },
     {
@@ -379,7 +379,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": "09/04 - Linerado para Isaka organizar o embarque; Aguardando dados o agente"
     },
     {
