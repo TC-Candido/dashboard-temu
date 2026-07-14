@@ -1,5 +1,5 @@
 {
-  "geradoEm": "14/07/2026 13:00",
+  "geradoEm": "14/07/2026 13:34",
   "kpis": {
     "totalGeral": 1807000.0,
     "totalSemana": 0,
@@ -13,36 +13,6 @@
     "frete": 420000.0
   },
   "projetos": [
-    {
-      "projeto": "Projeto Agroter 3  - 2° embarque",
-      "codProjeto": "TL-00101\nTL-00109\nTL-00110",
-      "embarque": "TEMU103",
-      "status": "FINALIZADO",
-      "cif": 838000.0,
-      "impostos": 273000.0,
-      "despesas": 110000.0,
-      "frete": 78000.0,
-      "totalCambio": 1221000.0,
-      "totalChegada": 461000.0,
-      "previsao": "03/06/2026",
-      "diasChegada": -41,
-      "semanaLabel": "Atrasado"
-    },
-    {
-      "projeto": "Projeto Romitec",
-      "codProjeto": "TL-00103",
-      "embarque": "TEMU111",
-      "status": "FINALIZADO",
-      "cif": 36000.0,
-      "impostos": 12000.0,
-      "despesas": 20000.0,
-      "frete": 11000.0,
-      "totalCambio": 68000.0,
-      "totalChegada": 43000.0,
-      "previsao": "03/06/2026",
-      "diasChegada": -41,
-      "semanaLabel": "Atrasado"
-    },
     {
       "projeto": "Projeto Jair Ansolin",
       "codProjeto": "TL-00104",
@@ -102,6 +72,36 @@
       "previsao": "10/08/2026",
       "diasChegada": 27,
       "semanaLabel": "Este mês"
+    },
+    {
+      "projeto": "Projeto Agroter 3  - 2° embarque",
+      "codProjeto": "TL-00101\nTL-00109\nTL-00110",
+      "embarque": "TEMU103",
+      "status": "FINALIZADO",
+      "cif": 838000.0,
+      "impostos": 273000.0,
+      "despesas": 110000.0,
+      "frete": 78000.0,
+      "totalCambio": 1221000.0,
+      "totalChegada": 461000.0,
+      "previsao": "03/06/2026",
+      "diasChegada": null,
+      "semanaLabel": "Finalizado"
+    },
+    {
+      "projeto": "Projeto Romitec",
+      "codProjeto": "TL-00103",
+      "embarque": "TEMU111",
+      "status": "FINALIZADO",
+      "cif": 36000.0,
+      "impostos": 12000.0,
+      "despesas": 20000.0,
+      "frete": 11000.0,
+      "totalCambio": 68000.0,
+      "totalChegada": 43000.0,
+      "previsao": "03/06/2026",
+      "diasChegada": null,
+      "semanaLabel": "Finalizado"
     }
   ]
 }
