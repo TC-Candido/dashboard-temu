@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Controle Operacional — Temu Smart Farming</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:#111;font-family:'Segoe UI',system-ui,sans-serif;color:#fff;min-height:100vh;padding:16px;}
+.db{background:#1A1A1A;border-radius:12px;overflow:hidden;max-width:1400px;margin:0 auto;}
+.hdr{background:#111;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(255,255,255,.07);}
+.hdr-left{display:flex;align-items:center;gap:14px;}
+.logo-img{height:38px;width:auto;}
+.hdr-div{width:1px;height:30px;background:rgba(255,255,255,.1);}
+.nav{display:flex;gap:6px;}
+.nav a{font-size:11px;padding:5px 12px;border-radius:6px;text-decoration:none;color:rgba(255,255,255,.4);border:1px solid rgba(255,255,255,.08);}
+.nav a.active{background:rgba(192,57,43,.2);color:#F1948A;border-color:rgba(192,57,43,.4);}
+.hdr-title{font-size:15px;font-weight:600;color:#fff;}
+.hdr-sub{font-size:11px;color:rgba(255,255,255,.35);margin-top:2px;}
+.hdr-right{text-align:right;}
+.hdr-date{font-size:12px;color:rgba(255,255,255,.4);}
+.hdr-update{font-size:10px;color:rgba(255,255,255,.2);margin-top:2px;}
+.body{padding:16px;display:flex;flex-direction:column;gap:14px;}
+.kpi-row{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;}
+.kpi{background:#242424;border-radius:10px;padding:14px 16px;border:1px solid rgba(255,255,255,.06);cursor:default;}
+.kpi.alert{border-color:rgba(192,57,43,.5);background:#1E1010;}
+.kpi-label{font-size:10px;color:rgba(255,255,255,.4);margin-bottom:8px;text-transform:uppercase;letter-spacing:.06em;}
+.kpi-val{font-size:28px;font-weight:600;color:#fff;line-height:1;}
+.kpi-val.red{color:#E74C3C;}
+.kpi-delta{font-size:11px;margin-top:6px;}
+.green{color:#27AE60;}.amber{color:#E67E22;}.red-t{color:#E74C3C;}.gray{color:rgba(255,255,255,.3);}
+.mid-row{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:10px;}
+.card{background:#242424;border-radius:10px;padding:14px 16px;border:1px solid rgba(255,255,255,.06);}
+.card-title{font-size:10px;font-weight:600;color:rgba(255,255,255,.35);margin-bottom:12px;text-transform:uppercase;letter-spacing:.07em;}
+.bar-row{display:flex;align-items:center;gap:8px;margin-bottom:8px;}
+.bar-name{font-size:11px;color:rgba(255,255,255,.45);width:90px;text-align:right;flex-shrink:0;}
+.bar-track{flex:1;height:6px;background:rgba(255,255,255,.07);border-radius:3px;overflow:hidden;}
+.bar-fill{height:100%;border-radius:3px;transition:width .5s ease;}
+.bar-val{font-size:11px;color:rgba(255,255,255,.3);width:22px;text-align:right;}
+.tl-item{display:flex;align-items:flex-start;gap:10px;margin-bottom:11px;}
+.tl-dot-wrap{display:flex;flex-direction:column;align-items:center;flex-shrink:0;}
+.tl-dot{width:9px;height:9px;border-radius:50%;margin-top:3px;}
+.tl-line{width:1px;height:18px;background:rgba(255,255,255,.07);margin-top:3px;}
+.tl-content{flex:1;}
+.tl-name{font-size:12px;color:rgba(255,255,255,.85);font-weight:600;display:flex;justify-content:space-between;align-items:center;}
+.tl-sub{font-size:10px;color:rgba(255,255,255,.3);margin-top:2px;}
+.badge{font-size:9px;padding:2px 8px;border-radius:20px;font-weight:600;white-space:nowrap;}
+.b-red{background:rgba(231,76,60,.25);color:#F1948A;}
+.b-amber{background:rgba(230,126,34,.2);color:#F0B27A;}
+.b-green{background:rgba(39,174,96,.2);color:#82E0AA;}
+.b-blue{background:rgba(52,152,219,.2);color:#85C1E9;}
+.b-gray{background:rgba(255,255,255,.07);color:rgba(255,255,255,.35);}
+.legend-row{display:flex;align-items:center;gap:8px;margin-bottom:6px;}
+.legend-dot{width:9px;height:9px;border-radius:2px;flex-shrink:0;}
+.legend-name{font-size:11px;color:rgba(255,255,255,.55);flex:1;}
+.legend-val{font-size:11px;color:rgba(255,255,255,.3);}
+.search-wrap{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;gap:12px;}
+.search-bar{display:flex;align-items:center;gap:8px;background:#1E1E1E;border:1px solid rgba(255,255,255,.1);border-radius:8px;padding:8px 12px;transition:border-color .2s;flex:0 0 260px;}
+.search-bar:focus-within{border-color:rgba(192,57,43,.6);}
+.search-bar svg{width:14px;height:14px;opacity:.4;flex-shrink:0;}
+.search-bar input{background:transparent;border:none;outline:none;color:#fff;font-size:12px;flex:1;font-family:inherit;}
+.search-bar input::placeholder{color:rgba(255,255,255,.2);}
+.search-clear{background:none;border:none;color:rgba(255,255,255,.3);cursor:pointer;font-size:16px;padding:0;line-height:1;display:none;}
+.search-clear:hover{color:rgba(255,255,255,.7);}
+.search-count{font-size:11px;color:rgba(255,255,255,.25);white-space:nowrap;}
+.filter-btns{display:flex;gap:6px;flex-wrap:wrap;}
+.filter-btn{background:#1E1E1E;border:1px solid rgba(255,255,255,.1);border-radius:6px;padding:5px 10px;font-size:11px;color:rgba(255,255,255,.5);cursor:pointer;transition:all .15s;font-family:inherit;}
+.filter-btn:hover{border-color:rgba(255,255,255,.25);color:rgba(255,255,255,.8);}
+.filter-btn.active{background:rgba(192,57,43,.2);border-color:rgba(192,57,43,.5);color:#F1948A;}
+table{width:100%;border-collapse:collapse;font-size:12px;}
+thead th{padding:9px 12px;text-align:left;border-bottom:1px solid rgba(255,255,255,.07);color:rgba(255,255,255,.3);font-weight:600;font-size:10px;text-transform:uppercase;letter-spacing:.06em;white-space:nowrap;cursor:pointer;user-select:none;}
+thead th:hover{color:rgba(255,255,255,.6);}
+tbody td{padding:9px 12px;border-bottom:1px solid rgba(255,255,255,.04);color:rgba(255,255,255,.75);white-space:nowrap;}
+tbody tr:last-child td{border-bottom:none;}
+tbody tr:hover td{background:rgba(255,255,255,.03);}
+.highlight{background:rgba(192,57,43,.35);border-radius:2px;padding:0 2px;color:#fff;}
+.no-results{text-align:center;padding:30px;color:rgba(255,255,255,.2);font-size:13px;}
+.footer{padding:10px 20px;border-top:1px solid rgba(255,255,255,.05);display:flex;align-items:center;justify-content:space-between;}
+.footer-text{font-size:10px;color:rgba(255,255,255,.15);}
+.status-dot{width:7px;height:7px;border-radius:50%;display:inline-block;margin-right:5px;}
+.error-msg{background:#1E1010;border:1px solid rgba(192,57,43,.3);border-radius:8px;padding:16px;text-align:center;color:rgba(255,255,255,.5);font-size:13px;}
+@media(max-width:1100px){.mid-row{grid-template-columns:repeat(2,1fr);}}
+@media(max-width:900px){.kpi-row{grid-template-columns:repeat(2,1fr);}.mid-row{grid-template-columns:repeat(2,1fr);}}
+@media(max-width:600px){.kpi-row{grid-template-columns:1fr;}.mid-row{grid-template-columns:1fr;}.hdr-right{display:none;}}
+</style>
+</head>
+<body>
+<div class="db">
+  <div class="hdr">
+    <div class="hdr-left">
+      <img class="logo-img" src="data:image/png;base64,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" alt="Temu Smart Farming"/>
+      <div class="hdr-div"></div>
+      <div>
+        <div class="hdr-title">Controle Operacional de Importação</div>
+        <div class="hdr-sub" id="hdr-sub">Processo 2026 — Taalex Systemtechnik</div>
+      </div>
+    </div>
+    <div style="display:flex;align-items:center;gap:16px;">
+      <div class="nav">
+        <a href="dashboard_temu.html" class="active">Operacional</a>
+        <a href="dashboard_cambio.html">Câmbio</a>
+        <a href="dashboard_financeiro.html">Financeiro</a>
+      </div>
+      <div class="hdr-right">
+        <div class="hdr-date" id="hdr-date"></div>
+        <div class="hdr-update" id="hdr-update"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="body">
+    <div class="kpi-row" id="kpi-row"></div>
+
+    <div class="mid-row">
+      <div class="card">
+        <div class="card-title">Por status</div>
+        <div id="status-bars"></div>
+      </div>
+      <div class="card">
+        <div class="card-title">Próximos ETD</div>
+        <div id="timeline-etd"></div>
+      </div>
+      <div class="card">
+        <div class="card-title">Próximos ETA</div>
+        <div id="timeline-eta"></div>
+      </div>
+      <div class="card">
+        <div class="card-title">Por fornecedor</div>
+        <div style="display:flex;justify-content:center;margin-bottom:12px;">
+          <canvas id="pieChart" width="120" height="120" role="img" aria-label="Distribuição por fornecedor"></canvas>
+        </div>
+        <div id="pie-legend"></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="search-wrap">
+        <div class="card-title" style="margin-bottom:0;">Embarques em andamento</div>
+        <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
+          <div class="filter-btns" id="filter-btns"></div>
+          <div class="search-bar">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+            <input type="text" id="searchInput" placeholder="Buscar embarque, projeto..." oninput="filterTable(this.value)" autocomplete="off"/>
+            <button class="search-clear" id="clearBtn" onclick="clearSearch()">×</button>
+          </div>
+          <span class="search-count" id="searchCount"></span>
+        </div>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th onclick="sortTable('embarque')">Embarque ↕</th>
+            <th onclick="sortTable('projeto')">Projeto ↕</th>
+            <th onclick="sortTable('fornecedor')">Fornecedor ↕</th>
+            <th>Destino</th>
+            <th onclick="sortTable('etd')">ETD ↕</th>
+            <th onclick="sortTable('eta')">ETA ↕</th>
+            <th onclick="sortTable('status')">Status ↕</th>
+            <th>Op.</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+      <div id="noResults" class="no-results" style="display:none;">Nenhum embarque encontrado</div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="footer-text">Taalex Systemtechnik GmbH — Controle de Importação 2026</div>
+    <div class="footer-text" id="footer-update"></div>
+  </div>
+</div>
+
+<script>
+var DADOS = {"geradoEm": "14/07/2026 13:40", "kpis": {"totalProjetos": 12, "totalContainers": 30, "etd7dias": 1, "chegando10dias": 0}, "statusCounts": {"FINALIZADO": 7, "EMITIR NF": 1, "ATRACADO": 1, "SOBRE AGUAS": 7, "EM PRODUÇÃO": 14}, "fornecedorCounts": {"Honesty": 9, "Mong Ging": 2, "Temu": 14, "Muhe\nHonesty": 1, "Muhe": 1}, "proximosETD": [{"embarque": "TEMU113", "codProjeto": "TL-00105", "projeto": "Projeto Reposição Isaka", "fornecedor": "Mong Ging +\nHonesty + Temu", "destino": "Asuncion", "qtdCntr": 2, "tipoCntr": "40HC + 20GP", "prontidao": "2026-04-09 00:00:00", "etd": "05/02/2026", "eta": "07/10/2026", "status": "ATRACADO", "statusOp": "Prontidão e ETD OK", "etd7dias": false, "chegando10": false, "observacoes": "09/04 - Linerado para Isaka organizar o embarque; Aguardando dados o agente"}, {"embarque": "TEMU122", "codProjeto": "TL-00100", "projeto": "San Bernardo - Parte 2", "fornecedor": "Honesty", "destino": "Asuncion", "qtdCntr": 6, "tipoCntr": "20GP", "prontidao": "2026-06-08 00:00:00", "etd": "07/02/2026", "eta": "09/11/2026", "status": "SOBRE AGUAS", "statusOp": "Prontidão e ETD OK", "etd7dias": false, "chegando10": false, "observacoes": ""}, {"embarque": "TEMU127", "codProjeto": "TL-00100", "projeto": "San Bernardo - Parte 2", "fornecedor": "Honesty", "destino": "Asuncion", "qtdCntr": 1, "tipoCntr": "20GP", "prontidao": "2026-05-27 00:00:00", "etd": "07/02/2026", "eta": "09/11/2026", "status": "SOBRE AGUAS", "statusOp": "Prontidão e ETD OK", "etd7dias": false, "chegando10": false, "observacoes": ""}, {"embarque": "TEMU105", "codProjeto": "TL-00101", "projeto": "Projeto Agroter 5 + Martinelli - 4° embarque", "fornecedor": "Honesty", "destino": "Navegantes", "qtdCntr": 5, "tipoCntr": "40HC", "prontidao": "2026-05-10 00:00:00", "etd": "21/05/2026", "eta": "29/07/2026", "status": "SOBRE AGUAS", "statusOp": "Prontidão e ETD OK", "etd7dias": false, "chegando10": false, "observacoes": ""}, {"embarque": "TEMU104", "codProjeto": "TL-00101", "projeto": "Projeto Agroter 4 - 3° embarque", "fornecedor": "Honesty", "destino": "Navegantes", "qtdCntr": 4, "tipoCntr": "40HC", "prontidao": "2026-05-03 00:00:00", "etd": "22/05/2026", "eta": "08/10/2026", "status": "SOBRE AGUAS", "statusOp": "Prontidão e ETD OK", "etd7dias": false, "chegando10": false, "observacoes": ""}, {"embarque": "TEMU115", "codProjeto": "TL-00099", "projeto": "Projeto San Bernardo - Parte 01", "fornecedor": "Mong Ging +\nTemu + Muhe", "destino": "Asuncion", "qtdCntr": 7, "tipoCntr": "7*40HC", "prontidao": "2026-04-04 00:00:00", "etd": "22/05/2026", "eta": "08/07/2026", "status": "SOBRE AGUAS", "statusOp": "Prontidão e ETD OK", "etd7dias": false, "chegando10": false, "observacoes": ""}], "proximosETA": [{"embarque": "TEMU119", "codProjeto": "TL-00111", "projeto": "Estoque + Laura", "fornecedor": "Muhe\nHonesty", "destino": "Navegantes", "qtdCntr": 1, "tipoCntr": "40HC", "prontidao": "2026-05-13 00:00:00", "etd": "30/05/2026", "eta": "08/04/2026", "status": "SOBRE AGUAS", "statusOp": "Prontidão e ETD OK", "etd7dias": false, "chegando10": false, "observacoes": ""}, {"embarque": "TEMU110", "codProjeto": "TL-00104", "projeto": "Projeto Jair Ansolin", "fornecedor": "Honesty", "destino": "Navegantes", "qtdCntr": 4, "tipoCntr": "40HC", "prontidao": "2026-03-20 00:00:00", "etd": null, "eta": "23/06/2026", "status": "EMITIR NF", "statusOp": "Pronto - Aguardando ETD", "etd7dias": false, "chegando10": false, "observacoes": "TEMU7314122 & HMMU6380839 - Isento de reparo"}, {"embarque": "TEMU115", "codProjeto": "TL-00099", "projeto": "Projeto San Bernardo - Parte 01", "fornecedor": "Mong Ging +\nTemu + Muhe", "destino": "Asuncion", "qtdCntr": 7, "tipoCntr": "7*40HC", "prontidao": "2026-04-04 00:00:00", "etd": "22/05/2026", "eta": "08/07/2026", "status": "SOBRE AGUAS", "statusOp": "Prontidão e ETD OK", "etd7dias": false, "chegando10": false, "observacoes": ""}, {"embarque": "TEMU105", "codProjeto": "TL-00101", "projeto": "Projeto Agroter 5 + Martinelli - 4° embarque", "fornecedor": "Honesty", "destino": "Navegantes", "qtdCntr": 5, "tipoCntr": "40HC", "prontidao": "2026-05-10 00:00:00", "etd": "21/05/2026", "eta": "29/07/2026", "status": "SOBRE AGUAS", "statusOp": "Prontidão e ETD OK", "etd7dias": false, "chegando10": false, "observacoes": ""}, {"embarque": "TEMU118", "codProjeto": "TL-00100", "projeto": "San Bernardo - Parte 2", "fornecedor": "Honesty", "destino": "Asuncion", "qtdCntr": 6, "tipoCntr": "20GP", "prontidao": "2026-05-20 00:00:00", "etd": "14/06/2026", "eta": "13/08/2026", "status": "SOBRE AGUAS", "statusOp": "Prontidão e ETD OK", "etd7dias": false, "chegando10": false, "observacoes": ""}, {"embarque": "TEMU124", "codProjeto": "TL-00100", "projeto": "San Bernardo - Parte 2", "fornecedor": "Honesty", "destino": "Asuncion", "qtdCntr": 6, "tipoCntr": "40hc", "prontidao": "2026-06-03 00:00:00", "etd": "07/10/2026", "eta": "18/09/2026", "status": "EM PRODUÇÃO", "statusOp": "Prontidão e ETD OK", "etd7dias": false, "chegando10": false, "observacoes": ""}], "embarques": [{"embarque": "TEMU101", "codProjeto": "TL-00101", "projeto": "Projeto Agroter 1", "fornecedor": "Temo + Muhe", "destino": "Navegantes", "qtdCntr": 4, "tipoCntr": "40HC", "prontidao": "2026-02-02 00:00:00", "etd": "12/02/2020", "eta": "04/11/2026", "status": "FINALIZADO", "statusOp": "Finalizado", "etd7dias": false, "chegando10": false, "observacoes": "13/04 - Confirmado atracação do navio. Aguardando remoção para zona segundária"}, {"embarque": "TEMU102", "codProjeto": "TL-00101", "projeto": "Projeto Agroter 2", "fornecedor": "Honesty", "destino": "Navegantes", "qtdCntr": 3, "tipoCntr": "40HC", "prontidao": "2026-02-28 00:00:00", "etd": "03/09/2026", "eta": "22/04/2026", "status": "FINALIZADO", "statusOp": "Finalizado", "etd7dias": false, "chegando10": false, "observacoes": ""}, {"embarque": "TEMU108", "codProjeto": "TL-00099", "projeto": "Projeto San Bernardo - Parte 01", "fornecedor": "Mong Ging + Wusen", "destino": "Asuncion", "qtdCntr": 3, "tipoCntr": "40HC", "prontidao": "2026-01-29 00:00:00", "etd": "03/09/2026", "eta": "05/11/2026", "status": "FINALIZADO", "statusOp": "Finalizado", "etd7dias": false, "chegando10": false, "observacoes": ""}, {"embarque": "TEMU109", "codProjeto": "TL-00099", "projeto": "Projeto San Bernardo - Parte 01", "fornecedor": "Mong Ging + Temu", "destino": "Asuncion", "qtdCntr": 10, "tipoCntr": "40HC", "prontidao": "2026-02-09 00:00:00", "etd": "03/09/2026", "eta": "25/05/2026", "status": "FINALIZADO", "statusOp": "Finalizado", "etd7dias": false, "chegando10": false, "observacoes": ""}, {"embarque": "TEMU110", "codProjeto": "TL-00104", "projeto": "Projeto Jair Ansolin", "fornecedor": "Honesty", "destino": "Navegantes", "qtdCntr": 4, "tipoCntr": "40HC", "prontidao": "2026-03-20 00:00:00", "etd": null, "eta": "23/06/2026", "status": "EMITIR NF", "statusOp": "Pronto - Aguardando ETD", "etd7dias": false, "chegando10": false, "observacoes": "TEMU7314122 & HMMU6380839 - Isento de reparo"}, {"embarque": "TEMU111", "codProjeto": "TL-00103", "projeto": "Projeto Romitec", "fornecedor": "Wusen", "destino": "Itajai", "qtdCntr": 1, "tipoCntr": "40HC", "prontidao": "2026-03-24 00:00:00", "etd": "04/07/2026", "eta": "06/03/2026", "status": "FINALIZADO", "statusOp": "Finalizado", "etd7dias": false, "chegando10": false, "observacoes": ""}, {"embarque": "TEMU114", "codProjeto": "TL-00104\nTL-00106", "projeto": "Projeto Jair Ansolin\nCooperativa Itaipu", "fornecedor": "Muhe + Sanhe + Temu + Wusan", "destino": "Navegantes", "qtdCntr": 1, "tipoCntr": "40HC", "prontidao": "2026-04-04 00:00:00", "etd": "26/04/2026", "eta": "06/11/2026", "status": "FINALIZADO", "statusOp": "Finalizado", "etd7dias": false, "chegando10": false, "observacoes": "juntou os embarques - Embarque TEMU114 Ita"}, {"embarque": "TEMU103", "codProjeto": "TL-00101\nTL-00109\nTL-00110", "projeto": "Projeto Agroter 3  - 2° embarque", "fornecedor": "Honesty", "destino": "Itajai", "qtdCntr": 6, "tipoCntr": "40HC", "prontidao": "2026-03-22 00:00:00", "etd": "04/12/2026", "eta": "06/03/2026", "status": "FINALIZADO", "statusOp": "Finalizado", "etd7dias": false, "chegando10": false, "observacoes": ""}, {"embarque": "TEMU113", "codProjeto": "TL-00105", "projeto": "Projeto Reposição Isaka", "fornecedor": "Mong Ging +\nHonesty + Temu", "destino": "Asuncion", "qtdCntr": 2, "tipoCntr": "40HC + 20GP", "prontidao": "2026-04-09 00:00:00", "etd": "05/02/2026", "eta": "07/10/2026", "status": "ATRACADO", "statusOp": "Prontidão e ETD OK", "etd7dias": false, "chegando10": false, "observacoes": "09/04 - Linerado para Isaka organizar o embarque; Aguardando dados o agente"}, {"embarque": "TEMU105", "codProjeto": "TL-00101", "projeto": "Projeto Agroter 5 + Martinelli - 4° embarque", "fornecedor": "Honesty", "destino": "Navegantes", "qtdCntr": 5, "tipoCntr": "40HC", "prontidao": "2026-05-10 00:00:00", "etd": "21/05/2026", "eta": "29/07/2026", "status": "SOBRE AGUAS", "statusOp": "Prontidão e ETD OK", "etd7dias": false, "chegando10": false, "observacoes": ""}, {"embarque": "TEMU104", "codProjeto": "TL-00101", "projeto": "Projeto Agroter 4 - 3° embarque", "fornecedor": "Honesty", "destino": "Navegantes", "qtdCntr": 4, "tipoCntr": "40HC", "prontidao": "2026-05-03 00:00:00", "etd": "22/05/2026", "eta": "08/10/2026", "status": "SOBRE AGUAS", "statusOp": "Prontidão e ETD OK", "etd7dias": false, "chegando10": false, "observacoes": ""}, {"embarque": "TEMU119", "codProjeto": "TL-00111", "projeto": "Estoque + Laura", "fornecedor": "Muhe\nHonesty", "destino": "Navegantes", "qtdCntr": 1, "tipoCntr": "40HC", "prontidao": "2026-05-13 00:00:00", "etd": "30/05/2026", "eta": "08/04/2026", "status": "SOBRE AGUAS", "statusOp": "Prontidão e ETD OK", "etd7dias": false, "chegando10": false, "observacoes": ""}, {"embarque": "TEMU115", "codProjeto": "TL-00099", "projeto": "Projeto San Bernardo - Parte 01", "fornecedor": "Mong Ging +\nTemu + Muhe", "destino": "Asuncion", "qtdCntr": 7, "tipoCntr": "7*40HC", "prontidao": "2026-04-04 00:00:00", "etd": "22/05/2026", "eta": "08/07/2026", "status": "SOBRE AGUAS", "statusOp": "Prontidão e ETD OK", "etd7dias": false, "chegando10": false, "observacoes": ""}, {"embarque": "TEMU118", "codProjeto": "TL-00100", "projeto": "San Bernardo - Parte 2", "fornecedor": "Honesty", "destino": "Asuncion", "qtdCntr": 6, "tipoCntr": "20GP", "prontidao": "2026-05-20 00:00:00", "etd": "14/06/2026", "eta": "13/08/2026", "status": "SOBRE AGUAS", "statusOp": "Prontidão e ETD OK", "etd7dias": false, "chegando10": false, "observacoes": ""}, {"embarque": "TEMU122", "codProjeto": "TL-00100", "projeto": "San Bernardo - Parte 2", "fornecedor": "Honesty", "destino": "Asuncion", "qtdCntr": 6, "tipoCntr": "20GP", "prontidao": "2026-06-08 00:00:00", "etd": "07/02/2026", "eta": "09/11/2026", "status": "SOBRE AGUAS", "statusOp": "Prontidão e ETD OK", "etd7dias": false, "chegando10": false, "observacoes": ""}, {"embarque": "TEMU127", "codProjeto": "TL-00100", "projeto": "San Bernardo - Parte 2", "fornecedor": "Honesty", "destino": "Asuncion", "qtdCntr": 1, "tipoCntr": "20GP", "prontidao": "2026-05-27 00:00:00", "etd": "07/02/2026", "eta": "09/11/2026", "status": "SOBRE AGUAS", "statusOp": "Prontidão e ETD OK", "etd7dias": false, "chegando10": false, "observacoes": ""}, {"embarque": "TEMU124", "codProjeto": "TL-00100", "projeto": "San Bernardo - Parte 2", "fornecedor": "Honesty", "destino": "Asuncion", "qtdCntr": 6, "tipoCntr": "40hc", "prontidao": "2026-06-03 00:00:00", "etd": "07/10/2026", "eta": "18/09/2026", "status": "EM PRODUÇÃO", "statusOp": "Prontidão e ETD OK", "etd7dias": false, "chegando10": false, "observacoes": ""}, {"embarque": "TEMU132", "codProjeto": "TL-00100", "projeto": "San Bernardo - Parte 2", "fornecedor": "Temu", "destino": "Asuncion", "qtdCntr": 1, "tipoCntr": "40hc", "prontidao": "2026-07-14 00:00:00", "etd": "24/07/2026", "eta": null, "status": "EM PRODUÇÃO", "statusOp": "Prontidão e ETD OK", "etd7dias": false, "chegando10": false, "observacoes": ""}, {"embarque": "TEMU135", "codProjeto": "TL-00100", "projeto": "San Bernardo - Parte 2", "fornecedor": "Temu", "destino": "Asuncion", "qtdCntr": 4, "tipoCntr": "40hc", "prontidao": "2026-07-15 00:00:00", "etd": null, "eta": null, "status": "EM PRODUÇÃO", "statusOp": "Pronto - Aguardando ETD", "etd7dias": false, "chegando10": false, "observacoes": ""}, {"embarque": "TEMU125", "codProjeto": "TL-00100", "projeto": "San Bernardo - Parte 2", "fornecedor": "Honesty", "destino": "Asuncion", "qtdCntr": 13, "tipoCntr": "40hc", "prontidao": "2026-07-18 00:00:00", "etd": null, "eta": null, "status": "EM PRODUÇÃO", "statusOp": "Pronto - Aguardando ETD", "etd7dias": false, "chegando10": false, "observacoes": ""}, {"embarque": "TEMU136", "codProjeto": "TL-00100", "projeto": "San Bernardo - Parte 2", "fornecedor": "Temu", "destino": "Asuncion", "qtdCntr": 0, "tipoCntr": "still not ready", "prontidao": "2026-07-10 00:00:00", "etd": null, "eta": null, "status": "EM PRODUÇÃO", "statusOp": "Pronto - Aguardando ETD", "etd7dias": false, "chegando10": false, "observacoes": ""}, {"embarque": "TEMU121", "codProjeto": "TL-00100", "projeto": "San Bernardo - Parte 2", "fornecedor": "Temu", "destino": "Asuncion", "qtdCntr": 3, "tipoCntr": "1x20GP\n2x40HC", "prontidao": "2026-07-16 00:00:00", "etd": null, "eta": null, "status": "EM PRODUÇÃO", "statusOp": "Pronto - Aguardando ETD", "etd7dias": false, "chegando10": false, "observacoes": ""}, {"embarque": "TEMU120", "codProjeto": "TL-00100", "projeto": "San Bernardo - Parte 2", "fornecedor": "Temu", "destino": "Asuncion", "qtdCntr": 4, "tipoCntr": "40hc", "prontidao": "2026-07-11 00:00:00", "etd": null, "eta": null, "status": "EM PRODUÇÃO", "statusOp": "Pronto - Aguardando ETD", "etd7dias": false, "chegando10": false, "observacoes": ""}, {"embarque": "TEMU126", "codProjeto": "TL-00100", "projeto": "San Bernardo - Parte 2", "fornecedor": "Temu", "destino": "Asuncion", "qtdCntr": 2, "tipoCntr": "40HC", "prontidao": "2026-07-24 00:00:00", "etd": null, "eta": null, "status": "EM PRODUÇÃO", "statusOp": "Pronto - Aguardando ETD", "etd7dias": false, "chegando10": false, "observacoes": ""}, {"embarque": "TEMU133", "codProjeto": "TL-00100", "projeto": "San Bernardo - Parte 2", "fornecedor": "Temu", "destino": "Asuncion", "qtdCntr": 3, "tipoCntr": "2*40HC\n1*20GP", "prontidao": "2026-08-12 00:00:00", "etd": null, "eta": null, "status": "EM PRODUÇÃO", "statusOp": "Pronto - Aguardando ETD", "etd7dias": false, "chegando10": false, "observacoes": ""}, {"embarque": "TEMU134", "codProjeto": "TL-00100", "projeto": "San Bernardo - Parte 2", "fornecedor": "Temu", "destino": "Asuncion", "qtdCntr": 0, "tipoCntr": "still not ready", "prontidao": "", "etd": null, "eta": null, "status": "EM PRODUÇÃO", "statusOp": "Sem Prontidão e ETD", "etd7dias": false, "chegando10": false, "observacoes": ""}, {"embarque": "TEMU130", "codProjeto": "TL-00113", "projeto": "Boa Fé Climatização", "fornecedor": "Temu", "destino": "Navegantes", "qtdCntr": 1, "tipoCntr": "40NOR", "prontidao": "2026-07-05 00:00:00", "etd": null, "eta": null, "status": "EM PRODUÇÃO", "statusOp": "Pronto - Aguardando ETD", "etd7dias": false, "chegando10": false, "observacoes": ""}, {"embarque": "TEMU107", "codProjeto": "TL-00112\nTL-00108", "projeto": "Projeto Elton Endler\nProjeto Nilson Shimdt \nProjeto Climaves", "fornecedor": "Temu", "destino": "", "qtdCntr": 1, "tipoCntr": "40hc", "prontidao": "2026-07-11 00:00:00", "etd": "18/07/2026", "eta": null, "status": "EM PRODUÇÃO", "statusOp": "Prontidão e ETD OK", "etd7dias": true, "chegando10": false, "observacoes": "Verificado se vamos incluir exaustão de fibra de 50\"\n-----\nE status do pedido:\n- Nilson Schimidt: Todo o pedido concluído (incluindo os controladores)\n- Elton Endler: Pedido finalizado no sábado; Hardware do controle concluído em 10 de julho de 2026."}, {"embarque": "TEMU116", "codProjeto": "TL-00107", "projeto": "Projeto Copacol", "fornecedor": "Temu", "destino": "Asuncion", "qtdCntr": 1, "tipoCntr": "40HC", "prontidao": "2026-07-15 00:00:00", "etd": "24/07/2026", "eta": null, "status": "EM PRODUÇÃO", "statusOp": "Prontidão e ETD OK", "etd7dias": false, "chegando10": false, "observacoes": ""}, {"embarque": "TEMU129", "codProjeto": "TL-00111", "projeto": "Estoque + Sensor + TV + Tablets +  Brindes em geral", "fornecedor": "Temu", "destino": "Navegantes", "qtdCntr": 2, "tipoCntr": "20GP x 40HC", "prontidao": "2026-07-24 00:00:00", "etd": null, "eta": null, "status": "EM PRODUÇÃO", "statusOp": "Pronto - Aguardando ETD", "etd7dias": false, "chegando10": false, "observacoes": ""}]};
+
+const STATUS_COLORS = {
+  'SOBRE AGUAS':'#E74C3C','SOBRE ÁGUAS':'#E74C3C',
+  'AGUARDANDO EMBARQUE':'#E67E22','AG. EMBARQUE':'#E67E22',
+  'EM PRODUCAO':'#3498DB','EM PRODUÇÃO':'#3498DB',
+  'ATRACADO':'#27AE60',
+  'FINALIZADO':'#555'
+};
+const STATUS_BADGE = {
+  'SOBRE AGUAS':'b-red','SOBRE ÁGUAS':'b-red',
+  'AGUARDANDO EMBARQUE':'b-amber','AG. EMBARQUE':'b-amber',
+  'EM PRODUCAO':'b-blue','EM PRODUÇÃO':'b-blue',
+  'ATRACADO':'b-green',
+  'FINALIZADO':'b-gray'
+};
+const OP_BADGE = {
+  'Finalizado':'b-gray',
+  'Sem Prontidão e ETD':'b-red',
+  'Sem Prontidão':'b-amber',
+  'Pronto - Aguardando ETD':'b-amber',
+  'Prontidão e ETD OK':'b-green'
+};
+const PIE_COLORS = ['#E74C3C','#555','#E67E22','#3498DB','#27AE60','#9B59B6'];
+
+let allData = DADOS;
+let filteredData = [];
+let currentSearch = '';
+let currentFilter = 'todos';
+let sortKey = '';
+let sortAsc = true;
+let pieChart = null;
+
+function hl(text, q) {
+  if (!q) return text||'—';
+  if (!text) return '—';
+  const re = new RegExp('('+q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','gi');
+  return String(text).replace(re,'<span class="highlight">$1</span>');
+}
+
+function renderKPIs(kpis, alerta) {
+  document.getElementById('kpi-row').innerHTML = `
+    <div class="kpi"><div class="kpi-label">Total projetos</div><div class="kpi-val">${kpis.totalProjetos}</div><div class="kpi-delta green">Ativos em 2026</div></div>
+    <div class="kpi"><div class="kpi-label">Containers sobre águas</div><div class="kpi-val">${kpis.totalContainers}</div><div class="kpi-delta gray">Em trânsito</div></div>
+    <div class="kpi${kpis.etd7dias>0?' alert':''}"><div class="kpi-label">ETD próximos 7 dias</div><div class="kpi-val${kpis.etd7dias>0?' red':''}">${kpis.etd7dias}</div><div class="kpi-delta ${kpis.etd7dias>0?'red-t':'gray'}">${kpis.etd7dias>0?alerta:'Tudo em dia'}</div></div>
+    <div class="kpi"><div class="kpi-label">Chegando em 10 dias</div><div class="kpi-val">${kpis.chegando10dias}</div><div class="kpi-delta amber">Pela ETA</div></div>`;
+}
+
+function renderStatusBars(counts) {
+  const total = Object.values(counts).reduce((a,b)=>a+b,0)||1;
+  const order = ['SOBRE AGUAS','SOBRE ÁGUAS','AGUARDANDO EMBARQUE','EM PRODUÇÃO','EM PRODUCAO','ATRACADO','FINALIZADO'];
+  const sorted = Object.entries(counts).sort((a,b)=>{
+    const ia = order.findIndex(s=>s===a[0].toUpperCase());
+    const ib = order.findIndex(s=>s===b[0].toUpperCase());
+    return (ia<0?99:ia)-(ib<0?99:ib);
+  });
+  document.getElementById('status-bars').innerHTML = sorted.map(([s,v])=>`
+    <div class="bar-row">
+      <div class="bar-name">${s.charAt(0)+s.slice(1).toLowerCase()}</div>
+      <div class="bar-track"><div class="bar-fill" style="width:${Math.round(v/total*100)}%;background:${STATUS_COLORS[s.toUpperCase()]||'#666'};"></div></div>
+      <div class="bar-val">${v}</div>
+    </div>`).join('');
+}
+
+function renderTimeline(items, campo, elId, vazio) {
+  const colors = ['#E74C3C','#E67E22','#3498DB','#27AE60','#9B59B6','#555'];
+  document.getElementById(elId).innerHTML = items.slice(0,5).map((e,i)=>`
+    <div class="tl-item">
+      <div class="tl-dot-wrap">
+        <div class="tl-dot" style="background:${colors[i%colors.length]};"></div>
+        ${i<items.slice(0,5).length-1?'<div class="tl-line"></div>':''}
+      </div>
+      <div class="tl-content">
+        <div class="tl-name">${e.embarque} <span class="badge b-amber">${e[campo]}</span></div>
+        <div class="tl-sub">${e.projeto||''} — ${e.fornecedor||''}</div>
+      </div>
+    </div>`).join('')||`<div style="color:rgba(255,255,255,.25);font-size:12px;">${vazio}</div>`;
+}
+
+function renderPie(counts) {
+  const entries = Object.entries(counts).sort((a,b)=>b[1]-a[1]);
+  const labels = entries.map(e=>e[0]);
+  const vals = entries.map(e=>e[1]);
+  const colors = labels.map((_,i)=>PIE_COLORS[i%PIE_COLORS.length]);
+  if (pieChart) pieChart.destroy();
+  pieChart = new Chart(document.getElementById('pieChart'),{
+    type:'doughnut',
+    data:{labels,datasets:[{data:vals,backgroundColor:colors,borderColor:'#242424',borderWidth:2}]},
+    options:{responsive:false,cutout:'66%',plugins:{legend:{display:false},tooltip:{callbacks:{label:ctx=>' '+ctx.label+': '+ctx.parsed}}}}
+  });
+  document.getElementById('pie-legend').innerHTML = entries.map(([name,val],i)=>`
+    <div class="legend-row">
+      <div class="legend-dot" style="background:${PIE_COLORS[i%PIE_COLORS.length]};"></div>
+      <div class="legend-name">${name}</div>
+      <div class="legend-val">${val}</div>
+    </div>`).join('');
+}
+
+function finalizado15dias(e) {
+  if ((e.status||'').toUpperCase() !== 'FINALIZADO') return false;
+  if (!e.eta) return true;
+  const p = e.eta.split('/');
+  const etaDate = new Date(p[2], p[1]-1, p[0]);
+  const hoje = new Date(); hoje.setHours(0,0,0,0);
+  return Math.round((hoje - etaDate) / 86400000) > 15;
+}
+
+function renderFilters(embarques) {
+  const statuses = [...new Set(embarques.map(e=>e.status).filter(Boolean))].filter(s=>s.toUpperCase()!=='FINALIZADO');
+  const btns = [
+    ['todos','Todos'],
+    ...statuses.map(s=>[s, s.charAt(0)+s.slice(1).toLowerCase()]),
+    ['finalizados','Finalizados']
+  ];
+  document.getElementById('filter-btns').innerHTML = btns.map(([val,label])=>`
+    <button class="filter-btn${currentFilter===val?' active':''}" onclick="setFilter('${val}')">${label}</button>`).join('');
+}
+
+function applyFilters() {
+  let data = allData.embarques;
+  if (currentFilter === 'finalizados') {
+    data = data.filter(e=>(e.status||'').toUpperCase()==='FINALIZADO');
+  } else if (currentFilter === 'todos') {
+    data = data.filter(e=>!finalizado15dias(e));
+  } else {
+    data = data.filter(e=>e.status===currentFilter);
+  }
+  if (currentSearch) {
+    const q = currentSearch.toLowerCase();
+    data = data.filter(e=>(e.embarque||'').toLowerCase().includes(q)||(e.projeto||'').toLowerCase().includes(q)||(e.fornecedor||'').toLowerCase().includes(q));
+  }
+  if (sortKey) {
+    data = [...data].sort((a,b)=>{
+      const av = (a[sortKey]||'').toString().toLowerCase();
+      const bv = (b[sortKey]||'').toString().toLowerCase();
+      return sortAsc ? av.localeCompare(bv) : bv.localeCompare(av);
+    });
+  }
+  filteredData = data;
+  renderTableRows();
+}
+
+function renderTableRows() {
+  const q = currentSearch;
+  const tbody = document.getElementById('tableBody');
+  const noRes = document.getElementById('noResults');
+  const count = document.getElementById('searchCount');
+  if (!filteredData.length) {
+    tbody.innerHTML=''; noRes.style.display='block';
+    count.textContent='0 resultados'; return;
+  }
+  noRes.style.display='none';
+  count.textContent = q||currentFilter!=='todos' ? filteredData.length+(filteredData.length===1?' resultado':' resultados') : '';
+  tbody.innerHTML = filteredData.map(r=>`<tr>
+    <td style="font-weight:600;">${hl(r.embarque,q)}</td>
+    <td>${hl(r.projeto,q)}</td>
+    <td>${hl(r.fornecedor,q)}</td>
+    <td style="color:rgba(255,255,255,.4);">${r.destino||'—'}</td>
+    <td style="${r.etd7dias?'color:#E74C3C;font-weight:600;':''}">${r.etd||'—'}</td>
+    <td>${r.eta||'—'}</td>
+    <td><span class="badge ${STATUS_BADGE[(r.status||'').toUpperCase()]||'b-gray'}">${r.status||'—'}</span></td>
+    <td><span class="badge ${OP_BADGE[r.statusOp]||'b-gray'}" title="${r.statusOp||''}">${(r.statusOp||'').split(' ')[0]}</span></td>
+  </tr>`).join('');
+}
+
+function filterTable(val) {
+  currentSearch = val;
+  document.getElementById('clearBtn').style.display = val ? 'block' : 'none';
+  applyFilters();
+}
+function clearSearch() {
+  const inp = document.getElementById('searchInput');
+  inp.value=''; inp.focus();
+  filterTable('');
+}
+function setFilter(val) {
+  currentFilter = val;
+  renderFilters(allData.embarques);
+  applyFilters();
+}
+function sortTable(key) {
+  if (sortKey===key) sortAsc=!sortAsc; else {sortKey=key;sortAsc=true;}
+  applyFilters();
+}
+
+function alertaETD(embarques) {
+  const lista = embarques.filter(e=>e.etd7dias).map(e=>e.embarque).join(', ');
+  return lista || '';
+}
+
+function init() {
+  const now = new Date();
+  document.getElementById('hdr-date').textContent = now.toLocaleDateString('pt-BR',{weekday:'short',day:'2-digit',month:'2-digit',year:'numeric'});
+  document.getElementById('hdr-update').textContent = 'Dados de '+allData.geradoEm;
+  document.getElementById('footer-update').textContent = 'Gerado em '+allData.geradoEm;
+  const alerta = alertaETD(allData.embarques);
+  renderKPIs(allData.kpis, alerta);
+  renderStatusBars(allData.statusCounts);
+  renderTimeline(allData.proximosETD, 'etd', 'timeline-etd', 'Nenhum ETD programado');
+  renderTimeline(allData.proximosETA||[], 'eta', 'timeline-eta', 'Nenhum ETA programado');
+  renderPie(allData.fornecedorCounts);
+  renderFilters(allData.embarques);
+  applyFilters();
+}
+
+init();
+</script>
+</body>
+</html>
