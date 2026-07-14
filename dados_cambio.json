@@ -1,5 +1,5 @@
 {
-  "geradoEm": "14/07/2026 15:00",
+  "geradoEm": "14/07/2026 15:34",
   "kpis": {
     "totalSaldo": 1135893.36,
     "qtdAberto": 31,
@@ -12,8 +12,8 @@
     "Muhe": 9531.0
   },
   "statusCounts": {
-    "Aguardando 2ª Parcela": 16,
-    "Aguardando 3ª Parcela": 1,
+    "Aguardando 2ª Parcela": 15,
+    "Aguardando 3ª Parcela": 2,
     "Sem prazo - Verificar": 14
   },
   "proximos": [
@@ -31,7 +31,7 @@
       "pct3": 0,
       "pago3": 0,
       "saldo": 6283.9,
-      "statusCambio": "Aguardando 2ª Parcela",
+      "statusCambio": "Aguardando 3ª Parcela",
       "previsao": "11/07/2026",
       "previsaoDias": -3,
       "previsaoLabel": "3d atrás",
@@ -537,7 +537,7 @@
       "pct3": 0,
       "pago3": 0,
       "saldo": 6283.9,
-      "statusCambio": "Aguardando 2ª Parcela",
+      "statusCambio": "Aguardando 3ª Parcela",
       "previsao": "11/07/2026",
       "previsaoDias": -3,
       "previsaoLabel": "3d atrás",
