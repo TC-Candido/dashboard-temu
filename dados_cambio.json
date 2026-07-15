@@ -1,9 +1,9 @@
 {
-  "geradoEm": "15/07/2026 15:00",
+  "geradoEm": "15/07/2026 15:34",
   "kpis": {
     "totalSaldo": 1135893.36,
     "qtdAberto": 31,
-    "venc30": 0,
+    "venc30": 214839.41,
     "vencidos": 6283.9
   },
   "fornSaldo": {
@@ -12,8 +12,8 @@
     "Muhe": 9531.0
   },
   "statusCounts": {
-    "Aguardando 2ª Parcela": 15,
-    "Aguardando 3ª Parcela": 2,
+    "Aguardando 2ª Parcela": 16,
+    "Aguardando 3ª Parcela": 1,
     "Sem prazo - Verificar": 14
   },
   "proximos": [
@@ -31,12 +31,33 @@
       "pct3": 0,
       "pago3": 0,
       "saldo": 6283.9,
-      "statusCambio": "Aguardando 3ª Parcela",
+      "statusCambio": "Aguardando 2ª Parcela",
       "previsao": "11/07/2026",
       "previsaoDias": -4,
       "previsaoLabel": "4d atrás",
       "statusVenc": "Vencido",
       "pagoEUA": 8977.0
+    },
+    {
+      "projeto": "San Bernardo - Parte 2",
+      "codProjeto": "TL-00100",
+      "embarque": "TEMU134",
+      "fornecedor": "Temu",
+      "fatura": "26TM0773",
+      "valor": 306913.43,
+      "pct1": 30.0,
+      "pago1": 92074.02,
+      "pct2": 30.0,
+      "pago2": 92074.03,
+      "pct3": 40.0,
+      "pago3": 122765.37,
+      "saldo": 214839.41,
+      "statusCambio": "Aguardando 2ª Parcela",
+      "previsao": "15/07/2026",
+      "previsaoDias": 0,
+      "previsaoLabel": "Hoje",
+      "statusVenc": "Vence em 30 dias",
+      "pagoEUA": 0
     },
     {
       "projeto": "San Bernardo - Parte 2",
@@ -517,9 +538,9 @@
       "pago3": 0,
       "saldo": 0.0,
       "statusCambio": "Pago Total",
-      "previsao": "15/07/2026",
-      "previsaoDias": 0,
-      "previsaoLabel": "Hoje",
+      "previsao": "30/09/2026",
+      "previsaoDias": 77,
+      "previsaoLabel": "77 dias",
       "statusVenc": "Quitado",
       "pagoEUA": 0.0
     },
@@ -537,7 +558,7 @@
       "pct3": 0,
       "pago3": 0,
       "saldo": 6283.9,
-      "statusCambio": "Aguardando 3ª Parcela",
+      "statusCambio": "Aguardando 2ª Parcela",
       "previsao": "11/07/2026",
       "previsaoDias": -4,
       "previsaoLabel": "4d atrás",
@@ -1042,10 +1063,10 @@
       "pago3": 122765.37,
       "saldo": 214839.41,
       "statusCambio": "Aguardando 2ª Parcela",
-      "previsao": null,
-      "previsaoDias": null,
-      "previsaoLabel": null,
-      "statusVenc": "Sem previsão",
+      "previsao": "15/07/2026",
+      "previsaoDias": 0,
+      "previsaoLabel": "Hoje",
+      "statusVenc": "Vence em 30 dias",
       "pagoEUA": 0
     },
     {
