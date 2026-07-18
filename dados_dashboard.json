@@ -1,10 +1,10 @@
 {
-  "geradoEm": "17/07/2026 23:34",
+  "geradoEm": "18/07/2026 00:00",
   "kpis": {
     "totalProjetos": 12,
     "totalContainers": 30,
-    "etd7dias": 3,
-    "chegando10dias": 1
+    "etd7dias": 2,
+    "chegando10dias": 2
   },
   "statusCounts": {
     "FINALIZADO": 7,
@@ -53,7 +53,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "",
       "invoice": "SH-ZXH-251025 \nSH-ZXH-260428 \nSH-ZXH-260317"
     },
@@ -199,7 +199,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "",
       "invoice": "SH-ZXH-251025 \nSH-ZXH-260428 \nSH-ZXH-260317"
     },
@@ -417,7 +417,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "",
       "invoice": "SH-ZXH-251025 \nSH-ZXH-260428 \nSH-ZXH-260317"
     },
@@ -740,7 +740,7 @@
       "eta": null,
       "status": "EM PRODUÇÃO",
       "statusOp": "Prontidão e ETD OK",
-      "etd7dias": true,
+      "etd7dias": false,
       "chegando10": false,
       "observacoes": "Verificado se vamos incluir exaustão de fibra de 50\"\n-----\nE status do pedido:\n- Nilson Schimidt: Todo o pedido concluído (incluindo os controladores)\n- Elton Endler: Pedido finalizado no sábado; Hardware do controle concluído em 10 de julho de 2026.",
       "invoice": "26TM0627\n26TM0637 \n26TM0748"
