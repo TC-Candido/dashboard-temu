@@ -1,20 +1,20 @@
 {
-  "geradoEm": "19/07/2026 00:00",
+  "geradoEm": "19/07/2026 16:00",
   "kpis": {
-    "totalSaldo": 1135893.36,
-    "qtdAberto": 31,
+    "totalSaldo": 1144657.36,
+    "qtdAberto": 33,
     "venc30": 0,
     "vencidos": 221123.31
   },
   "fornSaldo": {
     "Temu": 796452.84,
-    "Honesty": 329909.52,
+    "Honesty": 338673.52,
     "Muhe": 9531.0
   },
   "statusCounts": {
     "Aguardando 2ª Parcela": 16,
     "Aguardando 3ª Parcela": 1,
-    "Sem prazo - Verificar": 14
+    "Sem prazo - Verificar": 16
   },
   "proximos": [
     {
@@ -538,9 +538,9 @@
       "pago3": 0,
       "saldo": 0.0,
       "statusCambio": "Pago Total",
-      "previsao": "30/09/2026",
-      "previsaoDias": 73,
-      "previsaoLabel": "73 dias",
+      "previsao": "16/08/2026",
+      "previsaoDias": 28,
+      "previsaoLabel": "28 dias",
       "statusVenc": "Quitado",
       "pagoEUA": 0.0
     },
@@ -1461,6 +1461,48 @@
       "pct3": 0,
       "pago3": 0,
       "saldo": 1064.0,
+      "statusCambio": "Sem prazo - Verificar",
+      "previsao": null,
+      "previsaoDias": null,
+      "previsaoLabel": null,
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 0
+    },
+    {
+      "projeto": "Agroter",
+      "codProjeto": "0",
+      "embarque": "TEMU137",
+      "fornecedor": "Honesty",
+      "fatura": "SH-ZXH-260714",
+      "valor": 8079.0,
+      "pct1": 0,
+      "pago1": 0,
+      "pct2": 0,
+      "pago2": 0,
+      "pct3": 0,
+      "pago3": 0,
+      "saldo": 8079.0,
+      "statusCambio": "Sem prazo - Verificar",
+      "previsao": null,
+      "previsaoDias": null,
+      "previsaoLabel": null,
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 0
+    },
+    {
+      "projeto": "Agroter",
+      "codProjeto": "0",
+      "embarque": "TEMU137",
+      "fornecedor": "Honesty",
+      "fatura": "4 Units Auto Sow",
+      "valor": 1370.0,
+      "pct1": 50.0,
+      "pago1": 685.0,
+      "pct2": 50.0,
+      "pago2": 685.0,
+      "pct3": 0,
+      "pago3": 0,
+      "saldo": 685.0,
       "statusCambio": "Sem prazo - Verificar",
       "previsao": null,
       "previsaoDias": null,

@@ -1,5 +1,5 @@
 {
-  "geradoEm": "19/07/2026 00:00",
+  "geradoEm": "19/07/2026 16:00",
   "kpis": {
     "totalProjetos": 12,
     "totalContainers": 30,
@@ -11,10 +11,10 @@
     "EMITIR NF": 1,
     "ATRACADO": 1,
     "SOBRE AGUAS": 7,
-    "EM PRODUÇÃO": 14
+    "EM PRODUÇÃO": 15
   },
   "fornecedorCounts": {
-    "Honesty": 9,
+    "Honesty": 10,
     "Mong Ging": 2,
     "Temu": 14,
     "Muhe\nHonesty": 1,
@@ -699,14 +699,14 @@
       "destino": "Asuncion",
       "qtdCntr": 16,
       "tipoCntr": "40hc",
-      "prontidao": "2026-09-30 00:00:00",
+      "prontidao": "2026-08-16 00:00:00",
       "etd": null,
       "eta": null,
       "status": "EM PRODUÇÃO",
       "statusOp": "Pronto - Aguardando ETD",
       "etd7dias": false,
       "chegando10": false,
-      "observacoes": "",
+      "observacoes": "1x40hc - 16/08/2026\n2x40hc - 21/08/2026\n3x40hc - 31/08/2026\n2x40hc - 07/09/2026",
       "invoice": "26TM0773"
     },
     {
@@ -780,6 +780,24 @@
       "chegando10": false,
       "observacoes": "",
       "invoice": "26TM0628\nLFR26071"
+    },
+    {
+      "embarque": "TEMU137",
+      "codProjeto": "",
+      "projeto": "Agroter",
+      "fornecedor": "Honesty",
+      "destino": "",
+      "qtdCntr": 0,
+      "tipoCntr": "",
+      "prontidao": "",
+      "etd": null,
+      "eta": null,
+      "status": "EM PRODUÇÃO",
+      "statusOp": "Sem Prontidão e ETD",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "SH-ZXH-260714\n4 Units Auto Sow"
     }
   ]
 }
