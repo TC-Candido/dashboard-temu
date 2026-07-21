@@ -1,10 +1,10 @@
 {
-  "geradoEm": "21/07/2026 08:00",
+  "geradoEm": "21/07/2026 08:34",
   "kpis": {
     "totalProjetos": 12,
     "totalContainers": 30,
     "etd7dias": 2,
-    "chegando10dias": 3
+    "chegando10dias": 2
   },
   "statusCounts": {
     "FINALIZADO": 7,
@@ -85,11 +85,11 @@
       "tipoCntr": "7*40HC",
       "prontidao": "2026-04-04 00:00:00",
       "etd": "22/05/2026",
-      "eta": "31/07/2026",
+      "eta": "07/08/2026",
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": "",
       "invoice": "3rd Shipment"
     },
@@ -204,24 +204,6 @@
       "invoice": "SH-ZXH-251025 \nSH-ZXH-260428 \nSH-ZXH-260317"
     },
     {
-      "embarque": "TEMU115",
-      "codProjeto": "TL-00099",
-      "projeto": "Projeto San Bernardo - Parte 01",
-      "fornecedor": "Mong Ging +\nTemu + Muhe",
-      "destino": "Asuncion",
-      "qtdCntr": 7,
-      "tipoCntr": "7*40HC",
-      "prontidao": "2026-04-04 00:00:00",
-      "etd": "22/05/2026",
-      "eta": "31/07/2026",
-      "status": "SOBRE AGUAS",
-      "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
-      "chegando10": true,
-      "observacoes": "",
-      "invoice": "3rd Shipment"
-    },
-    {
       "embarque": "TEMU119",
       "codProjeto": "TL-00111",
       "projeto": "Estoque + Laura",
@@ -238,6 +220,24 @@
       "chegando10": false,
       "observacoes": "",
       "invoice": "MHY20260420\nSH-ZXH-260201"
+    },
+    {
+      "embarque": "TEMU115",
+      "codProjeto": "TL-00099",
+      "projeto": "Projeto San Bernardo - Parte 01",
+      "fornecedor": "Mong Ging +\nTemu + Muhe",
+      "destino": "Asuncion",
+      "qtdCntr": 7,
+      "tipoCntr": "7*40HC",
+      "prontidao": "2026-04-04 00:00:00",
+      "etd": "22/05/2026",
+      "eta": "07/08/2026",
+      "status": "SOBRE AGUAS",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "3rd Shipment"
     }
   ],
   "embarques": [
@@ -422,24 +422,6 @@
       "invoice": "SH-ZXH-251025 \nSH-ZXH-260428 \nSH-ZXH-260317"
     },
     {
-      "embarque": "TEMU104",
-      "codProjeto": "TL-00101",
-      "projeto": "Projeto Agroter 4 - 3° embarque",
-      "fornecedor": "Honesty",
-      "destino": "Navegantes",
-      "qtdCntr": 4,
-      "tipoCntr": "40HC",
-      "prontidao": "2026-05-03 00:00:00",
-      "etd": "22/05/2026",
-      "eta": "10/08/2026",
-      "status": "SOBRE AGUAS",
-      "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": "",
-      "invoice": "3rd Batch Shipment"
-    },
-    {
       "embarque": "TEMU119",
       "codProjeto": "TL-00111",
       "projeto": "Estoque + Laura",
@@ -458,6 +440,24 @@
       "invoice": "MHY20260420\nSH-ZXH-260201"
     },
     {
+      "embarque": "TEMU104",
+      "codProjeto": "TL-00101",
+      "projeto": "Projeto Agroter 4 - 3° embarque",
+      "fornecedor": "Honesty",
+      "destino": "Navegantes",
+      "qtdCntr": 4,
+      "tipoCntr": "40HC",
+      "prontidao": "2026-05-03 00:00:00",
+      "etd": "22/05/2026",
+      "eta": "10/08/2026",
+      "status": "SOBRE AGUAS",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "3rd Batch Shipment"
+    },
+    {
       "embarque": "TEMU115",
       "codProjeto": "TL-00099",
       "projeto": "Projeto San Bernardo - Parte 01",
@@ -467,11 +467,11 @@
       "tipoCntr": "7*40HC",
       "prontidao": "2026-04-04 00:00:00",
       "etd": "22/05/2026",
-      "eta": "31/07/2026",
+      "eta": "07/08/2026",
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": "",
       "invoice": "3rd Shipment"
     },
@@ -706,7 +706,7 @@
       "statusOp": "Pronto - Aguardando ETD",
       "etd7dias": false,
       "chegando10": false,
-      "observacoes": "1x40hc - 16/08/2026\n2x40hc - 21/08/2026\n3x40hc - 31/08/2026\n2x40hc - 07/09/2026",
+      "observacoes": "1 contêiner    - 16/08/2026\n3 contêineres - 21/08/2026\n3 contêineres - 27/08/2026\n3 contêineres - 31/08/2026\n2 contêineres - 02/09/2026\n2 contêineres - 05/09/2026\n2 contêineres - 07/09/2026",
       "invoice": "26TM0773"
     },
     {
@@ -718,10 +718,10 @@
       "qtdCntr": 1,
       "tipoCntr": "40NOR",
       "prontidao": "2026-07-05 00:00:00",
-      "etd": null,
+      "etd": "30/07/2026",
       "eta": null,
       "status": "EM PRODUÇÃO",
-      "statusOp": "Pronto - Aguardando ETD",
+      "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
