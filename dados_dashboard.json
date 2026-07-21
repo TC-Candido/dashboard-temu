@@ -1,5 +1,5 @@
 {
-  "geradoEm": "21/07/2026 11:34",
+  "geradoEm": "21/07/2026 12:00",
   "kpis": {
     "totalProjetos": 12,
     "totalContainers": 30,
@@ -572,8 +572,8 @@
       "fornecedor": "Temu",
       "destino": "Asuncion",
       "qtdCntr": 4,
-      "tipoCntr": "40hc",
-      "prontidao": "2026-07-15 00:00:00",
+      "tipoCntr": "3*40HC \n1*20GP",
+      "prontidao": "2026-07-21 00:00:00",
       "etd": null,
       "eta": null,
       "status": "EM PRODUÇÃO",
