@@ -1,9 +1,9 @@
 {
-  "geradoEm": "21/07/2026 23:34",
+  "geradoEm": "22/07/2026 00:00",
   "kpis": {
     "totalProjetos": 12,
     "totalContainers": 30,
-    "etd7dias": 2,
+    "etd7dias": 3,
     "chegando10dias": 2
   },
   "statusCounts": {
@@ -722,7 +722,7 @@
       "eta": null,
       "status": "EM PRODUÇÃO",
       "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
+      "etd7dias": true,
       "chegando10": false,
       "observacoes": "",
       "invoice": "26TM0672"
