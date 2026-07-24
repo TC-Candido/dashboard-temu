@@ -1,10 +1,10 @@
 {
-  "geradoEm": "23/07/2026 23:34",
+  "geradoEm": "24/07/2026 00:00",
   "kpis": {
     "totalProjetos": 12,
     "totalContainers": 30,
-    "etd7dias": 3,
-    "chegando10dias": 2
+    "etd7dias": 1,
+    "chegando10dias": 3
   },
   "statusCounts": {
     "FINALIZADO": 7,
@@ -107,7 +107,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "",
       "invoice": "MHY20260420\nSH-ZXH-260201"
     },
@@ -180,7 +180,7 @@
       "eta": "25/07/2026",
       "status": "EM PRODUÇÃO",
       "statusOp": "Prontidão e ETD OK",
-      "etd7dias": true,
+      "etd7dias": false,
       "chegando10": true,
       "observacoes": "",
       "invoice": "26TM0674\n26TM0675\n26TM0678\n26TM0679"
@@ -217,7 +217,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "",
       "invoice": "MHY20260420\nSH-ZXH-260201"
     },
@@ -435,7 +435,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "",
       "invoice": "MHY20260420\nSH-ZXH-260201"
     },
@@ -560,7 +560,7 @@
       "eta": "25/07/2026",
       "status": "EM PRODUÇÃO",
       "statusOp": "Prontidão e ETD OK",
-      "etd7dias": true,
+      "etd7dias": false,
       "chegando10": true,
       "observacoes": "",
       "invoice": "26TM0674\n26TM0675\n26TM0678\n26TM0679"
@@ -758,7 +758,7 @@
       "eta": null,
       "status": "EM PRODUÇÃO",
       "statusOp": "Prontidão e ETD OK",
-      "etd7dias": true,
+      "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
       "invoice": "26TM0623"
