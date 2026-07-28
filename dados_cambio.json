@@ -1,10 +1,10 @@
 {
-  "geradoEm": "28/07/2026 09:34",
+  "geradoEm": "28/07/2026 10:00",
   "kpis": {
     "totalSaldo": 1141277.86,
     "qtdAberto": 33,
-    "venc30": 6283.9,
-    "vencidos": 214839.41
+    "venc30": 0,
+    "vencidos": 6283.9
   },
   "fornSaldo": {
     "Temu": 797112.84,
@@ -17,27 +17,6 @@
     "Sem prazo - Verificar": 16
   },
   "proximos": [
-    {
-      "projeto": "San Bernardo - Parte 2",
-      "codProjeto": "TL-00100",
-      "embarque": "TEMU134",
-      "fornecedor": "Temu",
-      "fatura": "26TM0773",
-      "valor": 306913.43,
-      "pct1": 30.0,
-      "pago1": 92074.02,
-      "pct2": 30.0,
-      "pago2": 92074.03,
-      "pct3": 40.0,
-      "pago3": 122765.37,
-      "saldo": 214839.41,
-      "statusCambio": "Aguardando 2ª Parcela",
-      "previsao": "15/07/2026",
-      "previsaoDias": -13,
-      "previsaoLabel": "13d atrás",
-      "statusVenc": "Vencido",
-      "pagoEUA": 0
-    },
     {
       "projeto": "Projeto Climaves",
       "codProjeto": "",
@@ -53,10 +32,10 @@
       "pago3": 0,
       "saldo": 6283.9,
       "statusCambio": "Aguardando 2ª Parcela",
-      "previsao": "30/07/2026",
-      "previsaoDias": 2,
-      "previsaoLabel": "2 dias",
-      "statusVenc": "Vence em 30 dias",
+      "previsao": "03/06/2026",
+      "previsaoDias": -55,
+      "previsaoLabel": "55d atrás",
+      "statusVenc": "Vencido",
       "pagoEUA": 8977.0
     },
     {
@@ -74,11 +53,32 @@
       "pago3": 85885.17,
       "saldo": 85885.17,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "08/09/2026",
-      "previsaoDias": 42,
-      "previsaoLabel": "42 dias",
+      "previsao": "01/09/2026",
+      "previsaoDias": 35,
+      "previsaoLabel": "35 dias",
       "statusVenc": "Em dia",
       "pagoEUA": 85885.17
+    },
+    {
+      "projeto": "San Bernardo - Parte 2",
+      "codProjeto": "TL-00100",
+      "embarque": "TEMU134",
+      "fornecedor": "Temu",
+      "fatura": "26TM0773",
+      "valor": 306913.43,
+      "pct1": 30.0,
+      "pago1": 92074.02,
+      "pct2": 30.0,
+      "pago2": 92074.03,
+      "pct3": 40.0,
+      "pago3": 122765.37,
+      "saldo": 214839.41,
+      "statusCambio": "Aguardando 2ª Parcela",
+      "previsao": "01/09/2026",
+      "previsaoDias": 35,
+      "previsaoLabel": "35 dias",
+      "statusVenc": "Em dia",
+      "pagoEUA": 0
     }
   ],
   "cambios": [
@@ -223,9 +223,9 @@
       "pago3": 43135.06,
       "saldo": 0.0,
       "statusCambio": "Pago Total",
-      "previsao": "19/07/2026",
-      "previsaoDias": -9,
-      "previsaoLabel": "9d atrás",
+      "previsao": "20/07/2026",
+      "previsaoDias": -8,
+      "previsaoLabel": "8d atrás",
       "statusVenc": "Quitado",
       "pagoEUA": 0
     },
@@ -517,9 +517,9 @@
       "pago3": 0,
       "saldo": 0.0,
       "statusCambio": "Pago Total",
-      "previsao": null,
-      "previsaoDias": null,
-      "previsaoLabel": null,
+      "previsao": "05/07/2026",
+      "previsaoDias": -23,
+      "previsaoLabel": "23d atrás",
       "statusVenc": "Quitado",
       "pagoEUA": 4076.45
     },
@@ -538,9 +538,9 @@
       "pago3": 0,
       "saldo": 0.0,
       "statusCambio": "Pago Total",
-      "previsao": "16/08/2026",
-      "previsaoDias": 19,
-      "previsaoLabel": "19 dias",
+      "previsao": "27/07/2026",
+      "previsaoDias": -1,
+      "previsaoLabel": "1d atrás",
       "statusVenc": "Quitado",
       "pagoEUA": 0.0
     },
@@ -559,10 +559,10 @@
       "pago3": 0,
       "saldo": 6283.9,
       "statusCambio": "Aguardando 2ª Parcela",
-      "previsao": "30/07/2026",
-      "previsaoDias": 2,
-      "previsaoLabel": "2 dias",
-      "statusVenc": "Vence em 30 dias",
+      "previsao": "03/06/2026",
+      "previsaoDias": -55,
+      "previsaoLabel": "55d atrás",
+      "statusVenc": "Vencido",
       "pagoEUA": 8977.0
     },
     {
@@ -832,9 +832,9 @@
       "pago3": 85885.17,
       "saldo": 85885.17,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "08/09/2026",
-      "previsaoDias": 42,
-      "previsaoLabel": "42 dias",
+      "previsao": "01/09/2026",
+      "previsaoDias": 35,
+      "previsaoLabel": "35 dias",
       "statusVenc": "Em dia",
       "pagoEUA": 85885.17
     },
@@ -902,9 +902,9 @@
       "pagoEUA": 0.0
     },
     {
-      "projeto": "Estoque + Laura",
+      "projeto": "Projeto Agroter 4 - 3° embarque",
       "codProjeto": "",
-      "embarque": "TEMU119\nTEMU128",
+      "embarque": "99-00151\n99-00158\n99-00171",
       "fornecedor": "Muhe",
       "fatura": "MHY20260420",
       "valor": 15685.0,
@@ -1063,10 +1063,10 @@
       "pago3": 122765.37,
       "saldo": 214839.41,
       "statusCambio": "Aguardando 2ª Parcela",
-      "previsao": "15/07/2026",
-      "previsaoDias": -13,
-      "previsaoLabel": "13d atrás",
-      "statusVenc": "Vencido",
+      "previsao": "01/09/2026",
+      "previsaoDias": 35,
+      "previsaoLabel": "35 dias",
+      "statusVenc": "Em dia",
       "pagoEUA": 0
     },
     {
