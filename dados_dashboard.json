@@ -1,8 +1,8 @@
 {
-  "geradoEm": "28/07/2026 08:00",
+  "geradoEm": "28/07/2026 08:34",
   "kpis": {
     "totalProjetos": 12,
-    "totalContainers": 30,
+    "totalContainers": 36,
     "etd7dias": 1,
     "chegando10dias": 3
   },
@@ -10,8 +10,8 @@
     "FINALIZADO": 7,
     "EMITIR NF": 1,
     "ATRACADO": 1,
-    "SOBRE AGUAS": 7,
-    "EM PRODUÇÃO": 15
+    "SOBRE AGUAS": 8,
+    "EM PRODUÇÃO": 14
   },
   "fornecedorCounts": {
     "Honesty": 10,
@@ -540,7 +540,7 @@
       "prontidao": "2026-06-03 00:00:00",
       "etd": "10/07/2026",
       "eta": "18/09/2026",
-      "status": "EM PRODUÇÃO",
+      "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
       "chegando10": false,
@@ -573,7 +573,7 @@
       "destino": "Asuncion",
       "qtdCntr": 4,
       "tipoCntr": "3*40HC \n1*20GP",
-      "prontidao": "2026-07-21 00:00:00",
+      "prontidao": "2026-07-26 00:00:00",
       "etd": null,
       "eta": null,
       "status": "EM PRODUÇÃO",
@@ -591,7 +591,7 @@
       "destino": "Asuncion",
       "qtdCntr": 4,
       "tipoCntr": "40hc",
-      "prontidao": "2026-07-11 00:00:00",
+      "prontidao": "2026-07-30 00:00:00",
       "etd": null,
       "eta": null,
       "status": "EM PRODUÇÃO",
@@ -663,7 +663,7 @@
       "destino": "Asuncion",
       "qtdCntr": 13,
       "tipoCntr": "40hc",
-      "prontidao": "2026-07-30 00:00:00",
+      "prontidao": "2026-07-27 00:00:00",
       "etd": null,
       "eta": null,
       "status": "EM PRODUÇÃO",

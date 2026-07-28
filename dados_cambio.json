@@ -1,10 +1,10 @@
 {
-  "geradoEm": "28/07/2026 08:00",
+  "geradoEm": "28/07/2026 08:34",
   "kpis": {
     "totalSaldo": 1141277.86,
     "qtdAberto": 33,
-    "venc30": 0,
-    "vencidos": 221123.31
+    "venc30": 6283.9,
+    "vencidos": 214839.41
   },
   "fornSaldo": {
     "Temu": 797112.84,
@@ -17,27 +17,6 @@
     "Sem prazo - Verificar": 16
   },
   "proximos": [
-    {
-      "projeto": "Projeto Climaves",
-      "codProjeto": "",
-      "embarque": "TEMU107",
-      "fornecedor": "Temu",
-      "fatura": "26TM0748",
-      "valor": 8977.0,
-      "pct1": 30.0,
-      "pago1": 2693.1,
-      "pct2": 70.0,
-      "pago2": 6283.9,
-      "pct3": 0,
-      "pago3": 0,
-      "saldo": 6283.9,
-      "statusCambio": "Aguardando 2ª Parcela",
-      "previsao": "11/07/2026",
-      "previsaoDias": -17,
-      "previsaoLabel": "17d atrás",
-      "statusVenc": "Vencido",
-      "pagoEUA": 8977.0
-    },
     {
       "projeto": "San Bernardo - Parte 2",
       "codProjeto": "TL-00100",
@@ -58,6 +37,27 @@
       "previsaoLabel": "13d atrás",
       "statusVenc": "Vencido",
       "pagoEUA": 0
+    },
+    {
+      "projeto": "Projeto Climaves",
+      "codProjeto": "",
+      "embarque": "TEMU107",
+      "fornecedor": "Temu",
+      "fatura": "26TM0748",
+      "valor": 8977.0,
+      "pct1": 30.0,
+      "pago1": 2693.1,
+      "pct2": 70.0,
+      "pago2": 6283.9,
+      "pct3": 0,
+      "pago3": 0,
+      "saldo": 6283.9,
+      "statusCambio": "Aguardando 2ª Parcela",
+      "previsao": "30/07/2026",
+      "previsaoDias": 2,
+      "previsaoLabel": "2 dias",
+      "statusVenc": "Vence em 30 dias",
+      "pagoEUA": 8977.0
     },
     {
       "projeto": "San Bernardo - Parte 2",
@@ -559,10 +559,10 @@
       "pago3": 0,
       "saldo": 6283.9,
       "statusCambio": "Aguardando 2ª Parcela",
-      "previsao": "11/07/2026",
-      "previsaoDias": -17,
-      "previsaoLabel": "17d atrás",
-      "statusVenc": "Vencido",
+      "previsao": "30/07/2026",
+      "previsaoDias": 2,
+      "previsaoLabel": "2 dias",
+      "statusVenc": "Vence em 30 dias",
       "pagoEUA": 8977.0
     },
     {
