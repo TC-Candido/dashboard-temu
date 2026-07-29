@@ -1,14 +1,14 @@
 {
-  "geradoEm": "29/07/2026 17:00",
+  "geradoEm": "29/07/2026 17:34",
   "kpis": {
-    "totalSaldo": 1141277.86,
+    "totalSaldo": 1031813.86,
     "qtdAberto": 33,
     "venc30": 0,
     "vencidos": 6283.9
   },
   "fornSaldo": {
     "Temu": 797112.84,
-    "Honesty": 334634.02,
+    "Honesty": 225170.02,
     "Muhe": 9531.0
   },
   "statusCounts": {
@@ -58,6 +58,27 @@
       "previsaoLabel": "34 dias",
       "statusVenc": "Em dia",
       "pagoEUA": 85885.17
+    },
+    {
+      "projeto": "San Bernardo - Parte 2",
+      "codProjeto": "TL-00100",
+      "embarque": "TEMU125",
+      "fornecedor": "Honesty",
+      "fatura": "SH-ZXH-260617",
+      "valor": 336400.35,
+      "pct1": 30.0,
+      "pago1": 92376.0,
+      "pct2": 30.0,
+      "pago2": 109464.0,
+      "pct3": 40.0,
+      "pago3": 134560.35,
+      "saldo": 134560.35,
+      "statusCambio": "Aguardando 2ª Parcela",
+      "previsao": "01/09/2026",
+      "previsaoDias": 34,
+      "previsaoLabel": "34 dias",
+      "statusVenc": "Em dia",
+      "pagoEUA": 0
     },
     {
       "projeto": "San Bernardo - Parte 2",
@@ -851,12 +872,12 @@
       "pago2": 109464.0,
       "pct3": 40.0,
       "pago3": 134560.35,
-      "saldo": 244024.35,
+      "saldo": 134560.35,
       "statusCambio": "Aguardando 2ª Parcela",
-      "previsao": null,
-      "previsaoDias": null,
-      "previsaoLabel": null,
-      "statusVenc": "Sem previsão",
+      "previsao": "01/09/2026",
+      "previsaoDias": 34,
+      "previsaoLabel": "34 dias",
+      "statusVenc": "Em dia",
       "pagoEUA": 0
     },
     {
