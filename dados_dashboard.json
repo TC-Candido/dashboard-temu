@@ -1,5 +1,5 @@
 {
-  "geradoEm": "31/07/2026 17:00",
+  "geradoEm": "31/07/2026 17:34",
   "kpis": {
     "totalProjetos": 12,
     "totalContainers": 39,
@@ -12,7 +12,7 @@
     "ATRACADO": 1,
     "SOBRE AGUAS": 11,
     "EM PRODUÇÃO": 11,
-    "": 1
+    "": 2
   },
   "fornecedorCounts": {
     "Honesty": 10,
@@ -20,7 +20,7 @@
     "Temu": 14,
     "Muhe\nHonesty": 1,
     "Muhe": 1,
-    "Hontech-Wins": 1
+    "Hontech-Wins": 2
   },
   "proximosETD": [
     {
@@ -818,6 +818,24 @@
       "chegando10": false,
       "observacoes": "",
       "invoice": "HT-X26073001BR"
+    },
+    {
+      "embarque": "TEMU139",
+      "codProjeto": "",
+      "projeto": "San Bernardo - Parte 3",
+      "fornecedor": "Hontech-Wins",
+      "destino": "",
+      "qtdCntr": 0,
+      "tipoCntr": "",
+      "prontidao": "",
+      "etd": null,
+      "eta": null,
+      "status": "",
+      "statusOp": "Sem Prontidão e ETD",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "HT-X26072001BR"
     }
   ]
 }
