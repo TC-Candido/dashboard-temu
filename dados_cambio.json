@@ -1,20 +1,21 @@
 {
-  "geradoEm": "31/07/2026 16:00",
+  "geradoEm": "31/07/2026 16:34",
   "kpis": {
-    "totalSaldo": 1033147.43,
-    "qtdAberto": 33,
+    "totalSaldo": 1039961.51,
+    "qtdAberto": 34,
     "venc30": 0,
     "vencidos": 6283.9
   },
   "fornSaldo": {
     "Temu": 798446.41,
     "Honesty": 225170.02,
-    "Muhe": 9531.0
+    "Muhe": 9531.0,
+    "Hontech-Wins": 6814.08
   },
   "statusCounts": {
     "Aguardando 2ª Parcela": 16,
     "Aguardando 3ª Parcela": 1,
-    "Sem prazo - Verificar": 16
+    "Sem prazo - Verificar": 17
   },
   "proximos": [
     {
@@ -1524,6 +1525,27 @@
       "pct3": 0,
       "pago3": 0,
       "saldo": 685.0,
+      "statusCambio": "Sem prazo - Verificar",
+      "previsao": null,
+      "previsaoDias": null,
+      "previsaoLabel": null,
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 0
+    },
+    {
+      "projeto": "San Bernardo - Parte 3",
+      "codProjeto": "0",
+      "embarque": "TEMU138",
+      "fornecedor": "Hontech-Wins",
+      "fatura": "HT-X26073001BR",
+      "valor": 9734.4,
+      "pct1": 30.0,
+      "pago1": 2920.32,
+      "pct2": 0,
+      "pago2": 6814.08,
+      "pct3": 0,
+      "pago3": 0,
+      "saldo": 6814.08,
       "statusCambio": "Sem prazo - Verificar",
       "previsao": null,
       "previsaoDias": null,
