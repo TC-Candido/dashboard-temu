@@ -1,16 +1,16 @@
 {
-  "geradoEm": "03/08/2026 14:34",
+  "geradoEm": "03/08/2026 15:00",
   "kpis": {
     "totalProjetos": 12,
-    "totalContainers": 39,
+    "totalContainers": 34,
     "etd7dias": 2,
     "chegando10dias": 4
   },
   "statusCounts": {
     "FINALIZADO": 7,
     "EMITIR NF": 1,
-    "ATRACADO": 1,
-    "SOBRE AGUAS": 11,
+    "ATRACADO": 2,
+    "SOBRE AGUAS": 10,
     "EM PRODUÇÃO": 11,
     "": 2
   },
@@ -23,24 +23,6 @@
     "Hontech-Wins": 2
   },
   "proximosETD": [
-    {
-      "embarque": "TEMU105",
-      "codProjeto": "TL-00101",
-      "projeto": "Projeto Agroter 5 + Martinelli - 4° embarque",
-      "fornecedor": "Honesty",
-      "destino": "Navegantes",
-      "qtdCntr": 5,
-      "tipoCntr": "40HC",
-      "prontidao": "2026-05-10 00:00:00",
-      "etd": "21/05/2020",
-      "eta": "30/07/2020",
-      "status": "SOBRE AGUAS",
-      "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": "",
-      "invoice": "SH-ZXH-251025 \nSH-ZXH-260428 \nSH-ZXH-260317"
-    },
     {
       "embarque": "TEMU113",
       "codProjeto": "TL-00105",
@@ -58,6 +40,24 @@
       "chegando10": false,
       "observacoes": "09/04 - Linerado para Isaka organizar o embarque; Aguardando dados o agente",
       "invoice": "26TM0598"
+    },
+    {
+      "embarque": "TEMU105",
+      "codProjeto": "TL-00101",
+      "projeto": "Projeto Agroter 5 + Martinelli - 4° embarque",
+      "fornecedor": "Honesty",
+      "destino": "Navegantes",
+      "qtdCntr": 5,
+      "tipoCntr": "40HC",
+      "prontidao": "2026-05-10 00:00:00",
+      "etd": "21/05/2026",
+      "eta": "30/07/2026",
+      "status": "ATRACADO",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "SH-ZXH-251025 \nSH-ZXH-260428 \nSH-ZXH-260317"
     },
     {
       "embarque": "TEMU104",
@@ -134,24 +134,6 @@
   ],
   "proximosETA": [
     {
-      "embarque": "TEMU105",
-      "codProjeto": "TL-00101",
-      "projeto": "Projeto Agroter 5 + Martinelli - 4° embarque",
-      "fornecedor": "Honesty",
-      "destino": "Navegantes",
-      "qtdCntr": 5,
-      "tipoCntr": "40HC",
-      "prontidao": "2026-05-10 00:00:00",
-      "etd": "21/05/2020",
-      "eta": "30/07/2020",
-      "status": "SOBRE AGUAS",
-      "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": "",
-      "invoice": "SH-ZXH-251025 \nSH-ZXH-260428 \nSH-ZXH-260317"
-    },
-    {
       "embarque": "TEMU110",
       "codProjeto": "TL-00104",
       "projeto": "Projeto Jair Ansolin",
@@ -186,6 +168,24 @@
       "chegando10": false,
       "observacoes": "09/04 - Linerado para Isaka organizar o embarque; Aguardando dados o agente",
       "invoice": "26TM0598"
+    },
+    {
+      "embarque": "TEMU105",
+      "codProjeto": "TL-00101",
+      "projeto": "Projeto Agroter 5 + Martinelli - 4° embarque",
+      "fornecedor": "Honesty",
+      "destino": "Navegantes",
+      "qtdCntr": 5,
+      "tipoCntr": "40HC",
+      "prontidao": "2026-05-10 00:00:00",
+      "etd": "21/05/2026",
+      "eta": "30/07/2026",
+      "status": "ATRACADO",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "SH-ZXH-251025 \nSH-ZXH-260428 \nSH-ZXH-260317"
     },
     {
       "embarque": "TEMU104",
@@ -414,9 +414,9 @@
       "qtdCntr": 5,
       "tipoCntr": "40HC",
       "prontidao": "2026-05-10 00:00:00",
-      "etd": "21/05/2020",
-      "eta": "30/07/2020",
-      "status": "SOBRE AGUAS",
+      "etd": "21/05/2026",
+      "eta": "30/07/2026",
+      "status": "ATRACADO",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
       "chegando10": false,
