@@ -1,21 +1,21 @@
 {
-  "geradoEm": "03/08/2026 17:34",
+  "geradoEm": "03/08/2026 18:00",
   "kpis": {
-    "totalSaldo": 1039961.51,
-    "qtdAberto": 34,
+    "totalSaldo": 1060314.71,
+    "qtdAberto": 35,
     "venc30": 435284.93,
     "vencidos": 6283.9
   },
   "fornSaldo": {
     "Temu": 798446.41,
     "Honesty": 225170.02,
-    "Muhe": 9531.0,
-    "Hontech-Wins": 6814.08
+    "Hontech-Wins": 27167.28,
+    "Muhe": 9531.0
   },
   "statusCounts": {
     "Aguardando 2ª Parcela": 16,
     "Aguardando 3ª Parcela": 1,
-    "Sem prazo - Verificar": 17
+    "Sem prazo - Verificar": 18
   },
   "proximos": [
     {
@@ -1559,19 +1559,19 @@
       "embarque": "TEMU139",
       "fornecedor": "Hontech-Wins",
       "fatura": "HT-X26072001BR",
-      "valor": 0,
+      "valor": 29076.0,
       "pct1": 30.0,
       "pago1": 8722.8,
-      "pct2": 0,
-      "pago2": 0,
+      "pct2": 70.0,
+      "pago2": 20353.2,
       "pct3": 0,
       "pago3": 0,
-      "saldo": -8722.8,
-      "statusCambio": "",
+      "saldo": 20353.2,
+      "statusCambio": "Sem prazo - Verificar",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Quitado",
+      "statusVenc": "Sem previsão",
       "pagoEUA": 0
     }
   ]
