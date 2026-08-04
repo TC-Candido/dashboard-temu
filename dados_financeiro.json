@@ -1,33 +1,18 @@
 {
-  "geradoEm": "04/08/2026 16:00",
+  "geradoEm": "04/08/2026 16:34",
   "kpis": {
-    "totalGeral": 1807000.0,
+    "totalGeral": 1983000.0,
     "totalSemana": 505000.0,
     "totalQuinzena": 505000.0,
     "totalMes": 505000.0,
-    "qtdChegando": 2
+    "qtdChegando": 3
   },
   "composicao": {
-    "impostos": 979000.0,
-    "despesas": 408000.0,
-    "frete": 420000.0
+    "impostos": 1094000.0,
+    "despesas": 440000.0,
+    "frete": 449000.0
   },
   "projetos": [
-    {
-      "projeto": "Projeto Jair Ansolin",
-      "codProjeto": "TL-00104",
-      "embarque": "TEMU110",
-      "status": "EMITIR NF",
-      "cif": 582000.0,
-      "impostos": 190000.0,
-      "despesas": 72000.0,
-      "frete": 47000.0,
-      "totalCambio": 844000.0,
-      "totalChegada": 309000.0,
-      "previsao": "23/06/2026",
-      "diasChegada": -42,
-      "semanaLabel": "Atrasado"
-    },
     {
       "projeto": "Projeto Agroter 5 + Martinelli - 4° embarque",
       "codProjeto": "TL-00101",
@@ -74,6 +59,21 @@
       "semanaLabel": "Esta semana"
     },
     {
+      "projeto": "Projeto Copacol",
+      "codProjeto": "TL-00107",
+      "embarque": "TEMU116",
+      "status": "SOBRE AGUAS",
+      "cif": 356000.0,
+      "impostos": 115000.0,
+      "despesas": 32000.0,
+      "frete": 29000.0,
+      "totalCambio": 503000.0,
+      "totalChegada": 176000.0,
+      "previsao": "09/09/2026",
+      "diasChegada": 36,
+      "semanaLabel": "Futuro"
+    },
+    {
       "projeto": "Projeto Agroter 3  - 2° embarque",
       "codProjeto": "TL-00101\nTL-00109\nTL-00110",
       "embarque": "TEMU103",
@@ -85,6 +85,21 @@
       "totalCambio": 1221000.0,
       "totalChegada": 461000.0,
       "previsao": "03/06/2026",
+      "diasChegada": null,
+      "semanaLabel": "Finalizado"
+    },
+    {
+      "projeto": "Projeto Jair Ansolin",
+      "codProjeto": "TL-00104",
+      "embarque": "TEMU110",
+      "status": "FINALIZADO",
+      "cif": 582000.0,
+      "impostos": 190000.0,
+      "despesas": 72000.0,
+      "frete": 47000.0,
+      "totalCambio": 844000.0,
+      "totalChegada": 309000.0,
+      "previsao": "23/06/2026",
       "diasChegada": null,
       "semanaLabel": "Finalizado"
     },
