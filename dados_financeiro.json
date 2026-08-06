@@ -1,11 +1,11 @@
 {
-  "geradoEm": "05/08/2026 23:34",
+  "geradoEm": "06/08/2026 00:00",
   "kpis": {
     "totalGeral": 1983000.0,
-    "totalSemana": 505000.0,
-    "totalQuinzena": 505000.0,
-    "totalMes": 505000.0,
-    "qtdChegando": 3
+    "totalSemana": 0,
+    "totalQuinzena": 0,
+    "totalMes": 0,
+    "qtdChegando": 1
   },
   "composicao": {
     "impostos": 1094000.0,
@@ -25,7 +25,7 @@
       "totalCambio": 1092000.0,
       "totalChegada": 489000.0,
       "previsao": "30/07/2026",
-      "diasChegada": -6,
+      "diasChegada": -7,
       "semanaLabel": "Atrasado"
     },
     {
@@ -40,8 +40,8 @@
       "totalCambio": 976000.0,
       "totalChegada": 407000.0,
       "previsao": "05/08/2026",
-      "diasChegada": 0,
-      "semanaLabel": "Esta semana"
+      "diasChegada": -1,
+      "semanaLabel": "Atrasado"
     },
     {
       "projeto": "Projeto Agroter 4 - 3° embarque",
@@ -55,8 +55,8 @@
       "totalCambio": 189000.0,
       "totalChegada": 98000.0,
       "previsao": "05/08/2026",
-      "diasChegada": 0,
-      "semanaLabel": "Esta semana"
+      "diasChegada": -1,
+      "semanaLabel": "Atrasado"
     },
     {
       "projeto": "Projeto Copacol",
@@ -70,7 +70,7 @@
       "totalCambio": 503000.0,
       "totalChegada": 176000.0,
       "previsao": "09/09/2026",
-      "diasChegada": 35,
+      "diasChegada": 34,
       "semanaLabel": "Futuro"
     },
     {
