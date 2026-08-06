@@ -1,5 +1,5 @@
 {
-  "geradoEm": "06/08/2026 17:34",
+  "geradoEm": "06/08/2026 18:00",
   "kpis": {
     "totalProjetos": 12,
     "totalContainers": 34,
@@ -22,6 +22,24 @@
     "Hontech-Wins": 2
   },
   "proximosETD": [
+    {
+      "embarque": "TEMU119",
+      "codProjeto": "TL-00111",
+      "projeto": "Estoque + Laura",
+      "fornecedor": "Muhe\nHonesty",
+      "destino": "Navegantes",
+      "qtdCntr": 1,
+      "tipoCntr": "40HC",
+      "prontidao": "2026-05-13 00:00:00",
+      "etd": "30/05/2020",
+      "eta": "05/07/2020",
+      "status": "SOBRE AGUAS",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "MHY20260420\nSH-ZXH-260201"
+    },
     {
       "embarque": "TEMU105",
       "codProjeto": "TL-00101",
@@ -77,24 +95,6 @@
       "invoice": "3rd Shipment"
     },
     {
-      "embarque": "TEMU119",
-      "codProjeto": "TL-00111",
-      "projeto": "Estoque + Laura",
-      "fornecedor": "Muhe\nHonesty",
-      "destino": "Navegantes",
-      "qtdCntr": 1,
-      "tipoCntr": "40HC",
-      "prontidao": "2026-05-13 00:00:00",
-      "etd": "05/06/2026",
-      "eta": "06/08/2026",
-      "status": "SOBRE AGUAS",
-      "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": "",
-      "invoice": "MHY20260420\nSH-ZXH-260201"
-    },
-    {
       "embarque": "TEMU118",
       "codProjeto": "TL-00100",
       "projeto": "San Bernardo - Parte 2",
@@ -133,6 +133,24 @@
   ],
   "proximosETA": [
     {
+      "embarque": "TEMU119",
+      "codProjeto": "TL-00111",
+      "projeto": "Estoque + Laura",
+      "fornecedor": "Muhe\nHonesty",
+      "destino": "Navegantes",
+      "qtdCntr": 1,
+      "tipoCntr": "40HC",
+      "prontidao": "2026-05-13 00:00:00",
+      "etd": "30/05/2020",
+      "eta": "05/07/2020",
+      "status": "SOBRE AGUAS",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "MHY20260420\nSH-ZXH-260201"
+    },
+    {
       "embarque": "TEMU105",
       "codProjeto": "TL-00101",
       "projeto": "Projeto Agroter 5 + Martinelli - 4° embarque",
@@ -149,24 +167,6 @@
       "chegando10": false,
       "observacoes": "",
       "invoice": "SH-ZXH-251025 \nSH-ZXH-260428 \nSH-ZXH-260317"
-    },
-    {
-      "embarque": "TEMU119",
-      "codProjeto": "TL-00111",
-      "projeto": "Estoque + Laura",
-      "fornecedor": "Muhe\nHonesty",
-      "destino": "Navegantes",
-      "qtdCntr": 1,
-      "tipoCntr": "40HC",
-      "prontidao": "2026-05-13 00:00:00",
-      "etd": "05/06/2026",
-      "eta": "06/08/2026",
-      "status": "SOBRE AGUAS",
-      "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": "",
-      "invoice": "MHY20260420\nSH-ZXH-260201"
     },
     {
       "embarque": "TEMU115",
@@ -431,8 +431,8 @@
       "qtdCntr": 1,
       "tipoCntr": "40HC",
       "prontidao": "2026-05-13 00:00:00",
-      "etd": "05/06/2026",
-      "eta": "06/08/2026",
+      "etd": "30/05/2020",
+      "eta": "05/07/2020",
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
@@ -765,42 +765,6 @@
       "invoice": "26TM0773"
     },
     {
-      "embarque": "TEMU129",
-      "codProjeto": "TL-00111",
-      "projeto": "Estoque + Sensor + TV + Tablets +  Brindes em geral",
-      "fornecedor": "Temu",
-      "destino": "Navegantes",
-      "qtdCntr": 1,
-      "tipoCntr": "40HC",
-      "prontidao": "2026-07-31 00:00:00",
-      "etd": "15/08/2026",
-      "eta": "29/09/2026",
-      "status": "EM PRODUÇÃO",
-      "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": "",
-      "invoice": "26TM0628\nLFR26071"
-    },
-    {
-      "embarque": "TEMU137",
-      "codProjeto": "",
-      "projeto": "Agroter",
-      "fornecedor": "Honesty",
-      "destino": "",
-      "qtdCntr": 0,
-      "tipoCntr": "",
-      "prontidao": "",
-      "etd": null,
-      "eta": null,
-      "status": "EM PRODUÇÃO",
-      "statusOp": "Sem Prontidão e ETD",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": "",
-      "invoice": "SH-ZXH-260714\n4 Units Auto Sow"
-    },
-    {
       "embarque": "TEMU138",
       "codProjeto": "",
       "projeto": "San Bernardo - Parte 3",
@@ -835,6 +799,42 @@
       "chegando10": false,
       "observacoes": "",
       "invoice": "HT-X26073002BR"
+    },
+    {
+      "embarque": "TEMU137",
+      "codProjeto": "",
+      "projeto": "Agroter",
+      "fornecedor": "Honesty",
+      "destino": "",
+      "qtdCntr": 0,
+      "tipoCntr": "",
+      "prontidao": "",
+      "etd": null,
+      "eta": null,
+      "status": "EM PRODUÇÃO",
+      "statusOp": "Sem Prontidão e ETD",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "SH-ZXH-260714\n4 Units Auto Sow"
+    },
+    {
+      "embarque": "TEMU129",
+      "codProjeto": "TL-00111",
+      "projeto": "Estoque + Sensor + TV + Tablets +  Brindes em geral",
+      "fornecedor": "Temu",
+      "destino": "Navegantes",
+      "qtdCntr": 1,
+      "tipoCntr": "40HC",
+      "prontidao": "2026-07-31 00:00:00",
+      "etd": "15/08/2026",
+      "eta": "29/09/2026",
+      "status": "EM PRODUÇÃO",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "26TM0628\nLFR26071"
     }
   ]
 }
