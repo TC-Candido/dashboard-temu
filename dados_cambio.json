@@ -1,5 +1,5 @@
 {
-  "geradoEm": "06/08/2026 09:34",
+  "geradoEm": "06/08/2026 10:00",
   "kpis": {
     "totalSaldo": 1060314.71,
     "qtdAberto": 35,
@@ -560,9 +560,9 @@
       "pago3": 0,
       "saldo": 0.0,
       "statusCambio": "Pago Total",
-      "previsao": "29/07/2026",
-      "previsaoDias": -8,
-      "previsaoLabel": "8d atrás",
+      "previsao": "27/07/2026",
+      "previsaoDias": -10,
+      "previsaoLabel": "10d atrás",
       "statusVenc": "Quitado",
       "pagoEUA": 0.0
     },
@@ -924,9 +924,9 @@
       "pagoEUA": 0.0
     },
     {
-      "projeto": "Projeto Agroter 4 - 3° embarque",
+      "projeto": "Estoque + Laura",
       "codProjeto": "",
-      "embarque": "99-00151\n99-00158\n99-00171",
+      "embarque": "TEMU119\nTEMU128",
       "fornecedor": "Muhe",
       "fatura": "MHY20260420",
       "valor": 15685.0,
