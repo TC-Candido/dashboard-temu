@@ -1,33 +1,18 @@
 {
-  "geradoEm": "10/08/2026 15:00",
+  "geradoEm": "10/08/2026 15:34",
   "kpis": {
-    "totalGeral": 1983000.0,
+    "totalGeral": 2111000.0,
     "totalSemana": 0,
     "totalQuinzena": 407000.0,
-    "totalMes": 583000.0,
-    "qtdChegando": 2
+    "totalMes": 711000.0,
+    "qtdChegando": 3
   },
   "composicao": {
-    "impostos": 1094000.0,
-    "despesas": 440000.0,
-    "frete": 449000.0
+    "impostos": 1162000.0,
+    "despesas": 470000.0,
+    "frete": 479000.0
   },
   "projetos": [
-    {
-      "projeto": "Estoque + Laura",
-      "codProjeto": "TL-00111",
-      "embarque": "TEMU119",
-      "status": "SOBRE AGUAS",
-      "cif": 125000.0,
-      "impostos": 40000.0,
-      "despesas": 24000.0,
-      "frete": 34000.0,
-      "totalCambio": 189000.0,
-      "totalChegada": 98000.0,
-      "previsao": "08/07/2026",
-      "diasChegada": -33,
-      "semanaLabel": "Atrasado"
-    },
     {
       "projeto": "Projeto Agroter 5 + Martinelli - 4° embarque",
       "codProjeto": "TL-00101",
@@ -57,6 +42,21 @@
       "previsao": "23/08/2026",
       "diasChegada": 13,
       "semanaLabel": "Próximos 15 dias"
+    },
+    {
+      "projeto": "Projeto Elton Endler\nProjeto Nilson Shimdt \nProjeto Climaves",
+      "codProjeto": "TL-00112\nTL-00108",
+      "embarque": "TEMU107",
+      "status": "SOBRE AGUAS",
+      "cif": 210000.0,
+      "impostos": 68000.0,
+      "despesas": 30000.0,
+      "frete": 30000.0,
+      "totalCambio": 308000.0,
+      "totalChegada": 128000.0,
+      "previsao": "28/08/2026",
+      "diasChegada": 18,
+      "semanaLabel": "Este mês"
     },
     {
       "projeto": "Projeto Copacol",
@@ -117,6 +117,21 @@
       "previsao": "03/06/2026",
       "diasChegada": null,
       "semanaLabel": "Finalizado"
+    },
+    {
+      "projeto": "Estoque + Laura",
+      "codProjeto": "TL-00111",
+      "embarque": "TEMU119",
+      "status": "SOBRE AGUAS",
+      "cif": 125000.0,
+      "impostos": 40000.0,
+      "despesas": 24000.0,
+      "frete": 34000.0,
+      "totalCambio": 189000.0,
+      "totalChegada": 98000.0,
+      "previsao": null,
+      "diasChegada": null,
+      "semanaLabel": null
     }
   ]
 }

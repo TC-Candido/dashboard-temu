@@ -1,5 +1,5 @@
 {
-  "geradoEm": "10/08/2026 15:00",
+  "geradoEm": "10/08/2026 15:34",
   "kpis": {
     "totalProjetos": 12,
     "totalContainers": 34,
@@ -133,24 +133,6 @@
   ],
   "proximosETA": [
     {
-      "embarque": "TEMU119",
-      "codProjeto": "TL-00111",
-      "projeto": "Estoque + Laura",
-      "fornecedor": "Muhe\nHonesty",
-      "destino": "Navegantes",
-      "qtdCntr": 1,
-      "tipoCntr": "40HC",
-      "prontidao": "2026-05-13 00:00:00",
-      "etd": null,
-      "eta": "08/07/2026",
-      "status": "SOBRE AGUAS",
-      "statusOp": "Pronto - Aguardando ETD",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": "",
-      "invoice": "MHY20260420\nSH-ZXH-260201"
-    },
-    {
       "embarque": "TEMU105",
       "codProjeto": "TL-00101",
       "projeto": "Projeto Agroter 5 + Martinelli - 4° embarque",
@@ -239,6 +221,24 @@
       "chegando10": false,
       "observacoes": "Verificado se vamos incluir exaustão de fibra de 50\"\n-----\nE status do pedido:\n- Nilson Schimidt: Todo o pedido concluído (incluindo os controladores)\n- Elton Endler: Pedido finalizado no sábado; Hardware do controle concluído em 10 de julho de 2026.",
       "invoice": "26TM0627\n26TM0637 \n26TM0748"
+    },
+    {
+      "embarque": "TEMU116",
+      "codProjeto": "TL-00107",
+      "projeto": "Projeto Copacol",
+      "fornecedor": "Temu",
+      "destino": "Navegantes",
+      "qtdCntr": 1,
+      "tipoCntr": "40HC",
+      "prontidao": "2026-07-15 00:00:00",
+      "etd": "24/07/2026",
+      "eta": "09/09/2026",
+      "status": "SOBRE AGUAS",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "26TM0623"
     }
   ],
   "embarques": [
@@ -432,7 +432,7 @@
       "tipoCntr": "40HC",
       "prontidao": "2026-05-13 00:00:00",
       "etd": null,
-      "eta": "08/07/2026",
+      "eta": null,
       "status": "SOBRE AGUAS",
       "statusOp": "Pronto - Aguardando ETD",
       "etd7dias": false,
