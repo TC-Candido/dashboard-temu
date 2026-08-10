@@ -1,16 +1,16 @@
 {
-  "geradoEm": "10/08/2026 15:34",
+  "geradoEm": "10/08/2026 16:00",
   "kpis": {
-    "totalGeral": 2111000.0,
+    "totalGeral": 2259800.0,
     "totalSemana": 0,
     "totalQuinzena": 407000.0,
     "totalMes": 711000.0,
-    "qtdChegando": 3
+    "qtdChegando": 4
   },
   "composicao": {
-    "impostos": 1162000.0,
-    "despesas": 470000.0,
-    "frete": 479000.0
+    "impostos": 1247000.0,
+    "despesas": 500000.0,
+    "frete": 512800.0
   },
   "projetos": [
     {
@@ -72,6 +72,21 @@
       "previsao": "09/09/2026",
       "diasChegada": 30,
       "semanaLabel": "Este mês"
+    },
+    {
+      "projeto": "Estoque + Sensor + TV + Tablets +  Brindes em geral",
+      "codProjeto": "TL-00111",
+      "embarque": "TEMU129",
+      "status": "EM PRODUÇÃO",
+      "cif": 261000.0,
+      "impostos": 85000.0,
+      "despesas": 30000.0,
+      "frete": 33800.0,
+      "totalCambio": 376000.0,
+      "totalChegada": 148800.0,
+      "previsao": "29/09/2026",
+      "diasChegada": 50,
+      "semanaLabel": "Futuro"
     },
     {
       "projeto": "Projeto Agroter 3  - 2° embarque",

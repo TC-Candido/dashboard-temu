@@ -1,5 +1,5 @@
 {
-  "geradoEm": "10/08/2026 15:34",
+  "geradoEm": "10/08/2026 16:00",
   "kpis": {
     "totalSaldo": 1062295.71,
     "qtdAberto": 35,
@@ -946,8 +946,8 @@
     },
     {
       "projeto": "Estoque + Sensor + TV + Tablets +  Brindes em geral",
-      "codProjeto": "",
-      "embarque": "TEMU106",
+      "codProjeto": "TL-00111",
+      "embarque": "TEMU129",
       "fornecedor": "Temu",
       "fatura": "26TM0628",
       "valor": 56561.5,
@@ -968,7 +968,7 @@
     {
       "projeto": "Boa Fé Climatização",
       "codProjeto": "TL-00113",
-      "embarque": "TEMU129",
+      "embarque": "TEMU130",
       "fornecedor": "Temu",
       "fatura": "26TM0672",
       "valor": 10688.61,
