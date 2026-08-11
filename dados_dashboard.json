@@ -1,9 +1,9 @@
 {
-  "geradoEm": "10/08/2026 23:34",
+  "geradoEm": "11/08/2026 00:00",
   "kpis": {
     "totalProjetos": 12,
     "totalContainers": 34,
-    "etd7dias": 4,
+    "etd7dias": 3,
     "chegando10dias": 2
   },
   "statusCounts": {
@@ -651,7 +651,7 @@
       "eta": "10/10/2026",
       "status": "EM PRODUÇÃO",
       "statusOp": "Prontidão e ETD OK",
-      "etd7dias": true,
+      "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
       "invoice": "SH-ZXH-260617"
