@@ -1,5 +1,5 @@
 {
-  "geradoEm": "11/08/2026 09:00",
+  "geradoEm": "11/08/2026 09:34",
   "kpis": {
     "totalGeral": 2259800.0,
     "totalSemana": 0,
@@ -13,6 +13,21 @@
     "frete": 512800.0
   },
   "projetos": [
+    {
+      "projeto": "Estoque + Laura",
+      "codProjeto": "TL-00111",
+      "embarque": "TEMU119",
+      "status": "SOBRE AGUAS",
+      "cif": 125000.0,
+      "impostos": 40000.0,
+      "despesas": 24000.0,
+      "frete": 34000.0,
+      "totalCambio": 189000.0,
+      "totalChegada": 98000.0,
+      "previsao": "08/07/2020",
+      "diasChegada": -2225,
+      "semanaLabel": "Atrasado"
+    },
     {
       "projeto": "Projeto Agroter 5 + Martinelli - 4° embarque",
       "codProjeto": "TL-00101",
@@ -132,21 +147,6 @@
       "previsao": "03/06/2026",
       "diasChegada": null,
       "semanaLabel": "Finalizado"
-    },
-    {
-      "projeto": "Estoque + Laura",
-      "codProjeto": "TL-00111",
-      "embarque": "TEMU119",
-      "status": "SOBRE AGUAS",
-      "cif": 125000.0,
-      "impostos": 40000.0,
-      "despesas": 24000.0,
-      "frete": 34000.0,
-      "totalCambio": 189000.0,
-      "totalChegada": 98000.0,
-      "previsao": null,
-      "diasChegada": null,
-      "semanaLabel": null
     }
   ]
 }
