@@ -1,5 +1,5 @@
 {
-  "geradoEm": "11/08/2026 14:00",
+  "geradoEm": "11/08/2026 14:34",
   "kpis": {
     "totalProjetos": 12,
     "totalContainers": 33,
@@ -719,10 +719,10 @@
       "qtdCntr": 2,
       "tipoCntr": "40HC",
       "prontidao": "2026-07-30 00:00:00",
-      "etd": null,
+      "etd": "20/08/2026",
       "eta": null,
       "status": "EM PRODUÇÃO",
-      "statusOp": "Pronto - Aguardando ETD",
+      "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
