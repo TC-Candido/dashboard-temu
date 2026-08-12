@@ -1,5 +1,5 @@
 {
-  "geradoEm": "11/08/2026 23:34",
+  "geradoEm": "12/08/2026 00:00",
   "kpis": {
     "totalGeral": 2259800.0,
     "totalSemana": 0,
@@ -25,7 +25,7 @@
       "totalCambio": 1092000.0,
       "totalChegada": 489000.0,
       "previsao": "30/07/2026",
-      "diasChegada": -12,
+      "diasChegada": -13,
       "semanaLabel": "Atrasado"
     },
     {
@@ -40,7 +40,7 @@
       "totalCambio": 189000.0,
       "totalChegada": 98000.0,
       "previsao": "07/08/2026",
-      "diasChegada": -4,
+      "diasChegada": -5,
       "semanaLabel": "Atrasado"
     },
     {
@@ -55,7 +55,7 @@
       "totalCambio": 976000.0,
       "totalChegada": 407000.0,
       "previsao": "23/08/2026",
-      "diasChegada": 12,
+      "diasChegada": 11,
       "semanaLabel": "Próximos 15 dias"
     },
     {
@@ -70,7 +70,7 @@
       "totalCambio": 308000.0,
       "totalChegada": 128000.0,
       "previsao": "28/08/2026",
-      "diasChegada": 17,
+      "diasChegada": 16,
       "semanaLabel": "Este mês"
     },
     {
@@ -85,7 +85,7 @@
       "totalCambio": 503000.0,
       "totalChegada": 176000.0,
       "previsao": "09/09/2026",
-      "diasChegada": 29,
+      "diasChegada": 28,
       "semanaLabel": "Este mês"
     },
     {
@@ -100,7 +100,7 @@
       "totalCambio": 376000.0,
       "totalChegada": 148800.0,
       "previsao": "29/09/2026",
-      "diasChegada": 49,
+      "diasChegada": 48,
       "semanaLabel": "Futuro"
     },
     {
