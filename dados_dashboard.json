@@ -1,5 +1,5 @@
 {
-  "geradoEm": "12/08/2026 14:00",
+  "geradoEm": "12/08/2026 14:34",
   "kpis": {
     "totalProjetos": 12,
     "totalContainers": 33,
@@ -77,24 +77,6 @@
       "invoice": "3rd Shipment"
     },
     {
-      "embarque": "TEMU119",
-      "codProjeto": "TL-00111",
-      "projeto": "Estoque + Laura",
-      "fornecedor": "Muhe\nHonesty",
-      "destino": "Navegantes",
-      "qtdCntr": 1,
-      "tipoCntr": "40HC",
-      "prontidao": "2026-05-13 00:00:00",
-      "etd": "30/05/2026",
-      "eta": "07/08/2026",
-      "status": "DESEMBRAÇO",
-      "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": "",
-      "invoice": "MHY20260420\nSH-ZXH-260201"
-    },
-    {
       "embarque": "TEMU118",
       "codProjeto": "TL-00100",
       "projeto": "San Bernardo - Parte 2",
@@ -129,6 +111,24 @@
       "chegando10": false,
       "observacoes": "",
       "invoice": "SH-ZXH-260416-A"
+    },
+    {
+      "embarque": "TEMU127",
+      "codProjeto": "TL-00100",
+      "projeto": "San Bernardo - Parte 2",
+      "fornecedor": "Honesty",
+      "destino": "Asuncion",
+      "qtdCntr": 1,
+      "tipoCntr": "20GP",
+      "prontidao": "2026-05-27 00:00:00",
+      "etd": "02/07/2026",
+      "eta": "11/09/2026",
+      "status": "SOBRE AGUAS",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "SH-ZXH-260425"
     }
   ],
   "proximosETA": [
@@ -149,24 +149,6 @@
       "chegando10": false,
       "observacoes": "",
       "invoice": "SH-ZXH-251025 \nSH-ZXH-260428 \nSH-ZXH-260317"
-    },
-    {
-      "embarque": "TEMU119",
-      "codProjeto": "TL-00111",
-      "projeto": "Estoque + Laura",
-      "fornecedor": "Muhe\nHonesty",
-      "destino": "Navegantes",
-      "qtdCntr": 1,
-      "tipoCntr": "40HC",
-      "prontidao": "2026-05-13 00:00:00",
-      "etd": "30/05/2026",
-      "eta": "07/08/2026",
-      "status": "DESEMBRAÇO",
-      "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": "",
-      "invoice": "MHY20260420\nSH-ZXH-260201"
     },
     {
       "embarque": "TEMU118",
@@ -239,6 +221,24 @@
       "chegando10": false,
       "observacoes": "Verificado se vamos incluir exaustão de fibra de 50\"\n-----\nE status do pedido:\n- Nilson Schimidt: Todo o pedido concluído (incluindo os controladores)\n- Elton Endler: Pedido finalizado no sábado; Hardware do controle concluído em 10 de julho de 2026.",
       "invoice": "26TM0627\n26TM0637 \n26TM0748"
+    },
+    {
+      "embarque": "TEMU116",
+      "codProjeto": "TL-00107",
+      "projeto": "Projeto Copacol",
+      "fornecedor": "Temu",
+      "destino": "Navegantes",
+      "qtdCntr": 1,
+      "tipoCntr": "40HC",
+      "prontidao": "2026-07-15 00:00:00",
+      "etd": "24/07/2026",
+      "eta": "09/09/2026",
+      "status": "SOBRE AGUAS",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "26TM0623"
     }
   ],
   "embarques": [
@@ -431,10 +431,10 @@
       "qtdCntr": 1,
       "tipoCntr": "40HC",
       "prontidao": "2026-05-13 00:00:00",
-      "etd": "30/05/2026",
-      "eta": "07/08/2026",
+      "etd": null,
+      "eta": null,
       "status": "DESEMBRAÇO",
-      "statusOp": "Prontidão e ETD OK",
+      "statusOp": "Pronto - Aguardando ETD",
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",

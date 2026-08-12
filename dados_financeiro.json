@@ -1,5 +1,5 @@
 {
-  "geradoEm": "12/08/2026 14:00",
+  "geradoEm": "12/08/2026 14:34",
   "kpis": {
     "totalGeral": 2259800.0,
     "totalSemana": 0,
@@ -26,21 +26,6 @@
       "totalChegada": 489000.0,
       "previsao": "30/07/2026",
       "diasChegada": -13,
-      "semanaLabel": "Atrasado"
-    },
-    {
-      "projeto": "Estoque + Laura",
-      "codProjeto": "TL-00111",
-      "embarque": "TEMU119",
-      "status": "DESEMBRAÇO",
-      "cif": 125000.0,
-      "impostos": 40000.0,
-      "despesas": 24000.0,
-      "frete": 34000.0,
-      "totalCambio": 189000.0,
-      "totalChegada": 98000.0,
-      "previsao": "07/08/2026",
-      "diasChegada": -5,
       "semanaLabel": "Atrasado"
     },
     {
@@ -147,6 +132,21 @@
       "previsao": "03/06/2026",
       "diasChegada": null,
       "semanaLabel": "Finalizado"
+    },
+    {
+      "projeto": "Estoque + Laura",
+      "codProjeto": "TL-00111",
+      "embarque": "TEMU119",
+      "status": "DESEMBRAÇO",
+      "cif": 125000.0,
+      "impostos": 40000.0,
+      "despesas": 24000.0,
+      "frete": 34000.0,
+      "totalCambio": 189000.0,
+      "totalChegada": 98000.0,
+      "previsao": null,
+      "diasChegada": null,
+      "semanaLabel": null
     }
   ]
 }

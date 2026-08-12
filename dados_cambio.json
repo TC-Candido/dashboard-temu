@@ -1,5 +1,5 @@
 {
-  "geradoEm": "12/08/2026 14:00",
+  "geradoEm": "12/08/2026 14:34",
   "kpis": {
     "totalSaldo": 1062295.71,
     "qtdAberto": 35,
@@ -13,9 +13,9 @@
     "Muhe": 9531.0
   },
   "statusCounts": {
-    "Aguardando 2ª Parcela": 16,
+    "Aguardando 2ª Parcela": 15,
     "Aguardando 3ª Parcela": 1,
-    "Sem prazo - Verificar": 18
+    "Sem prazo - Verificar": 19
   },
   "proximos": [
     {
@@ -937,7 +937,7 @@
       "pct3": 0,
       "pago3": 0,
       "saldo": 9531.0,
-      "statusCambio": "Aguardando 2ª Parcela",
+      "statusCambio": "Sem prazo - Verificar",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
