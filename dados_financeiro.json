@@ -1,9 +1,9 @@
 {
-  "geradoEm": "12/08/2026 23:34",
+  "geradoEm": "13/08/2026 00:00",
   "kpis": {
     "totalGeral": 2259800.0,
     "totalSemana": 0,
-    "totalQuinzena": 407000.0,
+    "totalQuinzena": 535000.0,
     "totalMes": 711000.0,
     "qtdChegando": 4
   },
@@ -25,7 +25,7 @@
       "totalCambio": 1092000.0,
       "totalChegada": 489000.0,
       "previsao": "30/07/2026",
-      "diasChegada": -13,
+      "diasChegada": -14,
       "semanaLabel": "Atrasado"
     },
     {
@@ -40,7 +40,7 @@
       "totalCambio": 976000.0,
       "totalChegada": 407000.0,
       "previsao": "23/08/2026",
-      "diasChegada": 11,
+      "diasChegada": 10,
       "semanaLabel": "Próximos 15 dias"
     },
     {
@@ -55,8 +55,8 @@
       "totalCambio": 308000.0,
       "totalChegada": 128000.0,
       "previsao": "28/08/2026",
-      "diasChegada": 16,
-      "semanaLabel": "Este mês"
+      "diasChegada": 15,
+      "semanaLabel": "Próximos 15 dias"
     },
     {
       "projeto": "Projeto Copacol",
@@ -70,7 +70,7 @@
       "totalCambio": 503000.0,
       "totalChegada": 176000.0,
       "previsao": "09/09/2026",
-      "diasChegada": 28,
+      "diasChegada": 27,
       "semanaLabel": "Este mês"
     },
     {
@@ -85,7 +85,7 @@
       "totalCambio": 376000.0,
       "totalChegada": 148800.0,
       "previsao": "29/09/2026",
-      "diasChegada": 48,
+      "diasChegada": 47,
       "semanaLabel": "Futuro"
     },
     {
