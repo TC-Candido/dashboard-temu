@@ -1,9 +1,9 @@
 {
-  "geradoEm": "14/08/2026 23:34",
+  "geradoEm": "15/08/2026 00:00",
   "kpis": {
     "totalProjetos": 12,
     "totalContainers": 33,
-    "etd7dias": 4,
+    "etd7dias": 2,
     "chegando10dias": 2
   },
   "statusCounts": {
@@ -651,7 +651,7 @@
       "eta": "14/10/2026",
       "status": "EM PRODUÇÃO",
       "statusOp": "Prontidão e ETD OK",
-      "etd7dias": true,
+      "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
       "invoice": "SH-ZXH-260617"
@@ -831,7 +831,7 @@
       "eta": "29/09/2026",
       "status": "EM PRODUÇÃO",
       "statusOp": "Prontidão e ETD OK",
-      "etd7dias": true,
+      "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
       "invoice": "26TM0628\nLFR26071"
