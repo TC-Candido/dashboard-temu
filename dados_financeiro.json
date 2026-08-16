@@ -1,8 +1,8 @@
 {
-  "geradoEm": "15/08/2026 23:34",
+  "geradoEm": "16/08/2026 00:00",
   "kpis": {
     "totalGeral": 2259800.0,
-    "totalSemana": 98000.0,
+    "totalSemana": 505000.0,
     "totalQuinzena": 633000.0,
     "totalMes": 809000.0,
     "qtdChegando": 5
@@ -25,7 +25,7 @@
       "totalCambio": 1092000.0,
       "totalChegada": 489000.0,
       "previsao": "30/07/2026",
-      "diasChegada": -16,
+      "diasChegada": -17,
       "semanaLabel": "Atrasado"
     },
     {
@@ -39,7 +39,7 @@
       "frete": 34000.0,
       "totalCambio": 189000.0,
       "totalChegada": 98000.0,
-      "previsao": "15/08/2026",
+      "previsao": "16/08/2026",
       "diasChegada": 0,
       "semanaLabel": "Esta semana"
     },
@@ -55,8 +55,8 @@
       "totalCambio": 976000.0,
       "totalChegada": 407000.0,
       "previsao": "23/08/2026",
-      "diasChegada": 8,
-      "semanaLabel": "Próximos 15 dias"
+      "diasChegada": 7,
+      "semanaLabel": "Esta semana"
     },
     {
       "projeto": "Projeto Elton Endler\nProjeto Nilson Shimdt \nProjeto Climaves",
@@ -70,7 +70,7 @@
       "totalCambio": 308000.0,
       "totalChegada": 128000.0,
       "previsao": "28/08/2026",
-      "diasChegada": 13,
+      "diasChegada": 12,
       "semanaLabel": "Próximos 15 dias"
     },
     {
@@ -85,7 +85,7 @@
       "totalCambio": 503000.0,
       "totalChegada": 176000.0,
       "previsao": "09/09/2026",
-      "diasChegada": 25,
+      "diasChegada": 24,
       "semanaLabel": "Este mês"
     },
     {
@@ -100,7 +100,7 @@
       "totalCambio": 376000.0,
       "totalChegada": 148800.0,
       "previsao": "29/09/2026",
-      "diasChegada": 45,
+      "diasChegada": 44,
       "semanaLabel": "Futuro"
     },
     {
