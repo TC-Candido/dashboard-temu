@@ -1,5 +1,5 @@
 {
-  "geradoEm": "17/08/2026 17:34",
+  "geradoEm": "17/08/2026 18:00",
   "kpis": {
     "totalProjetos": 12,
     "totalContainers": 33,
@@ -483,10 +483,10 @@
       "qtdCntr": 1,
       "tipoCntr": "40hc",
       "prontidao": "2026-07-11 00:00:00",
-      "etd": "18/07/2026",
+      "etd": null,
       "eta": null,
       "status": "SOBRE AGUAS",
-      "statusOp": "Prontidão e ETD OK",
+      "statusOp": "Pronto - Aguardando ETD",
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "Aguardando Invoice e packing list finais",
