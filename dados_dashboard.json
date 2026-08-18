@@ -1,7 +1,7 @@
 {
-  "geradoEm": "18/08/2026 00:00",
+  "geradoEm": "18/08/2026 00:34",
   "kpis": {
-    "totalProjetos": 12,
+    "totalProjetos": 13,
     "totalContainers": 33,
     "etd7dias": 2,
     "chegando10dias": 3
@@ -10,11 +10,11 @@
     "FINALIZADO": 11,
     "SOBRE AGUAS": 9,
     "EM PRODUÇÃO": 11,
-    "": 2
+    "": 3
   },
   "fornecedorCounts": {
     "Mong Ging": 1,
-    "Temu": 13,
+    "Temu": 14,
     "Muhe": 1,
     "Honesty": 7,
     "Hontech-Wins": 2
@@ -800,7 +800,7 @@
     },
     {
       "embarque": "TEMU137",
-      "codProjeto": "",
+      "codProjeto": "TL-00114",
       "projeto": "Agroter",
       "fornecedor": "Honesty",
       "destino": "",
@@ -833,6 +833,24 @@
       "chegando10": false,
       "observacoes": "",
       "invoice": "26TM0628\nLFR26071"
+    },
+    {
+      "embarque": "TEMU140",
+      "codProjeto": "TL-00114",
+      "projeto": "Estoque",
+      "fornecedor": "Temu",
+      "destino": "",
+      "qtdCntr": 1,
+      "tipoCntr": "40HC",
+      "prontidao": "2026-08-30 00:00:00",
+      "etd": null,
+      "eta": null,
+      "status": "",
+      "statusOp": "Pronto - Aguardando ETD",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "26TM0836"
     }
   ]
 }
