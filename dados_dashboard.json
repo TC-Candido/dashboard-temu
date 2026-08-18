@@ -1,10 +1,10 @@
 {
-  "geradoEm": "17/08/2026 23:34",
+  "geradoEm": "18/08/2026 00:00",
   "kpis": {
     "totalProjetos": 12,
     "totalContainers": 33,
     "etd7dias": 2,
-    "chegando10dias": 2
+    "chegando10dias": 3
   },
   "statusCounts": {
     "FINALIZADO": 11,
@@ -70,7 +70,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "Documentos ok",
       "invoice": "SH-ZXH-260416-B"
     },
@@ -180,7 +180,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "Documentos ok",
       "invoice": "SH-ZXH-260416-B"
     },
@@ -506,7 +506,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "Documentos ok",
       "invoice": "SH-ZXH-260416-B"
     },
