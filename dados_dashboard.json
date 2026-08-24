@@ -1,10 +1,10 @@
 {
-  "geradoEm": "24/08/2026 08:00",
+  "geradoEm": "24/08/2026 08:34",
   "kpis": {
     "totalProjetos": 13,
     "totalContainers": 37,
     "etd7dias": 3,
-    "chegando10dias": 1
+    "chegando10dias": 3
   },
   "statusCounts": {
     "FINALIZADO": 11,
@@ -31,11 +31,11 @@
       "tipoCntr": "40HC",
       "prontidao": "2026-05-03 00:00:00",
       "etd": "21/05/2026",
-      "eta": "23/08/2026",
+      "eta": "28/08/2026",
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "Descrição e ncm OK. DTC para conexão maritima",
       "invoice": "3rd Batch Shipment"
     },
@@ -159,13 +159,31 @@
       "tipoCntr": "40HC",
       "prontidao": "2026-05-03 00:00:00",
       "etd": "21/05/2026",
-      "eta": "23/08/2026",
+      "eta": "28/08/2026",
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "Descrição e ncm OK. DTC para conexão maritima",
       "invoice": "3rd Batch Shipment"
+    },
+    {
+      "embarque": "TEMU107",
+      "codProjeto": "TL-00112\nTL-00108",
+      "projeto": "Projeto Elton Endler\nProjeto Nilson Shimdt \nProjeto Climaves",
+      "fornecedor": "Temu",
+      "destino": "Navegantes",
+      "qtdCntr": 1,
+      "tipoCntr": "40hc",
+      "prontidao": "2026-07-11 00:00:00",
+      "etd": null,
+      "eta": "28/08/2026",
+      "status": "SOBRE AGUAS",
+      "statusOp": "Pronto - Aguardando ETD",
+      "etd7dias": false,
+      "chegando10": true,
+      "observacoes": "Aguardando Invoice e packing list finais",
+      "invoice": "26TM0627\n26TM0637 \n26TM0748"
     },
     {
       "embarque": "TEMU118",
@@ -220,24 +238,6 @@
       "chegando10": false,
       "observacoes": "",
       "invoice": "SH-ZXH-260416-A"
-    },
-    {
-      "embarque": "TEMU127",
-      "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
-      "fornecedor": "Honesty",
-      "destino": "Asuncion",
-      "qtdCntr": 1,
-      "tipoCntr": "20GP",
-      "prontidao": "2026-05-27 00:00:00",
-      "etd": "02/07/2026",
-      "eta": "13/09/2026",
-      "status": "SOBRE AGUAS",
-      "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": "",
-      "invoice": "SH-ZXH-260425"
     }
   ],
   "embarques": [
@@ -467,11 +467,11 @@
       "tipoCntr": "40HC",
       "prontidao": "2026-05-03 00:00:00",
       "etd": "21/05/2026",
-      "eta": "23/08/2026",
+      "eta": "28/08/2026",
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "Descrição e ncm OK. DTC para conexão maritima",
       "invoice": "3rd Batch Shipment"
     },
@@ -485,11 +485,11 @@
       "tipoCntr": "40hc",
       "prontidao": "2026-07-11 00:00:00",
       "etd": null,
-      "eta": null,
+      "eta": "28/08/2026",
       "status": "SOBRE AGUAS",
       "statusOp": "Pronto - Aguardando ETD",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "Aguardando Invoice e packing list finais",
       "invoice": "26TM0627\n26TM0637 \n26TM0748"
     },
