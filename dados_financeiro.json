@@ -1,9 +1,9 @@
 {
-  "geradoEm": "24/08/2026 23:00",
+  "geradoEm": "25/08/2026 09:00",
   "kpis": {
     "totalGeral": 2259800.0,
     "totalSemana": 535000.0,
-    "totalQuinzena": 535000.0,
+    "totalQuinzena": 711000.0,
     "totalMes": 711000.0,
     "qtdChegando": 3
   },
@@ -25,7 +25,7 @@
       "totalCambio": 976000.0,
       "totalChegada": 407000.0,
       "previsao": "28/08/2026",
-      "diasChegada": 4,
+      "diasChegada": 3,
       "semanaLabel": "Esta semana"
     },
     {
@@ -40,7 +40,7 @@
       "totalCambio": 308000.0,
       "totalChegada": 128000.0,
       "previsao": "28/08/2026",
-      "diasChegada": 4,
+      "diasChegada": 3,
       "semanaLabel": "Esta semana"
     },
     {
@@ -55,8 +55,8 @@
       "totalCambio": 503000.0,
       "totalChegada": 176000.0,
       "previsao": "09/09/2026",
-      "diasChegada": 16,
-      "semanaLabel": "Este mês"
+      "diasChegada": 15,
+      "semanaLabel": "Próximos 15 dias"
     },
     {
       "projeto": "Projeto Agroter 3  - 2° embarque",
