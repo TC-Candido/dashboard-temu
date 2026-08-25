@@ -1,11 +1,11 @@
 {
-  "geradoEm": "25/08/2026 15:00",
+  "geradoEm": "25/08/2026 15:34",
   "kpis": {
     "totalGeral": 2259800.0,
-    "totalSemana": 535000.0,
-    "totalQuinzena": 711000.0,
-    "totalMes": 711000.0,
-    "qtdChegando": 3
+    "totalSemana": 128000.0,
+    "totalQuinzena": 304000.0,
+    "totalMes": 304000.0,
+    "qtdChegando": 2
   },
   "composicao": {
     "impostos": 1247000.0,
@@ -24,9 +24,9 @@
       "frete": 105000.0,
       "totalCambio": 976000.0,
       "totalChegada": 407000.0,
-      "previsao": "28/08/2026",
-      "diasChegada": 3,
-      "semanaLabel": "Esta semana"
+      "previsao": "23/08/2020",
+      "diasChegada": -2193,
+      "semanaLabel": "Atrasado"
     },
     {
       "projeto": "Projeto Elton Endler\nProjeto Nilson Shimdt \nProjeto Climaves",
