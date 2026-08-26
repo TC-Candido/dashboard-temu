@@ -1,43 +1,22 @@
 {
-  "geradoEm": "26/08/2026 19:00",
+  "geradoEm": "26/08/2026 19:34",
   "kpis": {
-    "totalSaldo": 1090940.71,
-    "qtdAberto": 37,
+    "totalSaldo": 1084656.81,
+    "qtdAberto": 36,
     "venc30": 437265.93,
-    "vencidos": 6283.9
+    "vencidos": 0
   },
   "fornSaldo": {
-    "Temu": 829232.41,
+    "Temu": 822948.51,
     "Honesty": 234541.02,
     "Hontech-Wins": 27167.28
   },
   "statusCounts": {
-    "Aguardando 2ª Parcela": 15,
+    "Aguardando 2ª Parcela": 14,
     "Aguardando 3ª Parcela": 1,
     "Sem prazo - Verificar": 21
   },
   "proximos": [
-    {
-      "projeto": "Projeto Climaves",
-      "codProjeto": "",
-      "embarque": "TEMU107",
-      "fornecedor": "Temu",
-      "fatura": "26TM0748",
-      "valor": 8977.0,
-      "pct1": 30.0,
-      "pago1": 2693.1,
-      "pct2": 70.0,
-      "pago2": 6283.9,
-      "pct3": 0,
-      "pago3": 0,
-      "saldo": 6283.9,
-      "statusCambio": "Aguardando 2ª Parcela",
-      "previsao": "03/06/2026",
-      "previsaoDias": -84,
-      "previsaoLabel": "84d atrás",
-      "statusVenc": "Vencido",
-      "pagoEUA": 8977.0
-    },
     {
       "projeto": "San Bernardo - Parte 2",
       "codProjeto": "TL-00100",
@@ -599,12 +578,12 @@
       "pago2": 6283.9,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 6283.9,
-      "statusCambio": "Aguardando 2ª Parcela",
+      "saldo": 0.0,
+      "statusCambio": "Pago Total",
       "previsao": "03/06/2026",
       "previsaoDias": -84,
       "previsaoLabel": "84d atrás",
-      "statusVenc": "Vencido",
+      "statusVenc": "Quitado",
       "pagoEUA": 8977.0
     },
     {
