@@ -1,5 +1,5 @@
 {
-  "geradoEm": "26/08/2026 15:34",
+  "geradoEm": "26/08/2026 16:00",
   "kpis": {
     "totalSaldo": 1090940.71,
     "qtdAberto": 37,
@@ -12,9 +12,9 @@
     "Hontech-Wins": 27167.28
   },
   "statusCounts": {
-    "Aguardando 2ª Parcela": 14,
+    "Aguardando 2ª Parcela": 15,
     "Aguardando 3ª Parcela": 1,
-    "Sem prazo - Verificar": 22
+    "Sem prazo - Verificar": 21
   },
   "proximos": [
     {
@@ -978,7 +978,7 @@
       "pct3": 0,
       "pago3": 0,
       "saldo": 39593.5,
-      "statusCambio": "Sem prazo - Verificar",
+      "statusCambio": "Aguardando 2ª Parcela",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
