@@ -1,5 +1,5 @@
 {
-  "geradoEm": "25/08/2026 23:34",
+  "geradoEm": "26/08/2026 00:00",
   "kpis": {
     "totalGeral": 2259800.0,
     "totalSemana": 128000.0,
@@ -25,7 +25,7 @@
       "totalCambio": 976000.0,
       "totalChegada": 407000.0,
       "previsao": "23/08/2020",
-      "diasChegada": -2193,
+      "diasChegada": -2194,
       "semanaLabel": "Atrasado"
     },
     {
@@ -40,7 +40,7 @@
       "totalCambio": 308000.0,
       "totalChegada": 128000.0,
       "previsao": "28/08/2026",
-      "diasChegada": 3,
+      "diasChegada": 2,
       "semanaLabel": "Esta semana"
     },
     {
@@ -55,7 +55,7 @@
       "totalCambio": 503000.0,
       "totalChegada": 176000.0,
       "previsao": "09/09/2026",
-      "diasChegada": 15,
+      "diasChegada": 14,
       "semanaLabel": "Próximos 15 dias"
     },
     {
