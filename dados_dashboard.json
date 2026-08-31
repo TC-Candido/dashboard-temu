@@ -1,5 +1,5 @@
 {
-  "geradoEm": "31/08/2026 18:34",
+  "geradoEm": "31/08/2026 19:34",
   "kpis": {
     "totalProjetos": 13,
     "totalContainers": 56,
@@ -200,7 +200,7 @@
       "statusOp": "Pronto - Aguardando ETD",
       "etd7dias": false,
       "chegando10": true,
-      "observacoes": "Aguardando Invoice e packing list finais",
+      "observacoes": "Aguardando packing list final. \nPrevisão de chegada do navio EVER LEADER foi alterada para o dia 07/09/2026.",
       "invoice": "26TM0627\n26TM0637 \n26TM0748"
     },
     {
@@ -490,7 +490,7 @@
       "statusOp": "Pronto - Aguardando ETD",
       "etd7dias": false,
       "chegando10": true,
-      "observacoes": "Aguardando Invoice e packing list finais",
+      "observacoes": "Aguardando packing list final. \nPrevisão de chegada do navio EVER LEADER foi alterada para o dia 07/09/2026.",
       "invoice": "26TM0627\n26TM0637 \n26TM0748"
     },
     {
