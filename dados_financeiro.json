@@ -1,11 +1,11 @@
 {
-  "geradoEm": "31/08/2026 08:10",
+  "geradoEm": "31/08/2026 08:34",
   "kpis": {
     "totalGeral": 2259800.0,
-    "totalSemana": 276800.0,
-    "totalQuinzena": 452800.0,
-    "totalMes": 452800.0,
-    "qtdChegando": 3
+    "totalSemana": 148800.0,
+    "totalQuinzena": 324800.0,
+    "totalMes": 324800.0,
+    "qtdChegando": 2
   },
   "composicao": {
     "impostos": 1247000.0,
@@ -24,8 +24,23 @@
       "frete": 105000.0,
       "totalCambio": 976000.0,
       "totalChegada": 407000.0,
-      "previsao": "28/08/2026",
-      "diasChegada": -3,
+      "previsao": "09/07/2026",
+      "diasChegada": -53,
+      "semanaLabel": "Atrasado"
+    },
+    {
+      "projeto": "Projeto Elton Endler\nProjeto Nilson Shimdt \nProjeto Climaves",
+      "codProjeto": "TL-00112\nTL-00108",
+      "embarque": "TEMU107",
+      "status": "SOBRE AGUAS",
+      "cif": 210000.0,
+      "impostos": 68000.0,
+      "despesas": 30000.0,
+      "frete": 30000.0,
+      "totalCambio": 308000.0,
+      "totalChegada": 128000.0,
+      "previsao": "09/07/2026",
+      "diasChegada": -53,
       "semanaLabel": "Atrasado"
     },
     {
@@ -41,21 +56,6 @@
       "totalChegada": 148800.0,
       "previsao": "31/08/2026",
       "diasChegada": 0,
-      "semanaLabel": "Esta semana"
-    },
-    {
-      "projeto": "Projeto Elton Endler\nProjeto Nilson Shimdt \nProjeto Climaves",
-      "codProjeto": "TL-00112\nTL-00108",
-      "embarque": "TEMU107",
-      "status": "SOBRE AGUAS",
-      "cif": 210000.0,
-      "impostos": 68000.0,
-      "despesas": 30000.0,
-      "frete": 30000.0,
-      "totalCambio": 308000.0,
-      "totalChegada": 128000.0,
-      "previsao": "04/09/2026",
-      "diasChegada": 4,
       "semanaLabel": "Esta semana"
     },
     {
