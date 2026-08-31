@@ -1,11 +1,11 @@
 {
-  "geradoEm": "31/08/2026 08:34",
+  "geradoEm": "31/08/2026 09:00",
   "kpis": {
     "totalGeral": 2259800.0,
-    "totalSemana": 148800.0,
-    "totalQuinzena": 324800.0,
-    "totalMes": 324800.0,
-    "qtdChegando": 2
+    "totalSemana": 535000.0,
+    "totalQuinzena": 711000.0,
+    "totalMes": 711000.0,
+    "qtdChegando": 4
   },
   "composicao": {
     "impostos": 1247000.0,
@@ -24,9 +24,9 @@
       "frete": 105000.0,
       "totalCambio": 976000.0,
       "totalChegada": 407000.0,
-      "previsao": "09/07/2026",
-      "diasChegada": -53,
-      "semanaLabel": "Atrasado"
+      "previsao": "07/09/2026",
+      "diasChegada": 7,
+      "semanaLabel": "Esta semana"
     },
     {
       "projeto": "Projeto Elton Endler\nProjeto Nilson Shimdt \nProjeto Climaves",
@@ -39,23 +39,8 @@
       "frete": 30000.0,
       "totalCambio": 308000.0,
       "totalChegada": 128000.0,
-      "previsao": "09/07/2026",
-      "diasChegada": -53,
-      "semanaLabel": "Atrasado"
-    },
-    {
-      "projeto": "Estoque + Sensor + TV + Tablets +  Brindes em geral",
-      "codProjeto": "TL-00111",
-      "embarque": "TEMU129",
-      "status": "EM PRODUÇÃO",
-      "cif": 261000.0,
-      "impostos": 85000.0,
-      "despesas": 30000.0,
-      "frete": 33800.0,
-      "totalCambio": 376000.0,
-      "totalChegada": 148800.0,
-      "previsao": "31/08/2026",
-      "diasChegada": 0,
+      "previsao": "07/09/2026",
+      "diasChegada": 7,
       "semanaLabel": "Esta semana"
     },
     {
@@ -72,6 +57,21 @@
       "previsao": "09/09/2026",
       "diasChegada": 9,
       "semanaLabel": "Próximos 15 dias"
+    },
+    {
+      "projeto": "Estoque + Sensor + TV + Tablets +  Brindes em geral",
+      "codProjeto": "TL-00111",
+      "embarque": "TEMU129",
+      "status": "SOBRE AGUAS",
+      "cif": 261000.0,
+      "impostos": 85000.0,
+      "despesas": 30000.0,
+      "frete": 33800.0,
+      "totalCambio": 376000.0,
+      "totalChegada": 148800.0,
+      "previsao": "07/10/2026",
+      "diasChegada": 37,
+      "semanaLabel": "Futuro"
     },
     {
       "projeto": "Projeto Agroter 3  - 2° embarque",
