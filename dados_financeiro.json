@@ -1,8 +1,8 @@
 {
-  "geradoEm": "01/09/2026 23:34",
+  "geradoEm": "02/09/2026 09:34",
   "kpis": {
     "totalGeral": 2259800.0,
-    "totalSemana": 407000.0,
+    "totalSemana": 583000.0,
     "totalQuinzena": 583000.0,
     "totalMes": 583000.0,
     "qtdChegando": 3
@@ -25,7 +25,7 @@
       "totalCambio": 308000.0,
       "totalChegada": 128000.0,
       "previsao": "31/08/2026",
-      "diasChegada": -1,
+      "diasChegada": -2,
       "semanaLabel": "Atrasado"
     },
     {
@@ -40,7 +40,7 @@
       "totalCambio": 976000.0,
       "totalChegada": 407000.0,
       "previsao": "07/09/2026",
-      "diasChegada": 6,
+      "diasChegada": 5,
       "semanaLabel": "Esta semana"
     },
     {
@@ -55,8 +55,8 @@
       "totalCambio": 503000.0,
       "totalChegada": 176000.0,
       "previsao": "09/09/2026",
-      "diasChegada": 8,
-      "semanaLabel": "Próximos 15 dias"
+      "diasChegada": 7,
+      "semanaLabel": "Esta semana"
     },
     {
       "projeto": "Estoque + Sensor + TV + Tablets +  Brindes em geral",
@@ -70,7 +70,7 @@
       "totalCambio": 376000.0,
       "totalChegada": 148800.0,
       "previsao": "07/10/2026",
-      "diasChegada": 36,
+      "diasChegada": 35,
       "semanaLabel": "Futuro"
     },
     {
