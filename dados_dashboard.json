@@ -1,10 +1,10 @@
 {
-  "geradoEm": "02/09/2026 23:34",
+  "geradoEm": "03/09/2026 00:00",
   "kpis": {
     "totalProjetos": 13,
     "totalContainers": 56,
-    "etd7dias": 2,
-    "chegando10dias": 4
+    "etd7dias": 0,
+    "chegando10dias": 2
   },
   "statusCounts": {
     "FINALIZADO": 11,
@@ -89,7 +89,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": "Documentos ok",
       "invoice": "3rd Shipment"
     },
@@ -107,7 +107,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": "Documentos ok",
       "invoice": "SH-ZXH-260416-B"
     },
@@ -181,7 +181,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": "Documentos ok",
       "invoice": "3rd Shipment"
     },
@@ -199,7 +199,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": "Documentos ok",
       "invoice": "SH-ZXH-260416-B"
     },
@@ -453,7 +453,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": "Documentos ok",
       "invoice": "3rd Shipment"
     },
@@ -507,7 +507,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": "Documentos ok",
       "invoice": "SH-ZXH-260416-B"
     },
@@ -704,7 +704,7 @@
       "eta": "03/11/2026",
       "status": "EM PRODUÇÃO",
       "statusOp": "Prontidão e ETD OK",
-      "etd7dias": true,
+      "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
       "invoice": "26TM0796\n26TM0797\n26TM0804\n26TM0805\n26TM0788\n26TM0789"
@@ -758,7 +758,7 @@
       "eta": "02/11/2026",
       "status": "EM PRODUÇÃO",
       "statusOp": "Prontidão e ETD OK",
-      "etd7dias": true,
+      "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
       "invoice": "26TM0643"
