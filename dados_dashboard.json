@@ -1,5 +1,5 @@
 {
-  "geradoEm": "08/09/2026 12:34",
+  "geradoEm": "08/09/2026 13:00",
   "kpis": {
     "totalProjetos": 13,
     "totalContainers": 55,
@@ -710,7 +710,7 @@
       "invoice": "26TM0640"
     },
     {
-      "embarque": "TEMU136 + PARTE TEMU121",
+      "embarque": "TEMU136 TEMU134-2",
       "codProjeto": "TL-00100",
       "projeto": "San Bernardo - Parte 2",
       "fornecedor": "Temu",
@@ -725,7 +725,7 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0796\n26TM0797\n26TM0804\n26TM0805\n26TM0788\n26TM0789"
+      "invoice": "26TM0796\n26TM0797\n26TM0804\n26TM0805\n26TM0788\n26TM0789\n26TM0773-2"
     },
     {
       "embarque": "TEMU126",
@@ -764,7 +764,7 @@
       "invoice": "26TM0773-1"
     },
     {
-      "embarque": "TEMU133  TEMU134-2",
+      "embarque": "TEMU133",
       "codProjeto": "TL-00100",
       "projeto": "San Bernardo - Parte 2",
       "fornecedor": "Temu",
@@ -779,7 +779,7 @@
       "etd7dias": true,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0643\n26TM0773-2"
+      "invoice": "26TM0643"
     },
     {
       "embarque": "TEMU134",
