@@ -1,5 +1,5 @@
 {
-  "geradoEm": "09/09/2026 13:34",
+  "geradoEm": "09/09/2026 14:00",
   "kpis": {
     "totalProjetos": 13,
     "totalContainers": 55,
@@ -10,11 +10,11 @@
     "FINALIZADO": 12,
     "SOBRE AGUAS": 13,
     "EM PRODUÇÃO": 9,
-    "": 9
+    "": 10
   },
   "fornecedorCounts": {
     "Mong Ging": 1,
-    "Temu": 18,
+    "Temu": 19,
     "Muhe": 1,
     "Honesty": 9,
     "Hontech-Wins": 3,
@@ -1014,6 +1014,24 @@
       "chegando10": false,
       "observacoes": "",
       "invoice": "26TM0833"
+    },
+    {
+      "embarque": "TEMU146",
+      "codProjeto": "",
+      "projeto": "San Bernardo - Parte 1",
+      "fornecedor": "Temu",
+      "destino": "",
+      "qtdCntr": 0,
+      "tipoCntr": "",
+      "prontidao": "",
+      "etd": null,
+      "eta": null,
+      "status": "",
+      "statusOp": "Sem Prontidão e ETD",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "26TM0842"
     }
   ]
 }
