@@ -1,5 +1,5 @@
 {
-  "geradoEm": "09/09/2026 15:00",
+  "geradoEm": "09/09/2026 15:34",
   "kpis": {
     "totalProjetos": 13,
     "totalContainers": 55,
@@ -1023,11 +1023,11 @@
       "destino": "",
       "qtdCntr": 0,
       "tipoCntr": "air",
-      "prontidao": "",
+      "prontidao": "2026-09-09 00:00:00",
       "etd": null,
       "eta": null,
       "status": "",
-      "statusOp": "Sem Prontidão e ETD",
+      "statusOp": "Pronto - Aguardando ETD",
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
