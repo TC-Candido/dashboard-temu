@@ -1,5 +1,5 @@
 {
-  "geradoEm": "09/09/2026 11:00",
+  "geradoEm": "09/09/2026 11:34",
   "kpis": {
     "totalProjetos": 13,
     "totalContainers": 55,
@@ -9,12 +9,12 @@
   "statusCounts": {
     "FINALIZADO": 12,
     "SOBRE AGUAS": 13,
-    "EM PRODUÇÃO": 8,
+    "EM PRODUÇÃO": 9,
     "": 9
   },
   "fornecedorCounts": {
     "Mong Ging": 1,
-    "Temu": 17,
+    "Temu": 18,
     "Muhe": 1,
     "Honesty": 9,
     "Hontech-Wins": 3,
@@ -805,7 +805,7 @@
       "projeto": "San Bernardo - Parte 2",
       "fornecedor": "Temu",
       "destino": "Asuncion",
-      "qtdCntr": 12,
+      "qtdCntr": 7,
       "tipoCntr": "40hc",
       "prontidao": "",
       "etd": null,
@@ -814,7 +814,25 @@
       "statusOp": "Sem Prontidão e ETD",
       "etd7dias": false,
       "chegando10": false,
-      "observacoes": "3 contêineres - 27/08/2026\n3 contêineres - 31/08/2026\n2 contêineres - 02/09/2026\n2 contêineres - 05/09/2026\n2 contêineres - 07/09/2026",
+      "observacoes": "3 contêineres - 31/08/2026\n2 contêineres - 02/09/2026\n2 contêineres - 05/09/2026",
+      "invoice": "26TM0773-4"
+    },
+    {
+      "embarque": "TEMU134 - backorder",
+      "codProjeto": "TL-00100",
+      "projeto": "San Bernardo - Parte 2",
+      "fornecedor": "Temu",
+      "destino": "Asuncion",
+      "qtdCntr": 5,
+      "tipoCntr": "40hc",
+      "prontidao": "",
+      "etd": null,
+      "eta": null,
+      "status": "EM PRODUÇÃO",
+      "statusOp": "Sem Prontidão e ETD",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "3 contêineres - 27/08/2026\n2 contêineres - 07/09/2026",
       "invoice": "26TM0773"
     },
     {
