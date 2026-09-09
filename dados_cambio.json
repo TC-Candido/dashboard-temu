@@ -1,20 +1,20 @@
 {
-  "geradoEm": "09/09/2026 16:34",
+  "geradoEm": "09/09/2026 17:00",
   "kpis": {
-    "totalSaldo": 1054015.78,
-    "qtdAberto": 38,
+    "totalSaldo": 1033662.58,
+    "qtdAberto": 37,
     "venc30": 222426.52,
     "vencidos": 0
   },
   "fornSaldo": {
     "Temu": 789825.98,
     "Honesty": 237022.52,
-    "Hontech-Wins": 27167.28
+    "Hontech-Wins": 6814.08
   },
   "statusCounts": {
     "Aguardando 2ª Parcela": 11,
     "Aguardando 3ª Parcela": 1,
-    "Sem prazo - Verificar": 26
+    "Sem prazo - Verificar": 25
   },
   "proximos": [
     {
@@ -1586,12 +1586,12 @@
       "pago2": 20353.2,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 20353.2,
-      "statusCambio": "Sem prazo - Verificar",
+      "saldo": 0.0,
+      "statusCambio": "Pago Total",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão",
+      "statusVenc": "Quitado",
       "pagoEUA": 0
     },
     {
