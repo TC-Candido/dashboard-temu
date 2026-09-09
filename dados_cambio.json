@@ -1,5 +1,5 @@
 {
-  "geradoEm": "09/09/2026 18:00",
+  "geradoEm": "09/09/2026 18:34",
   "kpis": {
     "totalSaldo": 1033662.58,
     "qtdAberto": 37,
@@ -923,7 +923,7 @@
       "pagoEUA": 0.0
     },
     {
-      "projeto": "Estoque + Sensor + TV + Tablets +  Brindes em geral",
+      "projeto": "Estoque",
       "codProjeto": "TL-00111",
       "embarque": "TEMU129",
       "fornecedor": "Temu",

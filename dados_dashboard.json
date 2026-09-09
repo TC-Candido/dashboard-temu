@@ -1,5 +1,5 @@
 {
-  "geradoEm": "09/09/2026 18:00",
+  "geradoEm": "09/09/2026 18:34",
   "kpis": {
     "totalProjetos": 13,
     "totalContainers": 55,
@@ -640,7 +640,7 @@
     {
       "embarque": "TEMU129",
       "codProjeto": "TL-00111",
-      "projeto": "Estoque + Sensor + TV + Tablets +  Brindes em geral",
+      "projeto": "Estoque",
       "fornecedor": "Temu",
       "destino": "Navegantes",
       "qtdCntr": 1,
