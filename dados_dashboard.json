@@ -1,5 +1,5 @@
 {
-  "geradoEm": "09/09/2026 14:34",
+  "geradoEm": "09/09/2026 15:00",
   "kpis": {
     "totalProjetos": 13,
     "totalContainers": 55,
@@ -1022,7 +1022,7 @@
       "fornecedor": "Temu",
       "destino": "",
       "qtdCntr": 0,
-      "tipoCntr": "",
+      "tipoCntr": "air",
       "prontidao": "",
       "etd": null,
       "eta": null,
