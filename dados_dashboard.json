@@ -1,5 +1,5 @@
 {
-  "geradoEm": "09/09/2026 19:00",
+  "geradoEm": "09/09/2026 19:34",
   "kpis": {
     "totalProjetos": 13,
     "totalContainers": 55,
@@ -21,6 +21,24 @@
     "Cixi Maite": 1
   },
   "proximosETD": [
+    {
+      "embarque": "TEMU130",
+      "codProjeto": "TL-00113",
+      "projeto": "Boa Fé Climatização",
+      "fornecedor": "Temu",
+      "destino": "Navegantes",
+      "qtdCntr": 1,
+      "tipoCntr": "40hc",
+      "prontidao": "2026-07-05 00:00:00",
+      "etd": "02/08/2020",
+      "eta": "26/09/2020",
+      "status": "SOBRE AGUAS",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "Aguardando Invoice e packing list finais e follow atualizado",
+      "invoice": "26TM0672\n26TM0628"
+    },
     {
       "embarque": "TEMU104",
       "codProjeto": "TL-00101",
@@ -110,27 +128,27 @@
       "chegando10": true,
       "observacoes": "",
       "invoice": "SH-ZXH-260425"
-    },
+    }
+  ],
+  "proximosETA": [
     {
-      "embarque": "TEMU124",
-      "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
-      "fornecedor": "Honesty",
-      "destino": "Asuncion",
-      "qtdCntr": 6,
+      "embarque": "TEMU130",
+      "codProjeto": "TL-00113",
+      "projeto": "Boa Fé Climatização",
+      "fornecedor": "Temu",
+      "destino": "Navegantes",
+      "qtdCntr": 1,
       "tipoCntr": "40hc",
-      "prontidao": "2026-06-03 00:00:00",
-      "etd": "10/07/2026",
-      "eta": "23/09/2026",
+      "prontidao": "2026-07-05 00:00:00",
+      "etd": "02/08/2020",
+      "eta": "26/09/2020",
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
       "chegando10": false,
-      "observacoes": "",
-      "invoice": "SH-ZXH-260416"
-    }
-  ],
-  "proximosETA": [
+      "observacoes": "Aguardando Invoice e packing list finais e follow atualizado",
+      "invoice": "26TM0672\n26TM0628"
+    },
     {
       "embarque": "TEMU115",
       "codProjeto": "TL-00099",
@@ -220,24 +238,6 @@
       "chegando10": true,
       "observacoes": "",
       "invoice": "SH-ZXH-260425"
-    },
-    {
-      "embarque": "TEMU124",
-      "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
-      "fornecedor": "Honesty",
-      "destino": "Asuncion",
-      "qtdCntr": 6,
-      "tipoCntr": "40hc",
-      "prontidao": "2026-06-03 00:00:00",
-      "etd": "10/07/2026",
-      "eta": "23/09/2026",
-      "status": "SOBRE AGUAS",
-      "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": "",
-      "invoice": "SH-ZXH-260416"
     }
   ],
   "embarques": [
@@ -592,8 +592,8 @@
       "qtdCntr": 1,
       "tipoCntr": "40hc",
       "prontidao": "2026-07-05 00:00:00",
-      "etd": "02/08/2026",
-      "eta": "26/09/2026",
+      "etd": "02/08/2020",
+      "eta": "26/09/2020",
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
