@@ -1,9 +1,9 @@
 {
-  "geradoEm": "09/09/2026 23:34",
+  "geradoEm": "10/09/2026 00:00",
   "kpis": {
     "totalProjetos": 13,
     "totalContainers": 55,
-    "etd7dias": 2,
+    "etd7dias": 0,
     "chegando10dias": 3
   },
   "statusCounts": {
@@ -776,7 +776,7 @@
       "eta": "13/11/2026",
       "status": "EM PRODUÇÃO",
       "statusOp": "Prontidão e ETD OK",
-      "etd7dias": true,
+      "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
       "invoice": "26TM0643"
@@ -794,7 +794,7 @@
       "eta": "13/11/2026",
       "status": "EM PRODUÇÃO",
       "statusOp": "Prontidão e ETD OK",
-      "etd7dias": true,
+      "etd7dias": false,
       "chegando10": false,
       "observacoes": "3 contêineres - 21/08/2026",
       "invoice": "26TM0773-3"
