@@ -1,10 +1,10 @@
 {
-  "geradoEm": "11/09/2026 10:00",
+  "geradoEm": "11/09/2026 10:34",
   "kpis": {
     "totalGeral": 2259800.0,
-    "totalSemana": 176000.0,
-    "totalQuinzena": 176000.0,
-    "totalMes": 176000.0,
+    "totalSemana": 583000.0,
+    "totalQuinzena": 583000.0,
+    "totalMes": 583000.0,
     "qtdChegando": 2
   },
   "composicao": {
@@ -13,21 +13,6 @@
     "frete": 512800.0
   },
   "projetos": [
-    {
-      "projeto": "Projeto Copacol",
-      "codProjeto": "TL-00107",
-      "embarque": "TEMU116",
-      "status": "SOBRE AGUAS",
-      "cif": 356000.0,
-      "impostos": 115000.0,
-      "despesas": 32000.0,
-      "frete": 29000.0,
-      "totalCambio": 503000.0,
-      "totalChegada": 176000.0,
-      "previsao": "15/09/2026",
-      "diasChegada": 4,
-      "semanaLabel": "Esta semana"
-    },
     {
       "projeto": "Projeto Agroter 4 - 3° embarque",
       "codProjeto": "TL-00101",
@@ -39,9 +24,24 @@
       "frete": 105000.0,
       "totalCambio": 976000.0,
       "totalChegada": 407000.0,
-      "previsao": "09/12/2026",
-      "diasChegada": 89,
-      "semanaLabel": "Futuro"
+      "previsao": "14/09/2026",
+      "diasChegada": 3,
+      "semanaLabel": "Esta semana"
+    },
+    {
+      "projeto": "Projeto Copacol",
+      "codProjeto": "TL-00107",
+      "embarque": "TEMU116",
+      "status": "SOBRE AGUAS",
+      "cif": 356000.0,
+      "impostos": 115000.0,
+      "despesas": 32000.0,
+      "frete": 29000.0,
+      "totalCambio": 503000.0,
+      "totalChegada": 176000.0,
+      "previsao": "14/09/2026",
+      "diasChegada": 3,
+      "semanaLabel": "Esta semana"
     },
     {
       "projeto": "Projeto Agroter 3  - 2° embarque",
