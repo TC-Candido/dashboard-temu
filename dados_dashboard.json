@@ -1,10 +1,10 @@
 {
-  "geradoEm": "14/09/2026 09:34",
+  "geradoEm": "14/09/2026 10:34",
   "kpis": {
     "totalProjetos": 13,
     "totalContainers": 62,
     "etd7dias": 0,
-    "chegando10dias": 3
+    "chegando10dias": 4
   },
   "statusCounts": {
     "FINALIZADO": 12,
@@ -186,24 +186,6 @@
       "invoice": "3rd Batch Shipment"
     },
     {
-      "embarque": "TEMU116",
-      "codProjeto": "TL-00107",
-      "projeto": "Projeto Copacol",
-      "fornecedor": "Temu",
-      "destino": "Navegantes",
-      "qtdCntr": 1,
-      "tipoCntr": "40HC",
-      "prontidao": "2026-07-15 00:00:00",
-      "etd": "24/07/2026",
-      "eta": "14/09/2026",
-      "status": "SOBRE AGUAS",
-      "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": "",
-      "invoice": "26TM0623"
-    },
-    {
       "embarque": "TEMU122",
       "codProjeto": "TL-00100",
       "projeto": "San Bernardo - Parte 2",
@@ -238,6 +220,24 @@
       "chegando10": true,
       "observacoes": "",
       "invoice": "SH-ZXH-260425"
+    },
+    {
+      "embarque": "TEMU116",
+      "codProjeto": "TL-00107",
+      "projeto": "Projeto Copacol",
+      "fornecedor": "Temu",
+      "destino": "Navegantes",
+      "qtdCntr": 1,
+      "tipoCntr": "40HC",
+      "prontidao": "2026-07-15 00:00:00",
+      "etd": "24/07/2026",
+      "eta": "22/09/2026",
+      "status": "SOBRE AGUAS",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": false,
+      "chegando10": true,
+      "observacoes": "",
+      "invoice": "26TM0623"
     }
   ],
   "embarques": [
@@ -521,11 +521,11 @@
       "tipoCntr": "40HC",
       "prontidao": "2026-07-15 00:00:00",
       "etd": "24/07/2026",
-      "eta": "14/09/2026",
+      "eta": "22/09/2026",
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "",
       "invoice": "26TM0623"
     },
@@ -897,7 +897,7 @@
       "destino": "",
       "qtdCntr": 0,
       "tipoCntr": "",
-      "prontidao": "2026-08-21 00:00:00",
+      "prontidao": "2026-09-20 00:00:00",
       "etd": null,
       "eta": null,
       "status": "EM PRODUÇÃO",

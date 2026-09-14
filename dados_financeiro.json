@@ -1,8 +1,8 @@
 {
-  "geradoEm": "14/09/2026 09:34",
+  "geradoEm": "14/09/2026 10:34",
   "kpis": {
     "totalGeral": 2259800.0,
-    "totalSemana": 583000.0,
+    "totalSemana": 407000.0,
     "totalQuinzena": 583000.0,
     "totalMes": 583000.0,
     "qtdChegando": 2
@@ -39,9 +39,9 @@
       "frete": 29000.0,
       "totalCambio": 503000.0,
       "totalChegada": 176000.0,
-      "previsao": "14/09/2026",
-      "diasChegada": 0,
-      "semanaLabel": "Esta semana"
+      "previsao": "22/09/2026",
+      "diasChegada": 8,
+      "semanaLabel": "Próximos 15 dias"
     },
     {
       "projeto": "Projeto Agroter 3  - 2° embarque",
