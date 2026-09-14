@@ -1,5 +1,5 @@
 {
-  "geradoEm": "14/09/2026 12:00",
+  "geradoEm": "14/09/2026 12:34",
   "kpis": {
     "totalProjetos": 13,
     "totalContainers": 62,
@@ -647,7 +647,7 @@
       "tipoCntr": "40HC",
       "prontidao": "2026-07-31 00:00:00",
       "etd": null,
-      "eta": "07/10/2026",
+      "eta": null,
       "status": "SOBRE AGUAS",
       "statusOp": "Pronto - Aguardando ETD",
       "etd7dias": false,

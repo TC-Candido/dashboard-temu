@@ -1,5 +1,5 @@
 {
-  "geradoEm": "14/09/2026 12:00",
+  "geradoEm": "14/09/2026 12:34",
   "kpis": {
     "totalSaldo": 1026848.5,
     "qtdAberto": 36,
@@ -11,9 +11,9 @@
     "Honesty": 237022.52
   },
   "statusCounts": {
-    "Aguardando 2ª Parcela": 11,
+    "Aguardando 2ª Parcela": 10,
     "Aguardando 3ª Parcela": 1,
-    "Sem prazo - Verificar": 24
+    "Sem prazo - Verificar": 25
   },
   "proximos": [
     {
@@ -935,7 +935,7 @@
       "pct3": 0,
       "pago3": 0,
       "saldo": 39593.5,
-      "statusCambio": "Aguardando 2ª Parcela",
+      "statusCambio": "Sem prazo - Verificar",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
