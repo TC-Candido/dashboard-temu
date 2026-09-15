@@ -1,10 +1,10 @@
 {
-  "geradoEm": "14/09/2026 23:34",
+  "geradoEm": "15/09/2026 00:00",
   "kpis": {
     "totalProjetos": 13,
     "totalContainers": 62,
     "etd7dias": 0,
-    "chegando10dias": 4
+    "chegando10dias": 5
   },
   "statusCounts": {
     "FINALIZADO": 12,
@@ -35,7 +35,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "Aguardando Invoice e packing list finais e follow atualizado",
       "invoice": "26TM0672\n26TM0628"
     },
@@ -597,7 +597,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "Aguardando Invoice e packing list finais e follow atualizado",
       "invoice": "26TM0672\n26TM0628"
     },
