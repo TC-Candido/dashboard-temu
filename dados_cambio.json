@@ -1,5 +1,5 @@
 {
-  "geradoEm": "16/09/2026 14:34",
+  "geradoEm": "16/09/2026 15:00",
   "kpis": {
     "totalSaldo": 1026848.5,
     "qtdAberto": 36,
@@ -11,9 +11,9 @@
     "Honesty": 237022.52
   },
   "statusCounts": {
-    "Aguardando 2ª Parcela": 10,
+    "Aguardando 2ª Parcela": 11,
     "Aguardando 3ª Parcela": 1,
-    "Sem prazo - Verificar": 25
+    "Sem prazo - Verificar": 24
   },
   "proximos": [
     {
@@ -31,9 +31,9 @@
       "pago3": 85885.17,
       "saldo": 85885.17,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "10/09/2026",
-      "previsaoDias": -6,
-      "previsaoLabel": "6d atrás",
+      "previsao": "15/09/2026",
+      "previsaoDias": -1,
+      "previsaoLabel": "1d atrás",
       "statusVenc": "Vencido",
       "pagoEUA": 85885.17
     },
@@ -52,9 +52,9 @@
       "pago3": 136541.35,
       "saldo": 136541.35,
       "statusCambio": "Aguardando 2ª Parcela",
-      "previsao": "10/09/2026",
-      "previsaoDias": -6,
-      "previsaoLabel": "6d atrás",
+      "previsao": "15/09/2026",
+      "previsaoDias": -1,
+      "previsaoLabel": "1d atrás",
       "statusVenc": "Vencido",
       "pagoEUA": 0
     },
@@ -831,9 +831,9 @@
       "pago3": 85885.17,
       "saldo": 85885.17,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "10/09/2026",
-      "previsaoDias": -6,
-      "previsaoLabel": "6d atrás",
+      "previsao": "15/09/2026",
+      "previsaoDias": -1,
+      "previsaoLabel": "1d atrás",
       "statusVenc": "Vencido",
       "pagoEUA": 85885.17
     },
@@ -852,9 +852,9 @@
       "pago3": 136541.35,
       "saldo": 136541.35,
       "statusCambio": "Aguardando 2ª Parcela",
-      "previsao": "10/09/2026",
-      "previsaoDias": -6,
-      "previsaoLabel": "6d atrás",
+      "previsao": "15/09/2026",
+      "previsaoDias": -1,
+      "previsaoLabel": "1d atrás",
       "statusVenc": "Vencido",
       "pagoEUA": 0
     },
@@ -935,7 +935,7 @@
       "pct3": 0,
       "pago3": 0,
       "saldo": 39593.5,
-      "statusCambio": "Sem prazo - Verificar",
+      "statusCambio": "Aguardando 2ª Parcela",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
