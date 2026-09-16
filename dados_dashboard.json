@@ -1,5 +1,5 @@
 {
-  "geradoEm": "16/09/2026 17:00",
+  "geradoEm": "16/09/2026 17:34",
   "kpis": {
     "totalProjetos": 13,
     "totalContainers": 68,
@@ -653,7 +653,7 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "Aguardando follow atualizado",
-      "invoice": "LFR26071"
+      "invoice": "LFR26071\n26TM0628"
     },
     {
       "embarque": "TEMU125",
