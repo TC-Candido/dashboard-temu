@@ -1,17 +1,17 @@
 {
-  "geradoEm": "21/09/2026 01:00",
+  "geradoEm": "21/09/2026 02:00",
   "kpis": {
-    "totalSaldo": 936483.37,
-    "qtdAberto": 29,
+    "totalSaldo": 941140.16,
+    "qtdAberto": 30,
     "venc30": 0,
     "vencidos": 136541.35
   },
   "fornSaldo": {
-    "Temu": 785346.02,
+    "Temu": 790002.81,
     "Honesty": 151137.35
   },
   "statusCounts": {
-    "Aguardando 2ª Parcela": 11,
+    "Aguardando 2ª Parcela": 12,
     "Sem prazo - Verificar": 18
   },
   "proximos": [
@@ -926,9 +926,30 @@
       "embarque": "TEMU130",
       "fornecedor": "Temu",
       "fatura": "26TM0672",
-      "valor": 10688.61,
+      "valor": 6652.56,
       "pct1": 30.0,
-      "pago1": 3206.58,
+      "pago1": 1995.77,
+      "pct2": 70.0,
+      "pago2": 4656.79,
+      "pct3": 0,
+      "pago3": 0,
+      "saldo": 4656.79,
+      "statusCambio": "Aguardando 2ª Parcela",
+      "previsao": null,
+      "previsaoDias": null,
+      "previsaoLabel": null,
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 6652.56
+    },
+    {
+      "projeto": "Boa Fé Climatização",
+      "codProjeto": "TL-00113",
+      "embarque": "TEMU130",
+      "fornecedor": "Temu",
+      "fatura": "26TM0672",
+      "valor": 4036.05,
+      "pct1": 30.0,
+      "pago1": 1210.81,
       "pct2": 70.0,
       "pago2": 7482.03,
       "pct3": 0,
