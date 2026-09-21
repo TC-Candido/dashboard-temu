@@ -1,11 +1,11 @@
 {
-  "geradoEm": "20/09/2026 22:00",
+  "geradoEm": "20/09/2026 23:00",
   "kpis": {
     "totalGeral": 2259800.0,
     "totalSemana": 176000.0,
     "totalQuinzena": 176000.0,
-    "totalMes": 176000.0,
-    "qtdChegando": 1
+    "totalMes": 324800.0,
+    "qtdChegando": 2
   },
   "composicao": {
     "impostos": 1247000.0,
@@ -42,6 +42,21 @@
       "previsao": "22/09/2026",
       "diasChegada": 2,
       "semanaLabel": "Esta semana"
+    },
+    {
+      "projeto": "Estoque",
+      "codProjeto": "TL-00111",
+      "embarque": "TEMU129",
+      "status": "SOBRE AGUAS",
+      "cif": 261000.0,
+      "impostos": 85000.0,
+      "despesas": 30000.0,
+      "frete": 33800.0,
+      "totalCambio": 376000.0,
+      "totalChegada": 148800.0,
+      "previsao": "07/10/2026",
+      "diasChegada": 17,
+      "semanaLabel": "Este mês"
     },
     {
       "projeto": "Projeto Agroter 3  - 2° embarque",
@@ -132,21 +147,6 @@
       "previsao": "31/08/2026",
       "diasChegada": null,
       "semanaLabel": "Finalizado"
-    },
-    {
-      "projeto": "Estoque + Sensor + TV + Tablets +  Brindes em geral",
-      "codProjeto": "",
-      "embarque": "",
-      "status": "",
-      "cif": 261000.0,
-      "impostos": 85000.0,
-      "despesas": 30000.0,
-      "frete": 33800.0,
-      "totalCambio": 376000.0,
-      "totalChegada": 148800.0,
-      "previsao": null,
-      "diasChegada": null,
-      "semanaLabel": null
     }
   ]
 }

@@ -1,42 +1,20 @@
 {
-  "geradoEm": "20/09/2026 22:00",
+  "geradoEm": "20/09/2026 23:00",
   "kpis": {
-    "totalSaldo": 1026848.5,
-    "qtdAberto": 36,
+    "totalSaldo": 936483.37,
+    "qtdAberto": 29,
     "venc30": 0,
-    "vencidos": 222426.52
+    "vencidos": 136541.35
   },
   "fornSaldo": {
-    "Temu": 789825.98,
-    "Honesty": 237022.52
+    "Temu": 785346.02,
+    "Honesty": 151137.35
   },
   "statusCounts": {
     "Aguardando 2ª Parcela": 11,
-    "Aguardando 3ª Parcela": 1,
-    "Sem prazo - Verificar": 24
+    "Sem prazo - Verificar": 18
   },
   "proximos": [
-    {
-      "projeto": "San Bernardo - Parte 2",
-      "codProjeto": "TL-00100",
-      "embarque": "TEMU124",
-      "fornecedor": "Honesty",
-      "fatura": "SH-ZXH-260416",
-      "valor": 214711.17,
-      "pct1": 30.0,
-      "pago1": 64413.0,
-      "pct2": 30.0,
-      "pago2": 64413.0,
-      "pct3": 40.0,
-      "pago3": 85885.17,
-      "saldo": 85885.17,
-      "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "15/09/2026",
-      "previsaoDias": -5,
-      "previsaoLabel": "5d atrás",
-      "statusVenc": "Vencido",
-      "pagoEUA": 85885.17
-    },
     {
       "projeto": "San Bernardo - Parte 2",
       "codProjeto": "TL-00100",
@@ -829,12 +807,12 @@
       "pago2": 64413.0,
       "pct3": 40.0,
       "pago3": 85885.17,
-      "saldo": 85885.17,
-      "statusCambio": "Aguardando 3ª Parcela",
+      "saldo": 0.0,
+      "statusCambio": "Pago Total",
       "previsao": "15/09/2026",
       "previsaoDias": -5,
       "previsaoLabel": "5d atrás",
-      "statusVenc": "Vencido",
+      "statusVenc": "Quitado",
       "pagoEUA": 85885.17
     },
     {
@@ -1396,12 +1374,12 @@
       "pago2": 715.23,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 715.23,
-      "statusCambio": "Sem prazo - Verificar",
+      "saldo": 0.0,
+      "statusCambio": "Pago Total",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão",
+      "statusVenc": "Quitado",
       "pagoEUA": 0
     },
     {
@@ -1417,12 +1395,12 @@
       "pago2": 715.23,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 715.23,
-      "statusCambio": "Sem prazo - Verificar",
+      "saldo": 0.0,
+      "statusCambio": "Pago Total",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão",
+      "statusVenc": "Quitado",
       "pagoEUA": 0
     },
     {
@@ -1438,12 +1416,12 @@
       "pago2": 460.75,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 460.75,
-      "statusCambio": "Sem prazo - Verificar",
+      "saldo": 0.0,
+      "statusCambio": "Pago Total",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão",
+      "statusVenc": "Quitado",
       "pagoEUA": 0
     },
     {
@@ -1459,12 +1437,12 @@
       "pago2": 460.75,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 460.75,
-      "statusCambio": "Sem prazo - Verificar",
+      "saldo": 0.0,
+      "statusCambio": "Pago Total",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão",
+      "statusVenc": "Quitado",
       "pagoEUA": 0
     },
     {
@@ -1480,12 +1458,12 @@
       "pago2": 1064.0,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 1064.0,
-      "statusCambio": "Sem prazo - Verificar",
+      "saldo": 0.0,
+      "statusCambio": "Pago Total",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão",
+      "statusVenc": "Quitado",
       "pagoEUA": 0
     },
     {
@@ -1501,12 +1479,12 @@
       "pago2": 1064.0,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 1064.0,
-      "statusCambio": "Sem prazo - Verificar",
+      "saldo": 0.0,
+      "statusCambio": "Pago Total",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão",
+      "statusVenc": "Quitado",
       "pagoEUA": 0
     },
     {
