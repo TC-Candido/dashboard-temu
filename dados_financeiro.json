@@ -1,5 +1,5 @@
 {
-  "geradoEm": "21/09/2026 14:00",
+  "geradoEm": "21/09/2026 14:34",
   "kpis": {
     "totalGeral": 2259800.0,
     "totalSemana": 176000.0,
@@ -39,8 +39,8 @@
       "frete": 29000.0,
       "totalCambio": 503000.0,
       "totalChegada": 176000.0,
-      "previsao": "22/09/2026",
-      "diasChegada": 1,
+      "previsao": "25/09/2026",
+      "diasChegada": 4,
       "semanaLabel": "Esta semana"
     },
     {
