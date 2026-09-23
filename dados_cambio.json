@@ -1,13 +1,13 @@
 {
-  "geradoEm": "23/09/2026 10:34",
+  "geradoEm": "23/09/2026 11:00",
   "kpis": {
-    "totalSaldo": 955754.39,
+    "totalSaldo": 937143.37,
     "qtdAberto": 32,
     "venc30": 0,
     "vencidos": 136541.35
   },
   "fornSaldo": {
-    "Temu": 804617.04,
+    "Temu": 786006.02,
     "Honesty": 151137.35
   },
   "statusCounts": {
@@ -933,7 +933,7 @@
       "pago2": 29676.53,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 39593.5,
+      "saldo": 29676.53,
       "statusCambio": "Aguardando 2ª Parcela",
       "previsao": null,
       "previsaoDias": null,
@@ -949,12 +949,12 @@
       "fatura": "26TM0672",
       "valor": 660.0,
       "pct1": 30.0,
-      "pago1": 1995.77,
+      "pago1": 660.0,
       "pct2": 70.0,
       "pago2": 0,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 4656.79,
+      "saldo": 660.0,
       "statusCambio": "Aguardando 2ª Parcela",
       "previsao": null,
       "previsaoDias": null,
@@ -996,7 +996,7 @@
       "pago2": 2784.77,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 7482.03,
+      "saldo": 2784.77,
       "statusCambio": "Aguardando 2ª Parcela",
       "previsao": null,
       "previsaoDias": null,
