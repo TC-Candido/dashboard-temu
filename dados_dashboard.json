@@ -1,5 +1,5 @@
 {
-  "geradoEm": "23/09/2026 17:00",
+  "geradoEm": "23/09/2026 17:34",
   "kpis": {
     "totalProjetos": 13,
     "totalContainers": 68,
@@ -800,7 +800,7 @@
       "invoice": "26TM0773-3"
     },
     {
-      "embarque": "TEMU134 - backorder",
+      "embarque": "TEMU134 -",
       "codProjeto": "TL-00100",
       "projeto": "San Bernardo - Parte 2",
       "fornecedor": "Temu",
