@@ -1,5 +1,5 @@
 {
-  "geradoEm": "24/09/2026 09:34",
+  "geradoEm": "24/09/2026 10:00",
   "kpis": {
     "totalProjetos": 13,
     "totalContainers": 68,
@@ -21,6 +21,24 @@
     "Cixi Maite": 1
   },
   "proximosETD": [
+    {
+      "embarque": "TEMU116",
+      "codProjeto": "TL-00107",
+      "projeto": "Projeto Copacol",
+      "fornecedor": "Temu",
+      "destino": "Navegantes",
+      "qtdCntr": 1,
+      "tipoCntr": "40HC",
+      "prontidao": "2026-07-15 00:00:00",
+      "etd": "24/07/2020",
+      "eta": "25/09/2020",
+      "status": "SOBRE AGUAS",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "26TM0623"
+    },
     {
       "embarque": "TEMU130",
       "codProjeto": "TL-00113",
@@ -110,27 +128,27 @@
       "chegando10": true,
       "observacoes": "",
       "invoice": "SH-ZXH-260416-A"
-    },
-    {
-      "embarque": "TEMU127",
-      "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
-      "fornecedor": "Honesty",
-      "destino": "Asuncion",
-      "qtdCntr": 1,
-      "tipoCntr": "20GP",
-      "prontidao": "2026-05-27 00:00:00",
-      "etd": "02/07/2026",
-      "eta": "25/09/2026",
-      "status": "SOBRE AGUAS",
-      "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
-      "chegando10": true,
-      "observacoes": "",
-      "invoice": "SH-ZXH-260425"
     }
   ],
   "proximosETA": [
+    {
+      "embarque": "TEMU116",
+      "codProjeto": "TL-00107",
+      "projeto": "Projeto Copacol",
+      "fornecedor": "Temu",
+      "destino": "Navegantes",
+      "qtdCntr": 1,
+      "tipoCntr": "40HC",
+      "prontidao": "2026-07-15 00:00:00",
+      "etd": "24/07/2020",
+      "eta": "25/09/2020",
+      "status": "SOBRE AGUAS",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "26TM0623"
+    },
     {
       "embarque": "TEMU130",
       "codProjeto": "TL-00113",
@@ -202,24 +220,6 @@
       "chegando10": false,
       "observacoes": "Descrição e ncm OK. DTC para conexão maritima",
       "invoice": "3rd Batch Shipment"
-    },
-    {
-      "embarque": "TEMU116",
-      "codProjeto": "TL-00107",
-      "projeto": "Projeto Copacol",
-      "fornecedor": "Temu",
-      "destino": "Navegantes",
-      "qtdCntr": 1,
-      "tipoCntr": "40HC",
-      "prontidao": "2026-07-15 00:00:00",
-      "etd": "25/07/2026",
-      "eta": "24/09/2026",
-      "status": "SOBRE AGUAS",
-      "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": "",
-      "invoice": "26TM0623"
     },
     {
       "embarque": "TEMU122",
@@ -520,8 +520,8 @@
       "qtdCntr": 1,
       "tipoCntr": "40HC",
       "prontidao": "2026-07-15 00:00:00",
-      "etd": "25/07/2026",
-      "eta": "24/09/2026",
+      "etd": "24/07/2020",
+      "eta": "25/09/2020",
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
