@@ -1,18 +1,18 @@
 {
-  "geradoEm": "24/09/2026 11:34",
+  "geradoEm": "24/09/2026 12:00",
   "kpis": {
-    "totalSaldo": 937143.37,
-    "qtdAberto": 32,
+    "totalSaldo": 924123.37,
+    "qtdAberto": 31,
     "venc30": 150490.24,
     "vencidos": 136541.35
   },
   "fornSaldo": {
-    "Temu": 786006.02,
+    "Temu": 772986.02,
     "Honesty": 151137.35
   },
   "statusCounts": {
     "Aguardando 2ª Parcela": 14,
-    "Sem prazo - Verificar": 18
+    "Sem prazo - Verificar": 17
   },
   "proximos": [
     {
@@ -1635,7 +1635,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "Estoque Temu",
+      "projeto": "Estoque Temu 1",
       "codProjeto": "TL-00114",
       "embarque": "TEMU140",
       "fornecedor": "Temu",
@@ -1648,27 +1648,6 @@
       "pct3": 0,
       "pago3": 0,
       "saldo": 17766.0,
-      "statusCambio": "Sem prazo - Verificar",
-      "previsao": null,
-      "previsaoDias": null,
-      "previsaoLabel": null,
-      "statusVenc": "Sem previsão",
-      "pagoEUA": 0
-    },
-    {
-      "projeto": "Estoque Temu",
-      "codProjeto": "TL-00114",
-      "embarque": "TEMU141",
-      "fornecedor": "Temu",
-      "fatura": "26TM0820",
-      "valor": 18600.0,
-      "pct1": 30.0,
-      "pago1": 5580.0,
-      "pct2": 70.0,
-      "pago2": 13020.0,
-      "pct3": 0,
-      "pago3": 0,
-      "saldo": 13020.0,
       "statusCambio": "Sem prazo - Verificar",
       "previsao": null,
       "previsaoDias": null,
@@ -1695,27 +1674,6 @@
       "previsaoDias": null,
       "previsaoLabel": null,
       "statusVenc": "Sem previsão",
-      "pagoEUA": 0
-    },
-    {
-      "projeto": "Estoque Temu",
-      "codProjeto": "TL-00114",
-      "embarque": "TEMU143",
-      "fornecedor": "Cixi Maite",
-      "fatura": "26MTAZU010",
-      "valor": 2436.0,
-      "pct1": 30.0,
-      "pago1": 2436.0,
-      "pct2": 0,
-      "pago2": 0.0,
-      "pct3": 0,
-      "pago3": 0,
-      "saldo": 0.0,
-      "statusCambio": "Pago Total",
-      "previsao": null,
-      "previsaoDias": null,
-      "previsaoLabel": null,
-      "statusVenc": "Quitado",
       "pagoEUA": 0
     },
     {

@@ -1,5 +1,5 @@
 {
-  "geradoEm": "24/09/2026 11:34",
+  "geradoEm": "24/09/2026 12:00",
   "kpis": {
     "totalProjetos": 13,
     "totalContainers": 68,
@@ -10,15 +10,14 @@
     "FINALIZADO": 12,
     "SOBRE AGUAS": 19,
     "EM PRODUÇÃO": 3,
-    "": 10
+    "": 7
   },
   "fornecedorCounts": {
     "Mong Ging": 1,
-    "Temu": 19,
+    "Temu": 17,
     "Muhe": 1,
     "Honesty": 9,
-    "Hontech-Wins": 3,
-    "Cixi Maite": 1
+    "Hontech-Wins": 3
   },
   "proximosETD": [
     {
@@ -910,38 +909,20 @@
     {
       "embarque": "TEMU140",
       "codProjeto": "TL-00114",
-      "projeto": "Estoque Temu",
+      "projeto": "Estoque Temu 1",
       "fornecedor": "Temu",
       "destino": "",
-      "qtdCntr": 1,
+      "qtdCntr": 3,
       "tipoCntr": "40HC",
       "prontidao": "2026-09-11 00:00:00",
-      "etd": null,
-      "eta": null,
+      "etd": "14/10/2026",
+      "eta": "23/11/2026",
       "status": "",
-      "statusOp": "Pronto - Aguardando ETD",
+      "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0836"
-    },
-    {
-      "embarque": "TEMU141",
-      "codProjeto": "TL-00114",
-      "projeto": "Estoque Temu",
-      "fornecedor": "Temu",
-      "destino": "",
-      "qtdCntr": 0,
-      "tipoCntr": "",
-      "prontidao": "2026-09-10 00:00:00",
-      "etd": null,
-      "eta": null,
-      "status": "",
-      "statusOp": "Pronto - Aguardando ETD",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": "",
-      "invoice": "26TM0820"
+      "invoice": "26TM0836\n26TM0820\n26MTAZU010\n26TM0833"
     },
     {
       "embarque": "TEMU142",
@@ -962,24 +943,6 @@
       "invoice": "SH-ZXH-260814"
     },
     {
-      "embarque": "TEMU143",
-      "codProjeto": "TL-00114",
-      "projeto": "Estoque Temu",
-      "fornecedor": "Cixi Maite",
-      "destino": "",
-      "qtdCntr": 0,
-      "tipoCntr": "",
-      "prontidao": "2026-08-28 00:00:00",
-      "etd": null,
-      "eta": null,
-      "status": "",
-      "statusOp": "Pronto - Aguardando ETD",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": "",
-      "invoice": "26MTAZU010"
-    },
-    {
       "embarque": "TEMU144",
       "codProjeto": "TL-00114",
       "projeto": "Estoque Temu",
@@ -996,24 +959,6 @@
       "chegando10": false,
       "observacoes": "",
       "invoice": "SH-ZXH-260811"
-    },
-    {
-      "embarque": "TEMU145",
-      "codProjeto": "TL-00114",
-      "projeto": "Estoque Temu",
-      "fornecedor": "Temu",
-      "destino": "",
-      "qtdCntr": 0,
-      "tipoCntr": "",
-      "prontidao": "2026-09-19 00:00:00",
-      "etd": null,
-      "eta": null,
-      "status": "",
-      "statusOp": "Pronto - Aguardando ETD",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": "",
-      "invoice": "26TM0833"
     },
     {
       "embarque": "TEMU146",

@@ -1,16 +1,16 @@
 {
-  "geradoEm": "24/09/2026 11:34",
+  "geradoEm": "24/09/2026 12:00",
   "kpis": {
-    "totalGeral": 2259800.0,
+    "totalGeral": 2549800.0,
     "totalSemana": 0,
     "totalQuinzena": 148800.0,
     "totalMes": 148800.0,
-    "qtdChegando": 1
+    "qtdChegando": 2
   },
   "composicao": {
-    "impostos": 1247000.0,
-    "despesas": 500000.0,
-    "frete": 512800.0
+    "impostos": 1368000.0,
+    "despesas": 562000.0,
+    "frete": 619800.0
   },
   "projetos": [
     {
@@ -57,6 +57,21 @@
       "previsao": "07/10/2026",
       "diasChegada": 13,
       "semanaLabel": "Próximos 15 dias"
+    },
+    {
+      "projeto": "Estoque Temu 1",
+      "codProjeto": "TL-00114",
+      "embarque": "TEMU140",
+      "status": "00:00:00",
+      "cif": 373000.0,
+      "impostos": 121000.0,
+      "despesas": 62000.0,
+      "frete": 107000.0,
+      "totalCambio": 556000.0,
+      "totalChegada": 290000.0,
+      "previsao": "23/11/2026",
+      "diasChegada": 60,
+      "semanaLabel": "Futuro"
     },
     {
       "projeto": "Projeto Agroter 3  - 2° embarque",
