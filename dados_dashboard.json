@@ -1,10 +1,10 @@
 {
-  "geradoEm": "25/09/2026 23:34",
+  "geradoEm": "26/09/2026 00:00",
   "kpis": {
     "totalProjetos": 13,
     "totalContainers": 68,
     "etd7dias": 0,
-    "chegando10dias": 1
+    "chegando10dias": 4
   },
   "statusCounts": {
     "FINALIZADO": 12,
@@ -632,7 +632,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "Aguardando Invoice e packing list finais",
       "invoice": "26TM0638"
     },
@@ -650,7 +650,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "Aguardando follow atualizado",
       "invoice": "LFR26071\n26TM0628"
     },
@@ -848,7 +848,7 @@
       "status": "",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "",
       "invoice": "HT-X26073001BR +  HT-X26073002BR"
     },

@@ -1,5 +1,5 @@
 {
-  "geradoEm": "25/09/2026 23:34",
+  "geradoEm": "26/09/2026 00:00",
   "kpis": {
     "totalSaldo": 928689.37,
     "qtdAberto": 34,
@@ -31,8 +31,8 @@
       "saldo": 136541.35,
       "statusCambio": "Aguardando 2ª Parcela",
       "previsao": "15/09/2026",
-      "previsaoDias": -10,
-      "previsaoLabel": "10d atrás",
+      "previsaoDias": -11,
+      "previsaoLabel": "11d atrás",
       "statusVenc": "Vencido",
       "pagoEUA": 0
     },
@@ -52,8 +52,8 @@
       "saldo": 150490.24,
       "statusCambio": "Aguardando 2ª Parcela",
       "previsao": "24/10/2026",
-      "previsaoDias": 29,
-      "previsaoLabel": "29 dias",
+      "previsaoDias": 28,
+      "previsaoLabel": "28 dias",
       "statusVenc": "Vence em 30 dias",
       "pagoEUA": 64495.8
     }
@@ -138,8 +138,8 @@
       "saldo": 0.0,
       "statusCambio": "Pago Total",
       "previsao": "12/06/2026",
-      "previsaoDias": -105,
-      "previsaoLabel": "105d atrás",
+      "previsaoDias": -106,
+      "previsaoLabel": "106d atrás",
       "statusVenc": "Quitado",
       "pagoEUA": 0.0
     },
@@ -159,8 +159,8 @@
       "saldo": 0.0,
       "statusCambio": "Pago Total",
       "previsao": "24/05/2026",
-      "previsaoDias": -124,
-      "previsaoLabel": "124d atrás",
+      "previsaoDias": -125,
+      "previsaoLabel": "125d atrás",
       "statusVenc": "Quitado",
       "pagoEUA": 0.0
     },
@@ -180,8 +180,8 @@
       "saldo": 0.0,
       "statusCambio": "Pago Total",
       "previsao": "30/06/2026",
-      "previsaoDias": -87,
-      "previsaoLabel": "87d atrás",
+      "previsaoDias": -88,
+      "previsaoLabel": "88d atrás",
       "statusVenc": "Quitado",
       "pagoEUA": 1765.4
     },
@@ -201,8 +201,8 @@
       "saldo": 0.0,
       "statusCambio": "Pago Total",
       "previsao": "20/07/2026",
-      "previsaoDias": -67,
-      "previsaoLabel": "67d atrás",
+      "previsaoDias": -68,
+      "previsaoLabel": "68d atrás",
       "statusVenc": "Quitado",
       "pagoEUA": 0
     },
@@ -348,8 +348,8 @@
       "saldo": 0.0,
       "statusCambio": "Pago Total",
       "previsao": "23/05/2026",
-      "previsaoDias": -125,
-      "previsaoLabel": "125d atrás",
+      "previsaoDias": -126,
+      "previsaoLabel": "126d atrás",
       "statusVenc": "Quitado",
       "pagoEUA": 0.0
     },
@@ -390,8 +390,8 @@
       "saldo": 0.0,
       "statusCambio": "Pago Total",
       "previsao": "23/05/2026",
-      "previsaoDias": -125,
-      "previsaoLabel": "125d atrás",
+      "previsaoDias": -126,
+      "previsaoLabel": "126d atrás",
       "statusVenc": "Quitado",
       "pagoEUA": 2037.0
     },
@@ -495,8 +495,8 @@
       "saldo": 0.0,
       "statusCambio": "Pago Total",
       "previsao": "05/07/2026",
-      "previsaoDias": -82,
-      "previsaoLabel": "82d atrás",
+      "previsaoDias": -83,
+      "previsaoLabel": "83d atrás",
       "statusVenc": "Quitado",
       "pagoEUA": 4076.45
     },
@@ -516,8 +516,8 @@
       "saldo": 0.0,
       "statusCambio": "Pago Total",
       "previsao": "27/07/2026",
-      "previsaoDias": -60,
-      "previsaoLabel": "60d atrás",
+      "previsaoDias": -61,
+      "previsaoLabel": "61d atrás",
       "statusVenc": "Quitado",
       "pagoEUA": 0.0
     },
@@ -537,8 +537,8 @@
       "saldo": 0.0,
       "statusCambio": "Pago Total",
       "previsao": "03/06/2026",
-      "previsaoDias": -114,
-      "previsaoLabel": "114d atrás",
+      "previsaoDias": -115,
+      "previsaoLabel": "115d atrás",
       "statusVenc": "Quitado",
       "pagoEUA": 8977.0
     },
@@ -726,8 +726,8 @@
       "saldo": 0.0,
       "statusCambio": "Pago Total",
       "previsao": "05/06/2026",
-      "previsaoDias": -112,
-      "previsaoLabel": "112d atrás",
+      "previsaoDias": -113,
+      "previsaoLabel": "113d atrás",
       "statusVenc": "Quitado",
       "pagoEUA": 3630.0
     },
@@ -810,8 +810,8 @@
       "saldo": 0.0,
       "statusCambio": "Pago Total",
       "previsao": "15/09/2026",
-      "previsaoDias": -10,
-      "previsaoLabel": "10d atrás",
+      "previsaoDias": -11,
+      "previsaoLabel": "11d atrás",
       "statusVenc": "Quitado",
       "pagoEUA": 85885.17
     },
@@ -831,8 +831,8 @@
       "saldo": 136541.35,
       "statusCambio": "Aguardando 2ª Parcela",
       "previsao": "15/09/2026",
-      "previsaoDias": -10,
-      "previsaoLabel": "10d atrás",
+      "previsaoDias": -11,
+      "previsaoLabel": "11d atrás",
       "statusVenc": "Vencido",
       "pagoEUA": 0
     },
@@ -1146,8 +1146,8 @@
       "saldo": 150490.24,
       "statusCambio": "Aguardando 2ª Parcela",
       "previsao": "24/10/2026",
-      "previsaoDias": 29,
-      "previsaoLabel": "29 dias",
+      "previsaoDias": 28,
+      "previsaoLabel": "28 dias",
       "statusVenc": "Vence em 30 dias",
       "pagoEUA": 64495.8
     },
