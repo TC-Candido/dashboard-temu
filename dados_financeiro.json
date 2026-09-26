@@ -1,11 +1,11 @@
 {
-  "geradoEm": "26/09/2026 02:00",
+  "geradoEm": "26/09/2026 02:34",
   "kpis": {
     "totalGeral": 2549800.0,
-    "totalSemana": 0,
-    "totalQuinzena": 148800.0,
-    "totalMes": 148800.0,
-    "qtdChegando": 2
+    "totalSemana": 176000.0,
+    "totalQuinzena": 324800.0,
+    "totalMes": 324800.0,
+    "qtdChegando": 3
   },
   "composicao": {
     "impostos": 1368000.0,
@@ -39,9 +39,9 @@
       "frete": 29000.0,
       "totalCambio": 503000.0,
       "totalChegada": 176000.0,
-      "previsao": "25/09/2026",
-      "diasChegada": -1,
-      "semanaLabel": "Atrasado"
+      "previsao": "26/09/2026",
+      "diasChegada": 0,
+      "semanaLabel": "Esta semana"
     },
     {
       "projeto": "Estoque",
