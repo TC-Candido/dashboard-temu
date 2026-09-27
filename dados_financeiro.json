@@ -1,11 +1,11 @@
 {
-  "geradoEm": "26/09/2026 23:34",
+  "geradoEm": "27/09/2026 00:00",
   "kpis": {
     "totalGeral": 2549800.0,
-    "totalSemana": 176000.0,
-    "totalQuinzena": 324800.0,
-    "totalMes": 324800.0,
-    "qtdChegando": 3
+    "totalSemana": 0,
+    "totalQuinzena": 148800.0,
+    "totalMes": 148800.0,
+    "qtdChegando": 2
   },
   "composicao": {
     "impostos": 1368000.0,
@@ -25,7 +25,7 @@
       "totalCambio": 976000.0,
       "totalChegada": 407000.0,
       "previsao": "15/09/2026",
-      "diasChegada": -11,
+      "diasChegada": -12,
       "semanaLabel": "Atrasado"
     },
     {
@@ -40,8 +40,8 @@
       "totalCambio": 503000.0,
       "totalChegada": 176000.0,
       "previsao": "26/09/2026",
-      "diasChegada": 0,
-      "semanaLabel": "Esta semana"
+      "diasChegada": -1,
+      "semanaLabel": "Atrasado"
     },
     {
       "projeto": "Estoque",
@@ -55,7 +55,7 @@
       "totalCambio": 376000.0,
       "totalChegada": 148800.0,
       "previsao": "07/10/2026",
-      "diasChegada": 11,
+      "diasChegada": 10,
       "semanaLabel": "Próximos 15 dias"
     },
     {
@@ -70,7 +70,7 @@
       "totalCambio": 556000.0,
       "totalChegada": 290000.0,
       "previsao": "23/11/2026",
-      "diasChegada": 58,
+      "diasChegada": 57,
       "semanaLabel": "Futuro"
     },
     {
