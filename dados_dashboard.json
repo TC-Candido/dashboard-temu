@@ -1,5 +1,5 @@
 {
-  "geradoEm": "28/09/2026 16:34",
+  "geradoEm": "28/09/2026 17:00",
   "kpis": {
     "totalProjetos": 13,
     "totalContainers": 43,
@@ -10,12 +10,12 @@
     "FINALIZADO": 15,
     "ATRACADO": 3,
     "SOBRE AGUAS": 13,
-    "EM PRODUÇÃO": 3,
+    "EM PRODUÇÃO": 4,
     "": 7
   },
   "fornecedorCounts": {
     "Honesty": 7,
-    "Temu": 16,
+    "Temu": 17,
     "Hontech-Wins": 3
   },
   "proximosETD": [
@@ -976,6 +976,24 @@
       "chegando10": false,
       "observacoes": "",
       "invoice": "SH-ZXH-260811"
+    },
+    {
+      "embarque": "TEMU147",
+      "codProjeto": "",
+      "projeto": "Estoque",
+      "fornecedor": "Temu",
+      "destino": "Navegantes",
+      "qtdCntr": 1,
+      "tipoCntr": "40HC",
+      "prontidao": "",
+      "etd": null,
+      "eta": null,
+      "status": "EM PRODUÇÃO",
+      "statusOp": "Sem Prontidão e ETD",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "26TM0628"
     }
   ]
 }
