@@ -1,5 +1,5 @@
 {
-  "geradoEm": "28/09/2026 17:34",
+  "geradoEm": "28/09/2026 18:00",
   "kpis": {
     "totalProjetos": 13,
     "totalContainers": 43,
@@ -11,12 +11,13 @@
     "ATRACADO": 3,
     "SOBRE AGUAS": 13,
     "EM PRODUÇÃO": 4,
-    "": 7
+    "": 8
   },
   "fornecedorCounts": {
     "Honesty": 7,
     "Temu": 17,
-    "Hontech-Wins": 3
+    "Hontech-Wins": 3,
+    "Faread": 1
   },
   "proximosETD": [
     {
@@ -994,6 +995,24 @@
       "chegando10": false,
       "observacoes": "",
       "invoice": "26TM0628"
+    },
+    {
+      "embarque": "TEMU148",
+      "codProjeto": "",
+      "projeto": "Projeto Miotto",
+      "fornecedor": "Faread",
+      "destino": "",
+      "qtdCntr": 0,
+      "tipoCntr": "",
+      "prontidao": "",
+      "etd": null,
+      "eta": null,
+      "status": "",
+      "statusOp": "Sem Prontidão e ETD",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "FRD2026092301"
     }
   ]
 }
