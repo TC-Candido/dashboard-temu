@@ -1,5 +1,5 @@
 {
-  "geradoEm": "28/09/2026 18:00",
+  "geradoEm": "28/09/2026 18:34",
   "kpis": {
     "totalProjetos": 13,
     "totalContainers": 43,
@@ -11,7 +11,7 @@
     "ATRACADO": 3,
     "SOBRE AGUAS": 13,
     "EM PRODUÇÃO": 4,
-    "": 8
+    "": 9
   },
   "fornecedorCounts": {
     "Honesty": 7,
@@ -1013,6 +1013,24 @@
       "chegando10": false,
       "observacoes": "",
       "invoice": "FRD2026092301"
+    },
+    {
+      "embarque": "TEMU149",
+      "codProjeto": "",
+      "projeto": "",
+      "fornecedor": "",
+      "destino": "",
+      "qtdCntr": 0,
+      "tipoCntr": "",
+      "prontidao": "",
+      "etd": null,
+      "eta": null,
+      "status": "",
+      "statusOp": "Sem Prontidão e ETD",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": ""
     }
   ]
 }
