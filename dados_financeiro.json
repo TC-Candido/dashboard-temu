@@ -1,5 +1,5 @@
 {
-  "geradoEm": "28/09/2026 17:00",
+  "geradoEm": "28/09/2026 17:34",
   "kpis": {
     "totalGeral": 2549800.0,
     "totalSemana": 0,
@@ -13,21 +13,6 @@
     "frete": 619800.0
   },
   "projetos": [
-    {
-      "projeto": "Projeto Copacol",
-      "codProjeto": "TL-00107",
-      "embarque": "TEMU116",
-      "status": "ATRACADO",
-      "cif": 356000.0,
-      "impostos": 115000.0,
-      "despesas": 32000.0,
-      "frete": 29000.0,
-      "totalCambio": 503000.0,
-      "totalChegada": 176000.0,
-      "previsao": "26/09/2026",
-      "diasChegada": -2,
-      "semanaLabel": "Atrasado"
-    },
     {
       "projeto": "Estoque",
       "codProjeto": "TL-00111",
@@ -147,6 +132,21 @@
       "previsao": "08/07/2020",
       "diasChegada": null,
       "semanaLabel": "Finalizado"
+    },
+    {
+      "projeto": "Projeto Copacol",
+      "codProjeto": "TL-00107",
+      "embarque": "TEMU116",
+      "status": "ATRACADO",
+      "cif": 356000.0,
+      "impostos": 115000.0,
+      "despesas": 32000.0,
+      "frete": 29000.0,
+      "totalCambio": 503000.0,
+      "totalChegada": 176000.0,
+      "previsao": null,
+      "diasChegada": null,
+      "semanaLabel": null
     },
     {
       "projeto": "Projeto Elton Endler\nProjeto Nilson Shimdt \nProjeto Climaves",
