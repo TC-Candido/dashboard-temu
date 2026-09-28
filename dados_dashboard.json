@@ -1,5 +1,5 @@
 {
-  "geradoEm": "28/09/2026 09:00",
+  "geradoEm": "28/09/2026 09:34",
   "kpis": {
     "totalProjetos": 13,
     "totalContainers": 43,
@@ -896,10 +896,10 @@
       "qtdCntr": 1,
       "tipoCntr": "20DRY",
       "prontidao": "2026-09-09 00:00:00",
-      "etd": null,
-      "eta": null,
+      "etd": "27/09/2026",
+      "eta": "21/11/2026",
       "status": "",
-      "statusOp": "Pronto - Aguardando ETD",
+      "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
