@@ -1,5 +1,5 @@
 {
-  "geradoEm": "29/09/2026 12:00",
+  "geradoEm": "29/09/2026 12:34",
   "kpis": {
     "totalProjetos": 13,
     "totalContainers": 43,
@@ -11,11 +11,11 @@
     "ATRACADO": 3,
     "SOBRE AGUAS": 13,
     "EM PRODUÇÃO": 4,
-    "": 9
+    "": 10
   },
   "fornecedorCounts": {
-    "Honesty": 7,
-    "Temu": 17,
+    "Honesty": 8,
+    "Temu": 18,
     "Hontech-Wins": 3,
     "Faread": 1
   },
@@ -1015,10 +1015,10 @@
       "invoice": "FRD2026092301"
     },
     {
-      "embarque": "TEMU149",
+      "embarque": "TEMU148",
       "codProjeto": "",
-      "projeto": "",
-      "fornecedor": "",
+      "projeto": "Projeto Miotto",
+      "fornecedor": "Temu",
       "destino": "",
       "qtdCntr": 0,
       "tipoCntr": "",
@@ -1030,7 +1030,25 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": ""
+      "invoice": "26TM0867\n26TM0868\n26TM0869\n26TM0870\n26TM0871\n26TM0872"
+    },
+    {
+      "embarque": "TEMU148",
+      "codProjeto": "",
+      "projeto": "Projeto Miotto",
+      "fornecedor": "Honesty",
+      "destino": "",
+      "qtdCntr": 0,
+      "tipoCntr": "",
+      "prontidao": "",
+      "etd": null,
+      "eta": null,
+      "status": "",
+      "statusOp": "Sem Prontidão e ETD",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "SH-ZXH-260917"
     }
   ]
 }
