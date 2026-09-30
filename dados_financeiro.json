@@ -1,8 +1,8 @@
 {
-  "geradoEm": "29/09/2026 23:34",
+  "geradoEm": "30/09/2026 00:00",
   "kpis": {
     "totalGeral": 2549800.0,
-    "totalSemana": 0,
+    "totalSemana": 148800.0,
     "totalQuinzena": 148800.0,
     "totalMes": 148800.0,
     "qtdChegando": 2
@@ -25,8 +25,8 @@
       "totalCambio": 376000.0,
       "totalChegada": 148800.0,
       "previsao": "07/10/2026",
-      "diasChegada": 8,
-      "semanaLabel": "Próximos 15 dias"
+      "diasChegada": 7,
+      "semanaLabel": "Esta semana"
     },
     {
       "projeto": "Estoque Temu 1",
@@ -40,7 +40,7 @@
       "totalCambio": 556000.0,
       "totalChegada": 290000.0,
       "previsao": "24/11/2026",
-      "diasChegada": 56,
+      "diasChegada": 55,
       "semanaLabel": "Futuro"
     },
     {
