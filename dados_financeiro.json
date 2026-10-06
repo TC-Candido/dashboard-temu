@@ -1,5 +1,5 @@
 {
-  "geradoEm": "06/10/2026 09:34",
+  "geradoEm": "06/10/2026 10:00",
   "kpis": {
     "totalGeral": 2549800.0,
     "totalSemana": 148800.0,
@@ -17,7 +17,7 @@
       "projeto": "Projeto Copacol",
       "codProjeto": "TL-00107",
       "embarque": "TEMU116",
-      "status": "ATRACADO",
+      "status": "EMITIR NF",
       "cif": 356000.0,
       "impostos": 115000.0,
       "despesas": 32000.0,
