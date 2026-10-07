@@ -1,10 +1,10 @@
 {
-  "geradoEm": "06/10/2026 18:00",
+  "geradoEm": "07/10/2026 08:10",
   "kpis": {
     "totalProjetos": 13,
     "totalContainers": 42,
     "etd7dias": 1,
-    "chegando10dias": 4
+    "chegando10dias": 3
   },
   "statusCounts": {
     "FINALIZADO": 16,
@@ -199,7 +199,7 @@
       "status": "DESEMBRAÇO",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": "",
       "invoice": "HT-X26073001BR +  HT-X26073002BR"
     },
@@ -525,7 +525,7 @@
       "status": "DESEMBRAÇO",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": "",
       "invoice": "HT-X26073001BR +  HT-X26073002BR"
     },
