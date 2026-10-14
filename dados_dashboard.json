@@ -1,5 +1,5 @@
 {
-  "geradoEm": "13/10/2026 23:00",
+  "geradoEm": "13/10/2026 23:34",
   "kpis": {
     "totalProjetos": 13,
     "totalContainers": 42,
@@ -12,13 +12,14 @@
     "EMITIR NF": 1,
     "SOBRE AGUAS": 12,
     "EM PRODUÇÃO": 3,
-    "": 13
+    "": 14
   },
   "fornecedorCounts": {
     "Hontech-Wins": 3,
     "Honesty": 11,
     "Temu": 17,
-    "Faread": 1
+    "Faread": 1,
+    "Honestu": 1
   },
   "proximosETD": [
     {
@@ -977,7 +978,7 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "SH-ZXH-260917 + REPOSIÇÃO AGROTER"
+      "invoice": "SH-ZXH-260917 + REPOSIÇÃO AGROTER + ESTOQUE + GARANTIA"
     },
     {
       "embarque": "TEMU137",
@@ -987,7 +988,7 @@
       "destino": "",
       "qtdCntr": 0,
       "tipoCntr": "",
-      "prontidao": "2026-09-20 00:00:00",
+      "prontidao": "2026-10-25 00:00:00",
       "etd": null,
       "eta": null,
       "status": "EM PRODUÇÃO",
@@ -1005,11 +1006,11 @@
       "destino": "",
       "qtdCntr": 0,
       "tipoCntr": "",
-      "prontidao": "",
+      "prontidao": "2026-10-25 00:00:00",
       "etd": null,
       "eta": null,
       "status": "",
-      "statusOp": "Sem Prontidão e ETD",
+      "statusOp": "Pronto - Aguardando ETD",
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
@@ -1036,20 +1037,38 @@
     {
       "embarque": "TEMU151",
       "codProjeto": "",
-      "projeto": "Estoque Temu",
+      "projeto": "Garantia Temu",
       "fornecedor": "Honesty",
       "destino": "",
       "qtdCntr": 0,
       "tipoCntr": "",
-      "prontidao": "",
+      "prontidao": "2026-10-25 00:00:00",
       "etd": null,
       "eta": null,
       "status": "",
-      "statusOp": "Sem Prontidão e ETD",
+      "statusOp": "Pronto - Aguardando ETD",
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
       "invoice": "GRAMPO"
+    },
+    {
+      "embarque": "TEMU151",
+      "codProjeto": "",
+      "projeto": "Garantia Temu",
+      "fornecedor": "Honestu",
+      "destino": "",
+      "qtdCntr": 0,
+      "tipoCntr": "",
+      "prontidao": "2026-10-25 00:00:00",
+      "etd": null,
+      "eta": null,
+      "status": "",
+      "statusOp": "Pronto - Aguardando ETD",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "COMEDOURO"
     },
     {
       "embarque": "TEMU149",

@@ -1,41 +1,20 @@
 {
-  "geradoEm": "13/10/2026 23:00",
+  "geradoEm": "13/10/2026 23:34",
   "kpis": {
-    "totalSaldo": 1287892.62,
+    "totalSaldo": 1164371.27,
     "qtdAberto": 28,
     "venc30": 192435.67,
-    "vencidos": 136541.35
+    "vencidos": 0
   },
   "fornSaldo": {
-    "Temu": 673449.47,
-    "Honesty": 614443.15
+    "Temu": 686469.47,
+    "Honesty": 477901.8
   },
   "statusCounts": {
-    "Aguardando 2ª Parcela": 12,
-    "Sem prazo - Verificar": 16
+    "Aguardando 2ª Parcela": 16,
+    "Sem prazo - Verificar": 12
   },
   "proximos": [
-    {
-      "projeto": "San Bernardo - Parte 2",
-      "codProjeto": "TL-00100",
-      "embarque": "TEMU125",
-      "fornecedor": "Honesty",
-      "fatura": "SH-ZXH-260617",
-      "valor": 338381.35,
-      "pct1": 30.0,
-      "pago1": 92376.0,
-      "pct2": 30.0,
-      "pago2": 109464.0,
-      "pct3": 40.0,
-      "pago3": 136541.35,
-      "saldo": 136541.35,
-      "statusCambio": "Aguardando 2ª Parcela",
-      "previsao": "12/10/2026",
-      "previsaoDias": -1,
-      "previsaoLabel": "1d atrás",
-      "statusVenc": "Vencido",
-      "pagoEUA": 0
-    },
     {
       "projeto": "San Bernardo - Parte 2",
       "codProjeto": "TL-00100",
@@ -933,12 +912,12 @@
       "pago2": 109464.0,
       "pct3": 40.0,
       "pago3": 136541.35,
-      "saldo": 136541.35,
-      "statusCambio": "Aguardando 2ª Parcela",
+      "saldo": 0.0,
+      "statusCambio": "Pago Total",
       "previsao": "12/10/2026",
       "previsaoDias": -1,
       "previsaoLabel": "1d atrás",
-      "statusVenc": "Vencido",
+      "statusVenc": "Quitado",
       "pagoEUA": 0
     },
     {
@@ -1774,7 +1753,7 @@
       "pct3": 0,
       "pago3": 0,
       "saldo": 4039.5,
-      "statusCambio": "Sem prazo - Verificar",
+      "statusCambio": "Aguardando 2ª Parcela",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
@@ -1795,7 +1774,7 @@
       "pct3": 0,
       "pago3": 0,
       "saldo": 685.0,
-      "statusCambio": "Sem prazo - Verificar",
+      "statusCambio": "Aguardando 2ª Parcela",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
@@ -1866,6 +1845,27 @@
       "pagoEUA": 0
     },
     {
+      "projeto": "Estoque Temu 1",
+      "codProjeto": "TL-00114",
+      "embarque": "TEMU140",
+      "fornecedor": "Temu",
+      "fatura": "26TM0820",
+      "valor": 18600.0,
+      "pct1": 30.0,
+      "pago1": 5580.0,
+      "pct2": 70.0,
+      "pago2": 13020.0,
+      "pct3": 0,
+      "pago3": 0,
+      "saldo": 13020.0,
+      "statusCambio": "Sem prazo - Verificar",
+      "previsao": null,
+      "previsaoDias": null,
+      "previsaoLabel": null,
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 0
+    },
+    {
       "projeto": "Estoque Temu",
       "codProjeto": "TL-00114",
       "embarque": "TEMU142",
@@ -1879,7 +1879,7 @@
       "pct3": 0,
       "pago3": 0,
       "saldo": 7390.0,
-      "statusCambio": "Sem prazo - Verificar",
+      "statusCambio": "Aguardando 2ª Parcela",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
@@ -1900,7 +1900,7 @@
       "pct3": 0,
       "pago3": 0,
       "saldo": 2481.5,
-      "statusCambio": "Sem prazo - Verificar",
+      "statusCambio": "Aguardando 2ª Parcela",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
@@ -2089,7 +2089,7 @@
       "pct3": 0,
       "pago3": 0,
       "saldo": 10437.0,
-      "statusCambio": "Sem prazo - Verificar",
+      "statusCambio": "Aguardando 2ª Parcela",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
