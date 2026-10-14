@@ -1,5 +1,5 @@
 {
-  "geradoEm": "14/10/2026 15:34",
+  "geradoEm": "14/10/2026 16:00",
   "kpis": {
     "totalProjetos": 14,
     "totalContainers": 42,
@@ -1130,7 +1130,7 @@
       "fornecedor": "Honesty",
       "destino": "",
       "qtdCntr": 18,
-      "tipoCntr": "",
+      "tipoCntr": "40hc",
       "prontidao": "2026-12-10 00:00:00",
       "etd": null,
       "eta": null,
