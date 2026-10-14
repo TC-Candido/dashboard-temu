@@ -1,18 +1,18 @@
 {
-  "geradoEm": "13/10/2026 22:34",
+  "geradoEm": "13/10/2026 23:00",
   "kpis": {
-    "totalSaldo": 846735.82,
-    "qtdAberto": 27,
+    "totalSaldo": 1287892.62,
+    "qtdAberto": 28,
     "venc30": 192435.67,
     "vencidos": 136541.35
   },
   "fornSaldo": {
     "Temu": 673449.47,
-    "Honesty": 173286.35
+    "Honesty": 614443.15
   },
   "statusCounts": {
     "Aguardando 2ª Parcela": 12,
-    "Sem prazo - Verificar": 15
+    "Sem prazo - Verificar": 16
   },
   "proximos": [
     {
@@ -2131,6 +2131,27 @@
       "pct3": 0,
       "pago3": 0,
       "saldo": 30205.0,
+      "statusCambio": "Sem prazo - Verificar",
+      "previsao": null,
+      "previsaoDias": null,
+      "previsaoLabel": null,
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 0
+    },
+    {
+      "projeto": "Projeto San Bernardo lll",
+      "codProjeto": "0",
+      "embarque": "TEMU150",
+      "fornecedor": "Honesty",
+      "fatura": "SH-ZXH-261009",
+      "valor": 630224.0,
+      "pct1": 30.0,
+      "pago1": 189067.2,
+      "pct2": 30.0,
+      "pago2": 189067.2,
+      "pct3": 40.0,
+      "pago3": 252089.6,
+      "saldo": 441156.8,
       "statusCambio": "Sem prazo - Verificar",
       "previsao": null,
       "previsaoDias": null,
