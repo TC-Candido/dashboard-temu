@@ -1,17 +1,17 @@
 {
-  "geradoEm": "14/10/2026 00:00",
+  "geradoEm": "14/10/2026 00:34",
   "kpis": {
-    "totalSaldo": 1164371.27,
-    "qtdAberto": 28,
+    "totalSaldo": 1165395.57,
+    "qtdAberto": 29,
     "venc30": 279261.63,
     "vencidos": 0
   },
   "fornSaldo": {
     "Temu": 686469.47,
-    "Honesty": 477901.8
+    "Honesty": 478926.1
   },
   "statusCounts": {
-    "Aguardando 2ª Parcela": 16,
+    "Aguardando 2ª Parcela": 17,
     "Sem prazo - Verificar": 12
   },
   "proximos": [
@@ -1745,14 +1745,14 @@
       "embarque": "TEMU137",
       "fornecedor": "Honesty",
       "fatura": "SH-ZXH-260714",
-      "valor": 8079.0,
+      "valor": 8413.3,
       "pct1": 50.0,
       "pago1": 4039.5,
       "pct2": 50.0,
-      "pago2": 4039.5,
+      "pago2": 4373.8,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 4039.5,
+      "saldo": 4373.8,
       "statusCambio": "Aguardando 2ª Parcela",
       "previsao": null,
       "previsaoDias": null,
@@ -2094,6 +2094,48 @@
       "previsaoDias": null,
       "previsaoLabel": null,
       "statusVenc": "Sem previsão",
+      "pagoEUA": 0
+    },
+    {
+      "projeto": "Garantia Temu",
+      "codProjeto": "0",
+      "embarque": "TEMU151",
+      "fornecedor": "Honesty",
+      "fatura": "GRAMPO",
+      "valor": 690.0,
+      "pct1": 0,
+      "pago1": 0.0,
+      "pct2": 100.0,
+      "pago2": 690.0,
+      "pct3": 0,
+      "pago3": 0,
+      "saldo": 690.0,
+      "statusCambio": "Aguardando 2ª Parcela",
+      "previsao": null,
+      "previsaoDias": null,
+      "previsaoLabel": null,
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 0
+    },
+    {
+      "projeto": "Garantia Temu",
+      "codProjeto": "0",
+      "embarque": "TEMU151",
+      "fornecedor": "Honesty",
+      "fatura": "COMEDOURO",
+      "valor": 0.0,
+      "pct1": 0,
+      "pago1": 0.0,
+      "pct2": 0,
+      "pago2": 0,
+      "pct3": 0,
+      "pago3": 0,
+      "saldo": 0.0,
+      "statusCambio": "Pago Total",
+      "previsao": null,
+      "previsaoDias": null,
+      "previsaoLabel": null,
+      "statusVenc": "Quitado",
       "pagoEUA": 0
     },
     {
