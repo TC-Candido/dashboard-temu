@@ -1,10 +1,10 @@
 {
-  "geradoEm": "13/10/2026 23:34",
+  "geradoEm": "14/10/2026 00:00",
   "kpis": {
     "totalProjetos": 13,
     "totalContainers": 42,
     "etd7dias": 1,
-    "chegando10dias": 4
+    "chegando10dias": 3
   },
   "statusCounts": {
     "FINALIZADO": 16,
@@ -12,14 +12,13 @@
     "EMITIR NF": 1,
     "SOBRE AGUAS": 12,
     "EM PRODUÇÃO": 3,
-    "": 14
+    "": 15
   },
   "fornecedorCounts": {
     "Hontech-Wins": 3,
-    "Honesty": 11,
+    "Honesty": 13,
     "Temu": 17,
-    "Faread": 1,
-    "Honestu": 1
+    "Faread": 1
   },
   "proximosETD": [
     {
@@ -236,7 +235,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Pronto - Aguardando ETD",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": "Aguardando follow atualizado",
       "invoice": "LFR26071\n26TM0628"
     }
@@ -616,7 +615,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Pronto - Aguardando ETD",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": "Aguardando follow atualizado",
       "invoice": "LFR26071\n26TM0628"
     },
@@ -978,7 +977,7 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "SH-ZXH-260917 + REPOSIÇÃO AGROTER + ESTOQUE + GARANTIA"
+      "invoice": "SH-ZXH-260917"
     },
     {
       "embarque": "TEMU137",
@@ -1056,7 +1055,7 @@
       "embarque": "TEMU151",
       "codProjeto": "",
       "projeto": "Garantia Temu",
-      "fornecedor": "Honestu",
+      "fornecedor": "Honesty",
       "destino": "",
       "qtdCntr": 0,
       "tipoCntr": "",
@@ -1069,6 +1068,24 @@
       "chegando10": false,
       "observacoes": "",
       "invoice": "COMEDOURO"
+    },
+    {
+      "embarque": "TEMU152",
+      "codProjeto": "",
+      "projeto": "Garantia Temu",
+      "fornecedor": "Honesty",
+      "destino": "",
+      "qtdCntr": 0,
+      "tipoCntr": "",
+      "prontidao": "2026-10-13 00:00:00",
+      "etd": null,
+      "eta": null,
+      "status": "",
+      "statusOp": "Pronto - Aguardando ETD",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "SH-ZXH-261008"
     },
     {
       "embarque": "TEMU149",
