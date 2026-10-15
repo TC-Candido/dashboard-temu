@@ -1,11 +1,11 @@
 {
-  "geradoEm": "14/10/2026 23:34",
+  "geradoEm": "15/10/2026 00:00",
   "kpis": {
     "totalGeral": 2549800.0,
-    "totalSemana": 148800.0,
-    "totalQuinzena": 148800.0,
-    "totalMes": 148800.0,
-    "qtdChegando": 2
+    "totalSemana": 0,
+    "totalQuinzena": 0,
+    "totalMes": 0,
+    "qtdChegando": 1
   },
   "composicao": {
     "impostos": 1368000.0,
@@ -25,7 +25,7 @@
       "totalCambio": 503000.0,
       "totalChegada": 176000.0,
       "previsao": "26/09/2026",
-      "diasChegada": -18,
+      "diasChegada": -19,
       "semanaLabel": "Atrasado"
     },
     {
@@ -40,8 +40,8 @@
       "totalCambio": 376000.0,
       "totalChegada": 148800.0,
       "previsao": "14/10/2026",
-      "diasChegada": 0,
-      "semanaLabel": "Esta semana"
+      "diasChegada": -1,
+      "semanaLabel": "Atrasado"
     },
     {
       "projeto": "Estoque Temu 1",
@@ -55,7 +55,7 @@
       "totalCambio": 556000.0,
       "totalChegada": 290000.0,
       "previsao": "24/11/2026",
-      "diasChegada": 41,
+      "diasChegada": 40,
       "semanaLabel": "Futuro"
     },
     {

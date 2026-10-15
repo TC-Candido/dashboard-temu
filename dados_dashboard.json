@@ -1,9 +1,9 @@
 {
-  "geradoEm": "14/10/2026 23:34",
+  "geradoEm": "15/10/2026 00:00",
   "kpis": {
     "totalProjetos": 14,
     "totalContainers": 42,
-    "etd7dias": 1,
+    "etd7dias": 0,
     "chegando10dias": 3
   },
   "statusCounts": {
@@ -848,7 +848,7 @@
       "eta": "24/11/2026",
       "status": "",
       "statusOp": "Prontidão e ETD OK",
-      "etd7dias": true,
+      "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
       "invoice": "26TM0836\n26TM0820\n26MTAZU010\n26TM0833"
