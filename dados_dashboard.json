@@ -1,5 +1,5 @@
 {
-  "geradoEm": "16/10/2026 14:34",
+  "geradoEm": "16/10/2026 15:00",
   "kpis": {
     "totalProjetos": 16,
     "totalContainers": 47,
@@ -10,13 +10,13 @@
     "FINALIZADO": 17,
     "DESEMBRAÇO": 4,
     "SOBRE AGUAS": 13,
-    "": 17,
+    "": 18,
     "EM PRODUÇÃO": 2
   },
   "fornecedorCounts": {
     "Hontech-Wins": 3,
     "Honesty": 13,
-    "Temu": 19,
+    "Temu": 20,
     "Faread": 1
   },
   "proximosETD": [
@@ -1193,6 +1193,24 @@
       "chegando10": false,
       "observacoes": "",
       "invoice": "26TM0643-2"
+    },
+    {
+      "embarque": "TEMU153",
+      "codProjeto": "",
+      "projeto": "Projeto San Bernardo lll",
+      "fornecedor": "Temu",
+      "destino": "",
+      "qtdCntr": 0,
+      "tipoCntr": "",
+      "prontidao": "",
+      "etd": null,
+      "eta": null,
+      "status": "",
+      "statusOp": "Sem Prontidão e ETD",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "26TM0891"
     }
   ]
 }
