@@ -1,5 +1,5 @@
 {
-  "geradoEm": "16/10/2026 13:34",
+  "geradoEm": "16/10/2026 14:00",
   "kpis": {
     "totalSaldo": 1167375.57,
     "qtdAberto": 30,
@@ -2182,7 +2182,7 @@
     },
     {
       "projeto": "Projeto Ysaka",
-      "codProjeto": "0",
+      "codProjeto": "TL-00116",
       "embarque": "TEMU149",
       "fornecedor": "Honesty",
       "fatura": "SH-ZXH-260928",
@@ -2203,7 +2203,7 @@
     },
     {
       "projeto": "Projeto Ysaka",
-      "codProjeto": "0",
+      "codProjeto": "TL-00116",
       "embarque": "TEMU149",
       "fornecedor": "Temu",
       "fatura": "26TM0878",
