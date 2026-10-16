@@ -1,17 +1,17 @@
 {
-  "geradoEm": "16/10/2026 14:00",
+  "geradoEm": "16/10/2026 14:34",
   "kpis": {
     "totalProjetos": 16,
-    "totalContainers": 36,
+    "totalContainers": 47,
     "etd7dias": 0,
     "chegando10dias": 3
   },
   "statusCounts": {
     "FINALIZADO": 17,
     "DESEMBRAÇO": 4,
-    "SOBRE AGUAS": 11,
-    "EM PRODUÇÃO": 3,
-    "": 18
+    "SOBRE AGUAS": 13,
+    "": 17,
+    "EM PRODUÇÃO": 2
   },
   "fornecedorCounts": {
     "Hontech-Wins": 3,
@@ -20,6 +20,24 @@
     "Faread": 1
   },
   "proximosETD": [
+    {
+      "embarque": "TEMU140",
+      "codProjeto": "TL-00114",
+      "projeto": "Estoque Temu 1",
+      "fornecedor": "Temu",
+      "destino": "",
+      "qtdCntr": 3,
+      "tipoCntr": "40HC",
+      "prontidao": "2026-09-11 00:00:00",
+      "etd": "15/10/2020",
+      "eta": "24/11/2020",
+      "status": "SOBRE AGUAS",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "26TM0836\n26TM0820\n26MTAZU010\n26TM0833"
+    },
     {
       "embarque": "TEMU122",
       "codProjeto": "TL-00100",
@@ -109,27 +127,27 @@
       "chegando10": true,
       "observacoes": "Aguardando Invoice e packing list finais",
       "invoice": "26TM0638"
-    },
+    }
+  ],
+  "proximosETA": [
     {
-      "embarque": "TEMU135",
-      "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
+      "embarque": "TEMU140",
+      "codProjeto": "TL-00114",
+      "projeto": "Estoque Temu 1",
       "fornecedor": "Temu",
-      "destino": "Asuncion",
-      "qtdCntr": 4,
-      "tipoCntr": "3*40HC \n1*20GP",
-      "prontidao": "2026-07-26 00:00:00",
-      "etd": "12/08/2026",
-      "eta": "31/10/2026",
+      "destino": "",
+      "qtdCntr": 3,
+      "tipoCntr": "40HC",
+      "prontidao": "2026-09-11 00:00:00",
+      "etd": "15/10/2020",
+      "eta": "24/11/2020",
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0718\n26TM0719\n26TM0710\n26TM0711\n26TM0705\n26TM0707\n26TM0751\n26TM0752"
-    }
-  ],
-  "proximosETA": [
+      "invoice": "26TM0836\n26TM0820\n26MTAZU010\n26TM0833"
+    },
     {
       "embarque": "TEMU122",
       "codProjeto": "TL-00100",
@@ -212,31 +230,13 @@
       "tipoCntr": "40HC",
       "prontidao": "2026-07-31 00:00:00",
       "etd": null,
-      "eta": "15/10/2026",
+      "eta": "16/10/2026",
       "status": "SOBRE AGUAS",
       "statusOp": "Pronto - Aguardando ETD",
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "Aguardando follow atualizado",
       "invoice": "LFR26071\n26TM0628"
-    },
-    {
-      "embarque": "TEMU132",
-      "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
-      "fornecedor": "Temu",
-      "destino": "Asuncion",
-      "qtdCntr": 1,
-      "tipoCntr": "40hc",
-      "prontidao": "2026-07-14 00:00:00",
-      "etd": "28/07/2026",
-      "eta": "20/10/2026",
-      "status": "SOBRE AGUAS",
-      "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
-      "chegando10": true,
-      "observacoes": "",
-      "invoice": "26TM0674\n26TM0675\n26TM0678\n26TM0679"
     }
   ],
   "embarques": [
@@ -628,7 +628,7 @@
       "tipoCntr": "40HC",
       "prontidao": "2026-07-31 00:00:00",
       "etd": null,
-      "eta": "15/10/2026",
+      "eta": "16/10/2026",
       "status": "SOBRE AGUAS",
       "statusOp": "Pronto - Aguardando ETD",
       "etd7dias": false,
@@ -827,7 +827,7 @@
       "prontidao": "",
       "etd": "17/09/2026",
       "eta": "20/11/2026",
-      "status": "EM PRODUÇÃO",
+      "status": "SOBRE AGUAS",
       "statusOp": "Sem Prontidão",
       "etd7dias": false,
       "chegando10": false,
@@ -843,9 +843,9 @@
       "qtdCntr": 3,
       "tipoCntr": "40HC",
       "prontidao": "2026-09-11 00:00:00",
-      "etd": "15/10/2026",
-      "eta": "24/11/2026",
-      "status": "",
+      "etd": "15/10/2020",
+      "eta": "24/11/2020",
+      "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
       "chegando10": false,
@@ -889,7 +889,7 @@
       "invoice": "SH-ZXH-261008"
     },
     {
-      "embarque": "TEMU107",
+      "embarque": "TEMU107-2",
       "codProjeto": "TL-00108",
       "projeto": "Projeto Elton Endler",
       "fornecedor": "Temu",
