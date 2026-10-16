@@ -1,18 +1,19 @@
 {
-  "geradoEm": "16/10/2026 15:00",
+  "geradoEm": "16/10/2026 15:34",
   "kpis": {
-    "totalSaldo": 1167375.57,
-    "qtdAberto": 30,
+    "totalSaldo": 1597054.36,
+    "qtdAberto": 31,
     "venc30": 279261.63,
     "vencidos": 0
   },
   "fornSaldo": {
     "Temu": 688449.47,
-    "Honesty": 478926.1
+    "Honesty": 478926.1,
+    "TEMU": 429678.79
   },
   "statusCounts": {
     "Aguardando 2ª Parcela": 18,
-    "Sem prazo - Verificar": 12
+    "Sem prazo - Verificar": 13
   },
   "proximos": [
     {
@@ -2236,6 +2237,27 @@
       "pct3": 40.0,
       "pago3": 252089.6,
       "saldo": 441156.8,
+      "statusCambio": "Sem prazo - Verificar",
+      "previsao": null,
+      "previsaoDias": null,
+      "previsaoLabel": null,
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 0
+    },
+    {
+      "projeto": "Projeto San Bernardo lll",
+      "codProjeto": "0",
+      "embarque": "TEMU153",
+      "fornecedor": "TEMU",
+      "fatura": "26TM0891",
+      "valor": 613826.85,
+      "pct1": 30.0,
+      "pago1": 184148.05,
+      "pct2": 30.0,
+      "pago2": 184148.05,
+      "pct3": 40.0,
+      "pago3": 245530.74,
+      "saldo": 429678.79,
       "statusCambio": "Sem prazo - Verificar",
       "previsao": null,
       "previsaoDias": null,
