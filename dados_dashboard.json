@@ -1,7 +1,7 @@
 {
-  "geradoEm": "20/10/2026 07:34",
+  "geradoEm": "20/10/2026 08:00",
   "kpis": {
-    "totalProjetos": 16,
+    "totalProjetos": 15,
     "totalContainers": 47,
     "etd7dias": 0,
     "chegando10dias": 4
@@ -11,33 +11,15 @@
     "DESEMBRAÇO": 4,
     "SOBRE AGUAS": 13,
     "": 6,
-    "EM PRODUÇÃO": 14
+    "EM PRODUÇÃO": 15
   },
   "fornecedorCounts": {
     "Hontech-Wins": 3,
     "Honesty": 13,
-    "Temu": 20,
+    "Temu": 21,
     "Faread": 1
   },
   "proximosETD": [
-    {
-      "embarque": "TEMU140",
-      "codProjeto": "TL-00114",
-      "projeto": "Estoque Temu 1",
-      "fornecedor": "Temu",
-      "destino": "",
-      "qtdCntr": 3,
-      "tipoCntr": "40HC",
-      "prontidao": "2026-09-11 00:00:00",
-      "etd": "15/10/2020",
-      "eta": "24/11/2020",
-      "status": "SOBRE AGUAS",
-      "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": "",
-      "invoice": "26TM0836\n26TM0820\n26MTAZU010\n26TM0833"
-    },
     {
       "embarque": "TEMU122",
       "codProjeto": "TL-00100",
@@ -127,27 +109,27 @@
       "chegando10": true,
       "observacoes": "Aguardando Invoice e packing list finais",
       "invoice": "26TM0638"
-    }
-  ],
-  "proximosETA": [
+    },
     {
-      "embarque": "TEMU140",
-      "codProjeto": "TL-00114",
-      "projeto": "Estoque Temu 1",
+      "embarque": "TEMU135",
+      "codProjeto": "TL-00100",
+      "projeto": "San Bernardo - Parte 2",
       "fornecedor": "Temu",
-      "destino": "",
-      "qtdCntr": 3,
-      "tipoCntr": "40HC",
-      "prontidao": "2026-09-11 00:00:00",
-      "etd": "15/10/2020",
-      "eta": "24/11/2020",
+      "destino": "Asuncion",
+      "qtdCntr": 4,
+      "tipoCntr": "3*40HC \n1*20GP",
+      "prontidao": "2026-07-26 00:00:00",
+      "etd": "12/08/2026",
+      "eta": "31/10/2026",
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "",
-      "invoice": "26TM0836\n26TM0820\n26MTAZU010\n26TM0833"
-    },
+      "invoice": "26TM0718\n26TM0719\n26TM0710\n26TM0711\n26TM0705\n26TM0707\n26TM0751\n26TM0752"
+    }
+  ],
+  "proximosETA": [
     {
       "embarque": "TEMU122",
       "codProjeto": "TL-00100",
@@ -186,7 +168,7 @@
     },
     {
       "embarque": "TEMU138 TEMU039",
-      "codProjeto": "",
+      "codProjeto": "TL-00117",
       "projeto": "San Bernardo - Parte 3",
       "fornecedor": "Hontech-Wins",
       "destino": "",
@@ -237,6 +219,24 @@
       "chegando10": false,
       "observacoes": "Aguardando follow atualizado",
       "invoice": "LFR26071\n26TM0628"
+    },
+    {
+      "embarque": "TEMU132",
+      "codProjeto": "TL-00100",
+      "projeto": "San Bernardo - Parte 2",
+      "fornecedor": "Temu",
+      "destino": "Asuncion",
+      "qtdCntr": 1,
+      "tipoCntr": "40hc",
+      "prontidao": "2026-07-14 00:00:00",
+      "etd": "28/07/2026",
+      "eta": "20/10/2026",
+      "status": "SOBRE AGUAS",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "26TM0674\n26TM0675\n26TM0678\n26TM0679"
     }
   ],
   "embarques": [
@@ -548,7 +548,7 @@
     },
     {
       "embarque": "TEMU138 TEMU039",
-      "codProjeto": "",
+      "codProjeto": "TL-00117",
       "projeto": "San Bernardo - Parte 3",
       "fornecedor": "Hontech-Wins",
       "destino": "",
@@ -843,8 +843,8 @@
       "qtdCntr": 3,
       "tipoCntr": "40HC",
       "prontidao": "2026-09-11 00:00:00",
-      "etd": "15/10/2020",
-      "eta": "24/11/2020",
+      "etd": "15/10/2026",
+      "eta": "24/11/2026",
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
@@ -908,7 +908,7 @@
     },
     {
       "embarque": "TEMU138",
-      "codProjeto": "",
+      "codProjeto": "TL-00117",
       "projeto": "San Bernardo - Parte 3",
       "fornecedor": "Hontech-Wins",
       "destino": "",
@@ -926,7 +926,7 @@
     },
     {
       "embarque": "TEMU139",
-      "codProjeto": "",
+      "codProjeto": "TL-00117",
       "projeto": "San Bernardo - Parte 3",
       "fornecedor": "Hontech-Wins",
       "destino": "",
@@ -944,7 +944,7 @@
     },
     {
       "embarque": "TEMU133 -2",
-      "codProjeto": "",
+      "codProjeto": "TL-00117",
       "projeto": "Projeto San Bernardo ll",
       "fornecedor": "Temu",
       "destino": "Asuncion",
@@ -962,7 +962,7 @@
     },
     {
       "embarque": "TEMU147",
-      "codProjeto": "",
+      "codProjeto": "TL-00114",
       "projeto": "Estoque",
       "fornecedor": "Temu",
       "destino": "Navegantes",
@@ -980,7 +980,7 @@
     },
     {
       "embarque": "TEMU148",
-      "codProjeto": "",
+      "codProjeto": "TL-00117",
       "projeto": "Projeto Miotto",
       "fornecedor": "Faread",
       "destino": "",
@@ -998,7 +998,7 @@
     },
     {
       "embarque": "TEMU148",
-      "codProjeto": "",
+      "codProjeto": "TL-00117",
       "projeto": "Projeto Miotto",
       "fornecedor": "Temu",
       "destino": "",
@@ -1016,7 +1016,7 @@
     },
     {
       "embarque": "TEMU148",
-      "codProjeto": "TL-00115",
+      "codProjeto": "TL-00117",
       "projeto": "Projeto Miotto",
       "fornecedor": "Honesty",
       "destino": "",
@@ -1034,7 +1034,7 @@
     },
     {
       "embarque": "TEMU137",
-      "codProjeto": "TL-00115",
+      "codProjeto": "TL-00117",
       "projeto": "Agroter",
       "fornecedor": "Honesty",
       "destino": "",
@@ -1052,7 +1052,7 @@
     },
     {
       "embarque": "TEMU142",
-      "codProjeto": "TL-00115",
+      "codProjeto": "TL-00117",
       "projeto": "Estoque Temu",
       "fornecedor": "Honesty",
       "destino": "",
@@ -1070,7 +1070,7 @@
     },
     {
       "embarque": "TEMU144",
-      "codProjeto": "TL-00115",
+      "codProjeto": "TL-00117",
       "projeto": "Estoque Temu",
       "fornecedor": "Honesty",
       "destino": "",
@@ -1088,7 +1088,7 @@
     },
     {
       "embarque": "TEMU151",
-      "codProjeto": "TL-00115",
+      "codProjeto": "TL-00117",
       "projeto": "Garantia Temu",
       "fornecedor": "Honesty",
       "destino": "",
@@ -1106,7 +1106,7 @@
     },
     {
       "embarque": "TEMU151",
-      "codProjeto": "TL-00115",
+      "codProjeto": "TL-00117",
       "projeto": "Garantia Temu",
       "fornecedor": "Honesty",
       "destino": "",
@@ -1124,7 +1124,7 @@
     },
     {
       "embarque": "TEMU149",
-      "codProjeto": "TL-00116",
+      "codProjeto": "TL-00117",
       "projeto": "Projeto Ysaka",
       "fornecedor": "Honesty",
       "destino": "",
@@ -1142,7 +1142,7 @@
     },
     {
       "embarque": "TEMU149",
-      "codProjeto": "TL-00116",
+      "codProjeto": "TL-00117",
       "projeto": "Projeto Ysaka",
       "fornecedor": "Temu",
       "destino": "",
@@ -1160,7 +1160,7 @@
     },
     {
       "embarque": "TEMU150",
-      "codProjeto": "",
+      "codProjeto": "TL-00117",
       "projeto": "Projeto San Bernardo lll",
       "fornecedor": "Honesty",
       "destino": "",
@@ -1178,7 +1178,7 @@
     },
     {
       "embarque": "TEMU133 -2",
-      "codProjeto": "",
+      "codProjeto": "TL-00117",
       "projeto": "Projeto San Bernardo ll",
       "fornecedor": "Temu",
       "destino": "Asuncion",
@@ -1196,7 +1196,7 @@
     },
     {
       "embarque": "TEMU153",
-      "codProjeto": "",
+      "codProjeto": "TL-00117",
       "projeto": "Projeto San Bernardo lll",
       "fornecedor": "Temu",
       "destino": "Asuncion",
@@ -1211,6 +1211,24 @@
       "chegando10": false,
       "observacoes": "",
       "invoice": "26TM0891"
+    },
+    {
+      "embarque": "TEMU154",
+      "codProjeto": "TL-00099",
+      "projeto": "San Bernardo - Parte 1",
+      "fornecedor": "Temu",
+      "destino": "Asuncion",
+      "qtdCntr": 0,
+      "tipoCntr": "",
+      "prontidao": "2026-11-20 00:00:00",
+      "etd": "30/11/2026",
+      "eta": "28/02/2027",
+      "status": "EM PRODUÇÃO",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "26TM0860 I Reformas"
     }
   ]
 }
