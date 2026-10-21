@@ -1,10 +1,10 @@
 {
-  "geradoEm": "21/10/2026 17:00",
+  "geradoEm": "21/10/2026 17:34",
   "kpis": {
     "totalProjetos": 15,
     "totalContainers": 47,
     "etd7dias": 0,
-    "chegando10dias": 5
+    "chegando10dias": 6
   },
   "statusCounts": {
     "FINALIZADO": 17,
@@ -85,11 +85,11 @@
       "tipoCntr": "40hc",
       "prontidao": "2026-07-14 00:00:00",
       "etd": "28/07/2026",
-      "eta": "20/10/2026",
+      "eta": "01/11/2026",
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "",
       "invoice": "26TM0674\n26TM0675\n26TM0678\n26TM0679"
     },
@@ -222,22 +222,22 @@
       "invoice": "LFR26071\n26TM0628"
     },
     {
-      "embarque": "TEMU132",
+      "embarque": "TEMU120",
       "codProjeto": "TL-00100",
       "projeto": "San Bernardo - Parte 2",
       "fornecedor": "Temu",
       "destino": "Asuncion",
-      "qtdCntr": 1,
+      "qtdCntr": 4,
       "tipoCntr": "40hc",
-      "prontidao": "2026-07-14 00:00:00",
-      "etd": "28/07/2026",
-      "eta": "20/10/2026",
+      "prontidao": "2026-07-30 00:00:00",
+      "etd": "12/08/2026",
+      "eta": "22/10/2026",
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
-      "observacoes": "",
-      "invoice": "26TM0674\n26TM0675\n26TM0678\n26TM0679"
+      "chegando10": true,
+      "observacoes": "Aguardando Invoice e packing list finais",
+      "invoice": "26TM0638"
     }
   ],
   "embarques": [
@@ -647,11 +647,11 @@
       "tipoCntr": "40hc",
       "prontidao": "2026-07-14 00:00:00",
       "etd": "28/07/2026",
-      "eta": "20/10/2026",
+      "eta": "01/11/2026",
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "",
       "invoice": "26TM0674\n26TM0675\n26TM0678\n26TM0679"
     },
