@@ -1,19 +1,19 @@
 {
-  "geradoEm": "21/10/2026 08:34",
+  "geradoEm": "21/10/2026 09:00",
   "kpis": {
-    "totalSaldo": 1597054.36,
-    "qtdAberto": 31,
+    "totalSaldo": 1578451.46,
+    "qtdAberto": 29,
     "venc30": 279261.63,
     "vencidos": 0
   },
   "fornSaldo": {
-    "Temu": 688449.47,
-    "Honesty": 478926.1,
+    "Temu": 670531.57,
+    "Honesty": 478241.1,
     "TEMU": 429678.79
   },
   "statusCounts": {
-    "Aguardando 2ª Parcela": 18,
-    "Sem prazo - Verificar": 13
+    "Aguardando 2ª Parcela": 17,
+    "Sem prazo - Verificar": 12
   },
   "proximos": [
     {
@@ -840,6 +840,27 @@
     {
       "projeto": "San Bernardo - Parte 2",
       "codProjeto": "TL-00100",
+      "embarque": "TEMU120",
+      "fornecedor": "Temu",
+      "fatura": "26TM0638",
+      "valor": 2640.0,
+      "pct1": 0,
+      "pago1": 0,
+      "pct2": 100.0,
+      "pago2": 2640.0,
+      "pct3": 0,
+      "pago3": 0,
+      "saldo": 2640.0,
+      "statusCambio": "Aguardando 2ª Parcela",
+      "previsao": null,
+      "previsaoDias": null,
+      "previsaoLabel": null,
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 0
+    },
+    {
+      "projeto": "San Bernardo - Parte 2",
+      "codProjeto": "TL-00100",
       "embarque": "TEMU121",
       "fornecedor": "Temu",
       "fatura": "26TM0640",
@@ -1109,27 +1130,6 @@
       "previsaoLabel": null,
       "statusVenc": "Quitado",
       "pagoEUA": 56561.5
-    },
-    {
-      "projeto": "Boa Fé Climatização",
-      "codProjeto": "",
-      "embarque": "Aguardando",
-      "fornecedor": "Temu",
-      "fatura": "26TM0672",
-      "valor": 3978.24,
-      "pct1": 30.0,
-      "pago1": 1186.34,
-      "pct2": 70.0,
-      "pago2": 2791.9,
-      "pct3": 0,
-      "pago3": 0,
-      "saldo": 2791.9,
-      "statusCambio": "Aguardando 2ª Parcela",
-      "previsao": null,
-      "previsaoDias": null,
-      "previsaoLabel": null,
-      "statusVenc": "Sem previsão",
-      "pagoEUA": 10688.61
     },
     {
       "projeto": "Estoque",
@@ -1783,27 +1783,6 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "Agroter",
-      "codProjeto": "TL-00117",
-      "embarque": "TEMU137",
-      "fornecedor": "Honesty",
-      "fatura": "4 Units Auto Sow",
-      "valor": 1370.0,
-      "pct1": 50.0,
-      "pago1": 685.0,
-      "pct2": 50.0,
-      "pago2": 685.0,
-      "pct3": 0,
-      "pago3": 0,
-      "saldo": 685.0,
-      "statusCambio": "Aguardando 2ª Parcela",
-      "previsao": null,
-      "previsaoDias": null,
-      "previsaoLabel": null,
-      "statusVenc": "Sem previsão",
-      "pagoEUA": 0
-    },
-    {
       "projeto": "San Bernardo - Parte 3",
       "codProjeto": "TL-00117",
       "embarque": "TEMU138",
@@ -1843,27 +1822,6 @@
       "previsaoDias": null,
       "previsaoLabel": null,
       "statusVenc": "Quitado",
-      "pagoEUA": 0
-    },
-    {
-      "projeto": "Estoque Temu 1",
-      "codProjeto": "TL-00114",
-      "embarque": "TEMU140",
-      "fornecedor": "Temu",
-      "fatura": "26TM0836",
-      "valor": 25380.0,
-      "pct1": 0,
-      "pago1": 7614.0,
-      "pct2": 70.0,
-      "pago2": 17766.0,
-      "pct3": 0,
-      "pago3": 0,
-      "saldo": 17766.0,
-      "statusCambio": "Sem prazo - Verificar",
-      "previsao": null,
-      "previsaoDias": null,
-      "previsaoLabel": null,
-      "statusVenc": "Sem previsão",
       "pagoEUA": 0
     },
     {
