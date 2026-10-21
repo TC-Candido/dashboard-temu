@@ -1,8 +1,8 @@
 {
-  "geradoEm": "21/10/2026 16:34",
+  "geradoEm": "21/10/2026 17:00",
   "kpis": {
     "totalSaldo": 2109740.58,
-    "qtdAberto": 38,
+    "qtdAberto": 39,
     "venc30": 223249.17,
     "vencidos": 0
   },
@@ -13,8 +13,8 @@
     "Hontech": 64793.89
   },
   "statusCounts": {
-    "Aguardando 2ª Parcela": 23,
-    "Sem prazo - Verificar": 15
+    "Aguardando 2ª Parcela": 25,
+    "Sem prazo - Verificar": 14
   },
   "proximos": [
     {
@@ -2334,16 +2334,37 @@
       "codProjeto": "TL-00117",
       "embarque": "TEMU150",
       "fornecedor": "Honesty",
-      "fatura": "SH-ZXH-261009",
-      "valor": 630224.0,
+      "fatura": "SH-ZXH-261009-A",
+      "valor": 420149.4,
       "pct1": 30.0,
-      "pago1": 189067.2,
+      "pago1": 126044.82,
       "pct2": 30.0,
-      "pago2": 189067.2,
+      "pago2": 126044.82,
       "pct3": 40.0,
-      "pago3": 252089.6,
-      "saldo": 441156.8,
-      "statusCambio": "Sem prazo - Verificar",
+      "pago3": 168059.76,
+      "saldo": 294104.58,
+      "statusCambio": "Aguardando 2ª Parcela",
+      "previsao": null,
+      "previsaoDias": null,
+      "previsaoLabel": null,
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 0
+    },
+    {
+      "projeto": "Projeto San Bernardo lll",
+      "codProjeto": "TL-00117",
+      "embarque": "TEMU150",
+      "fornecedor": "Honesty",
+      "fatura": "SH-ZXH-261009-B",
+      "valor": 210074.6,
+      "pct1": 30.0,
+      "pago1": 63022.38,
+      "pct2": 30.0,
+      "pago2": 63022.38,
+      "pct3": 40.0,
+      "pago3": 84029.84,
+      "saldo": 147052.22,
+      "statusCambio": "Aguardando 2ª Parcela",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
