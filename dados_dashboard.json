@@ -1,10 +1,10 @@
 {
-  "geradoEm": "21/10/2026 23:34",
+  "geradoEm": "22/10/2026 00:00",
   "kpis": {
     "totalProjetos": 15,
     "totalContainers": 48,
     "etd7dias": 0,
-    "chegando10dias": 6
+    "chegando10dias": 4
   },
   "statusCounts": {
     "FINALIZADO": 20,
@@ -53,7 +53,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": "Aguardando Invoice e packing list finais",
       "invoice": "26TM0638"
     },
@@ -89,7 +89,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": "",
       "invoice": "SH-ZXH-260617"
     },
@@ -181,7 +181,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": "Aguardando Invoice e packing list finais",
       "invoice": "26TM0638"
     },
@@ -199,7 +199,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": "",
       "invoice": "SH-ZXH-260617"
     },
@@ -669,7 +669,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": "Aguardando Invoice e packing list finais",
       "invoice": "26TM0638"
     },
@@ -687,7 +687,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": "",
       "invoice": "SH-ZXH-260617"
     },
