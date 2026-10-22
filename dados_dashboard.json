@@ -1,5 +1,5 @@
 {
-  "geradoEm": "22/10/2026 10:34",
+  "geradoEm": "22/10/2026 11:00",
   "kpis": {
     "totalProjetos": 15,
     "totalContainers": 48,
@@ -10,13 +10,13 @@
     "FINALIZADO": 20,
     "DESEMBRAÇO": 1,
     "SOBRE AGUAS": 16,
-    "": 5,
+    "": 6,
     "EM PRODUÇÃO": 21
   },
   "fornecedorCounts": {
     "Hontech-Wins": 4,
     "Temu": 24,
-    "Honesty": 13,
+    "Honesty": 14,
     "CIXI MAITE": 1,
     "Faread": 1
   },
@@ -1269,12 +1269,12 @@
     },
     {
       "embarque": "TEMU155",
-      "codProjeto": "",
+      "codProjeto": "TL-00117",
       "projeto": "Projeto San Bernardo lll",
       "fornecedor": "Temu",
       "destino": "",
-      "qtdCntr": 0,
-      "tipoCntr": "",
+      "qtdCntr": 6,
+      "tipoCntr": "40HC",
       "prontidao": "",
       "etd": null,
       "eta": null,
@@ -1374,6 +1374,24 @@
       "chegando10": false,
       "observacoes": "",
       "invoice": "26TM0860"
+    },
+    {
+      "embarque": "TEMU160",
+      "codProjeto": "TL-00117",
+      "projeto": "San Bernardo lll",
+      "fornecedor": "Honesty",
+      "destino": "",
+      "qtdCntr": 0,
+      "tipoCntr": "40HC",
+      "prontidao": "2026-11-01 00:00:00",
+      "etd": "11/11/2026",
+      "eta": "09/02/2027",
+      "status": "",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "SH-ZXH-261021"
     }
   ]
 }
