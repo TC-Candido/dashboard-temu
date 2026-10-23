@@ -1,19 +1,19 @@
 {
-  "geradoEm": "23/10/2026 10:34",
+  "geradoEm": "23/10/2026 11:00",
   "kpis": {
-    "totalSaldo": 2069722.11,
-    "qtdAberto": 34,
-    "venc30": 223249.17,
-    "vencidos": 0
+    "totalSaldo": 2073519.61,
+    "qtdAberto": 35,
+    "venc30": 203454.68,
+    "vencidos": 19794.49
   },
   "fornSaldo": {
     "TEMU": 858437.22,
-    "Honesty": 641974.86,
+    "Honesty": 645772.36,
     "Temu": 504516.14,
     "Hontech": 64793.89
   },
   "statusCounts": {
-    "Aguardando 2ª Parcela": 20,
+    "Aguardando 2ª Parcela": 21,
     "Sem prazo - Verificar": 14
   },
   "proximos": [
@@ -32,10 +32,10 @@
       "pago3": 11311.14,
       "saldo": 19794.49,
       "statusCambio": "Aguardando 2ª Parcela",
-      "previsao": "24/10/2026",
-      "previsaoDias": 1,
-      "previsaoLabel": "Amanhã",
-      "statusVenc": "Vence em 30 dias",
+      "previsao": "22/10/2026",
+      "previsaoDias": -1,
+      "previsaoLabel": "1d atrás",
+      "statusVenc": "Vencido",
       "pagoEUA": 8483.35
     },
     {
@@ -116,9 +116,9 @@
       "pago3": 21729.96,
       "saldo": 21729.96,
       "statusCambio": "Aguardando 2ª Parcela",
-      "previsao": "09/11/2026",
-      "previsaoDias": 17,
-      "previsaoLabel": "17 dias",
+      "previsao": "11/11/2026",
+      "previsaoDias": 19,
+      "previsaoLabel": "19 dias",
       "statusVenc": "Vence em 30 dias",
       "pagoEUA": 0
     },
@@ -1294,10 +1294,10 @@
       "pago3": 11311.14,
       "saldo": 19794.49,
       "statusCambio": "Aguardando 2ª Parcela",
-      "previsao": "24/10/2026",
-      "previsaoDias": 1,
-      "previsaoLabel": "Amanhã",
-      "statusVenc": "Vence em 30 dias",
+      "previsao": "22/10/2026",
+      "previsaoDias": -1,
+      "previsaoLabel": "1d atrás",
+      "statusVenc": "Vencido",
       "pagoEUA": 8483.35
     },
     {
@@ -1357,9 +1357,9 @@
       "pago3": 21729.96,
       "saldo": 21729.96,
       "statusCambio": "Aguardando 2ª Parcela",
-      "previsao": "09/11/2026",
-      "previsaoDias": 17,
-      "previsaoLabel": "17 dias",
+      "previsao": "11/11/2026",
+      "previsaoDias": 19,
+      "previsaoLabel": "19 dias",
       "statusVenc": "Vence em 30 dias",
       "pagoEUA": 0
     },
@@ -2554,6 +2554,27 @@
       "pago3": 0,
       "saldo": 82270.83,
       "statusCambio": "Sem prazo - Verificar",
+      "previsao": null,
+      "previsaoDias": null,
+      "previsaoLabel": null,
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 0
+    },
+    {
+      "projeto": "San Bernado lll",
+      "codProjeto": "",
+      "embarque": "TEMU160",
+      "fornecedor": "Honesty",
+      "fatura": "SH-ZXH-261021",
+      "valor": 5425.0,
+      "pct1": 30.0,
+      "pago1": 1627.5,
+      "pct2": 70.0,
+      "pago2": 3797.5,
+      "pct3": 0,
+      "pago3": 0,
+      "saldo": 3797.5,
+      "statusCambio": "Aguardando 2ª Parcela",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
