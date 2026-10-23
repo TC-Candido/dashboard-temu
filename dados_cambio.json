@@ -1,19 +1,19 @@
 {
-  "geradoEm": "22/10/2026 16:34",
+  "geradoEm": "22/10/2026 21:00",
   "kpis": {
-    "totalSaldo": 2109740.58,
-    "qtdAberto": 39,
+    "totalSaldo": 2069722.11,
+    "qtdAberto": 34,
     "venc30": 223249.17,
     "vencidos": 0
   },
   "fornSaldo": {
     "TEMU": 858437.22,
     "Honesty": 641974.86,
-    "Temu": 544534.61,
+    "Temu": 504516.14,
     "Hontech": 64793.89
   },
   "statusCounts": {
-    "Aguardando 2ª Parcela": 25,
+    "Aguardando 2ª Parcela": 20,
     "Sem prazo - Verificar": 14
   },
   "proximos": [
@@ -1854,17 +1854,17 @@
       "fatura": "26TM0672",
       "valor": 3978.24,
       "pct1": 30.0,
-      "pago1": 1193.47,
-      "pct2": 70.0,
-      "pago2": 2784.77,
+      "pago1": 0.0,
+      "pct2": 100.0,
+      "pago2": 3978.24,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 3978.24,
-      "statusCambio": "Aguardando 2ª Parcela",
+      "saldo": 0.0,
+      "statusCambio": "Pago Total",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão",
+      "statusVenc": "Quitado",
       "pagoEUA": 3978.24
     },
     {
@@ -1901,12 +1901,12 @@
       "pago2": 13020.0,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 13020.0,
-      "statusCambio": "Aguardando 2ª Parcela",
+      "saldo": 0.0,
+      "statusCambio": "Pago Total",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão",
+      "statusVenc": "Quitado",
       "pagoEUA": 0
     },
     {
@@ -1922,12 +1922,12 @@
       "pago2": 17766.0,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 17766.0,
-      "statusCambio": "Aguardando 2ª Parcela",
+      "saldo": 0.0,
+      "statusCambio": "Pago Total",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão",
+      "statusVenc": "Quitado",
       "pagoEUA": 0
     },
     {
@@ -1943,12 +1943,12 @@
       "pago2": 3274.23,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 3274.23,
-      "statusCambio": "Aguardando 2ª Parcela",
+      "saldo": 0.0,
+      "statusCambio": "Pago Total",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão",
+      "statusVenc": "Quitado",
       "pagoEUA": 0
     },
     {
@@ -1964,12 +1964,12 @@
       "pago2": 1980.0,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 1980.0,
-      "statusCambio": "Aguardando 2ª Parcela",
+      "saldo": 0.0,
+      "statusCambio": "Pago Total",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão",
+      "statusVenc": "Quitado",
       "pagoEUA": 0
     },
     {
