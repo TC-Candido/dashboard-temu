@@ -1,19 +1,19 @@
 {
-  "geradoEm": "23/10/2026 16:34",
+  "geradoEm": "23/10/2026 17:00",
   "kpis": {
-    "totalSaldo": 2073519.61,
-    "qtdAberto": 35,
+    "totalSaldo": 2059745.3,
+    "qtdAberto": 36,
     "venc30": 203454.68,
     "vencidos": 19794.49
   },
   "fornSaldo": {
     "TEMU": 858437.22,
     "Honesty": 645772.36,
-    "Temu": 504516.14,
+    "Temu": 490741.83,
     "Hontech": 64793.89
   },
   "statusCounts": {
-    "Aguardando 2ª Parcela": 21,
+    "Aguardando 2ª Parcela": 22,
     "Sem prazo - Verificar": 14
   },
   "proximos": [
@@ -969,21 +969,42 @@
       "codProjeto": "TL-00100",
       "embarque": "TEMU126",
       "fornecedor": "Temu",
-      "fatura": "26TM0650",
-      "valor": 62629.88,
+      "fatura": "26TM0650-1",
+      "valor": 42558.88,
       "pct1": 30.0,
-      "pago1": 18788.96,
+      "pago1": 13152.27,
       "pct2": 70.0,
-      "pago2": 43840.92,
+      "pago2": 29406.61,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 43840.92,
+      "saldo": 29406.61,
       "statusCambio": "Aguardando 2ª Parcela",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
       "statusVenc": "Sem previsão",
       "pagoEUA": 0.0
+    },
+    {
+      "projeto": "Projeto San Bernardo ll",
+      "codProjeto": "TL-00100",
+      "embarque": "TEMU126",
+      "fornecedor": "Temu",
+      "fatura": "26TM0650-1",
+      "valor": 660.0,
+      "pct1": 0,
+      "pago1": 0,
+      "pct2": 100.0,
+      "pago2": 660.0,
+      "pct3": 0,
+      "pago3": 0,
+      "saldo": 660.0,
+      "statusCambio": "Aguardando 2ª Parcela",
+      "previsao": null,
+      "previsaoDias": null,
+      "previsaoLabel": null,
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 0
     },
     {
       "projeto": "Projeto San Bernardo ll",
