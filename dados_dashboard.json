@@ -1,5 +1,5 @@
 {
-  "geradoEm": "23/10/2026 18:00",
+  "geradoEm": "23/10/2026 18:34",
   "kpis": {
     "totalProjetos": 17,
     "totalContainers": 49,
@@ -985,8 +985,8 @@
       "projeto": "Estoque",
       "fornecedor": "Temu",
       "destino": "Navegantes",
-      "qtdCntr": 1,
-      "tipoCntr": "40HC",
+      "qtdCntr": 0,
+      "tipoCntr": "0",
       "prontidao": "",
       "etd": null,
       "eta": null,
