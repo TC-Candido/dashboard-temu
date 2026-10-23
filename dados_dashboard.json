@@ -1,10 +1,10 @@
 {
-  "geradoEm": "23/10/2026 15:34",
+  "geradoEm": "23/10/2026 16:00",
   "kpis": {
-    "totalProjetos": 15,
-    "totalContainers": 48,
+    "totalProjetos": 17,
+    "totalContainers": 49,
     "etd7dias": 0,
-    "chegando10dias": 5
+    "chegando10dias": 7
   },
   "statusCounts": {
     "FINALIZADO": 20,
@@ -24,7 +24,7 @@
     {
       "embarque": "TEMU132",
       "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "fornecedor": "Temu",
       "destino": "Asuncion",
       "qtdCntr": 1,
@@ -42,7 +42,7 @@
     {
       "embarque": "TEMU120",
       "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "fornecedor": "Temu",
       "destino": "Asuncion",
       "qtdCntr": 4,
@@ -60,7 +60,7 @@
     {
       "embarque": "TEMU135",
       "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "fornecedor": "Temu",
       "destino": "Asuncion",
       "qtdCntr": 4,
@@ -78,7 +78,7 @@
     {
       "embarque": "TEMU125",
       "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "fornecedor": "Honesty",
       "destino": "Asuncion",
       "qtdCntr": 13,
@@ -96,7 +96,7 @@
     {
       "embarque": "TEMU121",
       "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "fornecedor": "Temu",
       "destino": "Asuncion",
       "qtdCntr": 3,
@@ -114,7 +114,7 @@
     {
       "embarque": "TEMU126",
       "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "fornecedor": "Temu",
       "destino": "Asuncion",
       "qtdCntr": 2,
@@ -134,7 +134,7 @@
     {
       "embarque": "TEMU138 TEMU039",
       "codProjeto": "TL-00117",
-      "projeto": "San Bernardo - Parte 3",
+      "projeto": "Projeto San Bernardo lll",
       "fornecedor": "Hontech-Wins",
       "destino": "",
       "qtdCntr": 1,
@@ -170,7 +170,7 @@
     {
       "embarque": "TEMU120",
       "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "fornecedor": "Temu",
       "destino": "Asuncion",
       "qtdCntr": 4,
@@ -188,7 +188,7 @@
     {
       "embarque": "TEMU125",
       "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "fornecedor": "Honesty",
       "destino": "Asuncion",
       "qtdCntr": 13,
@@ -206,7 +206,7 @@
     {
       "embarque": "TEMU135",
       "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "fornecedor": "Temu",
       "destino": "Asuncion",
       "qtdCntr": 4,
@@ -224,7 +224,7 @@
     {
       "embarque": "TEMU132",
       "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "fornecedor": "Temu",
       "destino": "Asuncion",
       "qtdCntr": 1,
@@ -280,7 +280,7 @@
     {
       "embarque": "TEMU108",
       "codProjeto": "TL-00099",
-      "projeto": "Projeto San Bernardo - Parte 01",
+      "projeto": "Projeto San Bernardo l",
       "fornecedor": "Mong Ging + Wusen",
       "destino": "Asuncion",
       "qtdCntr": 3,
@@ -298,7 +298,7 @@
     {
       "embarque": "TEMU109",
       "codProjeto": "TL-00099",
-      "projeto": "Projeto San Bernardo - Parte 01",
+      "projeto": "Projeto San Bernardo l",
       "fornecedor": "Mong Ging + Temu",
       "destino": "Asuncion",
       "qtdCntr": 10,
@@ -460,7 +460,7 @@
     {
       "embarque": "TEMU115",
       "codProjeto": "TL-00099",
-      "projeto": "San Bernardo - Parte 01",
+      "projeto": "Projeto San Bernardo l",
       "fornecedor": "Mong Ging +\nTemu + Muhe",
       "destino": "Asuncion",
       "qtdCntr": 7,
@@ -478,7 +478,7 @@
     {
       "embarque": "TEMU118",
       "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "fornecedor": "Honesty",
       "destino": "Asuncion",
       "qtdCntr": 6,
@@ -548,27 +548,9 @@
       "invoice": "26TM0623"
     },
     {
-      "embarque": "TEMU138 TEMU039",
-      "codProjeto": "TL-00117",
-      "projeto": "San Bernardo - Parte 3",
-      "fornecedor": "Hontech-Wins",
-      "destino": "",
-      "qtdCntr": 1,
-      "tipoCntr": "",
-      "prontidao": "2026-08-31 00:00:00",
-      "etd": "22/09/2026",
-      "eta": "07/10/2026",
-      "status": "DESEMBRAÇO",
-      "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": "",
-      "invoice": "HT-X26073001BR +  HT-X26073002BR"
-    },
-    {
       "embarque": "TEMU122",
       "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "fornecedor": "Honesty",
       "destino": "Asuncion",
       "qtdCntr": 6,
@@ -586,7 +568,7 @@
     {
       "embarque": "TEMU127",
       "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "fornecedor": "Honesty",
       "destino": "Asuncion",
       "qtdCntr": 1,
@@ -604,7 +586,7 @@
     {
       "embarque": "TEMU124",
       "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "fornecedor": "Honesty",
       "destino": "Asuncion",
       "qtdCntr": 6,
@@ -618,6 +600,24 @@
       "chegando10": false,
       "observacoes": "Telex liberado",
       "invoice": "SH-ZXH-260416"
+    },
+    {
+      "embarque": "TEMU138 TEMU039",
+      "codProjeto": "TL-00117",
+      "projeto": "Projeto San Bernardo lll",
+      "fornecedor": "Hontech-Wins",
+      "destino": "",
+      "qtdCntr": 1,
+      "tipoCntr": "",
+      "prontidao": "2026-08-31 00:00:00",
+      "etd": "22/09/2026",
+      "eta": "07/10/2026",
+      "status": "DESEMBRAÇO",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "HT-X26073001BR +  HT-X26073002BR"
     },
     {
       "embarque": "TEMU129",
@@ -640,7 +640,7 @@
     {
       "embarque": "TEMU132",
       "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "fornecedor": "Temu",
       "destino": "Asuncion",
       "qtdCntr": 1,
@@ -658,7 +658,7 @@
     {
       "embarque": "TEMU120",
       "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "fornecedor": "Temu",
       "destino": "Asuncion",
       "qtdCntr": 4,
@@ -676,7 +676,7 @@
     {
       "embarque": "TEMU125",
       "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "fornecedor": "Honesty",
       "destino": "Asuncion",
       "qtdCntr": 13,
@@ -694,7 +694,7 @@
     {
       "embarque": "TEMU135",
       "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "fornecedor": "Temu",
       "destino": "Asuncion",
       "qtdCntr": 4,
@@ -712,7 +712,7 @@
     {
       "embarque": "TEMU121",
       "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "fornecedor": "Temu",
       "destino": "Asuncion",
       "qtdCntr": 3,
@@ -730,7 +730,7 @@
     {
       "embarque": "TEMU136\nTEMU134-2",
       "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "fornecedor": "Temu",
       "destino": "Asuncion",
       "qtdCntr": 1,
@@ -748,7 +748,7 @@
     {
       "embarque": "TEMU126",
       "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "fornecedor": "Temu",
       "destino": "Asuncion",
       "qtdCntr": 2,
@@ -766,7 +766,7 @@
     {
       "embarque": "TEMU134-1",
       "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "fornecedor": "Temu",
       "destino": "Asuncion",
       "qtdCntr": 1,
@@ -784,7 +784,7 @@
     {
       "embarque": "TEMU133",
       "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "fornecedor": "Temu",
       "destino": "Asuncion",
       "qtdCntr": 3,
@@ -802,7 +802,7 @@
     {
       "embarque": "TEMU134 -3",
       "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "fornecedor": "Temu",
       "destino": "Asuncion",
       "qtdCntr": 3,
@@ -820,7 +820,7 @@
     {
       "embarque": "TEMU134 - 4",
       "codProjeto": "TL-00100",
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "fornecedor": "Temu",
       "destino": "Asuncion",
       "qtdCntr": 8,
@@ -837,7 +837,7 @@
     },
     {
       "embarque": "TEMU140",
-      "codProjeto": "TL-00114",
+      "codProjeto": "TL-00111",
       "projeto": "Estoque Temu 1",
       "fornecedor": "Temu",
       "destino": "",
@@ -855,15 +855,15 @@
     },
     {
       "embarque": "TEMU146",
-      "codProjeto": "",
-      "projeto": "San Bernardo - Parte 1",
+      "codProjeto": "TL-00099",
+      "projeto": "Projeto San Bernardo l",
       "fornecedor": "Temu",
-      "destino": "",
-      "qtdCntr": 1,
-      "tipoCntr": "20DRY",
+      "destino": "PARANÁGUA",
+      "qtdCntr": 2,
+      "tipoCntr": "20DRY\n40HC",
       "prontidao": "2026-09-09 00:00:00",
       "etd": "27/09/2026",
-      "eta": null,
+      "eta": "14/11/2026",
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
@@ -873,19 +873,19 @@
     },
     {
       "embarque": "TEMU152",
-      "codProjeto": "",
+      "codProjeto": "TL-00118",
       "projeto": "Garantia Temu",
       "fornecedor": "Honesty",
-      "destino": "",
+      "destino": "Marau, RS BR",
       "qtdCntr": 0,
       "tipoCntr": "AIR",
       "prontidao": "2026-10-13 00:00:00",
-      "etd": null,
-      "eta": null,
+      "etd": "15/10/2026",
+      "eta": "03/11/2026",
       "status": "SOBRE AGUAS",
-      "statusOp": "Pronto - Aguardando ETD",
+      "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "",
       "invoice": "SH-ZXH-261008"
     },
@@ -894,23 +894,23 @@
       "codProjeto": "TL-00108",
       "projeto": "Projeto Elton Endler",
       "fornecedor": "Temu",
-      "destino": "",
+      "destino": "Marau, RS BR",
       "qtdCntr": 0,
       "tipoCntr": "AIR",
-      "prontidao": "",
-      "etd": null,
-      "eta": null,
+      "prontidao": "2026-10-20 00:00:00",
+      "etd": "21/10/2026",
+      "eta": "03/11/2026",
       "status": "SOBRE AGUAS",
-      "statusOp": "Sem Prontidão e ETD",
+      "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "",
       "invoice": "26TM0637-2"
     },
     {
       "embarque": "TEMU138",
       "codProjeto": "TL-00117",
-      "projeto": "San Bernardo - Parte 3",
+      "projeto": "Projeto San Bernardo lll",
       "fornecedor": "Hontech-Wins",
       "destino": "",
       "qtdCntr": 0,
@@ -928,7 +928,7 @@
     {
       "embarque": "TEMU139",
       "codProjeto": "TL-00117",
-      "projeto": "San Bernardo - Parte 3",
+      "projeto": "Projeto San Bernardo lll",
       "fornecedor": "Hontech-Wins",
       "destino": "",
       "qtdCntr": 0,
@@ -945,7 +945,7 @@
     },
     {
       "embarque": "TEMU133 -2",
-      "codProjeto": "TL-00117",
+      "codProjeto": "TL-00100",
       "projeto": "Projeto San Bernardo ll",
       "fornecedor": "Temu",
       "destino": "Asuncion",
@@ -963,8 +963,8 @@
     },
     {
       "embarque": "TEMU143",
-      "codProjeto": "",
-      "projeto": "Estoque - não embarcou 140",
+      "codProjeto": "TL-00111",
+      "projeto": "Estoque - não embarcou TEMU140",
       "fornecedor": "CIXI MAITE",
       "destino": "",
       "qtdCntr": 0,
@@ -981,7 +981,7 @@
     },
     {
       "embarque": "TEMU147",
-      "codProjeto": "TL-00114",
+      "codProjeto": "TL-00111",
       "projeto": "Estoque",
       "fornecedor": "Temu",
       "destino": "Navegantes",
@@ -999,7 +999,7 @@
     },
     {
       "embarque": "TEMU148",
-      "codProjeto": "TL-00117",
+      "codProjeto": "TL-00120",
       "projeto": "Projeto Miotto",
       "fornecedor": "Faread",
       "destino": "",
@@ -1017,7 +1017,7 @@
     },
     {
       "embarque": "TEMU148",
-      "codProjeto": "TL-00117",
+      "codProjeto": "TL-00120",
       "projeto": "Projeto Miotto",
       "fornecedor": "Temu",
       "destino": "",
@@ -1035,7 +1035,7 @@
     },
     {
       "embarque": "TEMU148",
-      "codProjeto": "TL-00117",
+      "codProjeto": "TL-00120",
       "projeto": "Projeto Miotto",
       "fornecedor": "Honesty",
       "destino": "",
@@ -1071,7 +1071,7 @@
     },
     {
       "embarque": "TEMU142",
-      "codProjeto": "TL-00117",
+      "codProjeto": "TL-00111",
       "projeto": "Estoque Temu",
       "fornecedor": "Honesty",
       "destino": "",
@@ -1089,7 +1089,7 @@
     },
     {
       "embarque": "TEMU144",
-      "codProjeto": "TL-00117",
+      "codProjeto": "TL-00111",
       "projeto": "Estoque Temu",
       "fornecedor": "Honesty",
       "destino": "",
@@ -1107,7 +1107,7 @@
     },
     {
       "embarque": "TEMU151",
-      "codProjeto": "TL-00117",
+      "codProjeto": "TL-00118",
       "projeto": "Garantia Temu",
       "fornecedor": "Honesty",
       "destino": "",
@@ -1125,7 +1125,7 @@
     },
     {
       "embarque": "TEMU151",
-      "codProjeto": "TL-00117",
+      "codProjeto": "TL-00118",
       "projeto": "Garantia Temu",
       "fornecedor": "Honesty",
       "destino": "",
@@ -1143,7 +1143,7 @@
     },
     {
       "embarque": "TEMU149",
-      "codProjeto": "TL-00117",
+      "codProjeto": "TL-00119",
       "projeto": "Projeto Ysaka",
       "fornecedor": "Honesty",
       "destino": "",
@@ -1161,7 +1161,7 @@
     },
     {
       "embarque": "TEMU149",
-      "codProjeto": "TL-00117",
+      "codProjeto": "TL-00119",
       "projeto": "Projeto Ysaka",
       "fornecedor": "Temu",
       "destino": "",
@@ -1215,7 +1215,7 @@
     },
     {
       "embarque": "TEMU133 -2",
-      "codProjeto": "TL-00117",
+      "codProjeto": "TL-00100",
       "projeto": "Projeto San Bernardo ll",
       "fornecedor": "Temu",
       "destino": "Asuncion",
@@ -1252,7 +1252,7 @@
     {
       "embarque": "TEMU154",
       "codProjeto": "TL-00099",
-      "projeto": "San Bernardo - Parte 1",
+      "projeto": "Projeto San Bernardo l",
       "fornecedor": "Temu",
       "destino": "Asuncion",
       "qtdCntr": 1,
@@ -1288,7 +1288,7 @@
     {
       "embarque": "TEMU156-A",
       "codProjeto": "TL-00117",
-      "projeto": "San Bernardo lll",
+      "projeto": "Projeto San Bernardo lll",
       "fornecedor": "Honesty",
       "destino": "",
       "qtdCntr": 5,
@@ -1306,7 +1306,7 @@
     {
       "embarque": "TEMU156-B",
       "codProjeto": "TL-00117",
-      "projeto": "San Bernardo lll",
+      "projeto": "Projeto San Bernardo lll",
       "fornecedor": "Honesty",
       "destino": "",
       "qtdCntr": 5,
@@ -1324,7 +1324,7 @@
     {
       "embarque": "TEMU157",
       "codProjeto": "TL-00117",
-      "projeto": "San Bernardo lll",
+      "projeto": "Projeto San Bernardo lll",
       "fornecedor": "Temu",
       "destino": "",
       "qtdCntr": 0,
@@ -1342,7 +1342,7 @@
     {
       "embarque": "TEMU158",
       "codProjeto": "TL-00117",
-      "projeto": "San Bernardo lll",
+      "projeto": "Projeto San Bernardo lll",
       "fornecedor": "Hontech-Wins",
       "destino": "",
       "qtdCntr": 0,
@@ -1360,7 +1360,7 @@
     {
       "embarque": "TEMU159",
       "codProjeto": "TL-00117",
-      "projeto": "San Bernardo lll",
+      "projeto": "Projeto San Bernardo lll",
       "fornecedor": "Temu",
       "destino": "",
       "qtdCntr": 1,
@@ -1378,7 +1378,7 @@
     {
       "embarque": "TEMU160",
       "codProjeto": "TL-00117",
-      "projeto": "San Bernardo lll",
+      "projeto": "Projeto San Bernardo lll",
       "fornecedor": "Honesty",
       "destino": "",
       "qtdCntr": 0,

@@ -1,5 +1,5 @@
 {
-  "geradoEm": "23/10/2026 15:34",
+  "geradoEm": "23/10/2026 16:00",
   "kpis": {
     "totalSaldo": 2073519.61,
     "qtdAberto": 35,
@@ -18,7 +18,7 @@
   },
   "proximos": [
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU133",
       "fornecedor": "Temu",
@@ -39,7 +39,7 @@
       "pagoEUA": 8483.35
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU134-1",
       "fornecedor": "Temu",
@@ -60,7 +60,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU133",
       "fornecedor": "Temu",
@@ -81,7 +81,7 @@
       "pagoEUA": 56012.46
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU134-2",
       "fornecedor": "Temu",
@@ -102,7 +102,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU134-3",
       "fornecedor": "Temu",
@@ -123,7 +123,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU134-4",
       "fornecedor": "Temu",
@@ -144,8 +144,8 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernardo - Parte 1",
-      "codProjeto": "",
+      "projeto": "Projeto San Bernardo l",
+      "codProjeto": "TL-00099",
       "embarque": "TEMU154",
       "fornecedor": "TEMU",
       "fatura": "26TM0860",
@@ -336,7 +336,7 @@
     },
     {
       "projeto": "Estoque + Laura",
-      "codProjeto": "TL-00109",
+      "codProjeto": "TL-00111",
       "embarque": "TEMU128",
       "fornecedor": "Honesty",
       "fatura": "SH-ZXH-260201",
@@ -713,7 +713,7 @@
       "pagoEUA": 0.0
     },
     {
-      "projeto": "Projeto San Bernardo - Parte 01",
+      "projeto": "Projeto San Bernardo l",
       "codProjeto": "TL-00099",
       "embarque": "TEMU108",
       "fornecedor": "Wusen",
@@ -734,7 +734,7 @@
       "pagoEUA": 0.0
     },
     {
-      "projeto": "Projeto San Bernardo - Parte 01",
+      "projeto": "Projeto San Bernardo l",
       "codProjeto": "TL-00099",
       "embarque": "TEMU109",
       "fornecedor": "Temu",
@@ -755,7 +755,7 @@
       "pagoEUA": 0.0
     },
     {
-      "projeto": "Projeto San Bernardo - Parte 01",
+      "projeto": "Projeto San Bernardo l",
       "codProjeto": "TL-00099",
       "embarque": "TEMU109",
       "fornecedor": "Temu",
@@ -776,7 +776,7 @@
       "pagoEUA": 0.0
     },
     {
-      "projeto": "Projeto San Bernardo - Parte 01",
+      "projeto": "Projeto San Bernardo l",
       "codProjeto": "TL-00099",
       "embarque": "TEMU109",
       "fornecedor": "Temu",
@@ -797,7 +797,7 @@
       "pagoEUA": 0.0
     },
     {
-      "projeto": "Projeto San Bernardo - Parte 01",
+      "projeto": "Projeto San Bernardo l",
       "codProjeto": "TL-00099",
       "embarque": "TEMU115",
       "fornecedor": "Muhe",
@@ -818,7 +818,7 @@
       "pagoEUA": 0.0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU118",
       "fornecedor": "Honesty",
@@ -839,7 +839,7 @@
       "pagoEUA": 3630.0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU120",
       "fornecedor": "Temu",
@@ -860,7 +860,7 @@
       "pagoEUA": 0.0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU120",
       "fornecedor": "Temu",
@@ -881,7 +881,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU121",
       "fornecedor": "Temu",
@@ -902,7 +902,7 @@
       "pagoEUA": 0.0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU122",
       "fornecedor": "Honesty",
@@ -923,7 +923,7 @@
       "pagoEUA": 108729.07
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU124",
       "fornecedor": "Honesty",
@@ -944,7 +944,7 @@
       "pagoEUA": 85885.17
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU125",
       "fornecedor": "Honesty",
@@ -965,7 +965,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU126",
       "fornecedor": "Temu",
@@ -986,7 +986,7 @@
       "pagoEUA": 0.0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU127",
       "fornecedor": "Honesty",
@@ -1008,7 +1008,7 @@
     },
     {
       "projeto": "Estoque + Laura",
-      "codProjeto": "",
+      "codProjeto": "TL-00111",
       "embarque": "TEMU119\nTEMU128",
       "fornecedor": "Muhe",
       "fatura": "MHY20260420",
@@ -1092,7 +1092,7 @@
     },
     {
       "projeto": "Estoque",
-      "codProjeto": "",
+      "codProjeto": "TL-00111",
       "embarque": "TEMU129",
       "fornecedor": "Temu",
       "fatura": "26TM0628",
@@ -1134,7 +1134,7 @@
     },
     {
       "projeto": "Estoque",
-      "codProjeto": "",
+      "codProjeto": "TL-00111",
       "embarque": "TEMU129",
       "fornecedor": "Temu",
       "fatura": "26TM0628",
@@ -1155,7 +1155,7 @@
     },
     {
       "projeto": "Estoque",
-      "codProjeto": "",
+      "codProjeto": "TL-00111",
       "embarque": "Aguardando",
       "fornecedor": "Temu",
       "fatura": "26TM0628",
@@ -1238,7 +1238,7 @@
       "pagoEUA": 0.0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU133",
       "fornecedor": "Temu",
@@ -1259,7 +1259,7 @@
       "pagoEUA": 56012.46
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU133",
       "fornecedor": "Temu",
@@ -1280,7 +1280,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU133",
       "fornecedor": "Temu",
@@ -1301,7 +1301,7 @@
       "pagoEUA": 8483.35
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU134-1",
       "fornecedor": "Temu",
@@ -1322,7 +1322,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU134-2",
       "fornecedor": "Temu",
@@ -1343,7 +1343,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU134-3",
       "fornecedor": "Temu",
@@ -1364,7 +1364,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU134-4",
       "fornecedor": "Temu",
@@ -1385,7 +1385,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU132",
       "fornecedor": "Temu",
@@ -1406,7 +1406,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU132",
       "fornecedor": "Temu",
@@ -1427,7 +1427,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU132",
       "fornecedor": "Temu",
@@ -1448,7 +1448,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU132",
       "fornecedor": "Temu",
@@ -1490,7 +1490,7 @@
       "pagoEUA": 68.0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU135",
       "fornecedor": "Temu",
@@ -1511,7 +1511,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU135",
       "fornecedor": "Temu",
@@ -1532,7 +1532,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU135",
       "fornecedor": "Temu",
@@ -1553,7 +1553,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU135",
       "fornecedor": "Temu",
@@ -1574,7 +1574,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU135",
       "fornecedor": "Temu",
@@ -1595,7 +1595,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU135",
       "fornecedor": "Temu",
@@ -1616,7 +1616,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU135",
       "fornecedor": "Temu",
@@ -1637,7 +1637,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU135",
       "fornecedor": "Temu",
@@ -1658,7 +1658,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU136",
       "fornecedor": "Temu",
@@ -1679,7 +1679,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU136",
       "fornecedor": "Temu",
@@ -1700,7 +1700,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU136",
       "fornecedor": "Temu",
@@ -1721,7 +1721,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU136",
       "fornecedor": "Temu",
@@ -1742,7 +1742,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU136",
       "fornecedor": "Temu",
@@ -1763,7 +1763,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernardo - Parte 2",
+      "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
       "embarque": "TEMU136",
       "fornecedor": "Temu",
@@ -1805,7 +1805,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernardo - Parte 3",
+      "projeto": "Projeto San Bernardo lll",
       "codProjeto": "TL-00117",
       "embarque": "TEMU138",
       "fornecedor": "Hontech-Wins",
@@ -1826,7 +1826,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernardo - Parte 3",
+      "projeto": "Projeto San Bernardo lll",
       "codProjeto": "TL-00117",
       "embarque": "TEMU139",
       "fornecedor": "Hontech-Wins",
@@ -1890,7 +1890,7 @@
     },
     {
       "projeto": "Estoque Temu 1",
-      "codProjeto": "TL-00114",
+      "codProjeto": "TL-00111",
       "embarque": "TEMU140",
       "fornecedor": "Temu",
       "fatura": "26TM0820",
@@ -1911,7 +1911,7 @@
     },
     {
       "projeto": "Estoque Temu 1",
-      "codProjeto": "TL-00114",
+      "codProjeto": "TL-00111",
       "embarque": "TEMU140",
       "fornecedor": "Temu",
       "fatura": "26TM0836",
@@ -1932,7 +1932,7 @@
     },
     {
       "projeto": "Estoque Temu 1",
-      "codProjeto": "TL-00114",
+      "codProjeto": "TL-00111",
       "embarque": "TEMU140",
       "fornecedor": "Temu",
       "fatura": "26TM0833",
@@ -1953,7 +1953,7 @@
     },
     {
       "projeto": "Estoque Temu 1",
-      "codProjeto": "TL-00114",
+      "codProjeto": "TL-00111",
       "embarque": "TEMU140",
       "fornecedor": "Temu",
       "fatura": "local charge",
@@ -1974,7 +1974,7 @@
     },
     {
       "projeto": "Estoque Temu",
-      "codProjeto": "TL-00117",
+      "codProjeto": "TL-00111",
       "embarque": "TEMU142",
       "fornecedor": "Honesty",
       "fatura": "SH-ZXH-260814",
@@ -1995,7 +1995,7 @@
     },
     {
       "projeto": "Estoque Temu",
-      "codProjeto": "AGUARDANDO",
+      "codProjeto": "TL-00111",
       "embarque": "TEMU143",
       "fornecedor": "Cixi Maite",
       "fatura": "26MTAZU010",
@@ -2016,7 +2016,7 @@
     },
     {
       "projeto": "Estoque Temu",
-      "codProjeto": "TL-00117",
+      "codProjeto": "TL-00111",
       "embarque": "TEMU144",
       "fornecedor": "Honesty",
       "fatura": "SH-ZXH-260811",
@@ -2036,8 +2036,8 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernardo - Parte 1",
-      "codProjeto": "0",
+      "projeto": "Projeto San Bernardo l",
+      "codProjeto": "TL-00099",
       "embarque": "TEMU146",
       "fornecedor": "Temu",
       "fatura": "26TM0842",
@@ -2058,7 +2058,7 @@
     },
     {
       "projeto": "Projeto Miotto",
-      "codProjeto": "TL-00117",
+      "codProjeto": "TL-00120",
       "embarque": "TEMU148",
       "fornecedor": "Faread",
       "fatura": "FRD2026092301",
@@ -2079,7 +2079,7 @@
     },
     {
       "projeto": "Projeto Miotto",
-      "codProjeto": "TL-00117",
+      "codProjeto": "TL-00120",
       "embarque": "TEMU148",
       "fornecedor": "Temu",
       "fatura": "26TM0867",
@@ -2100,7 +2100,7 @@
     },
     {
       "projeto": "Projeto Miotto",
-      "codProjeto": "TL-00117",
+      "codProjeto": "TL-00120",
       "embarque": "TEMU148",
       "fornecedor": "Temu",
       "fatura": "26TM0868",
@@ -2121,7 +2121,7 @@
     },
     {
       "projeto": "Projeto Miotto",
-      "codProjeto": "TL-00117",
+      "codProjeto": "TL-00120",
       "embarque": "TEMU148",
       "fornecedor": "Temu",
       "fatura": "26TM0869",
@@ -2142,7 +2142,7 @@
     },
     {
       "projeto": "Projeto Miotto",
-      "codProjeto": "TL-00117",
+      "codProjeto": "TL-00120",
       "embarque": "TEMU148",
       "fornecedor": "Temu",
       "fatura": "26TM0870",
@@ -2163,7 +2163,7 @@
     },
     {
       "projeto": "Projeto Miotto",
-      "codProjeto": "TL-00117",
+      "codProjeto": "TL-00120",
       "embarque": "TEMU148",
       "fornecedor": "Temu",
       "fatura": "26TM0871",
@@ -2184,7 +2184,7 @@
     },
     {
       "projeto": "Projeto Miotto",
-      "codProjeto": "TL-00117",
+      "codProjeto": "TL-00120",
       "embarque": "TEMU148",
       "fornecedor": "Temu",
       "fatura": "26TM0872",
@@ -2205,7 +2205,7 @@
     },
     {
       "projeto": "Projeto Miotto",
-      "codProjeto": "TL-00117",
+      "codProjeto": "TL-00120",
       "embarque": "TEMU148",
       "fornecedor": "Honesty",
       "fatura": "SH-ZXH-260917",
@@ -2226,7 +2226,7 @@
     },
     {
       "projeto": "Garantia Temu",
-      "codProjeto": "0",
+      "codProjeto": "TL-00118",
       "embarque": "TEMU151",
       "fornecedor": "Honesty",
       "fatura": "GRAMPO",
@@ -2247,7 +2247,7 @@
     },
     {
       "projeto": "Garantia Temu",
-      "codProjeto": "0",
+      "codProjeto": "TL-00118",
       "embarque": "TEMU151",
       "fornecedor": "Honesty",
       "fatura": "COMEDOURO",
@@ -2268,7 +2268,7 @@
     },
     {
       "projeto": "Garantia Temu",
-      "codProjeto": "0",
+      "codProjeto": "TL-00118",
       "embarque": "TEMU152",
       "fornecedor": "Honesty",
       "fatura": "SH-ZXH-261008",
@@ -2289,7 +2289,7 @@
     },
     {
       "projeto": "Projeto Ysaka",
-      "codProjeto": "TL-00117",
+      "codProjeto": "TL-00119",
       "embarque": "TEMU149",
       "fornecedor": "Honesty",
       "fatura": "SH-ZXH-260928",
@@ -2310,7 +2310,7 @@
     },
     {
       "projeto": "Projeto Ysaka",
-      "codProjeto": "TL-00117",
+      "codProjeto": "TL-00119",
       "embarque": "TEMU149",
       "fornecedor": "Temu",
       "fatura": "26TM0878",
@@ -2393,8 +2393,8 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernardo - Parte 1",
-      "codProjeto": "",
+      "projeto": "Projeto San Bernardo l",
+      "codProjeto": "TL-00099",
       "embarque": "TEMU154",
       "fornecedor": "TEMU",
       "fatura": "26TM0860",
@@ -2456,7 +2456,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernado lll",
+      "projeto": "Projeto San Bernardo lll",
       "codProjeto": "TL-00117",
       "embarque": "TEMU156-A",
       "fornecedor": "Honesty",
@@ -2477,7 +2477,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernado lll",
+      "projeto": "Projeto San Bernardo lll",
       "codProjeto": "TL-00117",
       "embarque": "TEMU156-B",
       "fornecedor": "Honesty",
@@ -2498,7 +2498,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernado lll",
+      "projeto": "Projeto San Bernardo lll",
       "codProjeto": "TL-00117",
       "embarque": "TEMU157",
       "fornecedor": "TEMU",
@@ -2519,7 +2519,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernado lll",
+      "projeto": "Projeto San Bernardo lll",
       "codProjeto": "TL-00117",
       "embarque": "TEMU158",
       "fornecedor": "Hontech",
@@ -2540,7 +2540,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernado lll",
+      "projeto": "Projeto San Bernardo lll",
       "codProjeto": "TL-00117",
       "embarque": "TEMU159",
       "fornecedor": "TEMU",
@@ -2561,8 +2561,8 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "San Bernado lll",
-      "codProjeto": "",
+      "projeto": "Projeto San Bernardo lll",
+      "codProjeto": "TL-00117",
       "embarque": "TEMU160",
       "fornecedor": "Honesty",
       "fatura": "SH-ZXH-261021",
