@@ -1,10 +1,10 @@
 {
-  "geradoEm": "24/10/2026 23:34",
+  "geradoEm": "25/10/2026 00:00",
   "kpis": {
     "totalProjetos": 17,
     "totalContainers": 49,
     "etd7dias": 0,
-    "chegando10dias": 7
+    "chegando10dias": 8
   },
   "statusCounts": {
     "FINALIZADO": 20,
@@ -741,7 +741,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "",
       "invoice": "26TM0796\n26TM0797\n26TM0804\n26TM0805\n26TM0788\n26TM0789\n26TM0773-2"
     },
