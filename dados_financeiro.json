@@ -1,5 +1,5 @@
 {
-  "geradoEm": "26/10/2026 10:34",
+  "geradoEm": "26/10/2026 22:34",
   "kpis": {
     "totalGeral": 2549800.0,
     "totalSemana": 0,
@@ -13,21 +13,6 @@
     "frete": 619800.0
   },
   "projetos": [
-    {
-      "projeto": "Estoque",
-      "codProjeto": "TL-00111",
-      "embarque": "TEMU129",
-      "status": "SOBRE AGUAS",
-      "cif": 261000.0,
-      "impostos": 85000.0,
-      "despesas": 30000.0,
-      "frete": 33800.0,
-      "totalCambio": 376000.0,
-      "totalChegada": 148800.0,
-      "previsao": "18/10/2026",
-      "diasChegada": -8,
-      "semanaLabel": "Atrasado"
-    },
     {
       "projeto": "Estoque Temu 1",
       "codProjeto": "TL-00111",
@@ -160,6 +145,21 @@
       "totalCambio": 308000.0,
       "totalChegada": 128000.0,
       "previsao": "31/08/2026",
+      "diasChegada": null,
+      "semanaLabel": "Finalizado"
+    },
+    {
+      "projeto": "Estoque",
+      "codProjeto": "TL-00111",
+      "embarque": "TEMU129",
+      "status": "FINALIZADO",
+      "cif": 261000.0,
+      "impostos": 85000.0,
+      "despesas": 30000.0,
+      "frete": 33800.0,
+      "totalCambio": 376000.0,
+      "totalChegada": 148800.0,
+      "previsao": "15/10/2020",
       "diasChegada": null,
       "semanaLabel": "Finalizado"
     }
