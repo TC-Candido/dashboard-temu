@@ -1,5 +1,5 @@
 {
-  "geradoEm": "27/10/2026 17:34",
+  "geradoEm": "27/10/2026 18:00",
   "kpis": {
     "totalProjetos": 17,
     "totalContainers": 48,
@@ -10,9 +10,9 @@
     "FINALIZADO": 21,
     "DESEMBRAÇO": 1,
     "SOBRE AGUAS": 15,
-    "": 6,
+    "": 4,
     "VISTORIA": 2,
-    "EM PRODUÇÃO": 21
+    "EM PRODUÇÃO": 23
   },
   "fornecedorCounts": {
     "Hontech-Wins": 4,
@@ -1405,7 +1405,7 @@
       "prontidao": "2026-12-26 00:00:00",
       "etd": "05/01/2027",
       "eta": "05/04/2027",
-      "status": "",
+      "status": "EM PRODUÇÃO",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
       "chegando10": false,
@@ -1423,7 +1423,7 @@
       "prontidao": "2026-11-01 00:00:00",
       "etd": "11/11/2026",
       "eta": "09/02/2027",
-      "status": "",
+      "status": "EM PRODUÇÃO",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
       "chegando10": false,

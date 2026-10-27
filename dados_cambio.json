@@ -1,5 +1,5 @@
 {
-  "geradoEm": "27/10/2026 17:34",
+  "geradoEm": "27/10/2026 18:00",
   "kpis": {
     "totalSaldo": 1901192.78,
     "qtdAberto": 34,
@@ -2793,7 +2793,7 @@
       "pagoEUA": 0
     },
     {
-      "projeto": "Estoque",
+      "projeto": "Estoque - CONTROLADOR",
       "codProjeto": "TL-00111",
       "embarque": "TEMU147",
       "fornecedor": "Temu",
