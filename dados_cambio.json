@@ -1,5 +1,5 @@
 {
-  "geradoEm": "27/10/2026 17:00",
+  "geradoEm": "27/10/2026 17:34",
   "kpis": {
     "totalSaldo": 1901192.78,
     "qtdAberto": 34,
@@ -13,9 +13,9 @@
     "Hontech": 64793.89
   },
   "statusCounts": {
-    "Sem prazo - Verificar": 16,
+    "Sem prazo - Verificar": 11,
     "Aguardando 3ª Parcela": 9,
-    "Aguardando 2ª Parcela": 9
+    "Aguardando 2ª Parcela": 14
   },
   "proximos": [
     {
@@ -2638,7 +2638,7 @@
       "pct3": 0,
       "pago3": 0,
       "saldo": 119278.77,
-      "statusCambio": "Sem prazo - Verificar",
+      "statusCambio": "Aguardando 2ª Parcela",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
@@ -2659,7 +2659,7 @@
       "pct3": 0,
       "pago3": 0,
       "saldo": 119278.77,
-      "statusCambio": "Sem prazo - Verificar",
+      "statusCambio": "Aguardando 2ª Parcela",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
@@ -2680,7 +2680,7 @@
       "pct3": 0,
       "pago3": 0,
       "saldo": 93074.66,
-      "statusCambio": "Sem prazo - Verificar",
+      "statusCambio": "Aguardando 2ª Parcela",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
@@ -2701,7 +2701,7 @@
       "pct3": 0,
       "pago3": 0,
       "saldo": 74295.2,
-      "statusCambio": "Sem prazo - Verificar",
+      "statusCambio": "Aguardando 2ª Parcela",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
@@ -2764,7 +2764,7 @@
       "pct3": 0,
       "pago3": 0,
       "saldo": 82270.83,
-      "statusCambio": "Sem prazo - Verificar",
+      "statusCambio": "Aguardando 2ª Parcela",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
