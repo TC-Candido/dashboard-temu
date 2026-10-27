@@ -1,21 +1,21 @@
 {
-  "geradoEm": "27/10/2026 16:00",
+  "geradoEm": "27/10/2026 16:34",
   "kpis": {
-    "totalSaldo": 2076919.61,
-    "qtdAberto": 44,
+    "totalSaldo": 1927325.08,
+    "qtdAberto": 40,
     "venc30": 191593.31,
     "vencidos": 11861.37
   },
   "fornSaldo": {
     "TEMU": 858437.22,
     "Honesty": 646532.36,
-    "Temu": 507156.14,
+    "Temu": 357561.61,
     "Hontech": 64793.89
   },
   "statusCounts": {
-    "Aguardando 2ª Parcela": 17,
     "Sem prazo - Verificar": 18,
-    "Aguardando 3ª Parcela": 9
+    "Aguardando 3ª Parcela": 9,
+    "Aguardando 2ª Parcela": 13
   },
   "proximos": [
     {
@@ -1839,12 +1839,12 @@
       "pago2": 117547.92,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 117547.92,
-      "statusCambio": "Aguardando 2ª Parcela",
+      "saldo": 0.0,
+      "statusCambio": "Pago Total",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão",
+      "statusVenc": "Quitado",
       "pagoEUA": 0.0
     },
     {
@@ -1860,12 +1860,12 @@
       "pago2": 1980.0,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 1980.0,
-      "statusCambio": "Aguardando 2ª Parcela",
+      "saldo": 0.0,
+      "statusCambio": "Pago Total",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão",
+      "statusVenc": "Quitado",
       "pagoEUA": 0
     },
     {
@@ -1902,12 +1902,12 @@
       "pago2": 29406.61,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 29406.61,
-      "statusCambio": "Aguardando 2ª Parcela",
+      "saldo": 0.0,
+      "statusCambio": "Pago Total",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão",
+      "statusVenc": "Quitado",
       "pagoEUA": 0.0
     },
     {
@@ -1923,12 +1923,12 @@
       "pago2": 660.0,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 660.0,
-      "statusCambio": "Aguardando 2ª Parcela",
+      "saldo": 0.0,
+      "statusCambio": "Pago Total",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão",
+      "statusVenc": "Quitado",
       "pagoEUA": 0
     },
     {
