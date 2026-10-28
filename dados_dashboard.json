@@ -1,17 +1,17 @@
 {
-  "geradoEm": "28/10/2026 15:34",
+  "geradoEm": "28/10/2026 16:00",
   "kpis": {
     "totalProjetos": 18,
     "totalContainers": 48,
     "etd7dias": 0,
-    "chegando10dias": 8
+    "chegando10dias": 9
   },
   "statusCounts": {
     "FINALIZADO": 21,
     "DESEMBRAÇO": 1,
     "SOBRE AGUAS": 15,
     "VISTORIA": 6,
-    "": 2,
+    "": 3,
     "EM PRODUÇÃO": 19
   },
   "fornecedorCounts": {
@@ -51,11 +51,11 @@
       "tipoCntr": "40hc",
       "prontidao": "2026-07-30 00:00:00",
       "etd": "12/08/2026",
-      "eta": "22/10/2026",
+      "eta": "05/11/2026",
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "",
       "invoice": "26TM0638"
     },
@@ -152,24 +152,6 @@
       "invoice": "HT-X26073001BR +  HT-X26073002BR"
     },
     {
-      "embarque": "TEMU120",
-      "codProjeto": "TL-00100",
-      "projeto": "Projeto San Bernardo ll",
-      "fornecedor": "Temu",
-      "destino": "Asuncion",
-      "qtdCntr": 4,
-      "tipoCntr": "40hc",
-      "prontidao": "2026-07-30 00:00:00",
-      "etd": "12/08/2026",
-      "eta": "22/10/2026",
-      "status": "SOBRE AGUAS",
-      "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": "",
-      "invoice": "26TM0638"
-    },
-    {
       "embarque": "TEMU125",
       "codProjeto": "TL-00100",
       "projeto": "Projeto San Bernardo ll",
@@ -240,6 +222,24 @@
       "chegando10": true,
       "observacoes": "",
       "invoice": "26TM0640-1"
+    },
+    {
+      "embarque": "TEMU126-1",
+      "codProjeto": "TL-00100",
+      "projeto": "Projeto San Bernardo ll",
+      "fornecedor": "Temu",
+      "destino": "Asuncion",
+      "qtdCntr": 2,
+      "tipoCntr": "40HC",
+      "prontidao": "2026-07-30 00:00:00",
+      "etd": "31/08/2026",
+      "eta": "01/11/2026",
+      "status": "SOBRE AGUAS",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": false,
+      "chegando10": true,
+      "observacoes": "",
+      "invoice": "26TM0650-1"
     }
   ],
   "embarques": [
@@ -630,8 +630,8 @@
       "qtdCntr": 1,
       "tipoCntr": "40HC",
       "prontidao": "2026-07-31 00:00:00",
-      "etd": null,
-      "eta": "15/10/2026",
+      "etd": "12/08/2020",
+      "eta": "15/10/2020",
       "status": "FINALIZADO",
       "statusOp": "Finalizado",
       "etd7dias": false,
@@ -649,11 +649,11 @@
       "tipoCntr": "40hc",
       "prontidao": "2026-07-30 00:00:00",
       "etd": "12/08/2026",
-      "eta": "22/10/2026",
+      "eta": "05/11/2026",
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "",
       "invoice": "26TM0638"
     },
@@ -1394,6 +1394,24 @@
       "chegando10": false,
       "observacoes": "",
       "invoice": "O-046401"
+    },
+    {
+      "embarque": "TEMU164",
+      "codProjeto": "TL-00101",
+      "projeto": "Projeto Agroter",
+      "fornecedor": "",
+      "destino": "",
+      "qtdCntr": 0,
+      "tipoCntr": "",
+      "prontidao": "",
+      "etd": null,
+      "eta": null,
+      "status": "",
+      "statusOp": "Sem Prontidão e ETD",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": ""
     }
   ]
 }
