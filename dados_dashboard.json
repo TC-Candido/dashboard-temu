@@ -1,7 +1,7 @@
 {
-  "geradoEm": "28/10/2026 08:00",
+  "geradoEm": "28/10/2026 14:35",
   "kpis": {
-    "totalProjetos": 17,
+    "totalProjetos": 18,
     "totalContainers": 48,
     "etd7dias": 0,
     "chegando10dias": 8
@@ -10,7 +10,7 @@
     "FINALIZADO": 21,
     "DESEMBRAÇO": 1,
     "SOBRE AGUAS": 15,
-    "VISTORIA": 5,
+    "VISTORIA": 6,
     "": 1,
     "EM PRODUÇÃO": 19
   },
@@ -19,7 +19,7 @@
     "Temu": 26,
     "Honesty": 9,
     "CIXI MAITE": 1,
-    "Faread": 1
+    "Faread": 2
   },
   "proximosETD": [
     {
@@ -1357,6 +1357,24 @@
       "chegando10": false,
       "observacoes": "",
       "invoice": "26TM0863"
+    },
+    {
+      "embarque": "TEMU162",
+      "codProjeto": "TL-99999",
+      "projeto": "Agroterm, Miotto Farm and Temu Latam Test",
+      "fornecedor": "Faread",
+      "destino": "",
+      "qtdCntr": 0,
+      "tipoCntr": "",
+      "prontidao": "",
+      "etd": null,
+      "eta": null,
+      "status": "VISTORIA",
+      "statusOp": "Sem Prontidão e ETD",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "FRD2026102306"
     }
   ]
 }

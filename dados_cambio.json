@@ -1,21 +1,21 @@
 {
-  "geradoEm": "28/10/2026 08:00",
+  "geradoEm": "28/10/2026 14:35",
   "kpis": {
-    "totalSaldo": 1916871.04,
-    "qtdAberto": 35,
+    "totalSaldo": 1919956.44,
+    "qtdAberto": 36,
     "venc30": 191593.31,
     "vencidos": 11861.37
   },
   "fornSaldo": {
     "TEMU": 858437.22,
     "Honesty": 620400.06,
-    "Temu": 373239.87,
+    "Temu": 376325.27,
     "Hontech": 64793.89
   },
   "statusCounts": {
     "Sem prazo - Verificar": 12,
     "Aguardando 3ª Parcela": 9,
-    "Aguardando 2ª Parcela": 14
+    "Aguardando 2ª Parcela": 15
   },
   "proximos": [
     {
@@ -2301,7 +2301,28 @@
       "pago2": 13034.58,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 11269.18,
+      "saldo": 13034.58,
+      "statusCambio": "Aguardando 2ª Parcela",
+      "previsao": null,
+      "previsaoDias": null,
+      "previsaoLabel": null,
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 0
+    },
+    {
+      "projeto": "Projeto San Bernardo l",
+      "codProjeto": "TL-00099",
+      "embarque": "TEMU146",
+      "fornecedor": "Temu",
+      "fatura": "26TM0842",
+      "valor": 1320.0,
+      "pct1": 0,
+      "pago1": 0,
+      "pct2": 100.0,
+      "pago2": 1320.0,
+      "pct3": 0,
+      "pago3": 0,
+      "saldo": 1320.0,
       "statusCambio": "Aguardando 2ª Parcela",
       "previsao": null,
       "previsaoDias": null,
@@ -2769,6 +2790,27 @@
       "previsaoDias": null,
       "previsaoLabel": null,
       "statusVenc": "Sem previsão",
+      "pagoEUA": 0
+    },
+    {
+      "projeto": "Agroterm, Miotto Farm and Temu Latam Test",
+      "codProjeto": "TL-99999",
+      "embarque": "TEMU162",
+      "fornecedor": "Faread",
+      "fatura": "FRD2026102306",
+      "valor": 606.0,
+      "pct1": 100.0,
+      "pago1": 606.0,
+      "pct2": 0,
+      "pago2": 0,
+      "pct3": 0,
+      "pago3": 0,
+      "saldo": 0.0,
+      "statusCambio": "Pago Total",
+      "previsao": null,
+      "previsaoDias": null,
+      "previsaoLabel": null,
+      "statusVenc": "Quitado",
       "pagoEUA": 0
     }
   ]
