@@ -1,5 +1,5 @@
 {
-  "geradoEm": "28/10/2026 16:00",
+  "geradoEm": "28/10/2026 16:34",
   "kpis": {
     "totalProjetos": 18,
     "totalContainers": 48,
@@ -16,7 +16,7 @@
   },
   "fornecedorCounts": {
     "Hontech-Wins": 4,
-    "Temu": 26,
+    "Temu": 27,
     "Honesty": 9,
     "CIXI MAITE": 1,
     "Faread": 2,
@@ -1399,7 +1399,7 @@
       "embarque": "TEMU164",
       "codProjeto": "TL-00101",
       "projeto": "Projeto Agroter",
-      "fornecedor": "",
+      "fornecedor": "Temu",
       "destino": "",
       "qtdCntr": 0,
       "tipoCntr": "",
@@ -1411,7 +1411,7 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": ""
+      "invoice": "25TM0571-1"
     }
   ]
 }
