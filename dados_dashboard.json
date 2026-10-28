@@ -1,5 +1,5 @@
 {
-  "geradoEm": "28/10/2026 14:35",
+  "geradoEm": "28/10/2026 15:00",
   "kpis": {
     "totalProjetos": 18,
     "totalContainers": 48,
@@ -11,7 +11,7 @@
     "DESEMBRAÇO": 1,
     "SOBRE AGUAS": 15,
     "VISTORIA": 6,
-    "": 1,
+    "": 2,
     "EM PRODUÇÃO": 19
   },
   "fornecedorCounts": {
@@ -19,7 +19,8 @@
     "Temu": 26,
     "Honesty": 9,
     "CIXI MAITE": 1,
-    "Faread": 2
+    "Faread": 2,
+    "Daltec": 1
   },
   "proximosETD": [
     {
@@ -1375,6 +1376,24 @@
       "chegando10": false,
       "observacoes": "",
       "invoice": "FRD2026102306"
+    },
+    {
+      "embarque": "TEMU163",
+      "codProjeto": "",
+      "projeto": "Projeto San Bernardo lll",
+      "fornecedor": "Daltec",
+      "destino": "",
+      "qtdCntr": 0,
+      "tipoCntr": "",
+      "prontidao": "",
+      "etd": null,
+      "eta": null,
+      "status": "",
+      "statusOp": "Sem Prontidão e ETD",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "O-046401"
     }
   ]
 }
