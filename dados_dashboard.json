@@ -1,5 +1,5 @@
 {
-  "geradoEm": "28/10/2026 15:00",
+  "geradoEm": "28/10/2026 15:34",
   "kpis": {
     "totalProjetos": 18,
     "totalContainers": 48,
@@ -630,8 +630,8 @@
       "qtdCntr": 1,
       "tipoCntr": "40HC",
       "prontidao": "2026-07-31 00:00:00",
-      "etd": "12/08/2020",
-      "eta": "15/10/2020",
+      "etd": null,
+      "eta": "15/10/2026",
       "status": "FINALIZADO",
       "statusOp": "Finalizado",
       "etd7dias": false,
