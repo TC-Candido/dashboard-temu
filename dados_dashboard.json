@@ -1,5 +1,5 @@
 {
-  "geradoEm": "29/10/2026 10:00",
+  "geradoEm": "29/10/2026 10:34",
   "kpis": {
     "totalProjetos": 18,
     "totalContainers": 48,
@@ -11,7 +11,7 @@
     "DESEMBRAÇO": 1,
     "SOBRE AGUAS": 15,
     "VISTORIA": 6,
-    "": 4,
+    "": 5,
     "EM PRODUÇÃO": 19
   },
   "fornecedorCounts": {
@@ -1418,6 +1418,24 @@
       "codProjeto": "TL-00117",
       "projeto": "Projeto San Bernardo lll",
       "fornecedor": "Temu",
+      "destino": "",
+      "qtdCntr": 0,
+      "tipoCntr": "",
+      "prontidao": "",
+      "etd": null,
+      "eta": null,
+      "status": "",
+      "statusOp": "Sem Prontidão e ETD",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "26TM0873"
+    },
+    {
+      "embarque": "TEMU166",
+      "codProjeto": "TL-00117",
+      "projeto": "Projeto San Bernardo lll",
+      "fornecedor": "",
       "destino": "",
       "qtdCntr": 0,
       "tipoCntr": "",
