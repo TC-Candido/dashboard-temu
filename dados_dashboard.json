@@ -1,9 +1,9 @@
 {
-  "geradoEm": "28/10/2026 23:34",
+  "geradoEm": "29/10/2026 00:00",
   "kpis": {
     "totalProjetos": 18,
     "totalContainers": 48,
-    "etd7dias": 0,
+    "etd7dias": 1,
     "chegando10dias": 9
   },
   "statusCounts": {
@@ -1084,7 +1084,7 @@
       "eta": "20/12/2026",
       "status": "EM PRODUÇÃO",
       "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
+      "etd7dias": true,
       "chegando10": false,
       "observacoes": "",
       "invoice": "SH-ZXH-260917\nSH-ZXH-260714\n4 Units Auto Sow\n SH-ZXH-260814\n SH-ZXH-260811\nGRAMPO\nCOMEDOURO"
