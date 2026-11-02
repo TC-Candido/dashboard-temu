@@ -1,5 +1,5 @@
 {
-  "geradoEm": "02/11/2026 08:00",
+  "geradoEm": "02/11/2026 08:34",
   "kpis": {
     "totalSaldo": 2199474.48,
     "qtdAberto": 43,
@@ -917,9 +917,9 @@
       "pago3": 136541.35,
       "saldo": 0.0,
       "statusCambio": "Pago Total",
-      "previsao": "12/10/2026",
-      "previsaoDias": -21,
-      "previsaoLabel": "21d atrás",
+      "previsao": null,
+      "previsaoDias": null,
+      "previsaoLabel": null,
       "statusVenc": "Quitado",
       "pagoEUA": 0
     },
@@ -2135,9 +2135,9 @@
       "pago3": 7892.1,
       "saldo": 0.0,
       "statusCambio": "Pago Total",
-      "previsao": "29/10/2026",
-      "previsaoDias": -4,
-      "previsaoLabel": "4d atrás",
+      "previsao": null,
+      "previsaoDias": null,
+      "previsaoLabel": null,
       "statusVenc": "Quitado",
       "pagoEUA": 0
     },
@@ -2156,9 +2156,9 @@
       "pago3": 462.0,
       "saldo": 0.0,
       "statusCambio": "Pago Total",
-      "previsao": "29/10/2026",
-      "previsaoDias": -4,
-      "previsaoLabel": "4d atrás",
+      "previsao": null,
+      "previsaoDias": null,
+      "previsaoLabel": null,
       "statusVenc": "Quitado",
       "pagoEUA": 0
     },
