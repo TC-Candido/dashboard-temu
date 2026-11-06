@@ -1,9 +1,9 @@
 {
-  "geradoEm": "06/11/2026 10:00",
+  "geradoEm": "06/11/2026 10:34",
   "kpis": {
     "totalSaldo": 2844101.62,
     "qtdAberto": 46,
-    "venc30": 183239.21,
+    "venc30": 108555.92,
     "vencidos": 0
   },
   "fornSaldo": {
@@ -13,32 +13,11 @@
     "Hontech": 64793.89
   },
   "statusCounts": {
-    "Sem prazo - Verificar": 26,
-    "Aguardando 3ª Parcela": 5,
+    "Sem prazo - Verificar": 27,
+    "Aguardando 3ª Parcela": 4,
     "Aguardando 2ª Parcela": 15
   },
   "proximos": [
-    {
-      "projeto": "Projeto San Bernardo ll",
-      "codProjeto": "TL-00100",
-      "embarque": "TEMU133-1",
-      "fornecedor": "Temu",
-      "fatura": "26TM0643-1",
-      "valor": 186708.21,
-      "pct1": 30.0,
-      "pago1": 56012.46,
-      "pct2": 30.0,
-      "pago2": 56012.46,
-      "pct3": 40.0,
-      "pago3": 74683.29,
-      "saldo": 74683.29,
-      "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "07/11/2026",
-      "previsaoDias": 1,
-      "previsaoLabel": "Amanhã",
-      "statusVenc": "Vence em 30 dias",
-      "pagoEUA": 56012.46
-    },
     {
       "projeto": "Projeto San Bernardo ll",
       "codProjeto": "TL-00100",
@@ -2008,11 +1987,11 @@
       "pct3": 40.0,
       "pago3": 74683.29,
       "saldo": 74683.29,
-      "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "07/11/2026",
-      "previsaoDias": 1,
-      "previsaoLabel": "Amanhã",
-      "statusVenc": "Vence em 30 dias",
+      "statusCambio": "Sem prazo - Verificar",
+      "previsao": null,
+      "previsaoDias": null,
+      "previsaoLabel": null,
+      "statusVenc": "Sem previsão",
       "pagoEUA": 56012.46
     },
     {
