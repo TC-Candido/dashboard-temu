@@ -1,10 +1,10 @@
 {
-  "geradoEm": "08/11/2026 18:00",
+  "geradoEm": "08/11/2026 18:34",
   "kpis": {
     "totalSaldo": 2844101.62,
     "qtdAberto": 46,
-    "venc30": 183239.21,
-    "vencidos": 0
+    "venc30": 108555.92,
+    "vencidos": 74683.29
   },
   "fornSaldo": {
     "Honesty": 1178847.75,
@@ -33,10 +33,10 @@
       "pago3": 74683.29,
       "saldo": 74683.29,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "11/11/2026",
-      "previsaoDias": 3,
-      "previsaoLabel": "3 dias",
-      "statusVenc": "Vence em 30 dias",
+      "previsao": "07/11/2026",
+      "previsaoDias": -1,
+      "previsaoLabel": "1d atrás",
+      "statusVenc": "Vencido",
       "pagoEUA": 56012.46
     },
     {
@@ -96,9 +96,9 @@
       "pago3": 83129.96,
       "saldo": 83129.96,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "17/11/2026",
-      "previsaoDias": 9,
-      "previsaoLabel": "9 dias",
+      "previsao": "13/11/2026",
+      "previsaoDias": 5,
+      "previsaoLabel": "5 dias",
       "statusVenc": "Vence em 30 dias",
       "pagoEUA": 0
     },
@@ -117,9 +117,9 @@
       "pago3": 3696.0,
       "saldo": 3696.0,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "17/11/2026",
-      "previsaoDias": 9,
-      "previsaoLabel": "9 dias",
+      "previsao": "13/11/2026",
+      "previsaoDias": 5,
+      "previsaoLabel": "5 dias",
       "statusVenc": "Vence em 30 dias",
       "pagoEUA": 0
     }
@@ -1684,7 +1684,7 @@
       "codProjeto": "TL-00117",
       "embarque": "TEMU138",
       "fornecedor": "='Follow Up'!E40",
-      "fatura": "SH-ZXH-260928\n26TM0878",
+      "fatura": "SH-ZXH-260917\nSH-ZXH-260714\n4 Units Auto Sow\n SH-ZXH-260814\n SH-ZXH-260811\nGRAMPO\nCOMEDOURO\nFRD2026092301",
       "valor": 9734.4,
       "pct1": 30.0,
       "pago1": 2920.32,
@@ -1704,7 +1704,7 @@
       "projeto": "Projeto San Bernardo lll",
       "codProjeto": "TL-00117",
       "embarque": "TEMU139",
-      "fornecedor": "Honesty",
+      "fornecedor": "Honesty\nTemu",
       "fatura": "HT-X26072001BR",
       "valor": 29076.0,
       "pct1": 30.0,
@@ -2009,10 +2009,10 @@
       "pago3": 74683.29,
       "saldo": 74683.29,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "11/11/2026",
-      "previsaoDias": 3,
-      "previsaoLabel": "3 dias",
-      "statusVenc": "Vence em 30 dias",
+      "previsao": "07/11/2026",
+      "previsaoDias": -1,
+      "previsaoLabel": "1d atrás",
+      "statusVenc": "Vencido",
       "pagoEUA": 56012.46
     },
     {
@@ -2198,9 +2198,9 @@
       "pago3": 83129.96,
       "saldo": 83129.96,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "17/11/2026",
-      "previsaoDias": 9,
-      "previsaoLabel": "9 dias",
+      "previsao": "13/11/2026",
+      "previsaoDias": 5,
+      "previsaoLabel": "5 dias",
       "statusVenc": "Vence em 30 dias",
       "pagoEUA": 0
     },
@@ -2219,9 +2219,9 @@
       "pago3": 3696.0,
       "saldo": 3696.0,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "17/11/2026",
-      "previsaoDias": 9,
-      "previsaoLabel": "9 dias",
+      "previsao": "13/11/2026",
+      "previsaoDias": 5,
+      "previsaoLabel": "5 dias",
       "statusVenc": "Vence em 30 dias",
       "pagoEUA": 0
     },
@@ -2668,7 +2668,7 @@
     },
     {
       "projeto": "Projeto San Bernardo lll",
-      "codProjeto": "TL-00099",
+      "codProjeto": "TL-00117",
       "embarque": "TEMU159",
       "fornecedor": "TEMU",
       "fatura": "26TM0860",

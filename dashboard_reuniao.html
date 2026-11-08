@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Reunião Semanal — Taalex</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:#111;font-family:'Segoe UI',system-ui,sans-serif;color:#fff;min-height:100vh;padding:16px;}
+.db{background:#1A1A1A;border-radius:12px;overflow:hidden;max-width:1400px;margin:0 auto;}
+.hdr{background:#111;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(255,255,255,.07);flex-wrap:wrap;gap:10px;}
+.hdr-left{display:flex;align-items:center;gap:14px;}
+.logo-img{height:38px;width:auto;}
+.hdr-div{width:1px;height:30px;background:rgba(255,255,255,.1);}
+.nav{display:flex;gap:6px;}
+.nav a{font-size:11px;padding:5px 12px;border-radius:6px;text-decoration:none;color:rgba(255,255,255,.4);border:1px solid rgba(255,255,255,.08);}
+.nav a.active{background:rgba(39,174,96,.15);color:#82E0AA;border-color:rgba(39,174,96,.4);}
+.hdr-title{font-size:15px;font-weight:600;color:#fff;}
+.hdr-sub{font-size:11px;color:rgba(255,255,255,.35);margin-top:2px;}
+.hdr-right{text-align:right;}
+.hdr-date{font-size:12px;color:rgba(255,255,255,.4);}
+.hdr-update{font-size:10px;color:rgba(255,255,255,.2);margin-top:2px;}
+.body{padding:16px;display:flex;flex-direction:column;gap:14px;}
+ 
+.kpi-row{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;}
+.kpi{background:#242424;border-radius:10px;padding:14px 16px;border:1px solid rgba(255,255,255,.06);}
+.kpi.warn{border-color:rgba(230,126,34,.4);background:#1E1810;}
+.kpi.bad{border-color:rgba(231,76,60,.4);background:#1E1212;}
+.kpi.ok{border-color:rgba(39,174,96,.3);background:#101E12;}
+.kpi-label{font-size:10px;color:rgba(255,255,255,.4);margin-bottom:8px;text-transform:uppercase;letter-spacing:.06em;}
+.kpi-val{font-size:20px;font-weight:700;color:#fff;line-height:1.1;}
+.kpi-val.green{color:#82E0AA;}
+.kpi-val.amber{color:#E67E22;}
+.kpi-val.red{color:#F1948A;}
+.kpi-delta{font-size:10px;margin-top:6px;color:rgba(255,255,255,.3);}
+ 
+.card{background:#242424;border-radius:10px;padding:14px 16px;border:1px solid rgba(255,255,255,.06);}
+.card.alert{border-color:rgba(230,126,34,.4);}
+.card-title{font-size:10px;font-weight:600;color:rgba(255,255,255,.35);margin-bottom:4px;text-transform:uppercase;letter-spacing:.07em;}
+.card-sub{font-size:11px;color:rgba(255,255,255,.3);margin-bottom:12px;}
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap;}
+.sec-count{font-size:11px;color:rgba(255,255,255,.3);}
+.sec-title{font-size:13px;font-weight:600;color:rgba(255,255,255,.7);margin:4px 2px 0;}
+.alert-title{color:#F0B27A;}
+ 
+.badge{font-size:9px;padding:2px 8px;border-radius:20px;font-weight:600;white-space:nowrap;}
+.b-red{background:rgba(231,76,60,.25);color:#F1948A;}
+.b-amber{background:rgba(230,126,34,.2);color:#F0B27A;}
+.b-green{background:rgba(39,174,96,.2);color:#82E0AA;}
+.b-blue{background:rgba(52,152,219,.2);color:#85C1E9;}
+.b-gray{background:rgba(255,255,255,.07);color:rgba(255,255,255,.4);}
+.b-purple{background:rgba(155,89,182,.2);color:#C39BD3;}
+ 
+.tbl-wrap{overflow-x:auto;}
+table{width:100%;border-collapse:collapse;font-size:12px;}
+thead th{padding:9px 12px;text-align:left;border-bottom:1px solid rgba(255,255,255,.07);color:rgba(255,255,255,.3);font-weight:600;font-size:10px;text-transform:uppercase;letter-spacing:.05em;white-space:nowrap;}
+thead th.r,tbody td.r{text-align:right;}
+tbody td{padding:9px 12px;border-bottom:1px solid rgba(255,255,255,.04);color:rgba(255,255,255,.75);white-space:nowrap;}
+tbody tr:last-child td{border-bottom:none;}
+tbody tr:hover td{background:rgba(255,255,255,.03);}
+td.wrap{white-space:normal;min-width:160px;}
+td.strong{font-weight:600;color:#fff;}
+.muted{color:rgba(255,255,255,.3);}
+.empty{padding:22px;text-align:center;color:rgba(255,255,255,.25);font-size:12px;}
+.total-row td{border-top:1px solid rgba(255,255,255,.1);font-weight:700;color:#fff;padding-top:12px;}
+ 
+.footer{padding:10px 20px;border-top:1px solid rgba(255,255,255,.05);display:flex;align-items:center;justify-content:space-between;}
+.footer-text{font-size:10px;color:rgba(255,255,255,.15);}
+ 
+@media(max-width:1100px){.kpi-row{grid-template-columns:repeat(3,1fr);}}
+@media(max-width:700px){.kpi-row{grid-template-columns:repeat(2,1fr);}}
+@media print{body{background:#fff;color:#000;padding:0;}}
+</style>
+</head>
+<body>
+<div class="db">
+ 
+  <div class="hdr">
+    <div class="hdr-left">
+      <img class="logo-img" src="data:image/png;base64,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" alt="Taalex"/>
+      <div class="hdr-div"></div>
+      <div>
+        <div class="hdr-title">Reunião Semanal — Resumo Operacional e Financeiro</div>
+        <div class="hdr-sub">Processo 2026 — Taalex Systemtechnik</div>
+      </div>
+    </div>
+    <div style="display:flex;align-items:center;gap:16px;">
+      <div class="nav">
+        <a href="dashboard_temu.html">Operacional</a>
+        <a href="dashboard_cambio.html">Câmbio</a>
+        <a href="dashboard_financeiro.html">Financeiro</a>
+        <a href="dashboard_reuniao.html" class="active">Reunião</a>
+      </div>
+      <div class="hdr-right">
+        <div class="hdr-date" id="hdr-date"></div>
+        <div class="hdr-update" id="hdr-update"></div>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="body">
+ 
+    <div class="kpi-row" id="kpi-row"></div>
+ 
+    <!-- 1. Chegando: operacional -->
+    <div class="card">
+      <div class="sec-head">
+        <div class="card-title" id="t-cheg-op"></div>
+        <div class="sec-count" id="c-cheg-op"></div>
+      </div>
+      <div class="card-sub">Por processo (embarque) — ordenado pela data de chegada</div>
+      <div class="tbl-wrap" id="cheg-op"></div>
+    </div>
+ 
+    <!-- 2. Chegando: financeiro -->
+    <div class="card">
+      <div class="sec-head">
+        <div class="card-title" id="t-cheg-fin"></div>
+        <div class="sec-count" id="c-cheg-fin"></div>
+      </div>
+      <div class="card-sub">Valores a provisionar por projeto — exclui projetos finalizados</div>
+      <div class="tbl-wrap" id="cheg-fin"></div>
+    </div>
+ 
+    <!-- 3. Prontidões -->
+    <div class="card">
+      <div class="sec-head">
+        <div class="card-title" id="t-pront"></div>
+        <div class="sec-count" id="c-pront"></div>
+      </div>
+      <div class="card-sub">Processos que ficam prontos e precisam embarcar</div>
+      <div class="tbl-wrap" id="pront"></div>
+    </div>
+ 
+    <!-- 4. Já prontos sem ETD -->
+    <div class="card">
+      <div class="sec-head">
+        <div class="card-title">Já prontos, aguardando ETD</div>
+        <div class="sec-count" id="c-sem-etd"></div>
+      </div>
+      <div class="card-sub">Prontidão já passou e ainda não há ETD (previsão de embarque) informado</div>
+      <div class="tbl-wrap" id="sem-etd"></div>
+    </div>
+ 
+    <!-- 5. Alertas -->
+    <div class="sec-title alert-title">⚠ Alertas — informações faltando</div>
+ 
+    <div class="card alert">
+      <div class="sec-head">
+        <div class="card-title">Sem data de prontidão</div>
+        <div class="sec-count" id="c-sem-pront"></div>
+      </div>
+      <div class="card-sub">Processos ativos sem prontidão informada na planilha — cobrar na reunião</div>
+      <div class="tbl-wrap" id="sem-pront"></div>
+    </div>
+ 
+    <div class="card alert">
+      <div class="sec-head">
+        <div class="card-title">ETA já passou e o processo não está finalizado</div>
+        <div class="sec-count" id="c-eta-venc"></div>
+      </div>
+      <div class="card-sub">Confirmar se já chegou (atualizar status) ou se a previsão mudou</div>
+      <div class="tbl-wrap" id="eta-venc"></div>
+    </div>
+ 
+  </div>
+ 
+  <div class="footer">
+    <div class="footer-text">Taalex Systemtechnik GmbH — Reunião Semanal 2026</div>
+    <div class="footer-text" id="footer-update"></div>
+  </div>
+</div>
+ 
+<script>
+var DADOS = {"geradoEm": "08/11/2026 18:34", "hoje": "08/11/2026", "limChegada": "23/11/2026", "limProntidao": "16/11/2026", "janelaChegada": 15, "janelaProntidao": 8, "kpis": {"chegandoQtd": 7, "provisao15": 0, "prontidaoQtd": 1, "prontosSemEtd": 4, "alertasQtd": 16}, "chegandoOp": [{"embarque": "TEMU121-1", "codProjeto": "TL-00100", "projeto": "Projeto San Bernardo ll", "fornecedor": "Temu", "destino": "Asuncion", "qtdCntr": 3, "tipoCntr": "1x20GP / 2x40HC", "status": "SOBRE AGUAS", "prontidao": "30/07/2026", "etd": "31/08/2026", "eta": "08/11/2026", "diasProntidao": -101, "diasEtd": -69, "diasEta": 0, "provisao": null}, {"embarque": "TEMU126-1", "codProjeto": "TL-00100", "projeto": "Projeto San Bernardo ll", "fornecedor": "Temu", "destino": "Asuncion", "qtdCntr": 2, "tipoCntr": "40HC", "status": "SOBRE AGUAS", "prontidao": "30/07/2026", "etd": "31/08/2026", "eta": "08/11/2026", "diasProntidao": -101, "diasEtd": -69, "diasEta": 0, "provisao": null}, {"embarque": "TEMU134-1", "codProjeto": "TL-00100", "projeto": "Projeto San Bernardo ll", "fornecedor": "Temu", "destino": "Asuncion", "qtdCntr": 1, "tipoCntr": "40hc", "status": "SOBRE AGUAS", "prontidao": "16/08/2026", "etd": "31/08/2026", "eta": "08/11/2026", "diasProntidao": -84, "diasEtd": -69, "diasEta": 0, "provisao": null}, {"embarque": "TEMU146", "codProjeto": "TL-00099", "projeto": "Projeto San Bernardo l", "fornecedor": "Temu", "destino": "PARANÁGUA", "qtdCntr": 2, "tipoCntr": "20DRY / 40HC", "status": "SOBRE AGUAS", "prontidao": "09/09/2026", "etd": "27/09/2020", "eta": "14/11/2026", "diasProntidao": -60, "diasEtd": -2233, "diasEta": 6, "provisao": null}, {"embarque": "TEMU133-1", "codProjeto": "TL-00100", "projeto": "Projeto San Bernardo ll", "fornecedor": "Temu", "destino": "Asuncion", "qtdCntr": 3, "tipoCntr": "2*40HC / 1*20GP", "status": "SOBRE AGUAS", "prontidao": "12/08/2026", "etd": "14/09/2026", "eta": "18/11/2026", "diasProntidao": -88, "diasEtd": -55, "diasEta": 10, "provisao": null}, {"embarque": "TEMU134 -3", "codProjeto": "TL-00100", "projeto": "Projeto San Bernardo ll", "fornecedor": "Temu", "destino": "Asuncion", "qtdCntr": 3, "tipoCntr": "40hc", "status": "SOBRE AGUAS", "prontidao": "21/08/2026", "etd": "15/09/2026", "eta": "18/11/2026", "diasProntidao": -79, "diasEtd": -54, "diasEta": 10, "provisao": null}, {"embarque": "TEMU134 - 4", "codProjeto": "TL-00100", "projeto": "Projeto San Bernardo ll", "fornecedor": "Temu", "destino": "Asuncion", "qtdCntr": 8, "tipoCntr": "7*40hc / 1*20GP", "status": "SOBRE AGUAS", "prontidao": "05/09/2026", "etd": "17/09/2026", "eta": "20/11/2026", "diasProntidao": -64, "diasEtd": -52, "diasEta": 12, "provisao": null}], "chegandoFin": [], "prontidoes": [{"embarque": "TEMU148-2", "codProjeto": "TL-00120", "projeto": "Projeto Miotto", "fornecedor": "Temu", "destino": "Navegantes", "qtdCntr": 0, "tipoCntr": "", "status": "EM PRODUÇÃO", "prontidao": "10/11/2026", "etd": null, "eta": null, "diasProntidao": 2, "diasEtd": null, "diasEta": null}], "prontosSemEtd": [{"embarque": "TEMU136 / TEMU134-2", "codProjeto": "TL-00100", "projeto": "Projeto San Bernardo ll", "fornecedor": "Temu", "destino": "Asuncion", "qtdCntr": 1, "tipoCntr": "40hc", "status": "SOBRE AGUAS", "prontidao": "29/07/2026", "etd": null, "eta": "05/11/2026", "diasProntidao": -102, "diasEtd": null, "diasEta": -3}, {"embarque": "TEMU133-2", "codProjeto": "TL-00100", "projeto": "Projeto San Bernardo ll", "fornecedor": "Temu", "destino": "Asuncion", "qtdCntr": 0, "tipoCntr": "0", "status": "VISTORIA", "prontidao": "12/08/2026", "etd": null, "eta": null, "diasProntidao": -88, "diasEtd": null, "diasEta": null}, {"embarque": "TEMU138", "codProjeto": "TL-00117", "projeto": "Projeto San Bernardo lll", "fornecedor": "Hontech-Wins", "destino": "Asuncion", "qtdCntr": 0, "tipoCntr": "", "status": "VISTORIA", "prontidao": "31/08/2026", "etd": null, "eta": null, "diasProntidao": -69, "diasEtd": null, "diasEta": null}, {"embarque": "TEMU139", "codProjeto": "TL-00117", "projeto": "Projeto San Bernardo lll", "fornecedor": "Hontech-Wins", "destino": "Asuncion", "qtdCntr": 0, "tipoCntr": "", "status": "VISTORIA", "prontidao": "31/08/2026", "etd": null, "eta": null, "diasProntidao": -69, "diasEtd": null, "diasEta": null}], "alertas": {"semProntidao": [{"embarque": "TEMU121-2", "codProjeto": "TL-00100", "projeto": "Projeto San Bernardo ll", "fornecedor": "Temu", "destino": "Asuncion", "qtdCntr": 0, "tipoCntr": "", "status": "VISTORIA", "prontidao": null, "etd": null, "eta": null, "diasProntidao": null, "diasEtd": null, "diasEta": null, "motivo": "Sem data de prontidão"}, {"embarque": "TEMU126-2", "codProjeto": "TL-00100", "projeto": "Projeto San Bernardo ll", "fornecedor": "Temu", "destino": "Asuncion", "qtdCntr": 0, "tipoCntr": "", "status": "VISTORIA", "prontidao": null, "etd": null, "eta": null, "diasProntidao": null, "diasEtd": null, "diasEta": null, "motivo": "Sem data de prontidão"}, {"embarque": "TEMU143", "codProjeto": "TL-00111", "projeto": "Estoque - não embarcou TEMU140", "fornecedor": "CIXI MAITE", "destino": "Navegantes", "qtdCntr": 0, "tipoCntr": "", "status": "", "prontidao": null, "etd": null, "eta": null, "diasProntidao": null, "diasEtd": null, "diasEta": null, "motivo": "Sem data de prontidão"}, {"embarque": "TEMU147", "codProjeto": "TL-00111", "projeto": "Estoque - não embarcou", "fornecedor": "Temu", "destino": "Navegantes", "qtdCntr": 0, "tipoCntr": "0", "status": "EM PRODUÇÃO", "prontidao": null, "etd": null, "eta": null, "diasProntidao": null, "diasEtd": null, "diasEta": null, "motivo": "Sem data de prontidão"}, {"embarque": "TEMU163", "codProjeto": "TL-00117", "projeto": "Projeto San Bernardo lll", "fornecedor": "Daltec", "destino": "Asuncion", "qtdCntr": 0, "tipoCntr": "", "status": "EM PRODUÇÃO", "prontidao": null, "etd": null, "eta": null, "diasProntidao": null, "diasEtd": null, "diasEta": null, "motivo": "Sem data de prontidão"}, {"embarque": "TEMU166", "codProjeto": "TL-00117", "projeto": "Projeto San Bernardo lll", "fornecedor": "Honesty", "destino": "Asuncion", "qtdCntr": 0, "tipoCntr": "", "status": "EM PRODUÇÃO", "prontidao": null, "etd": null, "eta": null, "diasProntidao": null, "diasEtd": null, "diasEta": null, "motivo": "Sem data de prontidão"}, {"embarque": "TEMU170", "codProjeto": "TL-00117", "projeto": "Projeto San Bernardo lll", "fornecedor": "Honesty", "destino": "Asuncion", "qtdCntr": 0, "tipoCntr": "", "status": "EM PRODUÇÃO", "prontidao": null, "etd": null, "eta": null, "diasProntidao": null, "diasEtd": null, "diasEta": null, "motivo": "Sem data de prontidão"}, {"embarque": "TEMU172", "codProjeto": "TL-00117", "projeto": "Projeto San Bernardo lll", "fornecedor": "Honesty", "destino": "Asuncion", "qtdCntr": 0, "tipoCntr": "", "status": "EM PRODUÇÃO", "prontidao": null, "etd": null, "eta": null, "diasProntidao": null, "diasEtd": null, "diasEta": null, "motivo": "Sem data de prontidão"}], "etaVencido": [{"embarque": "TEMU138 TEMU039", "codProjeto": "TL-00117", "projeto": "Projeto San Bernardo lll", "fornecedor": "Hontech-Wins", "destino": "", "qtdCntr": 1, "tipoCntr": "", "status": "DESEMBRAÇO", "prontidao": "31/08/2026", "etd": "22/09/2026", "eta": "07/10/2026", "diasProntidao": -69, "diasEtd": -47, "diasEta": -32}, {"embarque": "TEMU132", "codProjeto": "TL-00100", "projeto": "Projeto San Bernardo ll", "fornecedor": "Temu", "destino": "Asuncion", "qtdCntr": 1, "tipoCntr": "40hc", "status": "DESEMBRAÇO", "prontidao": "14/07/2026", "etd": "28/07/2026", "eta": "01/11/2026", "diasProntidao": -117, "diasEtd": -103, "diasEta": -7}, {"embarque": "TEMU152", "codProjeto": "TL-00118", "projeto": "Garantia Temu", "fornecedor": "Honesty", "destino": "Marau, RS BR", "qtdCntr": 0, "tipoCntr": "AIR", "status": "DESEMBRAÇO", "prontidao": "13/10/2026", "etd": "15/10/2026", "eta": "03/11/2026", "diasProntidao": -26, "diasEtd": -24, "diasEta": -5}, {"embarque": "TEMU107-2", "codProjeto": "TL-00108", "projeto": "Projeto Elton Endler", "fornecedor": "Temu", "destino": "Marau, RS BR", "qtdCntr": 0, "tipoCntr": "AIR", "status": "DESEMBRAÇO", "prontidao": "20/10/2026", "etd": "21/10/2026", "eta": "03/11/2026", "diasProntidao": -19, "diasEtd": -18, "diasEta": -5}, {"embarque": "TEMU120", "codProjeto": "TL-00100", "projeto": "Projeto San Bernardo ll", "fornecedor": "Temu", "destino": "Asuncion", "qtdCntr": 4, "tipoCntr": "40hc", "status": "SOBRE AGUAS", "prontidao": "30/07/2026", "etd": "10/09/2026", "eta": "05/11/2026", "diasProntidao": -101, "diasEtd": -59, "diasEta": -3}, {"embarque": "TEMU136 / TEMU134-2", "codProjeto": "TL-00100", "projeto": "Projeto San Bernardo ll", "fornecedor": "Temu", "destino": "Asuncion", "qtdCntr": 1, "tipoCntr": "40hc", "status": "SOBRE AGUAS", "prontidao": "29/07/2026", "etd": null, "eta": "05/11/2026", "diasProntidao": -102, "diasEtd": null, "diasEta": -3}, {"embarque": "TEMU125", "codProjeto": "TL-00100", "projeto": "Projeto San Bernardo ll", "fornecedor": "Honesty", "destino": "Asuncion", "qtdCntr": 13, "tipoCntr": "40hc", "status": "SOBRE AGUAS", "prontidao": "27/07/2026", "etd": "10/09/2026", "eta": "06/11/2026", "diasProntidao": -104, "diasEtd": -59, "diasEta": -2}, {"embarque": "TEMU135", "codProjeto": "TL-00100", "projeto": "Projeto San Bernardo ll", "fornecedor": "Temu", "destino": "Asuncion", "qtdCntr": 4, "tipoCntr": "40hc", "status": "SOBRE AGUAS", "prontidao": "26/07/2026", "etd": "12/08/2026", "eta": "07/11/2026", "diasProntidao": -105, "diasEtd": -88, "diasEta": -1}]}};
+ 
+function esc(s){
+  return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function fmtBRL(v){
+  return 'R$ '+Number(v||0).toLocaleString('pt-BR',{minimumFractionDigits:0,maximumFractionDigits:0});
+}
+function ddmm(s){ return s ? s.slice(0,5) : ''; }
+ 
+function diasLabel(n){
+  if(n===null||n===undefined) return '';
+  if(n===0) return 'hoje';
+  if(n===1) return 'amanhã';
+  if(n===-1) return 'ontem';
+  if(n<0) return 'há '+Math.abs(n)+' dias';
+  return 'em '+n+' dias';
+}
+function badgeDias(n, tipo){
+  if(n===null||n===undefined) return '';
+  var cls = 'b-blue';
+  if(tipo==='atraso') cls = 'b-red';
+  else if(n<=3) cls = 'b-amber';
+  return '<span class="badge '+cls+'">'+diasLabel(n)+'</span>';
+}
+function badgeStatus(s){
+  var up=(s||'').toUpperCase().trim();
+  if(!up) return '<span class="badge b-gray">Sem status</span>';
+  if(up==='SOBRE AGUAS'||up==='SOBRE ÁGUAS') return '<span class="badge b-blue">Sobre águas</span>';
+  if(up==='VISTORIA') return '<span class="badge b-amber">Vistoria</span>';
+  if(up==='DESEMBRAÇO'||up==='DESEMBARAÇO') return '<span class="badge b-purple">Desembaraço</span>';
+  if(up==='EM PRODUÇÃO') return '<span class="badge b-gray">Em produção</span>';
+  if(up==='ATRACADO') return '<span class="badge b-green">Atracado</span>';
+  return '<span class="badge b-gray">'+esc(s)+'</span>';
+}
+function cntr(e){
+  var p=[];
+  if(e.qtdCntr>0) p.push(e.qtdCntr+' cntr');
+  if(e.tipoCntr) p.push(esc(e.tipoCntr));
+  return p.length? p.join(' · ') : '<span class="muted">—</span>';
+}
+function dash(v){ return v? esc(v) : '<span class="muted">—</span>'; }
+ 
+// cols: [{h:'Título', r:true}] ; rows: [[cellHtml | {h:html, c:'classe'}]]
+function tbl(cols, rows, vazio){
+  if(!rows.length) return '<div class="empty">'+vazio+'</div>';
+  var th = cols.map(function(c){return '<th'+(c.r?' class="r"':'')+'>'+c.h+'</th>';}).join('');
+  var tr = rows.map(function(r){
+    return '<tr>'+r.map(function(c,i){
+      var cls=[]; if(cols[i].r) cls.push('r');
+      var html=c;
+      if(c && typeof c==='object'){ html=c.h; if(c.c) cls.push(c.c); }
+      return '<td'+(cls.length?' class="'+cls.join(' ')+'"':'')+'>'+html+'</td>';
+    }).join('')+'</tr>';
+  }).join('');
+  return '<table><thead><tr>'+th+'</tr></thead><tbody>'+tr+'</tbody></table>';
+}
+function plural(n, s, p){ return n+' '+(n===1?s:p); }
+ 
+function renderKPIs(k){
+  var D=DADOS;
+  document.getElementById('kpi-row').innerHTML =
+    '<div class="kpi ok"><div class="kpi-label">Chegando em '+D.janelaChegada+' dias</div><div class="kpi-val green">'+k.chegandoQtd+'</div><div class="kpi-delta">Processos com ETA até '+ddmm(D.limChegada)+'</div></div>'+
+    '<div class="kpi '+(k.provisao15>0?'warn':'')+'"><div class="kpi-label">Provisão em '+D.janelaChegada+' dias</div><div class="kpi-val '+(k.provisao15>0?'amber':'')+'">'+fmtBRL(k.provisao15)+'</div><div class="kpi-delta">Total de chegada (financeiro)</div></div>'+
+    '<div class="kpi"><div class="kpi-label">Prontidões em '+D.janelaProntidao+' dias</div><div class="kpi-val">'+k.prontidaoQtd+'</div><div class="kpi-delta">Até '+ddmm(D.limProntidao)+'</div></div>'+
+    '<div class="kpi '+(k.prontosSemEtd>0?'warn':'')+'"><div class="kpi-label">Prontos sem ETD</div><div class="kpi-val '+(k.prontosSemEtd>0?'amber':'')+'">'+k.prontosSemEtd+'</div><div class="kpi-delta">Precisam de data de embarque</div></div>'+
+    '<div class="kpi '+(k.alertasQtd>0?'bad':'')+'"><div class="kpi-label">Alertas</div><div class="kpi-val '+(k.alertasQtd>0?'red':'')+'">'+k.alertasQtd+'</div><div class="kpi-delta">Informações faltando / vencidas</div></div>';
+}
+ 
+function renderChegandoOp(lista){
+  document.getElementById('t-cheg-op').textContent = 'Chegando nos próximos '+DADOS.janelaChegada+' dias — Operacional';
+  document.getElementById('c-cheg-op').textContent = plural(lista.length,'processo','processos');
+  var cols=[{h:'ETA'},{h:'Processo'},{h:'Projeto'},{h:'Fornecedor'},{h:'Destino'},{h:'Containers'},{h:'Status'},{h:'ETD'},{h:'Provisão',r:true}];
+  var rows=lista.map(function(e){
+    return [
+      '<span style="font-weight:600;color:#fff;">'+esc(e.eta)+'</span> '+badgeDias(e.diasEta),
+      {h:esc(e.embarque),c:'strong'},
+      {h:esc(e.projeto),c:'wrap'},
+      {h:dash(e.fornecedor),c:'wrap'},
+      dash(e.destino),
+      cntr(e),
+      badgeStatus(e.status),
+      dash(e.etd),
+      e.provisao!=null ? '<span style="color:#82E0AA;font-weight:600;">'+fmtBRL(e.provisao)+'</span>' : '<span class="muted">—</span>'
+    ];
+  });
+  document.getElementById('cheg-op').innerHTML = tbl(cols,rows,'Nenhum processo com chegada prevista neste período');
+}
+ 
+function renderChegandoFin(lista){
+  document.getElementById('t-cheg-fin').textContent = 'Chegando nos próximos '+DADOS.janelaChegada+' dias — Financeiro';
+  document.getElementById('c-cheg-fin').textContent = plural(lista.length,'projeto','projetos');
+  var cols=[{h:'Prev. chegada'},{h:'Projeto'},{h:'Processo'},{h:'Status'},{h:'CIF',r:true},{h:'Impostos',r:true},{h:'Despesas',r:true},{h:'Frete',r:true},{h:'Total chegada',r:true}];
+  var tc=0,ti=0,td=0,tf=0,tt=0;
+  var rows=lista.map(function(p){
+    tc+=p.cif; ti+=p.impostos; td+=p.despesas; tf+=p.frete; tt+=p.totalChegada;
+    return [
+      '<span style="font-weight:600;color:#fff;">'+esc(p.previsao)+'</span> '+badgeDias(p.dias),
+      {h:esc(p.projeto),c:'strong wrap'},
+      dash(p.embarque),
+      badgeStatus(p.status),
+      '<span style="color:rgba(255,255,255,.5);">'+fmtBRL(p.cif)+'</span>',
+      '<span style="color:#F1948A;">'+fmtBRL(p.impostos)+'</span>',
+      '<span style="color:#F0B27A;">'+fmtBRL(p.despesas)+'</span>',
+      '<span style="color:#85C1E9;">'+fmtBRL(p.frete)+'</span>',
+      '<span style="font-weight:700;color:#82E0AA;">'+fmtBRL(p.totalChegada)+'</span>'
+    ];
+  });
+  var html = tbl(cols,rows,'Nenhuma chegada financeira prevista neste período');
+  if(rows.length){
+    html = html.replace('</tbody>','<tr class="total-row"><td colspan="4">TOTAL</td>'+
+      '<td class="r">'+fmtBRL(tc)+'</td><td class="r">'+fmtBRL(ti)+'</td><td class="r">'+fmtBRL(td)+'</td><td class="r">'+fmtBRL(tf)+'</td>'+
+      '<td class="r" style="color:#82E0AA;">'+fmtBRL(tt)+'</td></tr></tbody>');
+  }
+  document.getElementById('cheg-fin').innerHTML = html;
+}
+ 
+function etdCell(e){
+  if(e.etd) return '<span style="font-weight:600;color:#fff;">'+esc(e.etd)+'</span> <span class="badge b-green">ETD definido</span>';
+  return '<span class="badge b-red">Sem ETD — precisa embarcar</span>';
+}
+ 
+function renderProntidoes(lista){
+  document.getElementById('t-pront').textContent = 'Próximas prontidões — até '+ddmm(DADOS.limProntidao)+' ('+DADOS.janelaProntidao+' dias)';
+  document.getElementById('c-pront').textContent = plural(lista.length,'processo','processos');
+  var cols=[{h:'Prontidão'},{h:'Processo'},{h:'Projeto'},{h:'Fornecedor'},{h:'Status'},{h:'Embarque (ETD)'}];
+  var rows=lista.map(function(e){
+    return [
+      '<span style="font-weight:600;color:#fff;">'+esc(e.prontidao)+'</span> '+badgeDias(e.diasProntidao),
+      {h:esc(e.embarque),c:'strong'},
+      {h:esc(e.projeto),c:'wrap'},
+      {h:dash(e.fornecedor),c:'wrap'},
+      badgeStatus(e.status),
+      etdCell(e)
+    ];
+  });
+  document.getElementById('pront').innerHTML = tbl(cols,rows,'Nenhuma prontidão prevista neste período');
+}
+ 
+function renderSemEtd(lista){
+  document.getElementById('c-sem-etd').textContent = plural(lista.length,'processo','processos');
+  var cols=[{h:'Pronto desde'},{h:'Processo'},{h:'Projeto'},{h:'Fornecedor'},{h:'Status'}];
+  var rows=lista.map(function(e){
+    return [
+      '<span style="font-weight:600;color:#fff;">'+esc(e.prontidao)+'</span> '+badgeDias(e.diasProntidao,'atraso'),
+      {h:esc(e.embarque),c:'strong'},
+      {h:esc(e.projeto),c:'wrap'},
+      {h:dash(e.fornecedor),c:'wrap'},
+      badgeStatus(e.status)
+    ];
+  });
+  document.getElementById('sem-etd').innerHTML = tbl(cols,rows,'Nenhum processo pronto aguardando ETD');
+}
+ 
+function renderSemProntidao(lista){
+  document.getElementById('c-sem-pront').textContent = plural(lista.length,'processo','processos');
+  var cols=[{h:'Processo'},{h:'Projeto'},{h:'Fornecedor'},{h:'Status'},{h:'ETD'},{h:'Problema'}];
+  var rows=lista.map(function(e){
+    return [
+      {h:esc(e.embarque),c:'strong'},
+      {h:esc(e.projeto),c:'wrap'},
+      {h:dash(e.fornecedor),c:'wrap'},
+      badgeStatus(e.status),
+      e.etd ? esc(e.etd) : '<span class="badge b-red">Sem ETD</span>',
+      '<span class="badge b-amber">'+esc(e.motivo)+'</span>'
+    ];
+  });
+  document.getElementById('sem-pront').innerHTML = tbl(cols,rows,'Todos os processos ativos têm prontidão informada');
+}
+ 
+function renderEtaVencido(lista){
+  document.getElementById('c-eta-venc').textContent = plural(lista.length,'processo','processos');
+  var cols=[{h:'ETA'},{h:'Processo'},{h:'Projeto'},{h:'Fornecedor'},{h:'Destino'},{h:'Status'}];
+  var rows=lista.map(function(e){
+    return [
+      '<span style="font-weight:600;color:#fff;">'+esc(e.eta)+'</span> '+badgeDias(e.diasEta,'atraso'),
+      {h:esc(e.embarque),c:'strong'},
+      {h:esc(e.projeto),c:'wrap'},
+      {h:dash(e.fornecedor),c:'wrap'},
+      dash(e.destino),
+      badgeStatus(e.status)
+    ];
+  });
+  document.getElementById('eta-venc').innerHTML = tbl(cols,rows,'Nenhum processo com ETA vencido');
+}
+ 
+function init(){
+  var now = new Date();
+  document.getElementById('hdr-date').textContent = now.toLocaleDateString('pt-BR',{weekday:'short',day:'2-digit',month:'2-digit',year:'numeric'});
+  document.getElementById('hdr-update').textContent = 'Dados de '+DADOS.geradoEm;
+  document.getElementById('footer-update').textContent = 'Gerado em '+DADOS.geradoEm;
+  renderKPIs(DADOS.kpis);
+  renderChegandoOp(DADOS.chegandoOp);
+  renderChegandoFin(DADOS.chegandoFin);
+  renderProntidoes(DADOS.prontidoes);
+  renderSemEtd(DADOS.prontosSemEtd);
+  renderSemProntidao(DADOS.alertas.semProntidao);
+  renderEtaVencido(DADOS.alertas.etaVencido);
+}
+ 
+init();
+</script>
+</body>
+</html>
