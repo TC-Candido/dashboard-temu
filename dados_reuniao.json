@@ -1,5 +1,5 @@
 {
-  "geradoEm": "08/11/2026 20:00",
+  "geradoEm": "08/11/2026 20:34",
   "hoje": "08/11/2026",
   "limChegada": "23/11/2026",
   "limProntidao": "23/11/2026",
@@ -1114,30 +1114,6 @@
         "diasEta": -32,
         "acao": "Chegada confirmada: atualizar o status",
         "acaoTipo": "atualizar"
-      },
-      {
-        "embarque": "TEMU132",
-        "codProjeto": "TL-00100",
-        "projeto": "Projeto San Bernardo ll",
-        "fornecedor": "Temu",
-        "destino": "Asuncion",
-        "qtdCntr": 1,
-        "tipoCntr": "40hc",
-        "pedido": "99-00132 / 99-00122",
-        "invoice": "26TM0674 / 26TM0675 / 26TM0678 / 26TM0679",
-        "abertura": null,
-        "diasAbertura": null,
-        "status": "DESEMBRAÇO",
-        "prontidao": "14/07/2026",
-        "etd": "28/07/2026",
-        "eta": "01/11/2026",
-        "etdConf": "confirmado",
-        "etaConf": "confirmado",
-        "diasProntidao": -117,
-        "diasEtd": -103,
-        "diasEta": -7,
-        "acao": "Chegada confirmada: atualizar o status",
-        "acaoTipo": "atualizar"
       }
     ],
     "finVencida": [],
@@ -2049,10 +2025,9 @@
       "prioridade": "alta",
       "titulo": "Atualizar status de chegadas",
       "detalhe": "ETA venceu há mais de 5 dias e o processo continua sem finalizar.",
-      "qtd": 2,
+      "qtd": 1,
       "itens": [
-        "TEMU138 TEMU039",
-        "TEMU132"
+        "TEMU138 TEMU039"
       ]
     },
     {

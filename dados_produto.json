@@ -1,5 +1,5 @@
 {
-  "geradoEm": "08/11/2026 20:00",
+  "geradoEm": "08/11/2026 20:34",
   "total": 72,
   "ativos": 51,
   "itens": [
@@ -388,9 +388,9 @@
       "qtdCntr": 1,
       "tipoCntr": "40hc",
       "etd": "28/07/2026",
-      "eta": "01/11/2026",
-      "entrega": "16/11/2026",
-      "etaIso": "2026-11-01",
+      "eta": "06/11/2026",
+      "entrega": "21/11/2026",
+      "etaIso": "2026-11-06",
       "status": "DESEMBRAÇO",
       "ativo": true
     },

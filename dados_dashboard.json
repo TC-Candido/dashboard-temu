@@ -1,5 +1,5 @@
 {
-  "geradoEm": "08/11/2026 20:00",
+  "geradoEm": "08/11/2026 20:34",
   "kpis": {
     "totalProjetos": 18,
     "totalContainers": 47,
@@ -718,12 +718,12 @@
       "tipoCntr": "40hc",
       "prontidao": "2026-07-14 00:00:00",
       "etd": "28/07/2026",
-      "eta": "01/11/2026",
+      "eta": "06/11/2026",
       "status": "DESEMBRAÇO",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
       "chegando10": false,
-      "observacoes": "",
+      "observacoes": "Confirmado chegada 06/11/2026",
       "invoice": "26TM0674\n26TM0675\n26TM0678\n26TM0679",
       "pedido": "99-00132\n99-00122",
       "abertura": null
