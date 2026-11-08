@@ -1,16 +1,16 @@
 {
-  "geradoEm": "08/11/2026 18:34",
+  "geradoEm": "08/11/2026 18:42",
   "kpis": {
-    "totalGeral": 2549800.0,
+    "totalGeral": 290000.0,
     "totalSemana": 0,
     "totalQuinzena": 0,
     "totalMes": 290000.0,
     "qtdChegando": 1
   },
   "composicao": {
-    "impostos": 1368000.0,
-    "despesas": 562000.0,
-    "frete": 619800.0
+    "impostos": 121000.0,
+    "despesas": 62000.0,
+    "frete": 107000.0
   },
   "projetos": [
     {
