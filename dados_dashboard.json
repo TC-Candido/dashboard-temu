@@ -1,5 +1,5 @@
 {
-  "geradoEm": "08/11/2026 19:15",
+  "geradoEm": "08/11/2026 19:30",
   "kpis": {
     "totalProjetos": 18,
     "totalContainers": 47,
@@ -40,7 +40,9 @@
       "etd7dias": true,
       "chegando10": false,
       "observacoes": "ABRIR PROCESSO COM DESPACHANTE",
-      "invoice": "SH-ZXH-260917\nSH-ZXH-260714\n4 Units Auto Sow\n SH-ZXH-260814\n SH-ZXH-260811\nGRAMPO\nCOMEDOURO\nFRD2026092301"
+      "invoice": "SH-ZXH-260917\nSH-ZXH-260714\n4 Units Auto Sow\n SH-ZXH-260814\n SH-ZXH-260811\nGRAMPO\nCOMEDOURO\nFRD2026092301",
+      "pedido": "99-00585",
+      "abertura": "15/09/2026"
     },
     {
       "embarque": "TEMU160",
@@ -58,7 +60,9 @@
       "etd7dias": true,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "SH-ZXH-261021"
+      "invoice": "SH-ZXH-261021",
+      "pedido": "99-00353\n99-00355 \n99-00304",
+      "abertura": "22/09/2026"
     },
     {
       "embarque": "TEMU155",
@@ -76,7 +80,9 @@
       "etd7dias": true,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0644\n26TM0645"
+      "invoice": "26TM0644\n26TM0645",
+      "pedido": "99-00132",
+      "abertura": "16/10/2026"
     },
     {
       "embarque": "TEMU133 -2",
@@ -94,7 +100,9 @@
       "etd7dias": true,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0643-2"
+      "invoice": "26TM0643-2",
+      "pedido": "99-00132",
+      "abertura": "25/11/2026"
     },
     {
       "embarque": "TEMU162",
@@ -112,7 +120,9 @@
       "etd7dias": true,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "FRD2026102306"
+      "invoice": "FRD2026102306",
+      "pedido": "AMOSTRA",
+      "abertura": "28/10/2026"
     },
     {
       "embarque": "TEMU149",
@@ -130,7 +140,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "SH-ZXH-260928\n26TM0878"
+      "invoice": "SH-ZXH-260928\n26TM0878",
+      "pedido": "99-00628",
+      "abertura": null
     }
   ],
   "proximosETA": [
@@ -150,7 +162,9 @@
       "etd7dias": false,
       "chegando10": true,
       "observacoes": "",
-      "invoice": "26TM0640-1"
+      "invoice": "26TM0640-1",
+      "pedido": "99-00132",
+      "abertura": "20/06/2026"
     },
     {
       "embarque": "TEMU126-1",
@@ -168,7 +182,9 @@
       "etd7dias": false,
       "chegando10": true,
       "observacoes": "",
-      "invoice": "26TM0650-1"
+      "invoice": "26TM0650-1",
+      "pedido": "99-00122",
+      "abertura": "20/06/2026"
     },
     {
       "embarque": "TEMU134-1",
@@ -186,7 +202,9 @@
       "etd7dias": false,
       "chegando10": true,
       "observacoes": "1 contêiner    - 16/08/2026",
-      "invoice": "26TM0773-1"
+      "invoice": "26TM0773-1",
+      "pedido": "99-00132",
+      "abertura": "07/07/2026"
     },
     {
       "embarque": "TEMU146",
@@ -204,7 +222,9 @@
       "etd7dias": false,
       "chegando10": true,
       "observacoes": "",
-      "invoice": "26TM0842"
+      "invoice": "26TM0842",
+      "pedido": "",
+      "abertura": "31/07/2026"
     },
     {
       "embarque": "TEMU133-1",
@@ -222,7 +242,9 @@
       "etd7dias": false,
       "chegando10": true,
       "observacoes": "",
-      "invoice": "26TM0643"
+      "invoice": "26TM0643",
+      "pedido": "99-00132",
+      "abertura": "03/07/2026"
     },
     {
       "embarque": "TEMU134 -3",
@@ -240,7 +262,9 @@
       "etd7dias": false,
       "chegando10": true,
       "observacoes": "3 contêineres - 21/08/2026",
-      "invoice": "26TM0773-3"
+      "invoice": "26TM0773-3",
+      "pedido": "99-00132",
+      "abertura": "12/07/2026"
     }
   ],
   "embarques": [
@@ -260,7 +284,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "13/04 - Confirmado atracação do navio. Aguardando remoção para zona segundária",
-      "invoice": ""
+      "invoice": "",
+      "pedido": "",
+      "abertura": null
     },
     {
       "embarque": "TEMU102",
@@ -278,7 +304,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": ""
+      "invoice": "",
+      "pedido": "",
+      "abertura": null
     },
     {
       "embarque": "TEMU108",
@@ -296,7 +324,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": ""
+      "invoice": "",
+      "pedido": "",
+      "abertura": null
     },
     {
       "embarque": "TEMU109",
@@ -314,7 +344,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": ""
+      "invoice": "",
+      "pedido": "",
+      "abertura": null
     },
     {
       "embarque": "TEMU110",
@@ -332,7 +364,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "TEMU7314122 & HMMU6380839 - Isento de reparo",
-      "invoice": "SH-ZXH-260205"
+      "invoice": "SH-ZXH-260205",
+      "pedido": "",
+      "abertura": null
     },
     {
       "embarque": "TEMU111",
@@ -350,7 +384,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "WUSEN20260312"
+      "invoice": "WUSEN20260312",
+      "pedido": "",
+      "abertura": null
     },
     {
       "embarque": "TEMU114",
@@ -368,7 +404,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "juntou os embarques - Embarque TEMU114 Ita",
-      "invoice": ""
+      "invoice": "",
+      "pedido": "",
+      "abertura": null
     },
     {
       "embarque": "TEMU103",
@@ -386,7 +424,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "Second Batch Shipment"
+      "invoice": "Second Batch Shipment",
+      "pedido": "",
+      "abertura": null
     },
     {
       "embarque": "TEMU113",
@@ -404,7 +444,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "09/04 - Linerado para Isaka organizar o embarque; Aguardando dados o agente",
-      "invoice": "26TM0598"
+      "invoice": "26TM0598",
+      "pedido": "99-00170",
+      "abertura": null
     },
     {
       "embarque": "TEMU105",
@@ -422,7 +464,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "FAZER FECHAMENTO DO PROCESSO",
-      "invoice": "SH-ZXH-251025 \nSH-ZXH-260428 \nSH-ZXH-260317"
+      "invoice": "SH-ZXH-251025 \nSH-ZXH-260428 \nSH-ZXH-260317",
+      "pedido": "",
+      "abertura": null
     },
     {
       "embarque": "TEMU119",
@@ -440,7 +484,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "FAZER FECHAMENTO DO PROCESSO",
-      "invoice": "MHY20260420\nSH-ZXH-260201"
+      "invoice": "MHY20260420\nSH-ZXH-260201",
+      "pedido": "TEMU119\nTEMU128",
+      "abertura": null
     },
     {
       "embarque": "TEMU107",
@@ -458,7 +504,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "entrega 08/09/2026",
-      "invoice": "26TM0627\n26TM0637 \n26TM0748"
+      "invoice": "26TM0627\n26TM0637 \n26TM0748",
+      "pedido": "99-00370\n99-00330\nTEMU131",
+      "abertura": null
     },
     {
       "embarque": "TEMU115",
@@ -476,7 +524,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "Documentos ok",
-      "invoice": "3rd Shipment"
+      "invoice": "3rd Shipment",
+      "pedido": "99-00120\n99-00191\n99-00147",
+      "abertura": null
     },
     {
       "embarque": "TEMU118",
@@ -494,7 +544,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "Documentos ok",
-      "invoice": "SH-ZXH-260416-B"
+      "invoice": "SH-ZXH-260416-B",
+      "pedido": "99-00313\n99-00314\n 99-00315\n99-00359",
+      "abertura": null
     },
     {
       "embarque": "TEMU104",
@@ -512,7 +564,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "Descrição e ncm OK. DTC para conexão maritima",
-      "invoice": "3rd Batch Shipment"
+      "invoice": "3rd Batch Shipment",
+      "pedido": "99-00151\n99-00158\n99-00171",
+      "abertura": null
     },
     {
       "embarque": "TEMU130",
@@ -530,7 +584,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "Aguardando Invoice e packing list finais e follow atualizado",
-      "invoice": "26TM0672\n26TM0628"
+      "invoice": "26TM0672\n26TM0628",
+      "pedido": "99-00467\nTEMU106",
+      "abertura": null
     },
     {
       "embarque": "TEMU116",
@@ -548,7 +604,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0623"
+      "invoice": "26TM0623",
+      "pedido": "?",
+      "abertura": null
     },
     {
       "embarque": "TEMU122",
@@ -566,7 +624,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "SH-ZXH-260416-A"
+      "invoice": "SH-ZXH-260416-A",
+      "pedido": "99-00313\n99-00314\n 99-00315\n99-00359",
+      "abertura": null
     },
     {
       "embarque": "TEMU127",
@@ -584,7 +644,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "SH-ZXH-260425"
+      "invoice": "SH-ZXH-260425",
+      "pedido": "99-00407",
+      "abertura": null
     },
     {
       "embarque": "TEMU124",
@@ -602,7 +664,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "Telex liberado",
-      "invoice": "SH-ZXH-260416"
+      "invoice": "SH-ZXH-260416",
+      "pedido": "99-00132\n99-00122\n99-00358",
+      "abertura": null
     },
     {
       "embarque": "TEMU138 TEMU039",
@@ -620,7 +684,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "HT-X26073001BR +  HT-X26073002BR"
+      "invoice": "HT-X26073001BR +  HT-X26073002BR",
+      "pedido": "air",
+      "abertura": null
     },
     {
       "embarque": "TEMU129",
@@ -638,7 +704,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "LFR26071\n26TM0628"
+      "invoice": "LFR26071\n26TM0628",
+      "pedido": "",
+      "abertura": null
     },
     {
       "embarque": "TEMU132",
@@ -656,7 +724,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0674\n26TM0675\n26TM0678\n26TM0679"
+      "invoice": "26TM0674\n26TM0675\n26TM0678\n26TM0679",
+      "pedido": "99-00132\n99-00122",
+      "abertura": null
     },
     {
       "embarque": "TEMU152",
@@ -674,7 +744,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "SH-ZXH-261008"
+      "invoice": "SH-ZXH-261008",
+      "pedido": "portao",
+      "abertura": null
     },
     {
       "embarque": "TEMU107-2",
@@ -692,7 +764,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0637-2"
+      "invoice": "26TM0637-2",
+      "pedido": "99-00370\n99-00330",
+      "abertura": null
     },
     {
       "embarque": "TEMU120",
@@ -710,7 +784,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0638"
+      "invoice": "26TM0638",
+      "pedido": "99-00119",
+      "abertura": "20/06/2026"
     },
     {
       "embarque": "TEMU136\nTEMU134-2",
@@ -728,7 +804,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0796\n26TM0797\n26TM0804\n26TM0805\n26TM0788\n26TM0789\n26TM0773-2"
+      "invoice": "26TM0796\n26TM0797\n26TM0804\n26TM0805\n26TM0788\n26TM0789\n26TM0773-2",
+      "pedido": "99-00122\n99-00132",
+      "abertura": "19/06/2026"
     },
     {
       "embarque": "TEMU125",
@@ -746,7 +824,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "SH-ZXH-260617"
+      "invoice": "SH-ZXH-260617",
+      "pedido": "99-00132\n99-00122\n99-00358",
+      "abertura": "17/06/2026"
     },
     {
       "embarque": "TEMU135",
@@ -764,7 +844,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0718\n26TM0719\n26TM0710\n26TM0711\n26TM0705\n26TM0707\n26TM0751\n26TM0752"
+      "invoice": "26TM0718\n26TM0719\n26TM0710\n26TM0711\n26TM0705\n26TM0707\n26TM0751\n26TM0752",
+      "pedido": "99-00122",
+      "abertura": "16/06/2026"
     },
     {
       "embarque": "TEMU121-1",
@@ -782,7 +864,9 @@
       "etd7dias": false,
       "chegando10": true,
       "observacoes": "",
-      "invoice": "26TM0640-1"
+      "invoice": "26TM0640-1",
+      "pedido": "99-00132",
+      "abertura": "20/06/2026"
     },
     {
       "embarque": "TEMU126-1",
@@ -800,7 +884,9 @@
       "etd7dias": false,
       "chegando10": true,
       "observacoes": "",
-      "invoice": "26TM0650-1"
+      "invoice": "26TM0650-1",
+      "pedido": "99-00122",
+      "abertura": "20/06/2026"
     },
     {
       "embarque": "TEMU134-1",
@@ -818,7 +904,9 @@
       "etd7dias": false,
       "chegando10": true,
       "observacoes": "1 contêiner    - 16/08/2026",
-      "invoice": "26TM0773-1"
+      "invoice": "26TM0773-1",
+      "pedido": "99-00132",
+      "abertura": "07/07/2026"
     },
     {
       "embarque": "TEMU146",
@@ -836,7 +924,9 @@
       "etd7dias": false,
       "chegando10": true,
       "observacoes": "",
-      "invoice": "26TM0842"
+      "invoice": "26TM0842",
+      "pedido": "",
+      "abertura": "31/07/2026"
     },
     {
       "embarque": "TEMU133-1",
@@ -854,7 +944,9 @@
       "etd7dias": false,
       "chegando10": true,
       "observacoes": "",
-      "invoice": "26TM0643"
+      "invoice": "26TM0643",
+      "pedido": "99-00132",
+      "abertura": "03/07/2026"
     },
     {
       "embarque": "TEMU134 -3",
@@ -872,7 +964,9 @@
       "etd7dias": false,
       "chegando10": true,
       "observacoes": "3 contêineres - 21/08/2026",
-      "invoice": "26TM0773-3"
+      "invoice": "26TM0773-3",
+      "pedido": "99-00132",
+      "abertura": "12/07/2026"
     },
     {
       "embarque": "TEMU134 - 4",
@@ -890,7 +984,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "3 contêineres - 31/08/2026\n2 contêineres - 02/09/2026\n2 contêineres - 05/09/2026",
-      "invoice": "26TM0773-4"
+      "invoice": "26TM0773-4",
+      "pedido": "99-00132",
+      "abertura": "27/07/2026"
     },
     {
       "embarque": "TEMU140",
@@ -908,7 +1004,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0672\n26TM0748\n26TM0820\n26TM0833\n26TM0836"
+      "invoice": "26TM0672\n26TM0748\n26TM0820\n26TM0833\n26TM0836",
+      "pedido": "",
+      "abertura": "02/08/2026"
     },
     {
       "embarque": "TEMU162",
@@ -926,7 +1024,9 @@
       "etd7dias": true,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "FRD2026102306"
+      "invoice": "FRD2026102306",
+      "pedido": "AMOSTRA",
+      "abertura": "28/10/2026"
     },
     {
       "embarque": "TEMU137",
@@ -944,7 +1044,9 @@
       "etd7dias": true,
       "chegando10": false,
       "observacoes": "ABRIR PROCESSO COM DESPACHANTE",
-      "invoice": "SH-ZXH-260917\nSH-ZXH-260714\n4 Units Auto Sow\n SH-ZXH-260814\n SH-ZXH-260811\nGRAMPO\nCOMEDOURO\nFRD2026092301"
+      "invoice": "SH-ZXH-260917\nSH-ZXH-260714\n4 Units Auto Sow\n SH-ZXH-260814\n SH-ZXH-260811\nGRAMPO\nCOMEDOURO\nFRD2026092301",
+      "pedido": "99-00585",
+      "abertura": "15/09/2026"
     },
     {
       "embarque": "TEMU149",
@@ -962,7 +1064,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "SH-ZXH-260928\n26TM0878"
+      "invoice": "SH-ZXH-260928\n26TM0878",
+      "pedido": "99-00628",
+      "abertura": null
     },
     {
       "embarque": "TEMU160",
@@ -980,7 +1084,9 @@
       "etd7dias": true,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "SH-ZXH-261021"
+      "invoice": "SH-ZXH-261021",
+      "pedido": "99-00353\n99-00355 \n99-00304",
+      "abertura": "22/09/2026"
     },
     {
       "embarque": "TEMU155",
@@ -998,7 +1104,9 @@
       "etd7dias": true,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0644\n26TM0645"
+      "invoice": "26TM0644\n26TM0645",
+      "pedido": "99-00132",
+      "abertura": "16/10/2026"
     },
     {
       "embarque": "TEMU133 -2",
@@ -1016,7 +1124,9 @@
       "etd7dias": true,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0643-2"
+      "invoice": "26TM0643-2",
+      "pedido": "99-00132",
+      "abertura": "25/11/2026"
     },
     {
       "embarque": "TEMU154",
@@ -1034,7 +1144,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0860 I Reformas"
+      "invoice": "26TM0860 I Reformas",
+      "pedido": "99-00464",
+      "abertura": "11/10/2026"
     },
     {
       "embarque": "TEMU150-1",
@@ -1052,7 +1164,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "SH-ZXH-261009-A"
+      "invoice": "SH-ZXH-261009-A",
+      "pedido": "99-00122",
+      "abertura": "16/10/2026"
     },
     {
       "embarque": "TEMU156-A",
@@ -1070,7 +1184,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "SH-ZXH-261016-A"
+      "invoice": "SH-ZXH-261016-A",
+      "pedido": "99-00314",
+      "abertura": "16/10/2026"
     },
     {
       "embarque": "TEMU158",
@@ -1088,7 +1204,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "SUMMARY\n----------------\nX26092701BR\nX26092702BR\nX26092703BR\nX26092704BR\nX26092705BR\nX26092706BR\nX26092707BR\nX26100701BR"
+      "invoice": "SUMMARY\n----------------\nX26092701BR\nX26092702BR\nX26092703BR\nX26092704BR\nX26092705BR\nX26092706BR\nX26092707BR\nX26100701BR",
+      "pedido": "99-00490\n99-0082\n99-00304\n99-00353\n99-00469\n99-00470\n99-00471",
+      "abertura": "21/10/2026"
     },
     {
       "embarque": "TEMU153",
@@ -1106,7 +1224,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0891"
+      "invoice": "26TM0891",
+      "pedido": "99-00132",
+      "abertura": "14/10/2026"
     },
     {
       "embarque": "TEMU150-2",
@@ -1124,7 +1244,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "SH-ZXH-261009-B"
+      "invoice": "SH-ZXH-261009-B",
+      "pedido": "99-00122",
+      "abertura": "31/10/2026"
     },
     {
       "embarque": "TEMU156-B",
@@ -1142,7 +1264,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "SH-ZXH-261016-B"
+      "invoice": "SH-ZXH-261016-B",
+      "pedido": "99-00313\n99-00315",
+      "abertura": "31/10/2026"
     },
     {
       "embarque": "TEMU157",
@@ -1160,7 +1284,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0896"
+      "invoice": "26TM0896",
+      "pedido": "99-00122",
+      "abertura": "19/10/2026"
     },
     {
       "embarque": "TEMU167",
@@ -1178,7 +1304,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0861"
+      "invoice": "26TM0861",
+      "pedido": "99-00355",
+      "abertura": "02/11/2026"
     },
     {
       "embarque": "TEMU173",
@@ -1196,7 +1324,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0907"
+      "invoice": "26TM0907",
+      "pedido": "99-00234",
+      "abertura": "02/11/2026"
     },
     {
       "embarque": "TEMU159",
@@ -1214,7 +1344,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0860"
+      "invoice": "26TM0860",
+      "pedido": "99-00464",
+      "abertura": "21/11/2026"
     },
     {
       "embarque": "TEMU161",
@@ -1232,7 +1364,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0863"
+      "invoice": "26TM0863",
+      "pedido": "99-00304",
+      "abertura": "27/10/2026"
     },
     {
       "embarque": "TEMU165",
@@ -1250,7 +1384,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0873"
+      "invoice": "26TM0873",
+      "pedido": "99-00490",
+      "abertura": "02/11/2026"
     },
     {
       "embarque": "TEMU168",
@@ -1268,7 +1404,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0862"
+      "invoice": "26TM0862",
+      "pedido": "99-00353",
+      "abertura": "02/11/2026"
     },
     {
       "embarque": "TEMU169",
@@ -1286,7 +1424,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0859"
+      "invoice": "26TM0859",
+      "pedido": "99-00482",
+      "abertura": "02/11/2026"
     },
     {
       "embarque": "TEMU138",
@@ -1304,7 +1444,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "HT-X26073001BR"
+      "invoice": "HT-X26073001BR",
+      "pedido": "sea",
+      "abertura": null
     },
     {
       "embarque": "TEMU139",
@@ -1322,7 +1464,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "HT-X26073002BR"
+      "invoice": "HT-X26073002BR",
+      "pedido": "sea",
+      "abertura": null
     },
     {
       "embarque": "TEMU121-2",
@@ -1340,7 +1484,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0640-2"
+      "invoice": "26TM0640-2",
+      "pedido": "99-00132",
+      "abertura": null
     },
     {
       "embarque": "TEMU126-2",
@@ -1358,7 +1504,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0650-2"
+      "invoice": "26TM0650-2",
+      "pedido": "99-00122",
+      "abertura": null
     },
     {
       "embarque": "TEMU133-2",
@@ -1376,7 +1524,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0643-2"
+      "invoice": "26TM0643-2",
+      "pedido": "99-00132",
+      "abertura": null
     },
     {
       "embarque": "TEMU143",
@@ -1394,7 +1544,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26MTAZU010"
+      "invoice": "26MTAZU010",
+      "pedido": "",
+      "abertura": null
     },
     {
       "embarque": "TEMU147",
@@ -1412,7 +1564,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0628"
+      "invoice": "26TM0628",
+      "pedido": "",
+      "abertura": null
     },
     {
       "embarque": "TEMU148-2",
@@ -1430,7 +1584,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0867\n26TM0868\n26TM0869\n26TM0870\n26TM0871\n26TM0872\namostra - hontech\n26TM0901"
+      "invoice": "26TM0867\n26TM0868\n26TM0869\n26TM0870\n26TM0871\n26TM0872\namostra - hontech\n26TM0901",
+      "pedido": "99-00219\n99-00220 \n99-00223\n99-00224\n99-00225\n99-00585\n26TM0901 (sem pedido feito)",
+      "abertura": null
     },
     {
       "embarque": "TEMU163",
@@ -1448,7 +1604,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "O-046401"
+      "invoice": "O-046401",
+      "pedido": "99-00355",
+      "abertura": "28/10/2026"
     },
     {
       "embarque": "TEMU164",
@@ -1466,7 +1624,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "25TM0571-1"
+      "invoice": "25TM0571-1",
+      "pedido": "99-00151",
+      "abertura": "28/10/2026"
     },
     {
       "embarque": "TEMU166",
@@ -1484,7 +1644,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "SH-ZXH-261010-1\nSH-ZXH-261010-2\nSH-ZXH-261010-3\nSH-ZXH-261010-4\nSH-ZXH-261010-5\nSH-ZXH-261010-6\nSH-ZXH-261010-7 - Ag. Confirmação"
+      "invoice": "SH-ZXH-261010-1\nSH-ZXH-261010-2\nSH-ZXH-261010-3\nSH-ZXH-261010-4\nSH-ZXH-261010-5\nSH-ZXH-261010-6\nSH-ZXH-261010-7 - Ag. Confirmação",
+      "pedido": "99-00304\n99-00353\n99-00355\n99-00464\n99-00482\n99-00490\n99-00578",
+      "abertura": "02/11/2026"
     },
     {
       "embarque": "TEMU170",
@@ -1502,7 +1664,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "SH-ZXH-261014"
+      "invoice": "SH-ZXH-261014",
+      "pedido": "",
+      "abertura": "02/11/2026"
     },
     {
       "embarque": "TEMU171",
@@ -1520,7 +1684,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "SH-ZXH-261029"
+      "invoice": "SH-ZXH-261029",
+      "pedido": "AMOSTRA\nshow room",
+      "abertura": "02/11/2026"
     },
     {
       "embarque": "TEMU172",
@@ -1538,7 +1704,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "SH-ZXH-261102"
+      "invoice": "SH-ZXH-261102",
+      "pedido": "99-00234",
+      "abertura": "02/11/2026"
     }
   ]
 }
