@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Produtos — Taalex</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:#111;font-family:'Segoe UI',system-ui,sans-serif;color:#fff;min-height:100vh;padding:16px;}
+.db{background:#1A1A1A;border-radius:12px;overflow:hidden;max-width:1400px;margin:0 auto;}
+.hdr{background:#111;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(255,255,255,.07);flex-wrap:wrap;gap:10px;}
+.hdr-left{display:flex;align-items:center;gap:14px;}
+.logo-img{height:38px;width:auto;}
+.hdr-div{width:1px;height:30px;background:rgba(255,255,255,.1);}
+.nav{display:flex;gap:6px;}
+.nav a{font-size:11px;padding:5px 12px;border-radius:6px;text-decoration:none;color:rgba(255,255,255,.4);border:1px solid rgba(255,255,255,.08);}
+.nav a.active{background:rgba(39,174,96,.15);color:#82E0AA;border-color:rgba(39,174,96,.4);}
+.nav button{font-size:11px;padding:5px 12px;border-radius:6px;background:none;color:rgba(255,255,255,.4);border:1px solid rgba(255,255,255,.08);cursor:pointer;font-family:inherit;}
+.nav button:hover{color:#fff;border-color:rgba(255,255,255,.3);}
+.hdr-title{font-size:15px;font-weight:600;color:#fff;}
+.hdr-sub{font-size:11px;color:rgba(255,255,255,.35);margin-top:2px;}
+.hdr-right{text-align:right;}
+.hdr-date{font-size:12px;color:rgba(255,255,255,.4);}
+.hdr-update{font-size:10px;color:rgba(255,255,255,.2);margin-top:2px;}
+.body{padding:16px;display:flex;flex-direction:column;gap:14px;}
+
+.legend{font-size:11px;color:rgba(255,255,255,.4);display:flex;gap:14px;align-items:center;flex-wrap:wrap;}
+.banner{background:#1E1810;border:1px solid rgba(230,126,34,.4);color:#F0B27A;border-radius:10px;padding:10px 14px;font-size:12px;}
+
+.kpi-row{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;}
+.kpi{background:#242424;border-radius:10px;padding:14px 16px;border:1px solid rgba(255,255,255,.06);}
+.kpi.warn{border-color:rgba(230,126,34,.4);background:#1E1810;}
+.kpi.bad{border-color:rgba(231,76,60,.4);background:#1E1212;}
+.kpi.ok{border-color:rgba(39,174,96,.3);background:#101E12;}
+.kpi-label{font-size:10px;color:rgba(255,255,255,.4);margin-bottom:8px;text-transform:uppercase;letter-spacing:.06em;}
+.kpi-val{font-size:20px;font-weight:700;color:#fff;line-height:1.1;}
+.kpi-val.green{color:#82E0AA;}
+.kpi-val.amber{color:#E67E22;}
+.kpi-val.red{color:#F1948A;}
+.kpi-delta{font-size:10px;margin-top:6px;color:rgba(255,255,255,.3);}
+
+.etapas{display:flex;gap:10px;flex-wrap:wrap;}
+.etapa{background:#1E1E1E;border:1px solid rgba(255,255,255,.07);border-radius:8px;padding:8px 14px;min-width:110px;}
+.etapa-n{font-size:18px;font-weight:700;color:#fff;}
+.etapa-l{font-size:10px;color:rgba(255,255,255,.4);text-transform:uppercase;letter-spacing:.05em;margin-top:2px;}
+
+.card{background:#242424;border-radius:10px;padding:14px 16px;border:1px solid rgba(255,255,255,.06);}
+.card.alert{border-color:rgba(230,126,34,.4);}
+.card.crit{border-color:rgba(231,76,60,.45);}
+.card-title{font-size:10px;font-weight:600;color:rgba(255,255,255,.35);margin-bottom:4px;text-transform:uppercase;letter-spacing:.07em;}
+.card-sub{font-size:11px;color:rgba(255,255,255,.3);margin-bottom:12px;}
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap;}
+.sec-count{font-size:11px;color:rgba(255,255,255,.3);}
+.sec-title{font-size:13px;font-weight:600;color:rgba(255,255,255,.7);margin:4px 2px 0;}
+.alert-title{color:#F0B27A;}
+
+.badge{font-size:9px;padding:2px 8px;border-radius:20px;font-weight:600;white-space:nowrap;}
+.b-red{background:rgba(231,76,60,.25);color:#F1948A;}
+.b-amber{background:rgba(230,126,34,.2);color:#F0B27A;}
+.b-green{background:rgba(39,174,96,.2);color:#82E0AA;}
+.b-blue{background:rgba(52,152,219,.2);color:#85C1E9;}
+.b-gray{background:rgba(255,255,255,.07);color:rgba(255,255,255,.4);}
+.b-purple{background:rgba(155,89,182,.2);color:#C39BD3;}
+
+.tbl-wrap{overflow-x:auto;}
+table{width:100%;border-collapse:collapse;font-size:12px;}
+thead th{padding:9px 12px;text-align:left;border-bottom:1px solid rgba(255,255,255,.07);color:rgba(255,255,255,.3);font-weight:600;font-size:10px;text-transform:uppercase;letter-spacing:.05em;white-space:nowrap;}
+thead th.r,tbody td.r{text-align:right;}
+tbody td{padding:9px 12px;border-bottom:1px solid rgba(255,255,255,.04);color:rgba(255,255,255,.75);white-space:nowrap;}
+tbody tr:last-child td{border-bottom:none;}
+tbody tr:hover td{background:rgba(255,255,255,.03);}
+td.wrap{white-space:normal;min-width:160px;}
+td.strong{font-weight:600;color:#fff;}
+.muted{color:rgba(255,255,255,.3);}
+.empty{padding:22px;text-align:center;color:rgba(255,255,255,.25);font-size:12px;}
+.total-row td{border-top:1px solid rgba(255,255,255,.1);font-weight:700;color:#fff;padding-top:12px;}
+.faltas{display:flex;gap:5px;flex-wrap:wrap;}
+
+.pauta-item{display:flex;gap:14px;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.05);align-items:flex-start;}
+.pauta-item:last-child{border-bottom:none;}
+.pauta-n{flex-shrink:0;width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:14px;}
+.pn-alta{background:rgba(231,76,60,.25);color:#F1948A;}
+.pn-media{background:rgba(230,126,34,.2);color:#F0B27A;}
+.pn-normal{background:rgba(52,152,219,.2);color:#85C1E9;}
+.pauta-t{font-size:13px;font-weight:600;color:#fff;}
+.pauta-d{font-size:11px;color:rgba(255,255,255,.4);margin:2px 0 6px;}
+.chips{display:flex;gap:5px;flex-wrap:wrap;}
+.chip{font-size:10px;background:#1E1E1E;border:1px solid rgba(255,255,255,.08);border-radius:5px;padding:2px 7px;color:rgba(255,255,255,.65);}
+
+.footer{padding:10px 20px;border-top:1px solid rgba(255,255,255,.05);display:flex;align-items:center;justify-content:space-between;}
+.footer-text{font-size:10px;color:rgba(255,255,255,.15);}
+
+@media(max-width:1200px){.kpi-row{grid-template-columns:repeat(3,1fr);}}
+@media(max-width:700px){.kpi-row{grid-template-columns:repeat(2,1fr);}}
+@media print{body{background:#fff;color:#000;padding:0;}}
+
+.search-row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;}
+.search{flex:1;min-width:260px;background:#1E1E1E;border:1px solid rgba(255,255,255,.12);border-radius:8px;padding:11px 14px;color:#fff;font-size:14px;font-family:inherit;outline:none;}
+.search:focus{border-color:rgba(39,174,96,.6);}
+.search::placeholder{color:rgba(255,255,255,.3);}
+.chips-f{display:flex;gap:6px;}
+.fbtn{font-size:11px;padding:6px 12px;border-radius:6px;background:none;color:rgba(255,255,255,.45);border:1px solid rgba(255,255,255,.1);cursor:pointer;font-family:inherit;}
+.fbtn.on{background:rgba(39,174,96,.15);color:#82E0AA;border-color:rgba(39,174,96,.4);}
+.hit{background:rgba(241,196,15,.28);color:#fff;border-radius:2px;padding:0 1px;}
+td.prod{white-space:normal;min-width:240px;max-width:380px;color:#fff;font-weight:600;}
+thead th.sortable{cursor:pointer;}
+thead th.sortable:hover{color:#fff;}
+</style>
+</head>
+<body>
+<div class="db" id="db">
+
+  <div class="hdr">
+    <div class="hdr-left">
+      <img class="logo-img" src="data:image/png;base64,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" alt="Taalex"/>
+      <div class="hdr-div"></div>
+      <div>
+        <div class="hdr-title">Produtos — o que está vindo</div>
+        <div class="hdr-sub">Processo 2026 — Taalex Systemtechnik</div>
+      </div>
+    </div>
+    <div style="display:flex;align-items:center;gap:16px;">
+      <div class="nav">
+        <a href="dashboard_temu.html">Operacional</a>
+        <a href="dashboard_cambio.html">Câmbio</a>
+        <a href="dashboard_financeiro.html">Financeiro</a>
+        <a href="dashboard_reuniao.html">KPIs</a>
+        <a href="dashboard_produto.html" class="active">Produto</a>
+      </div>
+      <div class="hdr-right">
+        <div class="hdr-date" id="hdr-date"></div>
+        <div class="hdr-update" id="hdr-update"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="body">
+    <div class="card">
+      <div class="search-row">
+        <input id="q" class="search" type="search" autocomplete="off"
+               placeholder="Buscar produto, projeto, embarque, pedido, fornecedor ou invoice..."/>
+        <div class="chips-f" id="filtros"></div>
+      </div>
+      <div class="card-sub" style="margin:10px 0 0;">Várias palavras = todas precisam aparecer (ex.: &ldquo;sensor TEMU134&rdquo;). Clique no título da coluna para ordenar.</div>
+    </div>
+
+    <div class="card">
+      <div class="sec-head">
+        <div class="card-title">Resultados</div>
+        <div class="sec-count" id="count"></div>
+      </div>
+      <div class="tbl-wrap" id="res"></div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="footer-text">Taalex Systemtechnik GmbH — Produtos 2026</div>
+    <div class="footer-text" id="footer-update"></div>
+  </div>
+</div>
+
+<script>
+var DADOS = {"geradoEm": "08/11/2026 19:15", "total": 72, "ativos": 51, "itens": [{"produto": "", "projeto": "Projeto Agroter 1", "codProjeto": "TL-00101", "embarque": "TEMU101", "pedido": "", "fornecedor": "Temo + Muhe", "invoice": "", "qtdCntr": 4, "tipoCntr": "40HC", "etd": "12/02/2020", "eta": "11/04/2026", "entrega": "23/04/2026", "etaIso": "2026-04-11", "status": "FINALIZADO", "ativo": false}, {"produto": "", "projeto": "Projeto Agroter 2", "codProjeto": "TL-00101", "embarque": "TEMU102", "pedido": "", "fornecedor": "Honesty", "invoice": "", "qtdCntr": 3, "tipoCntr": "40HC", "etd": "09/03/2026", "eta": "22/04/2026", "entrega": "04/05/2026", "etaIso": "2026-04-22", "status": "FINALIZADO", "ativo": false}, {"produto": "", "projeto": "Projeto San Bernardo l", "codProjeto": "TL-00099", "embarque": "TEMU108", "pedido": "", "fornecedor": "Mong Ging + Wusen", "invoice": "", "qtdCntr": 3, "tipoCntr": "40HC", "etd": "09/03/2026", "eta": "11/05/2026", "entrega": "23/05/2026", "etaIso": "2026-05-11", "status": "FINALIZADO", "ativo": false}, {"produto": "", "projeto": "Projeto San Bernardo l", "codProjeto": "TL-00099", "embarque": "TEMU109", "pedido": "", "fornecedor": "Mong Ging + Temu", "invoice": "", "qtdCntr": 10, "tipoCntr": "40HC", "etd": "09/03/2026", "eta": "25/05/2026", "entrega": "06/06/2026", "etaIso": "2026-05-25", "status": "FINALIZADO", "ativo": false}, {"produto": "", "projeto": "Projeto Jair Ansolin", "codProjeto": "TL-00104", "embarque": "TEMU110", "pedido": "", "fornecedor": "Honesty", "invoice": "SH-ZXH-260205", "qtdCntr": 4, "tipoCntr": "40HC", "etd": null, "eta": "23/06/2026", "entrega": "05/07/2026", "etaIso": "2026-06-23", "status": "FINALIZADO", "ativo": false}, {"produto": "", "projeto": "Projeto Romitec", "codProjeto": "TL-00103", "embarque": "TEMU111", "pedido": "", "fornecedor": "Wusen", "invoice": "WUSEN20260312", "qtdCntr": 1, "tipoCntr": "40HC", "etd": "07/04/2026", "eta": "03/06/2026", "entrega": "15/06/2026", "etaIso": "2026-06-03", "status": "FINALIZADO", "ativo": false}, {"produto": "", "projeto": "Projeto Jair Ansolin / Cooperativa Itaipu", "codProjeto": "TL-00104 / TL-00106", "embarque": "TEMU114", "pedido": "", "fornecedor": "Muhe + Sanhe + Temu + Wusan", "invoice": "", "qtdCntr": 1, "tipoCntr": "40HC", "etd": "26/04/2026", "eta": "11/06/2026", "entrega": "23/06/2026", "etaIso": "2026-06-11", "status": "FINALIZADO", "ativo": false}, {"produto": "", "projeto": "Projeto Agroter 3  - 2° embarque", "codProjeto": "TL-00101 / TL-00109 / TL-00110", "embarque": "TEMU103", "pedido": "", "fornecedor": "Honesty", "invoice": "Second Batch Shipment", "qtdCntr": 6, "tipoCntr": "40HC", "etd": "12/04/2026", "eta": "03/06/2026", "entrega": "15/06/2026", "etaIso": "2026-06-03", "status": "FINALIZADO", "ativo": false}, {"produto": "", "projeto": "Projeto Reposição Isaka", "codProjeto": "TL-00105", "embarque": "TEMU113", "pedido": "99-00170", "fornecedor": "Mong Ging + / Honesty + Temu", "invoice": "26TM0598", "qtdCntr": 2, "tipoCntr": "40HC + 20GP", "etd": "02/05/2026", "eta": "10/07/2026", "entrega": "30/07/2026", "etaIso": "2026-07-10", "status": "FINALIZADO", "ativo": false}, {"produto": "Farrowing Crate 298 / Gestation Gate 91 Pieces  Stainless Water Tube 2000  Ceiling Air Inlet 100 Pieces  Water Device 20 Sets", "projeto": "Projeto Agroter 5 + Martinelli - 4° embarque", "codProjeto": "TL-00101", "embarque": "TEMU105", "pedido": "", "fornecedor": "Honesty", "invoice": "SH-ZXH-251025 / SH-ZXH-260428 / SH-ZXH-260317", "qtdCntr": 5, "tipoCntr": "40HC", "etd": "21/05/2026", "eta": "30/07/2026", "entrega": "11/08/2026", "etaIso": "2026-07-30", "status": "FINALIZADO", "ativo": false}, {"produto": "Exhaust Fan / Air Cooler / Ceiling Air Inlet", "projeto": "Estoque + Laura", "codProjeto": "TL-00111", "embarque": "TEMU119", "pedido": "TEMU119 / TEMU128", "fornecedor": "Muhe / Honesty", "invoice": "MHY20260420 / SH-ZXH-260201", "qtdCntr": 1, "tipoCntr": "40HC", "etd": "30/05/2020", "eta": "07/08/2020", "entrega": null, "etaIso": "2020-08-07", "status": "FINALIZADO", "ativo": false}, {"produto": "01.018.02101 Exhaust fans 380V/60Hz / 01.018.02103 PVC SHUTTER FOR EXHAUST FANS", "projeto": "Projeto Elton Endler / Projeto Nilson Shimdt / Projeto Climaves", "codProjeto": "TL-00112 / TL-00108", "embarque": "TEMU107", "pedido": "99-00370 / 99-00330 / TEMU131", "fornecedor": "Temu", "invoice": "26TM0627 / 26TM0637 / 26TM0748", "qtdCntr": 1, "tipoCntr": "40hc", "etd": "18/07/2026", "eta": "31/08/2026", "entrega": "12/09/2026", "etaIso": "2026-08-31", "status": "FINALIZADO", "ativo": false}, {"produto": "Diverson", "projeto": "Projeto San Bernardo l", "codProjeto": "TL-00099", "embarque": "TEMU115", "pedido": "99-00120 / 99-00191 / 99-00147", "fornecedor": "Mong Ging + / Temu + Muhe", "invoice": "3rd Shipment", "qtdCntr": 7, "tipoCntr": "7*40HC", "etd": "22/05/2026", "eta": "03/09/2026", "entrega": "15/09/2026", "etaIso": "2026-09-03", "status": "FINALIZADO", "ativo": false}, {"produto": "rectangle tube", "projeto": "Projeto San Bernardo ll", "codProjeto": "TL-00100", "embarque": "TEMU118", "pedido": "99-00313 / 99-00314 / 99-00315 / 99-00359", "fornecedor": "Honesty", "invoice": "SH-ZXH-260416-B", "qtdCntr": 6, "tipoCntr": "20GP", "etd": "14/06/2026", "eta": "03/09/2026", "entrega": "15/09/2026", "etaIso": "2026-09-03", "status": "FINALIZADO", "ativo": false}, {"produto": "Farrowing Crate / Gestation Cage", "projeto": "Projeto Agroter 4 - 3° embarque", "codProjeto": "TL-00101", "embarque": "TEMU104", "pedido": "99-00151 / 99-00158 / 99-00171", "fornecedor": "Honesty", "invoice": "3rd Batch Shipment", "qtdCntr": 4, "tipoCntr": "40HC", "etd": "21/05/2026", "eta": "15/09/2026", "entrega": "27/09/2026", "etaIso": "2026-09-15", "status": "FINALIZADO", "ativo": false}, {"produto": "PEDIDO ATUALIZADO - Boa Fé / Exhaust fans - Boa Fé / ------------ / Spare Parts and Components - Brinde / 55inch TV - Brinde / 75inch TV - Brinde / 98inch TV - Brinde / TABLET PC - Brinde / Mouse pad - Brinde", "projeto": "Boa Fé Climatização", "codProjeto": "TL-00113", "embarque": "TEMU130", "pedido": "99-00467 / TEMU106", "fornecedor": "Temu", "invoice": "26TM0672 / 26TM0628", "qtdCntr": 1, "tipoCntr": "40hc", "etd": null, "eta": "24/09/2026", "entrega": "06/10/2026", "etaIso": "2026-09-24", "status": "FINALIZADO", "ativo": false}, {"produto": "60 MM chain system Maternidade-1 / 60 MM chain system Maternidade-2 / Ficou pornto dia 16/06 - Aguardamos por conta do frete", "projeto": "Projeto Copacol", "codProjeto": "TL-00107", "embarque": "TEMU116", "pedido": "?", "fornecedor": "Temu", "invoice": "26TM0623", "qtdCntr": 1, "tipoCntr": "40HC", "etd": "24/07/2026", "eta": "26/09/2026", "entrega": "08/10/2026", "etaIso": "2026-09-26", "status": "FINALIZADO", "ativo": false}, {"produto": "UPVC ceiling panel", "projeto": "Projeto San Bernardo ll", "codProjeto": "TL-00100", "embarque": "TEMU122", "pedido": "99-00313 / 99-00314 / 99-00315 / 99-00359", "fornecedor": "Honesty", "invoice": "SH-ZXH-260416-A", "qtdCntr": 6, "tipoCntr": "20GP", "etd": "02/07/2026", "eta": "25/09/2026", "entrega": "15/10/2026", "etaIso": "2026-09-25", "status": "FINALIZADO", "ativo": false}, {"produto": "Galvanized Screw", "projeto": "Projeto San Bernardo ll", "codProjeto": "TL-00100", "embarque": "TEMU127", "pedido": "99-00407", "fornecedor": "Honesty", "invoice": "SH-ZXH-260425", "qtdCntr": 1, "tipoCntr": "20GP", "etd": "02/07/2026", "eta": "25/09/2026", "entrega": "15/10/2026", "etaIso": "2026-09-25", "status": "FINALIZADO", "ativo": false}, {"produto": "Gestation Cages (1 of 4) = 2,420 units - 1 CNTR será embarcado separado", "projeto": "Projeto San Bernardo ll", "codProjeto": "TL-00100", "embarque": "TEMU124", "pedido": "99-00132 / 99-00122 / 99-00358", "fornecedor": "Honesty", "invoice": "SH-ZXH-260416", "qtdCntr": 6, "tipoCntr": "40hc", "etd": "10/07/2026", "eta": "14/10/2026", "entrega": "24/10/2026", "etaIso": "2026-10-14", "status": "FINALIZADO", "ativo": false}, {"produto": "Sistema de iluminação / Gestation and Farrowing House", "projeto": "Projeto San Bernardo lll", "codProjeto": "TL-00117", "embarque": "TEMU138 TEMU039", "pedido": "air", "fornecedor": "Hontech-Wins", "invoice": "HT-X26073001BR +  HT-X26073002BR", "qtdCntr": 1, "tipoCntr": "", "etd": "22/09/2026", "eta": "07/10/2026", "entrega": null, "etaIso": "2026-10-07", "status": "DESEMBRAÇO", "ativo": true}, {"produto": "Estoque e Brindes", "projeto": "Estoque", "codProjeto": "TL-00111", "embarque": "TEMU129", "pedido": "", "fornecedor": "Temu", "invoice": "LFR26071 / 26TM0628", "qtdCntr": 1, "tipoCntr": "40HC", "etd": "12/08/2020", "eta": "15/10/2020", "entrega": null, "etaIso": "2020-10-15", "status": "FINALIZADO", "ativo": false}, {"produto": "Exhaust fans for Farrowing House 1 - 45 pcs / Exhaust fans for Farrowing House 2 - 45 pcs / Exhaust fans for Gestation House 1 - 30 pcs / Exhaust fans for Gestation House 2 - 30 pcs", "projeto": "Projeto San Bernardo ll", "codProjeto": "TL-00100", "embarque": "TEMU132", "pedido": "99-00132 / 99-00122", "fornecedor": "Temu", "invoice": "26TM0674 / 26TM0675 / 26TM0678 / 26TM0679", "qtdCntr": 1, "tipoCntr": "40hc", "etd": "28/07/2026", "eta": "01/11/2026", "entrega": "16/11/2026", "etaIso": "2026-11-01", "status": "DESEMBRAÇO", "ativo": true}, {"produto": "The Front Gate of Farrowing Pen - 3 PC", "projeto": "Garantia Temu", "codProjeto": "TL-00118", "embarque": "TEMU152", "pedido": "portao", "fornecedor": "Honesty", "invoice": "SH-ZXH-261008", "qtdCntr": 0, "tipoCntr": "AIR", "etd": "15/10/2026", "eta": "03/11/2026", "entrega": "03/11/2026", "etaIso": "2026-11-03", "status": "DESEMBRAÇO", "ativo": true}, {"produto": "controladores", "projeto": "Projeto Elton Endler", "codProjeto": "TL-00108", "embarque": "TEMU107-2", "pedido": "99-00370 / 99-00330", "fornecedor": "Temu", "invoice": "26TM0637-2", "qtdCntr": 0, "tipoCntr": "AIR", "etd": "21/10/2026", "eta": "03/11/2026", "entrega": "03/11/2026", "etaIso": "2026-11-03", "status": "DESEMBRAÇO", "ativo": true}, {"produto": "Sanitary Barrier", "projeto": "Projeto San Bernardo ll", "codProjeto": "TL-00100", "embarque": "TEMU120", "pedido": "99-00119", "fornecedor": "Temu", "invoice": "26TM0638", "qtdCntr": 4, "tipoCntr": "40hc", "etd": "10/09/2026", "eta": "05/11/2026", "entrega": "17/11/2026", "etaIso": "2026-11-05", "status": "SOBRE AGUAS", "ativo": true}, {"produto": "Cortina Dog House 1,5x15- galpão 1 / Cortina Dog House 1,5x15- galpão 2 / Cortina Dog House 1,5x42- galpão 1 / Cortina Dog House 1,5x42- galpão 2 / Cortinas lateral - galpão 1 / Cortinas lateral - galpão 2 / --------------- / Farrowing Crate - 45 sets", "projeto": "Projeto San Bernardo ll", "codProjeto": "TL-00100", "embarque": "TEMU136 / TEMU134-2", "pedido": "99-00122 / 99-00132", "fornecedor": "Temu", "invoice": "26TM0796 / 26TM0797 / 26TM0804 / 26TM0805 / 26TM0788 / 26TM0789 / 26TM0773-2", "qtdCntr": 1, "tipoCntr": "40hc", "etd": null, "eta": "05/11/2026", "entrega": "17/11/2026", "etaIso": "2026-11-05", "status": "SOBRE AGUAS", "ativo": true}, {"produto": "Divided Grid (1 of 4) = 200 units / Male Cage (1 of 4) = 32 units / Farrowing Crate (1 of 4) = 700 units", "projeto": "Projeto San Bernardo ll", "codProjeto": "TL-00100", "embarque": "TEMU125", "pedido": "99-00132 / 99-00122 / 99-00358", "fornecedor": "Honesty", "invoice": "SH-ZXH-260617", "qtdCntr": 13, "tipoCntr": "40hc", "etd": "10/09/2026", "eta": "06/11/2026", "entrega": "18/11/2026", "etaIso": "2026-11-06", "status": "SOBRE AGUAS", "ativo": true}, {"produto": "Cooling pad -  Gable 1 / Cooling pad -  Gable 2 / Cooling pad -  Side Wall 1 / Cooling pad -  Side Wall 2 / Cooling pad galpão 1 / Cooling pad galpão 2 / Tunel Door galpão 1 / Tunel Door galpão 2", "projeto": "Projeto San Bernardo ll", "codProjeto": "TL-00100", "embarque": "TEMU135", "pedido": "99-00122", "fornecedor": "Temu", "invoice": "26TM0718 / 26TM0719 / 26TM0710 / 26TM0711 / 26TM0705 / 26TM0707 / 26TM0751 / 26TM0752", "qtdCntr": 4, "tipoCntr": "40hc", "etd": "12/08/2026", "eta": "07/11/2026", "entrega": "19/11/2026", "etaIso": "2026-11-07", "status": "SOBRE AGUAS", "ativo": true}, {"produto": "Farrowing House GSB2", "projeto": "Projeto San Bernardo ll", "codProjeto": "TL-00100", "embarque": "TEMU121-1", "pedido": "99-00132", "fornecedor": "Temu", "invoice": "26TM0640-1", "qtdCntr": 3, "tipoCntr": "1x20GP / 2x40HC", "etd": "31/08/2026", "eta": "08/11/2026", "entrega": "20/11/2026", "etaIso": "2026-11-08", "status": "SOBRE AGUAS", "ativo": true}, {"produto": "Gestation GSB2 - Controlado pronto 24/07", "projeto": "Projeto San Bernardo ll", "codProjeto": "TL-00100", "embarque": "TEMU126-1", "pedido": "99-00122", "fornecedor": "Temu", "invoice": "26TM0650-1", "qtdCntr": 2, "tipoCntr": "40HC", "etd": "31/08/2026", "eta": "08/11/2026", "entrega": "20/11/2026", "etaIso": "2026-11-08", "status": "SOBRE AGUAS", "ativo": true}, {"produto": "Farrowing Crate - 65 sets", "projeto": "Projeto San Bernardo ll", "codProjeto": "TL-00100", "embarque": "TEMU134-1", "pedido": "99-00132", "fornecedor": "Temu", "invoice": "26TM0773-1", "qtdCntr": 1, "tipoCntr": "40hc", "etd": "31/08/2026", "eta": "08/11/2026", "entrega": "20/11/2026", "etaIso": "2026-11-08", "status": "SOBRE AGUAS", "ativo": true}, {"produto": "Bolt (M8*70 SS304) / SS304 Nut / SS304 Washer / 0209LW0089 - Base Support FRP for 50504mm beam / 0209LW0090 - Square FRP Beam 50504mm – Upright Stand Column Height 550MM / 0209LW0092 + C FRP Beam / 05011382 - Anchor Bolts, Concrete Bolts Expansion Screws Bolts M8 x 90mm – Stainless", "projeto": "Projeto San Bernardo l", "codProjeto": "TL-00099", "embarque": "TEMU146", "pedido": "", "fornecedor": "Temu", "invoice": "26TM0842", "qtdCntr": 2, "tipoCntr": "20DRY / 40HC", "etd": "27/09/2020", "eta": "14/11/2026", "entrega": "30/10/2026", "etaIso": "2026-11-14", "status": "SOBRE AGUAS", "ativo": true}, {"produto": "T60 FEEDING SYSTEM - FARROWING / HOUSE 2", "projeto": "Projeto San Bernardo ll", "codProjeto": "TL-00100", "embarque": "TEMU133-1", "pedido": "99-00132", "fornecedor": "Temu", "invoice": "26TM0643", "qtdCntr": 3, "tipoCntr": "2*40HC / 1*20GP", "etd": "14/09/2026", "eta": "18/11/2026", "entrega": "30/11/2026", "etaIso": "2026-11-18", "status": "SOBRE AGUAS", "ativo": true}, {"produto": "Farrowing Crate - 116 sets", "projeto": "Projeto San Bernardo ll", "codProjeto": "TL-00100", "embarque": "TEMU134 -3", "pedido": "99-00132", "fornecedor": "Temu", "invoice": "26TM0773-3", "qtdCntr": 3, "tipoCntr": "40hc", "etd": "15/09/2026", "eta": "18/11/2026", "entrega": "30/11/2026", "etaIso": "2026-11-18", "status": "SOBRE AGUAS", "ativo": true}, {"produto": "Farrowing Crate - 474 sets", "projeto": "Projeto San Bernardo ll", "codProjeto": "TL-00100", "embarque": "TEMU134 - 4", "pedido": "99-00132", "fornecedor": "Temu", "invoice": "26TM0773-4", "qtdCntr": 8, "tipoCntr": "7*40hc / 1*20GP", "etd": "17/09/2026", "eta": "20/11/2026", "entrega": "02/12/2026", "etaIso": "2026-11-20", "status": "SOBRE AGUAS", "ativo": true}, {"produto": "26TM0672 / Cooling Pad System - Boa Fé / Exhaust Fans - BOA Fé / 26TM0748 / Exhaust Fan Shutter Fastener / TEMU141 l 26TM0820 / Double-sided ventilation window 1000 pc / Single-sided roof ventilation window 200 pc / TEMU145 l 26TM0833 / PVC PIPE 60*4*1500MM = 10 pç / 01070056 FUNNEL 60MM = 10 pc / 01210003-V2 AUTODOS BASICO 10L=10 / 0207ZC0183 - L TYPE MOUNTING BAR L=6M / 40*40*3MM HDG - 100pc / 07010742 ONCON CON080 Antena+leitor FDX = 10 / TEMU140 l 26TM0836 / 01.018.02100 Exhaust fans 220V/60Hz - 90pc / 01.018.02101 Exhaust fans 380V/60Hz - 90pc", "projeto": "Estoque Temu 1", "codProjeto": "TL-00111", "embarque": "TEMU140", "pedido": "", "fornecedor": "Temu", "invoice": "26TM0672 / 26TM0748 / 26TM0820 / 26TM0833 / 26TM0836", "qtdCntr": 3, "tipoCntr": "40HC", "etd": "15/10/2026", "eta": "24/11/2026", "entrega": null, "etaIso": "2026-11-24", "status": "SOBRE AGUAS", "ativo": true}, {"produto": "Animal Stick reader FRD5220 - Mala - Amilton", "projeto": "Agroterm, Miotto Farm and Temu Latam Test", "codProjeto": "TL-99999", "embarque": "TEMU162", "pedido": "AMOSTRA", "fornecedor": "Faread", "invoice": "FRD2026102306", "qtdCntr": 0, "tipoCntr": "AIR", "etd": "15/11/2026", "eta": "24/11/2026", "entrega": "25/11/2026", "etaIso": "2026-11-24", "status": "VISTORIA", "ativo": true}, {"produto": "AutoSow - Refer to The Drawing Design One Stall Layout - 50 sets / Stainless Drinker - 1.669 peças / Steel Floor Support - 11.150 peças / AutoSow - 4 conjuntos / Gestation Cage - 1 conjunto (16 gaiolas) / PVC Drop Tube - 16 peças / Handling Gate 1300 × 750 - 7 peças / Handling Gate 800 × 700 - 3 peças / Handling Gate 900 × 700 - 2 peças / Handling Gate 910 × 700 - 1 peça / Auto Sow Station - 4 units / Double Side Window Frame 1000pc / Single Side Window Frame 200 pc / AutoSow - Refer to The Drawing Design One Stall Layout / Galvanized Clamp / Stainless Feeder - 271 PC / FDX Eartags Readers FRD6100 with Oncon logo - 66 pc / FDX Eartags FRD101-1 with Oncon logo - 3000pc / HDX Eartags Readers FRD6100H with Oncon logo - 3 pc / Male Tages - 3000 pc / Handheld FDX readers FRD5410 with Oncon logo - 3 pc", "projeto": "Projeto Miotto + agroter + Estoque + Garantia", "codProjeto": "TL-00120", "embarque": "TEMU137", "pedido": "99-00585", "fornecedor": "Honesty", "invoice": "SH-ZXH-260917 / SH-ZXH-260714 / 4 Units Auto Sow / SH-ZXH-260814 / SH-ZXH-260811 / GRAMPO / COMEDOURO / FRD2026092301", "qtdCntr": 1, "tipoCntr": "40hc", "etd": "10/11/2026", "eta": "02/01/2027", "entrega": "09/01/2027", "etaIso": "2027-01-02", "status": "VISTORIA", "ativo": true}, {"produto": "Farrowing Crate - Refer The Specification Sheet Same Design/Specification With Jair Ansolin Project - Pronto / _ / 01170001-1-V2 spot feeder for Finisher,disassembled  - 200 pc / 01170004-1-V2 spot feeder for weaner,disassembled - 50 pc / 0205BJ1427 Stainless Steel Bar Post - 500 pc / 05010106 Hex head bolt 304 DIN933 M8*55 A2-70 - 2000 pc / 05020002 Stainless steel nut M8 - 2000pc / 05030001 Stainless steel flat washer M8*24*1.5 - 2000pc", "projeto": "Projeto Ysaka", "codProjeto": "TL-00119", "embarque": "TEMU149", "pedido": "99-00628", "fornecedor": "Honesty / Temu", "invoice": "SH-ZXH-260928 / 26TM0878", "qtdCntr": 1, "tipoCntr": "40HC", "etd": "28/11/2026", "eta": "15/01/2027", "entrega": "21/01/2027", "etaIso": "2027-01-15", "status": "EM PRODUÇÃO", "ativo": true}, {"produto": "Autogate", "projeto": "Projeto San Bernardo lll", "codProjeto": "TL-00117", "embarque": "TEMU160", "pedido": "99-00353 / 99-00355 / 99-00304", "fornecedor": "Honesty", "invoice": "SH-ZXH-261021", "qtdCntr": 0, "tipoCntr": "40HC", "etd": "11/11/2026", "eta": "09/02/2027", "entrega": "21/02/2027", "etaIso": "2027-02-09", "status": "EM PRODUÇÃO", "ativo": true}, {"produto": "FARROWING HOUSE 3 / FARROWING HOUSE 3", "projeto": "Projeto San Bernardo lll", "codProjeto": "TL-00117", "embarque": "TEMU155", "pedido": "99-00132", "fornecedor": "Temu", "invoice": "26TM0644 / 26TM0645", "qtdCntr": 6, "tipoCntr": "40HC", "etd": "13/11/2026", "eta": "11/02/2027", "entrega": "21/02/2027", "etaIso": "2027-02-11", "status": "EM PRODUÇÃO", "ativo": true}, {"produto": "controladores", "projeto": "Projeto San Bernardo ll", "codProjeto": "TL-00100", "embarque": "TEMU133 -2", "pedido": "99-00132", "fornecedor": "Temu", "invoice": "26TM0643-2", "qtdCntr": 0, "tipoCntr": "0", "etd": "14/11/2026", "eta": "12/02/2027", "entrega": "22/02/2027", "etaIso": "2027-02-12", "status": "EM PRODUÇÃO", "ativo": true}, {"produto": "Farrowing Crate components 99-00464", "projeto": "Projeto San Bernardo l", "codProjeto": "TL-00099", "embarque": "TEMU154", "pedido": "99-00464", "fornecedor": "Temu", "invoice": "26TM0860 I Reformas", "qtdCntr": 1, "tipoCntr": "40HC", "etd": "30/11/2026", "eta": "28/02/2027", "entrega": "12/03/2027", "etaIso": "2027-02-28", "status": "EM PRODUÇÃO", "ativo": true}, {"produto": "Gestation Cage - 7260 cages / Gostaria de separar duas remessas — a primeira com 4840 gaiolas de gestação, 12*40HC, data estimada de entrega para 25 de novembro.", "projeto": "Projeto San Bernardo lll", "codProjeto": "TL-00117", "embarque": "TEMU150-1", "pedido": "99-00122", "fornecedor": "Honesty", "invoice": "SH-ZXH-261009-A", "qtdCntr": 12, "tipoCntr": "40hc", "etd": "05/12/2026", "eta": "05/03/2027", "entrega": "17/03/2027", "etaIso": "2027-03-05", "status": "EM PRODUÇÃO", "ativo": true}, {"produto": "Gestation House / Farrowing House / Weaning House / Self Tapping Screws / Capping Strip / Gestation House Rectangular Tube / Farrowing House Rectangular Tube / Weaning House Rectangular Tube", "projeto": "Projeto San Bernardo lll", "codProjeto": "TL-00117", "embarque": "TEMU156-A", "pedido": "99-00314", "fornecedor": "Honesty", "invoice": "SH-ZXH-261016-A", "qtdCntr": 6, "tipoCntr": "20GP", "etd": "05/12/2026", "eta": "05/03/2027", "entrega": "17/03/2027", "etaIso": "2027-03-05", "status": "EM PRODUÇÃO", "ativo": true}, {"produto": "X26092701BR - Quarentena / X26092702BR - Males / X26092703BR - Reposiçao 1 - galpao 1 / X26092704BR - Reposiçao 1 - galpao 2 / X26092705BR - Gestation / X26092706BR - Farrowing / X26092707BR - Weaner / X26100701BR - Reposiçao 2 - 1 e 2", "projeto": "Projeto San Bernardo lll", "codProjeto": "TL-00117", "embarque": "TEMU158", "pedido": "99-00490 / 99-0082 / 99-00304 / 99-00353 / 99-00469 / 99-00470 / 99-00471", "fornecedor": "Hontech-Wins", "invoice": "SUMMARY / ---------------- / X26092701BR / X26092702BR / X26092703BR / X26092704BR / X26092705BR / X26092706BR / X26092707BR / X26100701BR", "qtdCntr": 0, "tipoCntr": "", "etd": "10/12/2026", "eta": "10/03/2027", "entrega": "22/03/2027", "etaIso": "2027-03-10", "status": "EM PRODUÇÃO", "ativo": true}, {"produto": "Farrowing Crate", "projeto": "Projeto San Bernardo lll", "codProjeto": "TL-00117", "embarque": "TEMU153", "pedido": "99-00132", "fornecedor": "Temu", "invoice": "26TM0891", "qtdCntr": 25, "tipoCntr": "40HC", "etd": "13/12/2026", "eta": "13/03/2027", "entrega": "23/03/2027", "etaIso": "2027-03-13", "status": "EM PRODUÇÃO", "ativo": true}, {"produto": "Gestation Cage - 7260 cages / Segunda remessa com 2420 gaiolas de gestação, 6*40HC, data estimativa de entrega 10 de dezembro.", "projeto": "Projeto San Bernardo lll", "codProjeto": "TL-00117", "embarque": "TEMU150-2", "pedido": "99-00122", "fornecedor": "Honesty", "invoice": "SH-ZXH-261009-B", "qtdCntr": 6, "tipoCntr": "40hc", "etd": "20/12/2026", "eta": "20/03/2027", "entrega": "01/04/2027", "etaIso": "2027-03-20", "status": "EM PRODUÇÃO", "ativo": true}, {"produto": "Gestation House / Farrowing House / Weaning House / Self Tapping Screws / Capping Strip / Gestation House Rectangular Tube / Farrowing House Rectangular Tube / Weaning House Rectangular Tube", "projeto": "Projeto San Bernardo lll", "codProjeto": "TL-00117", "embarque": "TEMU156-B", "pedido": "99-00313 / 99-00315", "fornecedor": "Honesty", "invoice": "SH-ZXH-261016-B", "qtdCntr": 6, "tipoCntr": "20GP", "etd": "20/12/2026", "eta": "20/03/2027", "entrega": "01/04/2027", "etaIso": "2027-03-20", "status": "EM PRODUÇÃO", "ativo": true}, {"produto": "Boar pen and divider", "projeto": "Projeto San Bernardo lll", "codProjeto": "TL-00117", "embarque": "TEMU157", "pedido": "99-00122", "fornecedor": "Temu", "invoice": "26TM0896", "qtdCntr": 0, "tipoCntr": "", "etd": "20/12/2026", "eta": "20/03/2027", "entrega": "30/03/2027", "etaIso": "2027-03-20", "status": "EM PRODUÇÃO", "ativo": true}, {"produto": "T60 FEEDING SYSTEM 99-00355 / T60 FEEDING SYSTEM 99-00355 Reformas San Bernardo - Reposicao 2 Galpao 1 e 2", "projeto": "Projeto San Bernardo lll", "codProjeto": "TL-00117", "embarque": "TEMU167", "pedido": "99-00355", "fornecedor": "Temu", "invoice": "26TM0861", "qtdCntr": 0, "tipoCntr": "", "etd": "02/01/2027", "eta": "02/04/2027", "entrega": "12/04/2027", "etaIso": "2027-04-02", "status": "EM PRODUÇÃO", "ativo": true}, {"produto": "Weaning House", "projeto": "Projeto San Bernardo lll", "codProjeto": "TL-00117", "embarque": "TEMU173", "pedido": "99-00234", "fornecedor": "Temu", "invoice": "26TM0907", "qtdCntr": 0, "tipoCntr": "", "etd": "04/01/2027", "eta": "04/04/2027", "entrega": "14/04/2027", "etaIso": "2027-04-04", "status": "EM PRODUÇÃO", "ativo": true}, {"produto": "Farrowing Crate components 99-00464", "projeto": "Projeto San Bernardo lll", "codProjeto": "TL-00117", "embarque": "TEMU159", "pedido": "99-00464", "fornecedor": "Temu", "invoice": "26TM0860", "qtdCntr": 1, "tipoCntr": "40HC", "etd": "10/01/2027", "eta": "10/04/2027", "entrega": "22/04/2027", "etaIso": "2027-04-10", "status": "EM PRODUÇÃO", "ativo": true}, {"produto": "T60 FEEDING SYSTEM 99-00304 Reposicao 1 GP1", "projeto": "Projeto San Bernardo lll", "codProjeto": "TL-00117", "embarque": "TEMU161", "pedido": "99-00304", "fornecedor": "Temu", "invoice": "26TM0863", "qtdCntr": 0, "tipoCntr": "", "etd": "10/01/2027", "eta": "10/04/2027", "entrega": "20/04/2027", "etaIso": "2027-04-10", "status": "EM PRODUÇÃO", "ativo": true}, {"produto": "T60 Feeding System - 99-00490 Central de Machos - Quarentena", "projeto": "Projeto San Bernardo lll", "codProjeto": "TL-00117", "embarque": "TEMU165", "pedido": "99-00490", "fornecedor": "Temu", "invoice": "26TM0873", "qtdCntr": 0, "tipoCntr": "", "etd": "10/01/2027", "eta": "10/04/2027", "entrega": "20/04/2027", "etaIso": "2027-04-10", "status": "EM PRODUÇÃO", "ativo": true}, {"produto": "T60 FEEDING SYSTEM 99-00353 / T60 FEEDING SYSTEM 99-00353 Reformas San Bernardo - Reposi??o 1 - Galp?o 2", "projeto": "Projeto San Bernardo lll", "codProjeto": "TL-00117", "embarque": "TEMU168", "pedido": "99-00353", "fornecedor": "Temu", "invoice": "26TM0862", "qtdCntr": 0, "tipoCntr": "", "etd": "10/01/2027", "eta": "10/04/2027", "entrega": "20/04/2027", "etaIso": "2027-04-10", "status": "EM PRODUÇÃO", "ativo": true}, {"produto": "T60 Feeding System - 99-00482 / T60 Feeding System - 99-00482 Central de Machos - 2 galpoes(126 jaulas cada)", "projeto": "Projeto San Bernardo lll", "codProjeto": "TL-00117", "embarque": "TEMU169", "pedido": "99-00482", "fornecedor": "Temu", "invoice": "26TM0859", "qtdCntr": 0, "tipoCntr": "", "etd": "10/01/2027", "eta": "10/04/2027", "entrega": "20/04/2027", "etaIso": "2027-04-10", "status": "EM PRODUÇÃO", "ativo": true}, {"produto": "Sistema de iluminação", "projeto": "Projeto San Bernardo lll", "codProjeto": "TL-00117", "embarque": "TEMU138", "pedido": "sea", "fornecedor": "Hontech-Wins", "invoice": "HT-X26073001BR", "qtdCntr": 0, "tipoCntr": "", "etd": null, "eta": null, "entrega": null, "etaIso": null, "status": "VISTORIA", "ativo": true}, {"produto": "Gestation and Farrowing House", "projeto": "Projeto San Bernardo lll", "codProjeto": "TL-00117", "embarque": "TEMU139", "pedido": "sea", "fornecedor": "Hontech-Wins", "invoice": "HT-X26073002BR", "qtdCntr": 0, "tipoCntr": "", "etd": null, "eta": null, "entrega": null, "etaIso": null, "status": "VISTORIA", "ativo": true}, {"produto": "controladores", "projeto": "Projeto San Bernardo ll", "codProjeto": "TL-00100", "embarque": "TEMU121-2", "pedido": "99-00132", "fornecedor": "Temu", "invoice": "26TM0640-2", "qtdCntr": 0, "tipoCntr": "", "etd": null, "eta": null, "entrega": "12/01/1900", "etaIso": null, "status": "VISTORIA", "ativo": true}, {"produto": "controladores", "projeto": "Projeto San Bernardo ll", "codProjeto": "TL-00100", "embarque": "TEMU126-2", "pedido": "99-00122", "fornecedor": "Temu", "invoice": "26TM0650-2", "qtdCntr": 0, "tipoCntr": "", "etd": null, "eta": null, "entrega": "12/01/1900", "etaIso": null, "status": "VISTORIA", "ativo": true}, {"produto": "controladores", "projeto": "Projeto San Bernardo ll", "codProjeto": "TL-00100", "embarque": "TEMU133-2", "pedido": "99-00132", "fornecedor": "Temu", "invoice": "26TM0643-2", "qtdCntr": 0, "tipoCntr": "0", "etd": null, "eta": null, "entrega": null, "etaIso": null, "status": "VISTORIA", "ativo": true}, {"produto": "TEMU143 - 1/2”Bite Ball nipple drinker;ss201", "projeto": "Estoque - não embarcou TEMU140", "codProjeto": "TL-00111", "embarque": "TEMU143", "pedido": "", "fornecedor": "CIXI MAITE", "invoice": "26MTAZU010", "qtdCntr": 0, "tipoCntr": "", "etd": null, "eta": null, "entrega": "12/01/1900", "etaIso": null, "status": "", "ativo": true}, {"produto": "controladores", "projeto": "Estoque - não embarcou", "codProjeto": "TL-00111", "embarque": "TEMU147", "pedido": "", "fornecedor": "Temu", "invoice": "26TM0628", "qtdCntr": 0, "tipoCntr": "0", "etd": null, "eta": null, "entrega": null, "etaIso": null, "status": "EM PRODUÇÃO", "ativo": true}, {"produto": "T60 FEEDING SYSTEM - 99-00219 COLLECTIVE GESTATION MIOTTO FARM - 1 / T60 FEEDING SYSTEM - 99-00220 CHAIN DISK MIOTTO FARM - 1 / T60 FEEDING SYSTEM - 99-00223 INDIVIDUAL GESTATION MIOTTO FARM - 1 / T60 FEEDING SYSTEM - 99-00224 Silo -1 / T60 FEEDING SYSTEM - 99-00225 Exhaust Fans - 1 / T60 FEEDING SYSTEM - 99-00585 AutoSOW - 1 / 376pcs fasteners", "projeto": "Projeto Miotto", "codProjeto": "TL-00120", "embarque": "TEMU148-2", "pedido": "99-00219 / 99-00220 / 99-00223 / 99-00224 / 99-00225 / 99-00585 / 26TM0901 (sem pedido feito)", "fornecedor": "Temu", "invoice": "26TM0867 / 26TM0868 / 26TM0869 / 26TM0870 / 26TM0871 / 26TM0872 / amostra - hontech / 26TM0901", "qtdCntr": 0, "tipoCntr": "", "etd": null, "eta": null, "entrega": null, "etaIso": null, "status": "EM PRODUÇÃO", "ativo": true}, {"produto": "Multimix 60 with feedback / Heat treated pallet 800 x 1200", "projeto": "Projeto San Bernardo lll", "codProjeto": "TL-00117", "embarque": "TEMU163", "pedido": "99-00355", "fornecedor": "Daltec", "invoice": "O-046401", "qtdCntr": 0, "tipoCntr": "", "etd": null, "eta": null, "entrega": null, "etaIso": null, "status": "EM PRODUÇÃO", "ativo": true}, {"produto": "- TEC120-ONCON CONTROLLER - 1.5kW drive unit *1, 0.25kW discharger *2, feedline sensor *2 | ABS | ABB / - TEC200-ONCON CONTROLLER - 1.5kW drive unit *2, feedline sensor *2,| ABS | ABB", "projeto": "Projeto Agroter", "codProjeto": "TL-00101", "embarque": "TEMU164", "pedido": "99-00151", "fornecedor": "Temu", "invoice": "25TM0571-1", "qtdCntr": 0, "tipoCntr": "", "etd": null, "eta": null, "entrega": "12/01/1900", "etaIso": null, "status": "EM PRODUÇÃO", "ativo": true}, {"produto": "Galpão 1 - Reposição 1 (gestação) / Galpão 2 - Reposição 1 (gestação) / Galpão 1 e 2 - Reposição 2 / Farrowing House / Central de Machos elétrica / Central de Machos elétrica / Central de Machos elétrica - Ag. Confirmação", "projeto": "Projeto San Bernardo lll", "codProjeto": "TL-00117", "embarque": "TEMU166", "pedido": "99-00304 / 99-00353 / 99-00355 / 99-00464 / 99-00482 / 99-00490 / 99-00578", "fornecedor": "Honesty", "invoice": "SH-ZXH-261010-1 / SH-ZXH-261010-2 / SH-ZXH-261010-3 / SH-ZXH-261010-4 / SH-ZXH-261010-5 / SH-ZXH-261010-6 / SH-ZXH-261010-7 - Ag. Confirmação", "qtdCntr": 0, "tipoCntr": "", "etd": null, "eta": null, "entrega": null, "etaIso": null, "status": "EM PRODUÇÃO", "ativo": true}, {"produto": "36 Finisher Pen Per House", "projeto": "Projeto San Bernardo lll", "codProjeto": "TL-00117", "embarque": "TEMU170", "pedido": "", "fornecedor": "Honesty", "invoice": "SH-ZXH-261014", "qtdCntr": 0, "tipoCntr": "", "etd": null, "eta": null, "entrega": null, "etaIso": null, "status": "EM PRODUÇÃO", "ativo": true}, {"produto": "Farrowing Crate / Individual Gestation Cage / Group Gestation Cage", "projeto": "Amostra", "codProjeto": "TL-99999", "embarque": "TEMU171", "pedido": "AMOSTRA / show room", "fornecedor": "Honesty", "invoice": "SH-ZXH-261029", "qtdCntr": 0, "tipoCntr": "", "etd": null, "eta": null, "entrega": "12/01/1900", "etaIso": null, "status": "EM PRODUÇÃO", "ativo": true}, {"produto": "Weaning House", "projeto": "Projeto San Bernardo lll", "codProjeto": "TL-00117", "embarque": "TEMU172", "pedido": "99-00234", "fornecedor": "Honesty", "invoice": "SH-ZXH-261102", "qtdCntr": 0, "tipoCntr": "", "etd": null, "eta": null, "entrega": null, "etaIso": null, "status": "EM PRODUÇÃO", "ativo": true}]};
+
+function esc(s){
+  return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function semAcento(s){
+  return String(s==null?'':s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+}
+function dash(v){ return v? esc(v) : '<span class="muted">—</span>'; }
+
+// destaca os termos buscados (sem diferenciar acento/maiúscula)
+function hl(texto, termos){
+  var t=String(texto==null?'':texto);
+  if(!t) return '<span class="muted">—</span>';
+  if(!termos.length) return esc(t);
+  var base=semAcento(t), marca=new Array(t.length).fill(false);
+  termos.forEach(function(q){
+    var i=base.indexOf(q);
+    while(i>=0){ for(var k=i;k<i+q.length;k++) marca[k]=true; i=base.indexOf(q,i+q.length); }
+  });
+  var out='', abre=false;
+  for(var j=0;j<t.length;j++){
+    if(marca[j]&&!abre){ out+='<span class="hit">'; abre=true; }
+    if(!marca[j]&&abre){ out+='</span>'; abre=false; }
+    out+=esc(t[j]);
+  }
+  return out+(abre?'</span>':'');
+}
+
+function badgeStatus(s){
+  var up=(s||'').toUpperCase().trim();
+  if(!up) return '<span class="badge b-gray">Sem status</span>';
+  if(up==='SOBRE AGUAS'||up==='SOBRE ÁGUAS') return '<span class="badge b-blue">Sobre águas</span>';
+  if(up==='VISTORIA') return '<span class="badge b-amber">Vistoria</span>';
+  if(up==='DESEMBRAÇO'||up==='DESEMBARAÇO') return '<span class="badge b-purple">Desembaraço</span>';
+  if(up==='EM PRODUÇÃO') return '<span class="badge b-gray">Em produção</span>';
+  if(up==='ATRACADO') return '<span class="badge b-green">Atracado</span>';
+  if(up==='FINALIZADO') return '<span class="badge b-gray">Finalizado</span>';
+  return '<span class="badge b-gray">'+esc(s)+'</span>';
+}
+function cntr(e){
+  var p=[];
+  if(e.qtdCntr>0) p.push(e.qtdCntr+' cntr');
+  if(e.tipoCntr) p.push(esc(e.tipoCntr));
+  return p.length? p.join(' · ') : '<span class="muted">—</span>';
+}
+function dt(v){ return v? '<span style="font-weight:600;color:#fff;">'+esc(v)+'</span>' : '<span class="muted">—</span>'; }
+function chave(v){ return v? v.split('/').reverse().join('') : ''; }   // dd/mm/aaaa -> aaaammdd
+
+var filtro='ativos', ordem={k:'eta', asc:true};
+var CAMPOS_BUSCA=['produto','projeto','codProjeto','embarque','pedido','fornecedor','invoice'];
+
+function termosDaBusca(){
+  return semAcento(document.getElementById('q').value).split(/\s+/).filter(Boolean);
+}
+
+function filtrar(termos){
+  return DADOS.itens.filter(function(e){
+    if(filtro==='ativos' && !e.ativo) return false;
+    if(filtro==='finalizados' && e.ativo) return false;
+    if(!termos.length) return true;
+    var alvo=semAcento(CAMPOS_BUSCA.map(function(c){return e[c]||'';}).join(' | '));
+    return termos.every(function(t){ return alvo.indexOf(t)>=0; });
+  });
+}
+
+function ordenar(lista){
+  var k=ordem.k;
+  var val=function(e){
+    if(k==='eta'||k==='etd'||k==='entrega') return chave(e[k]);
+    if(k==='qtdCntr') return e.qtdCntr;
+    return semAcento(e[k]||'');
+  };
+  return lista.slice().sort(function(a,b){
+    var x=val(a), y=val(b);
+    var vx=(x===''||x===0&&k!=='qtdCntr'), vy=(y===''||y===0&&k!=='qtdCntr');
+    if(vx!==vy) return vx?1:-1;                 // vazios sempre no fim
+    if(x<y) return ordem.asc?-1:1;
+    if(x>y) return ordem.asc?1:-1;
+    return semAcento(a.embarque).localeCompare(semAcento(b.embarque));
+  });
+}
+
+var COLS=[
+  {k:'produto',h:'Produto'},{k:'projeto',h:'Projeto'},{k:'codProjeto',h:'Cód. projeto'},
+  {k:'embarque',h:'Embarque'},{k:'pedido',h:'Pedido'},{k:'fornecedor',h:'Fornecedor'},
+  {k:'invoice',h:'Invoice'},{k:'qtdCntr',h:'Containers'},{k:'etd',h:'ETD'},{k:'eta',h:'ETA'},
+  {k:'entrega',h:'Prev. entrega cliente'},{k:'status',h:'Status'}
+];
+
+function render(){
+  var termos=termosDaBusca();
+  var lista=ordenar(filtrar(termos));
+  document.getElementById('count').textContent =
+    lista.length+(lista.length===1?' item':' itens')+' de '+DADOS.itens.length;
+  if(!lista.length){
+    document.getElementById('res').innerHTML='<div class="empty">Nenhum item encontrado'+(termos.length?' para essa busca':'')+'</div>';
+    return;
+  }
+  var th=COLS.map(function(c){
+    var seta=ordem.k===c.k?(ordem.asc?' ▲':' ▼'):'';
+    return '<th class="sortable" data-k="'+c.k+'">'+c.h+seta+'</th>';
+  }).join('');
+  var tr=lista.map(function(e){
+    return '<tr>'+
+      '<td class="prod">'+hl(e.produto,termos)+'</td>'+
+      '<td style="white-space:normal;min-width:150px;">'+hl(e.projeto,termos)+'</td>'+
+      '<td>'+hl(e.codProjeto,termos)+'</td>'+
+      '<td class="strong">'+hl(e.embarque,termos)+'</td>'+
+      '<td>'+hl(e.pedido,termos)+'</td>'+
+      '<td style="white-space:normal;min-width:140px;">'+hl(e.fornecedor,termos)+'</td>'+
+      '<td>'+hl(e.invoice,termos)+'</td>'+
+      '<td>'+cntr(e)+'</td>'+
+      '<td>'+dt(e.etd)+'</td>'+
+      '<td>'+dt(e.eta)+'</td>'+
+      '<td>'+dt(e.entrega)+'</td>'+
+      '<td>'+badgeStatus(e.status)+'</td>'+
+    '</tr>';
+  }).join('');
+  document.getElementById('res').innerHTML='<table><thead><tr>'+th+'</tr></thead><tbody>'+tr+'</tbody></table>';
+  Array.prototype.forEach.call(document.querySelectorAll('th.sortable'),function(el){
+    el.onclick=function(){
+      var k=el.getAttribute('data-k');
+      if(ordem.k===k) ordem.asc=!ordem.asc; else ordem={k:k,asc:true};
+      render();
+    };
+  });
+}
+
+function renderFiltros(){
+  var ops=[['ativos','Em andamento ('+DADOS.ativos+')'],['todos','Todos ('+DADOS.total+')'],
+           ['finalizados','Finalizados ('+(DADOS.total-DADOS.ativos)+')']];
+  var el=document.getElementById('filtros');
+  el.innerHTML=ops.map(function(o){
+    return '<button class="fbtn'+(filtro===o[0]?' on':'')+'" data-f="'+o[0]+'">'+o[1]+'</button>';
+  }).join('');
+  Array.prototype.forEach.call(el.querySelectorAll('button'),function(b){
+    b.onclick=function(){ filtro=b.getAttribute('data-f'); renderFiltros(); render(); };
+  });
+}
+
+function init(){
+  var now=new Date();
+  document.getElementById('hdr-date').textContent=now.toLocaleDateString('pt-BR',{weekday:'short',day:'2-digit',month:'2-digit',year:'numeric'});
+  document.getElementById('hdr-update').textContent='Dados de '+DADOS.geradoEm;
+  document.getElementById('footer-update').textContent='Gerado em '+DADOS.geradoEm;
+  document.getElementById('q').addEventListener('input',render);
+  renderFiltros();
+  render();
+}
+init();
+</script>
+</body>
+</html>
