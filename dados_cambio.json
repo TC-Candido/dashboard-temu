@@ -1,5 +1,5 @@
 {
-  "geradoEm": "08/11/2026 19:37",
+  "geradoEm": "08/11/2026 20:00",
   "kpis": {
     "totalSaldo": 2844101.62,
     "qtdAberto": 46,
@@ -96,9 +96,9 @@
       "pago3": 83129.96,
       "saldo": 83129.96,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "13/11/2026",
-      "previsaoDias": 5,
-      "previsaoLabel": "5 dias",
+      "previsao": "16/11/2026",
+      "previsaoDias": 8,
+      "previsaoLabel": "8 dias",
       "statusVenc": "Vence em 30 dias",
       "pagoEUA": 0
     },
@@ -117,9 +117,9 @@
       "pago3": 3696.0,
       "saldo": 3696.0,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "13/11/2026",
-      "previsaoDias": 5,
-      "previsaoLabel": "5 dias",
+      "previsao": "16/11/2026",
+      "previsaoDias": 8,
+      "previsaoLabel": "8 dias",
       "statusVenc": "Vence em 30 dias",
       "pagoEUA": 0
     }
@@ -2198,9 +2198,9 @@
       "pago3": 83129.96,
       "saldo": 83129.96,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "13/11/2026",
-      "previsaoDias": 5,
-      "previsaoLabel": "5 dias",
+      "previsao": "16/11/2026",
+      "previsaoDias": 8,
+      "previsaoLabel": "8 dias",
       "statusVenc": "Vence em 30 dias",
       "pagoEUA": 0
     },
@@ -2219,9 +2219,9 @@
       "pago3": 3696.0,
       "saldo": 3696.0,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "13/11/2026",
-      "previsaoDias": 5,
-      "previsaoLabel": "5 dias",
+      "previsao": "16/11/2026",
+      "previsaoDias": 8,
+      "previsaoLabel": "8 dias",
       "statusVenc": "Vence em 30 dias",
       "pagoEUA": 0
     },
