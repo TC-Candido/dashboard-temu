@@ -1,5 +1,5 @@
 {
-  "geradoEm": "08/11/2026 22:00",
+  "geradoEm": "08/11/2026 22:34",
   "hoje": "08/11/2026",
   "limChegada": "23/11/2026",
   "limProntidao": "23/11/2026",
@@ -179,9 +179,9 @@
     "provisao15": 0,
     "prontidaoQtd": 4,
     "confirmarQtd": 0,
-    "prontosSemEtd": 6,
+    "prontosSemEtd": 7,
     "faltandoQtd": 35,
-    "semDadosQtd": 6,
+    "semDadosQtd": 5,
     "abertosQtd": 15,
     "prontidaoMes": 7,
     "chegandoMes": 10,
@@ -489,6 +489,28 @@
   ],
   "prontosSemEtd": [
     {
+      "embarque": "TEMU172",
+      "codProjeto": "TL-00117",
+      "projeto": "Projeto San Bernardo lll",
+      "fornecedor": "Honesty",
+      "destino": "Asuncion",
+      "qtdCntr": 0,
+      "tipoCntr": "",
+      "pedido": "99-00234",
+      "invoice": "SH-ZXH-261102",
+      "abertura": "02/11/2026",
+      "diasAbertura": -6,
+      "status": "EM PRODUÇÃO",
+      "prontidao": "04/01/2026",
+      "etd": null,
+      "eta": null,
+      "etdConf": null,
+      "etaConf": null,
+      "diasProntidao": -308,
+      "diasEtd": null,
+      "diasEta": null
+    },
+    {
       "embarque": "TEMU136 / TEMU134-2",
       "codProjeto": "TL-00100",
       "projeto": "Projeto San Bernardo ll",
@@ -732,28 +754,6 @@
       "diasProntidao": null,
       "diasEtd": null,
       "diasEta": null
-    },
-    {
-      "embarque": "TEMU172",
-      "codProjeto": "TL-00117",
-      "projeto": "Projeto San Bernardo lll",
-      "fornecedor": "Honesty",
-      "destino": "Asuncion",
-      "qtdCntr": 0,
-      "tipoCntr": "",
-      "pedido": "99-00234",
-      "invoice": "SH-ZXH-261102",
-      "abertura": "02/11/2026",
-      "diasAbertura": -6,
-      "status": "EM PRODUÇÃO",
-      "prontidao": null,
-      "etd": null,
-      "eta": null,
-      "etdConf": null,
-      "etaConf": null,
-      "diasProntidao": null,
-      "diasEtd": null,
-      "diasEta": null
     }
   ],
   "abertos": [
@@ -946,12 +946,12 @@
       "abertura": "02/11/2026",
       "diasAbertura": -6,
       "status": "EM PRODUÇÃO",
-      "prontidao": null,
+      "prontidao": "04/01/2026",
       "etd": null,
       "eta": null,
       "etdConf": null,
       "etaConf": null,
-      "diasProntidao": null,
+      "diasProntidao": -308,
       "diasEtd": null,
       "diasEta": null
     },
@@ -1419,16 +1419,16 @@
         "abertura": "02/11/2026",
         "diasAbertura": -6,
         "status": "EM PRODUÇÃO",
-        "prontidao": null,
+        "prontidao": "04/01/2026",
         "etd": null,
         "eta": null,
         "etdConf": null,
         "etaConf": null,
-        "diasProntidao": null,
+        "diasProntidao": -308,
         "diasEtd": null,
         "diasEta": null,
         "faltas": [
-          "Prontidão",
+          "ETD",
           "Qtd de containers"
         ]
       },
@@ -2034,8 +2034,9 @@
       "prioridade": "media",
       "titulo": "Definir ETD dos processos prontos",
       "detalhe": "Prontidão já passou e ainda não há previsão de embarque.",
-      "qtd": 6,
+      "qtd": 7,
       "itens": [
+        "TEMU172",
         "TEMU136 / TEMU134-2",
         "TEMU133-2",
         "TEMU121-2",
@@ -2048,14 +2049,13 @@
       "prioridade": "alta",
       "titulo": "Processos sem containers e sem prontidão",
       "detalhe": "Sem quantidade de containers e sem previsão de prontidão: levantar com o fornecedor/agente.",
-      "qtd": 6,
+      "qtd": 5,
       "itens": [
         "TEMU143",
         "TEMU147",
         "TEMU163",
         "TEMU166",
-        "TEMU170",
-        "TEMU172"
+        "TEMU170"
       ]
     },
     {
