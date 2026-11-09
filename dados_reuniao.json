@@ -1,5 +1,5 @@
 {
-  "geradoEm": "09/11/2026 07:00",
+  "geradoEm": "09/11/2026 07:34",
   "hoje": "09/11/2026",
   "limChegada": "24/11/2026",
   "limProntidao": "24/11/2026",
@@ -9,12 +9,12 @@
   "diasEtaAtraso": 5,
   "diasAbertura": 15,
   "dolar": {
-    "atual": 5.5076,
+    "atual": 5.5031,
     "data": "09/11/2026",
-    "variacao": 0.0026,
-    "variacaoPct": 0.05,
+    "variacao": -0.0019,
+    "variacaoPct": -0.03,
     "min": 4.9648,
-    "max": 5.5076,
+    "max": 5.505,
     "serie": [
       {
         "d": "04/10",
@@ -164,12 +164,12 @@
       {
         "d": "09/11",
         "iso": "2026-11-09",
-        "v": 5.5076
+        "v": 5.5031
       }
     ],
     "fonte": "Dólar comercial (compra) — AwesomeAPI",
     "titulo": "Dólar comercial — flutuante",
-    "hora": "04:30",
+    "hora": "07:00",
     "desatualizado": false
   },
   "coresLidas": true,
@@ -180,12 +180,12 @@
     "prontidaoQtd": 4,
     "confirmarQtd": 0,
     "prontosSemEtd": 7,
-    "faltandoQtd": 31,
-    "semDadosQtd": 5,
+    "faltandoQtd": 32,
+    "semDadosQtd": 6,
     "abertosQtd": 15,
     "prontidaoMes": 7,
     "chegandoMes": 7,
-    "emAndamento": 51,
+    "emAndamento": 52,
     "finalizados": 21
   },
   "etapas": [
@@ -207,7 +207,7 @@
     },
     {
       "nome": "Sem status",
-      "qtd": 1
+      "qtd": 2
     }
   ],
   "chegandoOp": [
@@ -745,6 +745,28 @@
       "diasProntidao": null,
       "diasEtd": null,
       "diasEta": null
+    },
+    {
+      "embarque": "TEMU174",
+      "codProjeto": "TL-00117",
+      "projeto": "Projeto San Bernardo lll",
+      "fornecedor": "Temu",
+      "destino": "",
+      "qtdCntr": 0,
+      "tipoCntr": "",
+      "pedido": "Gestaçao / 99-00122 / Maternidades / 99-00132",
+      "invoice": "26TM0680 / 26TM0681 / 26TM0699 / 26TM0700 / 26TM0701 / 26TM0702 / 26TM0676 / 26TM0677",
+      "abertura": null,
+      "diasAbertura": null,
+      "status": "",
+      "prontidao": null,
+      "etd": null,
+      "eta": null,
+      "etdConf": null,
+      "etaConf": null,
+      "diasProntidao": null,
+      "diasEtd": null,
+      "diasEta": null
     }
   ],
   "abertos": [
@@ -1168,6 +1190,33 @@
         "tipoCntr": "",
         "pedido": "",
         "invoice": "26MTAZU010",
+        "abertura": null,
+        "diasAbertura": null,
+        "status": "",
+        "prontidao": null,
+        "etd": null,
+        "eta": null,
+        "etdConf": null,
+        "etaConf": null,
+        "diasProntidao": null,
+        "diasEtd": null,
+        "diasEta": null,
+        "faltas": [
+          "Prontidão",
+          "Qtd de containers",
+          "Status"
+        ]
+      },
+      {
+        "embarque": "TEMU174",
+        "codProjeto": "TL-00117",
+        "projeto": "Projeto San Bernardo lll",
+        "fornecedor": "Temu",
+        "destino": "",
+        "qtdCntr": 0,
+        "tipoCntr": "",
+        "pedido": "Gestaçao / 99-00122 / Maternidades / 99-00132",
+        "invoice": "26TM0680 / 26TM0681 / 26TM0699 / 26TM0700 / 26TM0701 / 26TM0702 / 26TM0676 / 26TM0677",
         "abertura": null,
         "diasAbertura": null,
         "status": "",
@@ -1990,22 +2039,24 @@
       "prioridade": "alta",
       "titulo": "Processos sem containers e sem prontidão",
       "detalhe": "Sem quantidade de containers e sem previsão de prontidão: levantar com o fornecedor/agente.",
-      "qtd": 5,
+      "qtd": 6,
       "itens": [
         "TEMU143",
         "TEMU147",
         "TEMU163",
         "TEMU166",
-        "TEMU170"
+        "TEMU170",
+        "TEMU174"
       ]
     },
     {
       "prioridade": "media",
       "titulo": "Preencher informações faltando",
       "detalhe": "Processos com dados em branco na planilha (prontidão, ETD, ETA, status ou valor).",
-      "qtd": 31,
+      "qtd": 32,
       "itens": [
         "TEMU143",
+        "TEMU174",
         "TEMU121-2",
         "TEMU126-2",
         "TEMU133-2",
