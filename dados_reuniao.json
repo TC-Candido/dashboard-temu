@@ -1,5 +1,5 @@
 {
-  "geradoEm": "09/11/2026 10:00",
+  "geradoEm": "09/11/2026 10:34",
   "hoje": "09/11/2026",
   "limChegada": "24/11/2026",
   "limProntidao": "24/11/2026",
@@ -9,12 +9,12 @@
   "diasEtaAtraso": 5,
   "diasAbertura": 15,
   "dolar": {
-    "atual": 5.5102,
+    "atual": 5.5089,
     "data": "09/11/2026",
-    "variacao": 0.0052,
-    "variacaoPct": 0.09,
+    "variacao": 0.0039,
+    "variacaoPct": 0.07,
     "min": 4.9648,
-    "max": 5.5102,
+    "max": 5.5089,
     "serie": [
       {
         "d": "04/10",
@@ -164,12 +164,12 @@
       {
         "d": "09/11",
         "iso": "2026-11-09",
-        "v": 5.5102
+        "v": 5.5089
       }
     ],
     "fonte": "Dólar comercial (compra) — AwesomeAPI",
     "titulo": "Dólar comercial — flutuante",
-    "hora": "09:55",
+    "hora": "10:27",
     "desatualizado": false
   },
   "coresLidas": true,
@@ -1421,7 +1421,7 @@
         "embarque": "TEMU148-3",
         "codProjeto": "TL-00120",
         "projeto": "Projeto Miotto",
-        "fornecedor": "",
+        "fornecedor": "Temu",
         "destino": "",
         "qtdCntr": 1,
         "tipoCntr": "40HC",

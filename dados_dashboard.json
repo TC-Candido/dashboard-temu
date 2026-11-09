@@ -1,5 +1,5 @@
 {
-  "geradoEm": "09/11/2026 10:00",
+  "geradoEm": "09/11/2026 10:34",
   "kpis": {
     "totalProjetos": 18,
     "totalContainers": 47,
@@ -16,7 +16,7 @@
   },
   "fornecedorCounts": {
     "Hontech-Wins": 4,
-    "Temu": 32,
+    "Temu": 33,
     "Honesty": 12,
     "Faread": 1,
     "Honesty\nTemu": 1,
@@ -1592,7 +1592,7 @@
       "embarque": "TEMU148-3",
       "codProjeto": "TL-00120",
       "projeto": "Projeto Miotto",
-      "fornecedor": "",
+      "fornecedor": "Temu",
       "destino": "",
       "qtdCntr": 1,
       "tipoCntr": "40HC",

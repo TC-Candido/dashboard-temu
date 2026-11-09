@@ -1,5 +1,5 @@
 {
-  "geradoEm": "09/11/2026 10:00",
+  "geradoEm": "09/11/2026 10:34",
   "total": 74,
   "ativos": 53,
   "itens": [
@@ -1131,7 +1131,7 @@
       "codProjeto": "TL-00120",
       "embarque": "TEMU148-3",
       "pedido": "99-00224 / 99-0022526 / TM0901 (sem pedido feito)",
-      "fornecedor": "",
+      "fornecedor": "Temu",
       "invoice": "26TM0870 / 26TM0871 / amostra - hontech / 26TM0901",
       "qtdCntr": 1,
       "tipoCntr": "40HC",
