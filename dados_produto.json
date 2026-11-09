@@ -1,5 +1,5 @@
 {
-  "geradoEm": "08/11/2026 22:34",
+  "geradoEm": "08/11/2026 23:00",
   "total": 72,
   "ativos": 51,
   "itens": [
@@ -946,8 +946,8 @@
       "pedido": "99-00490",
       "fornecedor": "Temu",
       "invoice": "26TM0873",
-      "qtdCntr": 0,
-      "tipoCntr": "",
+      "qtdCntr": 1,
+      "tipoCntr": "20GP",
       "etd": "10/01/2027",
       "eta": "10/04/2027",
       "entrega": "20/04/2027",
