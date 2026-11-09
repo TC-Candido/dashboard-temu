@@ -1,5 +1,5 @@
 {
-  "geradoEm": "09/11/2026 08:00",
+  "geradoEm": "09/11/2026 08:34",
   "kpis": {
     "totalProjetos": 18,
     "totalContainers": 47,
@@ -12,7 +12,7 @@
     "SOBRE AGUAS": 12,
     "VISTORIA": 7,
     "EM PRODUÇÃO": 27,
-    "": 2
+    "": 3
   },
   "fornecedorCounts": {
     "Hontech-Wins": 4,
@@ -1574,8 +1574,8 @@
       "projeto": "Projeto Miotto",
       "fornecedor": "Temu",
       "destino": "Navegantes",
-      "qtdCntr": 0,
-      "tipoCntr": "",
+      "qtdCntr": 3,
+      "tipoCntr": "2x40hc\n1x20GP",
       "prontidao": "2026-11-10 00:00:00",
       "etd": null,
       "eta": null,
@@ -1584,8 +1584,28 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0867\n26TM0868\n26TM0869\n26TM0870\n26TM0871\n26TM0872\namostra - hontech\n26TM0901",
-      "pedido": "99-00219\n99-00220 \n99-00223\n99-00224\n99-00225\n99-00585\n26TM0901 (sem pedido feito)",
+      "invoice": "26TM0867\n26TM0868\n26TM0869\n26TM0872",
+      "pedido": "99-00219\n99-00220 \n99-00223\n99-00585",
+      "abertura": null
+    },
+    {
+      "embarque": "TEMU148-3",
+      "codProjeto": "TL-00120",
+      "projeto": "Projeto Miotto",
+      "fornecedor": "",
+      "destino": "",
+      "qtdCntr": 1,
+      "tipoCntr": "40HC",
+      "prontidao": "",
+      "etd": null,
+      "eta": null,
+      "status": "",
+      "statusOp": "Sem Prontidão e ETD",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "26TM0870\n26TM0871\namostra - hontech\n26TM0901",
+      "pedido": "99-00224\n99-0022526\nTM0901 (sem pedido feito)",
       "abertura": null
     },
     {

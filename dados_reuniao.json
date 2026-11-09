@@ -1,5 +1,5 @@
 {
-  "geradoEm": "09/11/2026 08:00",
+  "geradoEm": "09/11/2026 08:34",
   "hoje": "09/11/2026",
   "limChegada": "24/11/2026",
   "limProntidao": "24/11/2026",
@@ -185,7 +185,7 @@
     "abertosQtd": 15,
     "prontidaoMes": 7,
     "chegandoMes": 7,
-    "emAndamento": 52,
+    "emAndamento": 53,
     "finalizados": 21
   },
   "etapas": [
@@ -207,7 +207,7 @@
     },
     {
       "nome": "Sem status",
-      "qtd": 2
+      "qtd": 3
     }
   ],
   "chegandoOp": [
@@ -395,10 +395,10 @@
       "projeto": "Projeto Miotto",
       "fornecedor": "Temu",
       "destino": "Navegantes",
-      "qtdCntr": 0,
-      "tipoCntr": "",
-      "pedido": "99-00219 / 99-00220 / 99-00223 / 99-00224 / 99-00225 / 99-00585 / 26TM0901 (sem pedido feito)",
-      "invoice": "26TM0867 / 26TM0868 / 26TM0869 / 26TM0870 / 26TM0871 / 26TM0872 / amostra - hontech / 26TM0901",
+      "qtdCntr": 3,
+      "tipoCntr": "2x40hc / 1x20GP",
+      "pedido": "99-00219 / 99-00220 / 99-00223 / 99-00585",
+      "invoice": "26TM0867 / 26TM0868 / 26TM0869 / 26TM0872",
       "abertura": null,
       "diasAbertura": null,
       "status": "EM PRODUÇÃO",
@@ -1418,6 +1418,32 @@
         ]
       },
       {
+        "embarque": "TEMU148-3",
+        "codProjeto": "TL-00120",
+        "projeto": "Projeto Miotto",
+        "fornecedor": "",
+        "destino": "",
+        "qtdCntr": 1,
+        "tipoCntr": "40HC",
+        "pedido": "99-00224 / 99-0022526 / TM0901 (sem pedido feito)",
+        "invoice": "26TM0870 / 26TM0871 / amostra - hontech / 26TM0901",
+        "abertura": null,
+        "diasAbertura": null,
+        "status": "",
+        "prontidao": null,
+        "etd": null,
+        "eta": null,
+        "etdConf": null,
+        "etaConf": null,
+        "diasProntidao": null,
+        "diasEtd": null,
+        "diasEta": null,
+        "faltas": [
+          "Prontidão",
+          "Status"
+        ]
+      },
+      {
         "embarque": "TEMU162",
         "codProjeto": "TL-99999",
         "projeto": "Agroterm, Miotto Farm and Temu Latam Test",
@@ -1702,31 +1728,6 @@
         "provisao": null,
         "faltas": [
           "Valor no financeiro"
-        ]
-      },
-      {
-        "embarque": "TEMU148-2",
-        "codProjeto": "TL-00120",
-        "projeto": "Projeto Miotto",
-        "fornecedor": "Temu",
-        "destino": "Navegantes",
-        "qtdCntr": 0,
-        "tipoCntr": "",
-        "pedido": "99-00219 / 99-00220 / 99-00223 / 99-00224 / 99-00225 / 99-00585 / 26TM0901 (sem pedido feito)",
-        "invoice": "26TM0867 / 26TM0868 / 26TM0869 / 26TM0870 / 26TM0871 / 26TM0872 / amostra - hontech / 26TM0901",
-        "abertura": null,
-        "diasAbertura": null,
-        "status": "EM PRODUÇÃO",
-        "prontidao": "10/11/2026",
-        "etd": null,
-        "eta": null,
-        "etdConf": null,
-        "etaConf": null,
-        "diasProntidao": 1,
-        "diasEtd": null,
-        "diasEta": null,
-        "faltas": [
-          "Qtd de containers"
         ]
       },
       {
@@ -2064,6 +2065,7 @@
         "TEMU138",
         "TEMU139",
         "TEMU147",
+        "TEMU148-3",
         "TEMU162",
         "TEMU163",
         "TEMU166",
@@ -2075,7 +2077,6 @@
         "TEMU134 - 4",
         "TEMU134 -3",
         "TEMU146",
-        "TEMU148-2",
         "TEMU152",
         "TEMU157",
         "TEMU158",
