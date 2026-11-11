@@ -1,5 +1,5 @@
 {
-  "geradoEm": "11/11/2026 15:34",
+  "geradoEm": "11/11/2026 16:00",
   "hoje": "11/11/2026",
   "limChegada": "26/11/2026",
   "limProntidao": "26/11/2026",
@@ -9,10 +9,10 @@
   "diasEtaAtraso": 5,
   "diasAbertura": 15,
   "dolar": {
-    "atual": 5.5605,
+    "atual": 5.5596,
     "data": "11/11/2026",
-    "variacao": -0.0224,
-    "variacaoPct": -0.4,
+    "variacao": -0.0233,
+    "variacaoPct": -0.42,
     "min": 4.9648,
     "max": 5.5829,
     "serie": [
@@ -164,12 +164,12 @@
       {
         "d": "11/11",
         "iso": "2026-11-11",
-        "v": 5.5605
+        "v": 5.5596
       }
     ],
     "fonte": "Dólar comercial (compra) — AwesomeAPI",
     "titulo": "Dólar comercial — flutuante",
-    "hora": "15:29",
+    "hora": "15:54",
     "desatualizado": false
   },
   "coresLidas": true,
@@ -199,11 +199,11 @@
     },
     {
       "nome": "Sobre águas",
-      "qtd": 12
+      "qtd": 10
     },
     {
       "nome": "Desembaraço",
-      "qtd": 4
+      "qtd": 6
     },
     {
       "nome": "Sem status",
