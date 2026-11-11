@@ -1,9 +1,9 @@
 {
-  "geradoEm": "10/11/2026 21:34",
+  "geradoEm": "11/11/2026 09:00",
   "kpis": {
     "totalProjetos": 18,
     "totalContainers": 47,
-    "etd7dias": 4,
+    "etd7dias": 3,
     "chegando10dias": 4
   },
   "statusCounts": {
@@ -24,26 +24,6 @@
     "Daltec": 1
   },
   "proximosETD": [
-    {
-      "embarque": "TEMU137",
-      "codProjeto": "TL-00120",
-      "projeto": "Projeto Miotto + agroter + Estoque + Garantia",
-      "fornecedor": "Honesty",
-      "destino": "Navegantes",
-      "qtdCntr": 1,
-      "tipoCntr": "40hc",
-      "prontidao": "2026-10-25 00:00:00",
-      "etd": "10/11/2026",
-      "eta": "02/01/2027",
-      "status": "VISTORIA",
-      "statusOp": "Prontidão e ETD OK",
-      "etd7dias": true,
-      "chegando10": false,
-      "observacoes": "ABRIR PROCESSO COM DESPACHANTE",
-      "invoice": "SH-ZXH-260917\nSH-ZXH-260714\n4 Units Auto Sow\n SH-ZXH-260814\n SH-ZXH-260811\nGRAMPO\nCOMEDOURO\nFRD2026092301",
-      "pedido": "99-00585",
-      "abertura": "15/09/2026"
-    },
     {
       "embarque": "TEMU160",
       "codProjeto": "TL-00117",
@@ -143,6 +123,26 @@
       "invoice": "SH-ZXH-260928\n26TM0878",
       "pedido": "99-00628",
       "abertura": null
+    },
+    {
+      "embarque": "TEMU150-1",
+      "codProjeto": "TL-00117",
+      "projeto": "Projeto San Bernardo lll",
+      "fornecedor": "Honesty",
+      "destino": "Asuncion",
+      "qtdCntr": 12,
+      "tipoCntr": "40hc",
+      "prontidao": "2026-11-25 00:00:00",
+      "etd": "05/12/2026",
+      "eta": "05/03/2027",
+      "status": "EM PRODUÇÃO",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "SH-ZXH-261009-A",
+      "pedido": "99-00122",
+      "abertura": "16/10/2026"
     }
   ],
   "proximosETA": [
@@ -1021,7 +1021,7 @@
       "eta": "02/01/2027",
       "status": "VISTORIA",
       "statusOp": "Prontidão e ETD OK",
-      "etd7dias": true,
+      "etd7dias": false,
       "chegando10": false,
       "observacoes": "ABRIR PROCESSO COM DESPACHANTE",
       "invoice": "SH-ZXH-260917\nSH-ZXH-260714\n4 Units Auto Sow\n SH-ZXH-260814\n SH-ZXH-260811\nGRAMPO\nCOMEDOURO\nFRD2026092301",
