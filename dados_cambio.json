@@ -1,13 +1,13 @@
 {
-  "geradoEm": "11/11/2026 16:34",
+  "geradoEm": "11/11/2026 17:00",
   "kpis": {
-    "totalSaldo": 2993588.08,
-    "qtdAberto": 90,
+    "totalSaldo": 2997308.08,
+    "qtdAberto": 91,
     "venc30": 108555.92,
     "vencidos": 74683.29
   },
   "fornSaldo": {
-    "Honesty": 1178847.75,
+    "Honesty": 1182567.75,
     "Temu": 973780.05,
     "TEMU": 776166.39,
     "Hontech": 64793.89
@@ -15,7 +15,7 @@
   "statusCounts": {
     "Sem prazo - Verificar": 72,
     "Aguardando 3ª Parcela": 5,
-    "Aguardando 2ª Parcela": 13
+    "Aguardando 2ª Parcela": 14
   },
   "proximos": [
     {
@@ -2114,9 +2114,9 @@
       "pago3": 7892.1,
       "saldo": 0.0,
       "statusCambio": "Pago Total",
-      "previsao": "01/11/2026",
-      "previsaoDias": -10,
-      "previsaoLabel": "10d atrás",
+      "previsao": "02/11/2026",
+      "previsaoDias": -9,
+      "previsaoLabel": "9d atrás",
       "statusVenc": "Quitado",
       "pagoEUA": 0
     },
@@ -2135,9 +2135,9 @@
       "pago3": 462.0,
       "saldo": 0.0,
       "statusCambio": "Pago Total",
-      "previsao": "01/11/2026",
-      "previsaoDias": -10,
-      "previsaoLabel": "10d atrás",
+      "previsao": "02/11/2026",
+      "previsaoDias": -9,
+      "previsaoLabel": "9d atrás",
       "statusVenc": "Quitado",
       "pagoEUA": 0
     },
@@ -2617,6 +2617,27 @@
       "pct3": 0,
       "pago3": 0,
       "saldo": 74295.2,
+      "statusCambio": "Aguardando 2ª Parcela",
+      "previsao": null,
+      "previsaoDias": null,
+      "previsaoLabel": null,
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 0
+    },
+    {
+      "projeto": "Projeto San Bernardo lll",
+      "codProjeto": "TL-00117",
+      "embarque": "TEMU156-B",
+      "fornecedor": "Honesty",
+      "fatura": "SH-ZXH-261016-B",
+      "valor": 3720.0,
+      "pct1": 0,
+      "pago1": 0,
+      "pct2": 100.0,
+      "pago2": 3720.0,
+      "pct3": 0,
+      "pago3": 0,
+      "saldo": 3720.0,
       "statusCambio": "Aguardando 2ª Parcela",
       "previsao": null,
       "previsaoDias": null,

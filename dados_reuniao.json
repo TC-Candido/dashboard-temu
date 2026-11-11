@@ -1,5 +1,5 @@
 {
-  "geradoEm": "11/11/2026 16:34",
+  "geradoEm": "11/11/2026 17:00",
   "hoje": "11/11/2026",
   "limChegada": "26/11/2026",
   "limProntidao": "26/11/2026",
@@ -9,10 +9,10 @@
   "diasEtaAtraso": 5,
   "diasAbertura": 15,
   "dolar": {
-    "atual": 5.5608,
+    "atual": 5.5609,
     "data": "11/11/2026",
-    "variacao": -0.0221,
-    "variacaoPct": -0.4,
+    "variacao": -0.022,
+    "variacaoPct": -0.39,
     "min": 4.9648,
     "max": 5.5829,
     "serie": [
@@ -164,12 +164,12 @@
       {
         "d": "11/11",
         "iso": "2026-11-11",
-        "v": 5.5608
+        "v": 5.5609
       }
     ],
     "fonte": "Dólar comercial (compra) — AwesomeAPI",
     "titulo": "Dólar comercial — flutuante",
-    "hora": "16:29",
+    "hora": "16:59",
     "desatualizado": false
   },
   "coresLidas": true,
@@ -178,10 +178,10 @@
     "chegandoQtd": 7,
     "provisao15": 290000.0,
     "prontidaoQtd": 4,
-    "confirmarQtd": 0,
-    "prontosSemEtd": 8,
-    "faltandoQtd": 33,
-    "semDadosQtd": 8,
+    "confirmarQtd": 1,
+    "prontosSemEtd": 10,
+    "faltandoQtd": 34,
+    "semDadosQtd": 7,
     "abertosQtd": 14,
     "prontidaoMes": 5,
     "chegandoMes": 7,
@@ -199,11 +199,11 @@
     },
     {
       "nome": "Sobre águas",
-      "qtd": 10
+      "qtd": 8
     },
     {
       "nome": "Desembaraço",
-      "qtd": 3
+      "qtd": 5
     },
     {
       "nome": "Sem status",
@@ -635,6 +635,52 @@
       "diasEta": null
     },
     {
+      "embarque": "TEMU163",
+      "codProjeto": "TL-00117",
+      "projeto": "Projeto San Bernardo lll",
+      "fornecedor": "Daltec",
+      "destino": "Asuncion",
+      "qtdCntr": 0,
+      "tipoCntr": "",
+      "pedido": "99-00355",
+      "invoice": "O-046401",
+      "abertura": "28/10/2026",
+      "diasAbertura": -14,
+      "status": "EM PRODUÇÃO",
+      "prontidao": "03/11/2026",
+      "etd": null,
+      "eta": null,
+      "etdConf": null,
+      "etaConf": null,
+      "diasProntidao": -8,
+      "diasEtd": null,
+      "diasEta": null
+    },
+    {
+      "embarque": "TEMU156-B",
+      "codProjeto": "TL-00117",
+      "projeto": "Projeto San Bernardo lll",
+      "fornecedor": "Honesty",
+      "destino": "Asuncion",
+      "qtdCntr": 6,
+      "tipoCntr": "20GP",
+      "pedido": "99-00313 / 99-00315",
+      "invoice": "SH-ZXH-261016-B",
+      "abertura": "01/10/2026",
+      "diasAbertura": -41,
+      "status": "EM PRODUÇÃO",
+      "prontidao": "10/11/2026",
+      "etd": null,
+      "eta": "30/03/1900",
+      "etdConf": null,
+      "etaConf": "previsao",
+      "diasProntidao": -1,
+      "diasEtd": null,
+      "diasEta": -46247,
+      "acao": "Confirmar se chegou (ETA ainda em vermelho)",
+      "acaoTipo": "confirmar"
+    },
+    {
       "embarque": "TEMU148-2",
       "codProjeto": "TL-00120",
       "projeto": "Projeto Miotto",
@@ -692,28 +738,6 @@
       "invoice": "26TM0628",
       "abertura": null,
       "diasAbertura": null,
-      "status": "EM PRODUÇÃO",
-      "prontidao": null,
-      "etd": null,
-      "eta": null,
-      "etdConf": null,
-      "etaConf": null,
-      "diasProntidao": null,
-      "diasEtd": null,
-      "diasEta": null
-    },
-    {
-      "embarque": "TEMU163",
-      "codProjeto": "TL-00117",
-      "projeto": "Projeto San Bernardo lll",
-      "fornecedor": "Daltec",
-      "destino": "Asuncion",
-      "qtdCntr": 0,
-      "tipoCntr": "",
-      "pedido": "99-00355",
-      "invoice": "O-046401",
-      "abertura": "28/10/2026",
-      "diasAbertura": -14,
       "status": "EM PRODUÇÃO",
       "prontidao": null,
       "etd": null,
@@ -1057,6 +1081,28 @@
       "diasEta": 129
     },
     {
+      "embarque": "TEMU163",
+      "codProjeto": "TL-00117",
+      "projeto": "Projeto San Bernardo lll",
+      "fornecedor": "Daltec",
+      "destino": "Asuncion",
+      "qtdCntr": 0,
+      "tipoCntr": "",
+      "pedido": "99-00355",
+      "invoice": "O-046401",
+      "abertura": "28/10/2026",
+      "diasAbertura": -14,
+      "status": "EM PRODUÇÃO",
+      "prontidao": "03/11/2026",
+      "etd": null,
+      "eta": null,
+      "etdConf": null,
+      "etaConf": null,
+      "diasProntidao": -8,
+      "diasEtd": null,
+      "diasEta": null
+    },
+    {
       "embarque": "TEMU162",
       "codProjeto": "TL-99999",
       "projeto": "Agroterm, Miotto Farm and Temu Latam Test",
@@ -1102,28 +1148,6 @@
       "diasEta": null
     },
     {
-      "embarque": "TEMU163",
-      "codProjeto": "TL-00117",
-      "projeto": "Projeto San Bernardo lll",
-      "fornecedor": "Daltec",
-      "destino": "Asuncion",
-      "qtdCntr": 0,
-      "tipoCntr": "",
-      "pedido": "99-00355",
-      "invoice": "O-046401",
-      "abertura": "28/10/2026",
-      "diasAbertura": -14,
-      "status": "EM PRODUÇÃO",
-      "prontidao": null,
-      "etd": null,
-      "eta": null,
-      "etdConf": null,
-      "etaConf": null,
-      "diasProntidao": null,
-      "diasEtd": null,
-      "diasEta": null
-    },
-    {
       "embarque": "TEMU161",
       "codProjeto": "TL-00117",
       "projeto": "Projeto San Bernardo lll",
@@ -1149,6 +1173,30 @@
   "alertas": {
     "confirmarEmbarque": [],
     "etaVencido": [
+      {
+        "embarque": "TEMU156-B",
+        "codProjeto": "TL-00117",
+        "projeto": "Projeto San Bernardo lll",
+        "fornecedor": "Honesty",
+        "destino": "Asuncion",
+        "qtdCntr": 6,
+        "tipoCntr": "20GP",
+        "pedido": "99-00313 / 99-00315",
+        "invoice": "SH-ZXH-261016-B",
+        "abertura": "01/10/2026",
+        "diasAbertura": -41,
+        "status": "EM PRODUÇÃO",
+        "prontidao": "10/11/2026",
+        "etd": null,
+        "eta": "30/03/1900",
+        "etdConf": null,
+        "etaConf": "previsao",
+        "diasProntidao": -1,
+        "diasEtd": null,
+        "diasEta": -46247,
+        "acao": "Confirmar se chegou (ETA ainda em vermelho)",
+        "acaoTipo": "confirmar"
+      },
       {
         "embarque": "TEMU120",
         "codProjeto": "TL-00100",
@@ -1533,16 +1581,16 @@
         "abertura": "28/10/2026",
         "diasAbertura": -14,
         "status": "EM PRODUÇÃO",
-        "prontidao": null,
+        "prontidao": "03/11/2026",
         "etd": null,
         "eta": null,
         "etdConf": null,
         "etaConf": null,
-        "diasProntidao": null,
+        "diasProntidao": -8,
         "diasEtd": null,
         "diasEta": null,
         "faltas": [
-          "Prontidão",
+          "ETD",
           "Qtd de containers"
         ]
       },
@@ -1749,6 +1797,33 @@
         "diasProntidao": -1,
         "diasEtd": null,
         "diasEta": null,
+        "faltas": [
+          "ETD"
+        ]
+      },
+      {
+        "embarque": "TEMU156-B",
+        "codProjeto": "TL-00117",
+        "projeto": "Projeto San Bernardo lll",
+        "fornecedor": "Honesty",
+        "destino": "Asuncion",
+        "qtdCntr": 6,
+        "tipoCntr": "20GP",
+        "pedido": "99-00313 / 99-00315",
+        "invoice": "SH-ZXH-261016-B",
+        "abertura": "01/10/2026",
+        "diasAbertura": -41,
+        "status": "EM PRODUÇÃO",
+        "prontidao": "10/11/2026",
+        "etd": null,
+        "eta": "30/03/1900",
+        "etdConf": null,
+        "etaConf": "previsao",
+        "diasProntidao": -1,
+        "diasEtd": null,
+        "diasEta": -46247,
+        "acao": "Confirmar se chegou (ETA ainda em vermelho)",
+        "acaoTipo": "confirmar",
         "faltas": [
           "ETD"
         ]
@@ -2033,6 +2108,15 @@
   "pauta": [
     {
       "prioridade": "alta",
+      "titulo": "Confirmar chegada",
+      "detalhe": "ETA ainda em vermelho e a data já passou. Confirmar se o processo chegou.",
+      "qtd": 1,
+      "itens": [
+        "TEMU156-B"
+      ]
+    },
+    {
+      "prioridade": "alta",
       "titulo": "Atualizar status de chegadas",
       "detalhe": "ETA venceu há mais de 5 dias e o processo continua sem finalizar.",
       "qtd": 1,
@@ -2044,7 +2128,7 @@
       "prioridade": "media",
       "titulo": "Definir ETD dos processos prontos",
       "detalhe": "Prontidão já passou e ainda não há previsão de embarque.",
-      "qtd": 8,
+      "qtd": 10,
       "itens": [
         "TEMU174",
         "TEMU136 / TEMU134-2",
@@ -2053,6 +2137,8 @@
         "TEMU126-2",
         "TEMU138",
         "TEMU139",
+        "TEMU163",
+        "TEMU156-B",
         "TEMU148-2"
       ]
     },
@@ -2060,11 +2146,10 @@
       "prioridade": "alta",
       "titulo": "Processos sem containers e sem prontidão",
       "detalhe": "Sem quantidade de containers e sem previsão de prontidão: levantar com o fornecedor/agente.",
-      "qtd": 8,
+      "qtd": 7,
       "itens": [
         "TEMU143",
         "TEMU147",
-        "TEMU163",
         "TEMU166",
         "TEMU170",
         "TEMU175",
@@ -2076,7 +2161,7 @@
       "prioridade": "media",
       "titulo": "Preencher informações faltando",
       "detalhe": "Processos com dados em branco na planilha (prontidão, ETD, ETA, status ou valor).",
-      "qtd": 33,
+      "qtd": 34,
       "itens": [
         "TEMU143",
         "TEMU175",
@@ -2100,6 +2185,7 @@
         "TEMU134 -3",
         "TEMU146",
         "TEMU148-2",
+        "TEMU156-B",
         "TEMU157",
         "TEMU158",
         "TEMU160",
