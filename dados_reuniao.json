@@ -1,5 +1,5 @@
 {
-  "geradoEm": "11/11/2026 16:00",
+  "geradoEm": "11/11/2026 16:34",
   "hoje": "11/11/2026",
   "limChegada": "26/11/2026",
   "limProntidao": "26/11/2026",
@@ -9,10 +9,10 @@
   "diasEtaAtraso": 5,
   "diasAbertura": 15,
   "dolar": {
-    "atual": 5.5596,
+    "atual": 5.5608,
     "data": "11/11/2026",
-    "variacao": -0.0233,
-    "variacaoPct": -0.42,
+    "variacao": -0.0221,
+    "variacaoPct": -0.4,
     "min": 4.9648,
     "max": 5.5829,
     "serie": [
@@ -164,12 +164,12 @@
       {
         "d": "11/11",
         "iso": "2026-11-11",
-        "v": 5.5596
+        "v": 5.5608
       }
     ],
     "fonte": "Dólar comercial (compra) — AwesomeAPI",
     "titulo": "Dólar comercial — flutuante",
-    "hora": "15:54",
+    "hora": "16:29",
     "desatualizado": false
   },
   "coresLidas": true,
@@ -180,13 +180,13 @@
     "prontidaoQtd": 4,
     "confirmarQtd": 0,
     "prontosSemEtd": 8,
-    "faltandoQtd": 35,
+    "faltandoQtd": 33,
     "semDadosQtd": 8,
     "abertosQtd": 14,
     "prontidaoMes": 5,
     "chegandoMes": 7,
-    "emAndamento": 55,
-    "finalizados": 21
+    "emAndamento": 52,
+    "finalizados": 24
   },
   "etapas": [
     {
@@ -203,7 +203,7 @@
     },
     {
       "nome": "Desembaraço",
-      "qtd": 6
+      "qtd": 3
     },
     {
       "nome": "Sem status",
@@ -1150,78 +1150,6 @@
     "confirmarEmbarque": [],
     "etaVencido": [
       {
-        "embarque": "TEMU138 TEMU039",
-        "codProjeto": "TL-00117",
-        "projeto": "Projeto San Bernardo lll",
-        "fornecedor": "Hontech-Wins",
-        "destino": "",
-        "qtdCntr": 1,
-        "tipoCntr": "",
-        "pedido": "air",
-        "invoice": "HT-X26073001BR +  HT-X26073002BR",
-        "abertura": null,
-        "diasAbertura": null,
-        "status": "DESEMBRAÇO",
-        "prontidao": "31/08/2026",
-        "etd": "22/09/2026",
-        "eta": "07/10/2026",
-        "etdConf": "confirmado",
-        "etaConf": "confirmado",
-        "diasProntidao": -72,
-        "diasEtd": -50,
-        "diasEta": -35,
-        "acao": "Chegada confirmada: atualizar o status",
-        "acaoTipo": "atualizar"
-      },
-      {
-        "embarque": "TEMU152",
-        "codProjeto": "TL-00118",
-        "projeto": "Garantia Temu",
-        "fornecedor": "Honesty",
-        "destino": "Marau, RS BR",
-        "qtdCntr": 0,
-        "tipoCntr": "AIR",
-        "pedido": "portao",
-        "invoice": "SH-ZXH-261008",
-        "abertura": null,
-        "diasAbertura": null,
-        "status": "DESEMBRAÇO",
-        "prontidao": "13/10/2026",
-        "etd": "15/10/2026",
-        "eta": "03/11/2026",
-        "etdConf": "confirmado",
-        "etaConf": "confirmado",
-        "diasProntidao": -29,
-        "diasEtd": -27,
-        "diasEta": -8,
-        "acao": "Chegada confirmada: atualizar o status",
-        "acaoTipo": "atualizar"
-      },
-      {
-        "embarque": "TEMU107-2",
-        "codProjeto": "TL-00108",
-        "projeto": "Projeto Elton Endler",
-        "fornecedor": "Temu",
-        "destino": "Marau, RS BR",
-        "qtdCntr": 0,
-        "tipoCntr": "AIR",
-        "pedido": "99-00370 / 99-00330",
-        "invoice": "26TM0637-2",
-        "abertura": null,
-        "diasAbertura": null,
-        "status": "DESEMBRAÇO",
-        "prontidao": "20/10/2026",
-        "etd": "21/10/2026",
-        "eta": "03/11/2026",
-        "etdConf": "confirmado",
-        "etaConf": "confirmado",
-        "diasProntidao": -22,
-        "diasEtd": -21,
-        "diasEta": -8,
-        "acao": "Chegada confirmada: atualizar o status",
-        "acaoTipo": "atualizar"
-      },
-      {
         "embarque": "TEMU120",
         "codProjeto": "TL-00100",
         "projeto": "Projeto San Bernardo ll",
@@ -1697,33 +1625,6 @@
         ]
       },
       {
-        "embarque": "TEMU107-2",
-        "codProjeto": "TL-00108",
-        "projeto": "Projeto Elton Endler",
-        "fornecedor": "Temu",
-        "destino": "Marau, RS BR",
-        "qtdCntr": 0,
-        "tipoCntr": "AIR",
-        "pedido": "99-00370 / 99-00330",
-        "invoice": "26TM0637-2",
-        "abertura": null,
-        "diasAbertura": null,
-        "status": "DESEMBRAÇO",
-        "prontidao": "20/10/2026",
-        "etd": "21/10/2026",
-        "eta": "03/11/2026",
-        "etdConf": "confirmado",
-        "etaConf": "confirmado",
-        "diasProntidao": -22,
-        "diasEtd": -21,
-        "diasEta": -8,
-        "acao": "Chegada confirmada: atualizar o status",
-        "acaoTipo": "atualizar",
-        "faltas": [
-          "Qtd de containers"
-        ]
-      },
-      {
         "embarque": "TEMU133-1",
         "codProjeto": "TL-00100",
         "projeto": "Projeto San Bernardo ll",
@@ -1850,33 +1751,6 @@
         "diasEta": null,
         "faltas": [
           "ETD"
-        ]
-      },
-      {
-        "embarque": "TEMU152",
-        "codProjeto": "TL-00118",
-        "projeto": "Garantia Temu",
-        "fornecedor": "Honesty",
-        "destino": "Marau, RS BR",
-        "qtdCntr": 0,
-        "tipoCntr": "AIR",
-        "pedido": "portao",
-        "invoice": "SH-ZXH-261008",
-        "abertura": null,
-        "diasAbertura": null,
-        "status": "DESEMBRAÇO",
-        "prontidao": "13/10/2026",
-        "etd": "15/10/2026",
-        "eta": "03/11/2026",
-        "etdConf": "confirmado",
-        "etaConf": "confirmado",
-        "diasProntidao": -29,
-        "diasEtd": -27,
-        "diasEta": -8,
-        "acao": "Chegada confirmada: atualizar o status",
-        "acaoTipo": "atualizar",
-        "faltas": [
-          "Qtd de containers"
         ]
       },
       {
@@ -2161,11 +2035,8 @@
       "prioridade": "alta",
       "titulo": "Atualizar status de chegadas",
       "detalhe": "ETA venceu há mais de 5 dias e o processo continua sem finalizar.",
-      "qtd": 4,
+      "qtd": 1,
       "itens": [
-        "TEMU138 TEMU039",
-        "TEMU152",
-        "TEMU107-2",
         "TEMU120"
       ]
     },
@@ -2205,7 +2076,7 @@
       "prioridade": "media",
       "titulo": "Preencher informações faltando",
       "detalhe": "Processos com dados em branco na planilha (prontidão, ETD, ETA, status ou valor).",
-      "qtd": 35,
+      "qtd": 33,
       "itens": [
         "TEMU143",
         "TEMU175",
@@ -2224,13 +2095,11 @@
         "TEMU166",
         "TEMU170",
         "TEMU174",
-        "TEMU107-2",
         "TEMU133-1",
         "TEMU134 - 4",
         "TEMU134 -3",
         "TEMU146",
         "TEMU148-2",
-        "TEMU152",
         "TEMU157",
         "TEMU158",
         "TEMU160",

@@ -1,7 +1,7 @@
 {
-  "geradoEm": "11/11/2026 16:00",
+  "geradoEm": "11/11/2026 16:34",
   "total": 76,
-  "ativos": 55,
+  "ativos": 52,
   "itens": [
     {
       "produto": "",
@@ -357,8 +357,8 @@
       "eta": "07/10/2026",
       "entrega": null,
       "etaIso": "2026-10-07",
-      "status": "DESEMBRAÇO",
-      "ativo": true
+      "status": "FINALIZADO",
+      "ativo": false
     },
     {
       "produto": "Estoque e Brindes",
@@ -408,8 +408,8 @@
       "eta": "03/11/2026",
       "entrega": "03/11/2026",
       "etaIso": "2026-11-03",
-      "status": "DESEMBRAÇO",
-      "ativo": true
+      "status": "FINALIZADO",
+      "ativo": false
     },
     {
       "produto": "controladores",
@@ -425,7 +425,58 @@
       "eta": "03/11/2026",
       "entrega": "03/11/2026",
       "etaIso": "2026-11-03",
+      "status": "FINALIZADO",
+      "ativo": false
+    },
+    {
+      "produto": "Cooling pad -  Gable 1 / Cooling pad -  Gable 2 / Cooling pad -  Side Wall 1 / Cooling pad -  Side Wall 2 / Cooling pad galpão 1 / Cooling pad galpão 2 / Tunel Door galpão 1 / Tunel Door galpão 2",
+      "projeto": "Projeto San Bernardo ll",
+      "codProjeto": "TL-00100",
+      "embarque": "TEMU135",
+      "pedido": "99-00122",
+      "fornecedor": "Temu",
+      "invoice": "26TM0718 / 26TM0719 / 26TM0710 / 26TM0711 / 26TM0705 / 26TM0707 / 26TM0751 / 26TM0752",
+      "qtdCntr": 4,
+      "tipoCntr": "40hc",
+      "etd": "12/08/2026",
+      "eta": "10/11/2026",
+      "entrega": "22/11/2026",
+      "etaIso": "2026-11-10",
       "status": "DESEMBRAÇO",
+      "ativo": true
+    },
+    {
+      "produto": "Farrowing House GSB2",
+      "projeto": "Projeto San Bernardo ll",
+      "codProjeto": "TL-00100",
+      "embarque": "TEMU121-1",
+      "pedido": "99-00132",
+      "fornecedor": "Temu",
+      "invoice": "26TM0640-1",
+      "qtdCntr": 3,
+      "tipoCntr": "1x20GP / 2x40HC",
+      "etd": "31/08/2026",
+      "eta": "09/11/2026",
+      "entrega": "21/11/2026",
+      "etaIso": "2026-11-09",
+      "status": "DESEMBRAÇO",
+      "ativo": true
+    },
+    {
+      "produto": "Divided Grid (1 of 4) = 200 units / Male Cage (1 of 4) = 32 units / Farrowing Crate (1 of 4) = 700 units",
+      "projeto": "Projeto San Bernardo ll",
+      "codProjeto": "TL-00100",
+      "embarque": "TEMU125",
+      "pedido": "99-00132 / 99-00122 / 99-00358",
+      "fornecedor": "Honesty",
+      "invoice": "SH-ZXH-260617",
+      "qtdCntr": 13,
+      "tipoCntr": "40hc",
+      "etd": "10/09/2026",
+      "eta": "06/11/2026",
+      "entrega": "18/11/2026",
+      "etaIso": "2026-11-06",
+      "status": "SOBRE AGUAS",
       "ativo": true
     },
     {
@@ -460,57 +511,6 @@
       "entrega": "29/11/2026",
       "etaIso": "2026-11-17",
       "status": "SOBRE AGUAS",
-      "ativo": true
-    },
-    {
-      "produto": "Divided Grid (1 of 4) = 200 units / Male Cage (1 of 4) = 32 units / Farrowing Crate (1 of 4) = 700 units",
-      "projeto": "Projeto San Bernardo ll",
-      "codProjeto": "TL-00100",
-      "embarque": "TEMU125",
-      "pedido": "99-00132 / 99-00122 / 99-00358",
-      "fornecedor": "Honesty",
-      "invoice": "SH-ZXH-260617",
-      "qtdCntr": 13,
-      "tipoCntr": "40hc",
-      "etd": "10/09/2026",
-      "eta": "06/11/2026",
-      "entrega": "18/11/2026",
-      "etaIso": "2026-11-06",
-      "status": "SOBRE AGUAS",
-      "ativo": true
-    },
-    {
-      "produto": "Cooling pad -  Gable 1 / Cooling pad -  Gable 2 / Cooling pad -  Side Wall 1 / Cooling pad -  Side Wall 2 / Cooling pad galpão 1 / Cooling pad galpão 2 / Tunel Door galpão 1 / Tunel Door galpão 2",
-      "projeto": "Projeto San Bernardo ll",
-      "codProjeto": "TL-00100",
-      "embarque": "TEMU135",
-      "pedido": "99-00122",
-      "fornecedor": "Temu",
-      "invoice": "26TM0718 / 26TM0719 / 26TM0710 / 26TM0711 / 26TM0705 / 26TM0707 / 26TM0751 / 26TM0752",
-      "qtdCntr": 4,
-      "tipoCntr": "40hc",
-      "etd": "12/08/2026",
-      "eta": "10/11/2026",
-      "entrega": "22/11/2026",
-      "etaIso": "2026-11-10",
-      "status": "DESEMBRAÇO",
-      "ativo": true
-    },
-    {
-      "produto": "Farrowing House GSB2",
-      "projeto": "Projeto San Bernardo ll",
-      "codProjeto": "TL-00100",
-      "embarque": "TEMU121-1",
-      "pedido": "99-00132",
-      "fornecedor": "Temu",
-      "invoice": "26TM0640-1",
-      "qtdCntr": 3,
-      "tipoCntr": "1x20GP / 2x40HC",
-      "etd": "31/08/2026",
-      "eta": "09/11/2026",
-      "entrega": "21/11/2026",
-      "etaIso": "2026-11-09",
-      "status": "DESEMBRAÇO",
       "ativo": true
     },
     {
