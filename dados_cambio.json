@@ -1,21 +1,21 @@
 {
-  "geradoEm": "12/11/2026 15:00",
+  "geradoEm": "12/11/2026 15:34",
   "kpis": {
-    "totalSaldo": 2997308.08,
-    "qtdAberto": 91,
+    "totalSaldo": 2908378.8,
+    "qtdAberto": 88,
     "venc30": 86825.96,
     "vencidos": 96413.25
   },
   "fornSaldo": {
-    "Honesty": 1182567.75,
-    "Temu": 973780.05,
+    "Honesty": 1107993.05,
+    "Temu": 959425.47,
     "TEMU": 776166.39,
     "Hontech": 64793.89
   },
   "statusCounts": {
-    "Sem prazo - Verificar": 72,
+    "Sem prazo - Verificar": 73,
     "Aguardando 3ª Parcela": 5,
-    "Aguardando 2ª Parcela": 14
+    "Aguardando 2ª Parcela": 10
   },
   "proximos": [
     {
@@ -2238,12 +2238,12 @@
       "pago2": 13034.58,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 13034.58,
-      "statusCambio": "Aguardando 2ª Parcela",
+      "saldo": 0.0,
+      "statusCambio": "Pago Total",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão",
+      "statusVenc": "Quitado",
       "pagoEUA": 0
     },
     {
@@ -2280,12 +2280,12 @@
       "pago2": 1320.0,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 1320.0,
-      "statusCambio": "Aguardando 2ª Parcela",
+      "saldo": 0.0,
+      "statusCambio": "Pago Total",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão",
+      "statusVenc": "Quitado",
       "pagoEUA": 0
     },
     {
@@ -2616,12 +2616,12 @@
       "pago2": 74295.2,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 74295.2,
-      "statusCambio": "Aguardando 2ª Parcela",
+      "saldo": 0.0,
+      "statusCambio": "Pago Total",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão",
+      "statusVenc": "Quitado",
       "pagoEUA": 0
     },
     {
@@ -2637,12 +2637,12 @@
       "pago2": 3720.0,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 3720.0,
-      "statusCambio": "Aguardando 2ª Parcela",
+      "saldo": 0.0,
+      "statusCambio": "Pago Total",
       "previsao": null,
       "previsaoDias": null,
       "previsaoLabel": null,
-      "statusVenc": "Sem previsão",
+      "statusVenc": "Quitado",
       "pagoEUA": 0
     },
     {
@@ -3037,6 +3037,27 @@
       "pct3": 0,
       "pago3": 0,
       "saldo": 1618.82,
+      "statusCambio": "Sem prazo - Verificar",
+      "previsao": null,
+      "previsaoDias": null,
+      "previsaoLabel": null,
+      "statusVenc": "Sem previsão",
+      "pagoEUA": 0
+    },
+    {
+      "projeto": "Amostra",
+      "codProjeto": "TL-99999",
+      "embarque": "TEMU171",
+      "fornecedor": "Honesty",
+      "fatura": "P00056",
+      "valor": 4915.0,
+      "pct1": 30.0,
+      "pago1": 1474.5,
+      "pct2": 70.0,
+      "pago2": 3440.5,
+      "pct3": 0,
+      "pago3": 0,
+      "saldo": 3440.5,
       "statusCambio": "Sem prazo - Verificar",
       "previsao": null,
       "previsaoDias": null,

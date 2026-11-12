@@ -1,5 +1,5 @@
 {
-  "geradoEm": "12/11/2026 15:00",
+  "geradoEm": "12/11/2026 15:34",
   "total": 76,
   "ativos": 52,
   "itens": [
@@ -671,7 +671,7 @@
       "projeto": "Projeto San Bernardo lll",
       "codProjeto": "TL-00117",
       "embarque": "TEMU156-B",
-      "pedido": "99-00313 / 99-00315",
+      "pedido": "99-00313 / 99-00314 / 99-00315",
       "fornecedor": "Honesty",
       "invoice": "SH-ZXH-261016-B",
       "qtdCntr": 6,
@@ -701,13 +701,13 @@
       "ativo": true
     },
     {
-      "produto": "Farrowing Crate / Individual Gestation Cage / Group Gestation Cage",
+      "produto": "Farrowing Crate / Individual Gestation Cage / Group Gestation Cage / ---- / PVC Panel / ABS Feeder / Heating Device",
       "projeto": "Amostra",
       "codProjeto": "TL-99999",
       "embarque": "TEMU171",
       "pedido": "AMOSTRA / show room",
       "fornecedor": "Honesty",
-      "invoice": "SH-ZXH-261029",
+      "invoice": "SH-ZXH-261029 / ReferenceNumberP00056",
       "qtdCntr": 0,
       "tipoCntr": "",
       "etd": null,
@@ -820,23 +820,6 @@
       "ativo": true
     },
     {
-      "produto": "FARROWING HOUSE 3 / FARROWING HOUSE 3",
-      "projeto": "Projeto San Bernardo lll",
-      "codProjeto": "TL-00117",
-      "embarque": "TEMU155",
-      "pedido": "99-00132",
-      "fornecedor": "Temu",
-      "invoice": "26TM0644 / 26TM0645",
-      "qtdCntr": 6,
-      "tipoCntr": "40HC",
-      "etd": "13/11/2026",
-      "eta": "11/02/2027",
-      "entrega": "21/02/2027",
-      "etaIso": "2027-02-11",
-      "status": "EM PRODUÇÃO",
-      "ativo": true
-    },
-    {
       "produto": "Animal Stick reader FRD5220 - Mala - Amilton",
       "projeto": "Agroterm, Miotto Farm and Temu Latam Test",
       "codProjeto": "TL-99999",
@@ -917,6 +900,23 @@
       "etd": "10/12/2026",
       "eta": "10/03/2027",
       "entrega": "22/03/2027",
+      "etaIso": "2027-03-10",
+      "status": "EM PRODUÇÃO",
+      "ativo": true
+    },
+    {
+      "produto": "FARROWING HOUSE 3 / FARROWING HOUSE 3",
+      "projeto": "Projeto San Bernardo lll",
+      "codProjeto": "TL-00117",
+      "embarque": "TEMU155",
+      "pedido": "99-00132",
+      "fornecedor": "Temu",
+      "invoice": "26TM0644 / 26TM0645",
+      "qtdCntr": 6,
+      "tipoCntr": "40HC",
+      "etd": "10/12/2026",
+      "eta": "10/03/2027",
+      "entrega": "20/03/2027",
       "etaIso": "2027-03-10",
       "status": "EM PRODUÇÃO",
       "ativo": true
