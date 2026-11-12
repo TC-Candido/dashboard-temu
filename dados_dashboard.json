@@ -1,9 +1,9 @@
 {
-  "geradoEm": "11/11/2026 23:34",
+  "geradoEm": "12/11/2026 00:00",
   "kpis": {
     "totalProjetos": 18,
     "totalContainers": 37,
-    "etd7dias": 3,
+    "etd7dias": 2,
     "chegando10dias": 4
   },
   "statusCounts": {
@@ -24,26 +24,6 @@
     "CIXI MAITE": 1
   },
   "proximosETD": [
-    {
-      "embarque": "TEMU160",
-      "codProjeto": "TL-00117",
-      "projeto": "Projeto San Bernardo lll",
-      "fornecedor": "Honesty",
-      "destino": "Asuncion",
-      "qtdCntr": 0,
-      "tipoCntr": "40HC",
-      "prontidao": "2026-11-01 00:00:00",
-      "etd": "11/11/2026",
-      "eta": "09/02/2027",
-      "status": "EM PRODUÇÃO",
-      "statusOp": "Prontidão e ETD OK",
-      "etd7dias": true,
-      "chegando10": false,
-      "observacoes": "",
-      "invoice": "SH-ZXH-261021",
-      "pedido": "99-00353\n99-00355 \n99-00304",
-      "abertura": "22/09/2026"
-    },
     {
       "embarque": "TEMU155",
       "codProjeto": "TL-00117",
@@ -143,6 +123,26 @@
       "invoice": "SH-ZXH-261016-A",
       "pedido": "99-00314",
       "abertura": "16/10/2026"
+    },
+    {
+      "embarque": "TEMU158",
+      "codProjeto": "TL-00117",
+      "projeto": "Projeto San Bernardo lll",
+      "fornecedor": "Hontech-Wins",
+      "destino": "Asuncion",
+      "qtdCntr": 0,
+      "tipoCntr": "",
+      "prontidao": "2026-11-30 00:00:00",
+      "etd": "10/12/2026",
+      "eta": "10/03/2027",
+      "status": "EM PRODUÇÃO",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "SUMMARY\n----------------\nX26092701BR\nX26092702BR\nX26092703BR\nX26092704BR\nX26092705BR\nX26092706BR\nX26092707BR\nX26100701BR",
+      "pedido": "99-00490\n99-0082\n99-00304\n99-00353\n99-00469\n99-00470\n99-00471",
+      "abertura": "21/10/2026"
     }
   ],
   "proximosETA": [
@@ -1221,7 +1221,7 @@
       "eta": "09/02/2027",
       "status": "EM PRODUÇÃO",
       "statusOp": "Prontidão e ETD OK",
-      "etd7dias": true,
+      "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
       "invoice": "SH-ZXH-261021",
