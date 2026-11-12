@@ -1,5 +1,5 @@
 {
-  "geradoEm": "12/11/2026 09:00",
+  "geradoEm": "12/11/2026 09:34",
   "hoje": "12/11/2026",
   "limChegada": "27/11/2026",
   "limProntidao": "27/11/2026",
@@ -9,12 +9,12 @@
   "diasEtaAtraso": 5,
   "diasAbertura": 15,
   "dolar": {
-    "atual": 5.5899,
+    "atual": 5.5977,
     "data": "12/11/2026",
-    "variacao": 0.0069,
-    "variacaoPct": 0.12,
+    "variacao": 0.0147,
+    "variacaoPct": 0.26,
     "min": 4.9648,
-    "max": 5.5899,
+    "max": 5.5977,
     "serie": [
       {
         "d": "07/10",
@@ -164,12 +164,12 @@
       {
         "d": "12/11",
         "iso": "2026-11-12",
-        "v": 5.5899
+        "v": 5.5977
       }
     ],
     "fonte": "Dólar comercial (compra) — AwesomeAPI",
     "titulo": "Dólar comercial — flutuante",
-    "hora": "08:41",
+    "hora": "09:26",
     "desatualizado": false
   },
   "coresLidas": true,
@@ -191,11 +191,11 @@
   "etapas": [
     {
       "nome": "Em produção",
-      "qtd": 25
+      "qtd": 22
     },
     {
       "nome": "Vistoria",
-      "qtd": 7
+      "qtd": 10
     },
     {
       "nome": "Sobre águas",
@@ -646,7 +646,7 @@
       "invoice": "O-046401",
       "abertura": "28/10/2026",
       "diasAbertura": -15,
-      "status": "EM PRODUÇÃO",
+      "status": "VISTORIA",
       "prontidao": "03/11/2026",
       "etd": null,
       "eta": null,
@@ -668,7 +668,7 @@
       "invoice": "SH-ZXH-261016-B",
       "abertura": "01/10/2026",
       "diasAbertura": -42,
-      "status": "EM PRODUÇÃO",
+      "status": "VISTORIA",
       "prontidao": "10/11/2026",
       "etd": null,
       "eta": "30/03/1900",
@@ -692,7 +692,7 @@
       "invoice": "26TM0867 / 26TM0868 / 26TM0869 / 26TM0872",
       "abertura": null,
       "diasAbertura": null,
-      "status": "EM PRODUÇÃO",
+      "status": "VISTORIA",
       "prontidao": "10/11/2026",
       "etd": null,
       "eta": null,
@@ -1026,7 +1026,7 @@
       "invoice": "O-046401",
       "abertura": "28/10/2026",
       "diasAbertura": -15,
-      "status": "EM PRODUÇÃO",
+      "status": "VISTORIA",
       "prontidao": "03/11/2026",
       "etd": null,
       "eta": null,
@@ -1120,7 +1120,7 @@
         "invoice": "SH-ZXH-261016-B",
         "abertura": "01/10/2026",
         "diasAbertura": -42,
-        "status": "EM PRODUÇÃO",
+        "status": "VISTORIA",
         "prontidao": "10/11/2026",
         "etd": null,
         "eta": "30/03/1900",
@@ -1482,7 +1482,7 @@
         "invoice": "O-046401",
         "abertura": "28/10/2026",
         "diasAbertura": -15,
-        "status": "EM PRODUÇÃO",
+        "status": "VISTORIA",
         "prontidao": "03/11/2026",
         "etd": null,
         "eta": null,
@@ -1768,7 +1768,7 @@
         "invoice": "26TM0867 / 26TM0868 / 26TM0869 / 26TM0872",
         "abertura": null,
         "diasAbertura": null,
-        "status": "EM PRODUÇÃO",
+        "status": "VISTORIA",
         "prontidao": "10/11/2026",
         "etd": null,
         "eta": null,
@@ -1793,7 +1793,7 @@
         "invoice": "SH-ZXH-261016-B",
         "abertura": "01/10/2026",
         "diasAbertura": -42,
-        "status": "EM PRODUÇÃO",
+        "status": "VISTORIA",
         "prontidao": "10/11/2026",
         "etd": null,
         "eta": "30/03/1900",

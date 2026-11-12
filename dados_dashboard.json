@@ -1,5 +1,5 @@
 {
-  "geradoEm": "12/11/2026 09:00",
+  "geradoEm": "12/11/2026 09:34",
   "kpis": {
     "totalProjetos": 18,
     "totalContainers": 37,
@@ -10,15 +10,15 @@
     "FINALIZADO": 24,
     "DESEMBRAÇO": 5,
     "SOBRE AGUAS": 8,
-    "VISTORIA": 7,
-    "EM PRODUÇÃO": 25,
+    "VISTORIA": 10,
+    "EM PRODUÇÃO": 22,
     "": 7
   },
   "fornecedorCounts": {
     "Temu": 34,
     "Honesty": 11,
-    "Hontech-Wins": 3,
     "Daltec": 1,
+    "Hontech-Wins": 3,
     "Faread": 1,
     "Honesty\nTemu": 1,
     "CIXI MAITE": 1
@@ -1029,6 +1029,26 @@
       "abertura": "15/09/2026"
     },
     {
+      "embarque": "TEMU163",
+      "codProjeto": "TL-00117",
+      "projeto": "Projeto San Bernardo lll",
+      "fornecedor": "Daltec",
+      "destino": "Asuncion",
+      "qtdCntr": 0,
+      "tipoCntr": "",
+      "prontidao": "2026-11-03 00:00:00",
+      "etd": null,
+      "eta": null,
+      "status": "VISTORIA",
+      "statusOp": "Pronto - Aguardando ETD",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "O-046401",
+      "pedido": "99-00355",
+      "abertura": "28/10/2026"
+    },
+    {
       "embarque": "TEMU156-B",
       "codProjeto": "TL-00117",
       "projeto": "Projeto San Bernardo lll",
@@ -1039,7 +1059,7 @@
       "prontidao": "2026-11-10 00:00:00",
       "etd": null,
       "eta": "30/03/1900",
-      "status": "EM PRODUÇÃO",
+      "status": "VISTORIA",
       "statusOp": "Pronto - Aguardando ETD",
       "etd7dias": false,
       "chegando10": false,
@@ -1059,7 +1079,7 @@
       "prontidao": "2026-11-10 00:00:00",
       "etd": null,
       "eta": null,
-      "status": "EM PRODUÇÃO",
+      "status": "VISTORIA",
       "statusOp": "Pronto - Aguardando ETD",
       "etd7dias": false,
       "chegando10": false,
@@ -1187,26 +1207,6 @@
       "invoice": "26TM0643-2",
       "pedido": "99-00132",
       "abertura": null
-    },
-    {
-      "embarque": "TEMU163",
-      "codProjeto": "TL-00117",
-      "projeto": "Projeto San Bernardo lll",
-      "fornecedor": "Daltec",
-      "destino": "Asuncion",
-      "qtdCntr": 0,
-      "tipoCntr": "",
-      "prontidao": "2026-11-03 00:00:00",
-      "etd": null,
-      "eta": null,
-      "status": "EM PRODUÇÃO",
-      "statusOp": "Pronto - Aguardando ETD",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": "",
-      "invoice": "O-046401",
-      "pedido": "99-00355",
-      "abertura": "28/10/2026"
     },
     {
       "embarque": "TEMU160",

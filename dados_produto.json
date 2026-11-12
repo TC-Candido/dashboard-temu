@@ -1,5 +1,5 @@
 {
-  "geradoEm": "12/11/2026 09:00",
+  "geradoEm": "12/11/2026 09:34",
   "total": 76,
   "ativos": 52,
   "itens": [
@@ -650,7 +650,24 @@
       "ativo": true
     },
     {
-      "produto": "Gestation House / Farrowing House / Weaning House / Self Tapping Screws / Capping Strip / Gestation House Rectangular Tube / Farrowing House Rectangular Tube / Weaning House Rectangular Tube",
+      "produto": "Multimix 60 with feedback / Heat treated pallet 800 x 1200",
+      "projeto": "Projeto San Bernardo lll",
+      "codProjeto": "TL-00117",
+      "embarque": "TEMU163",
+      "pedido": "99-00355",
+      "fornecedor": "Daltec",
+      "invoice": "O-046401",
+      "qtdCntr": 0,
+      "tipoCntr": "",
+      "etd": null,
+      "eta": null,
+      "entrega": null,
+      "etaIso": null,
+      "status": "VISTORIA",
+      "ativo": true
+    },
+    {
+      "produto": "Rectangular Tube",
       "projeto": "Projeto San Bernardo lll",
       "codProjeto": "TL-00117",
       "embarque": "TEMU156-B",
@@ -663,7 +680,7 @@
       "eta": "30/03/1900",
       "entrega": "11/04/1900",
       "etaIso": "1900-03-30",
-      "status": "EM PRODUÇÃO",
+      "status": "VISTORIA",
       "ativo": true
     },
     {
@@ -680,7 +697,7 @@
       "eta": null,
       "entrega": null,
       "etaIso": null,
-      "status": "EM PRODUÇÃO",
+      "status": "VISTORIA",
       "ativo": true
     },
     {
@@ -783,23 +800,6 @@
       "entrega": null,
       "etaIso": null,
       "status": "VISTORIA",
-      "ativo": true
-    },
-    {
-      "produto": "Multimix 60 with feedback / Heat treated pallet 800 x 1200",
-      "projeto": "Projeto San Bernardo lll",
-      "codProjeto": "TL-00117",
-      "embarque": "TEMU163",
-      "pedido": "99-00355",
-      "fornecedor": "Daltec",
-      "invoice": "O-046401",
-      "qtdCntr": 0,
-      "tipoCntr": "",
-      "etd": null,
-      "eta": null,
-      "entrega": null,
-      "etaIso": null,
-      "status": "EM PRODUÇÃO",
       "ativo": true
     },
     {
