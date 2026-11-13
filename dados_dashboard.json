@@ -1,10 +1,10 @@
 {
-  "geradoEm": "12/11/2026 23:34",
+  "geradoEm": "13/11/2026 00:00",
   "kpis": {
     "totalProjetos": 18,
     "totalContainers": 37,
     "etd7dias": 1,
-    "chegando10dias": 4
+    "chegando10dias": 5
   },
   "statusCounts": {
     "FINALIZADO": 24,
@@ -240,7 +240,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "3 contêineres - 31/08/2026\n2 contêineres - 02/09/2026\n2 contêineres - 05/09/2026",
       "invoice": "26TM0773-4",
       "pedido": "99-00132",
@@ -982,7 +982,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "3 contêineres - 31/08/2026\n2 contêineres - 02/09/2026\n2 contêineres - 05/09/2026",
       "invoice": "26TM0773-4",
       "pedido": "99-00132",
