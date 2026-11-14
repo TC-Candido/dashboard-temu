@@ -1,10 +1,10 @@
 {
-  "geradoEm": "13/11/2026 23:34",
+  "geradoEm": "14/11/2026 00:00",
   "kpis": {
     "totalProjetos": 18,
     "totalContainers": 37,
     "etd7dias": 1,
-    "chegando10dias": 5
+    "chegando10dias": 7
   },
   "statusCounts": {
     "FINALIZADO": 24,
@@ -38,7 +38,7 @@
       "status": "VISTORIA",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": true,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "",
       "invoice": "FRD2026102306",
       "pedido": "AMOSTRA",
@@ -260,7 +260,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "",
       "invoice": "26TM0672\n26TM0748\n26TM0820\n26TM0833\n26TM0836",
       "pedido": "",
@@ -1002,7 +1002,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "",
       "invoice": "26TM0672\n26TM0748\n26TM0820\n26TM0833\n26TM0836",
       "pedido": "",
@@ -1242,7 +1242,7 @@
       "status": "VISTORIA",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": true,
-      "chegando10": false,
+      "chegando10": true,
       "observacoes": "",
       "invoice": "FRD2026102306",
       "pedido": "AMOSTRA",
