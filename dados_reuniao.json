@@ -1,5 +1,5 @@
 {
-  "geradoEm": "16/11/2026 08:24",
+  "geradoEm": "16/11/2026 08:34",
   "hoje": "16/11/2026",
   "limChegada": "01/12/2026",
   "limProntidao": "01/12/2026",
@@ -179,9 +179,9 @@
     "chegandoQtd": 6,
     "provisao15": 290000.0,
     "prontidaoQtd": 6,
-    "confirmarQtd": 3,
-    "prontosSemEtd": 9,
-    "faltandoQtd": 29,
+    "confirmarQtd": 2,
+    "prontosSemEtd": 8,
+    "faltandoQtd": 28,
     "semDadosQtd": 3,
     "abertosQtd": 16,
     "chegaramQtd": 5,
@@ -365,28 +365,6 @@
   ],
   "prontidoes": [
     {
-      "embarque": "TEMU171",
-      "codProjeto": "TL-99999",
-      "projeto": "Amostra",
-      "fornecedor": "Honesty",
-      "destino": "",
-      "qtdCntr": 0,
-      "tipoCntr": "",
-      "pedido": "AMOSTRA / show room",
-      "invoice": "SH-ZXH-261029 / ReferenceNumberP00056",
-      "abertura": "02/11/2026",
-      "diasAbertura": -14,
-      "status": "EM PRODUÇÃO",
-      "prontidao": "20/11/2026",
-      "etd": null,
-      "eta": null,
-      "etdConf": null,
-      "etaConf": null,
-      "diasProntidao": 4,
-      "diasEtd": null,
-      "diasEta": null
-    },
-    {
       "embarque": "TEMU149",
       "codProjeto": "TL-00119",
       "projeto": "Projeto Ysaka",
@@ -407,6 +385,28 @@
       "diasProntidao": 4,
       "diasEtd": 12,
       "diasEta": 60
+    },
+    {
+      "embarque": "TEMU171",
+      "codProjeto": "TL-99999",
+      "projeto": "Amostra",
+      "fornecedor": "Honesty",
+      "destino": "",
+      "qtdCntr": 0,
+      "tipoCntr": "",
+      "pedido": "AMOSTRA / show room",
+      "invoice": "SH-ZXH-261029 / ReferenceNumberP00056",
+      "abertura": "02/11/2026",
+      "diasAbertura": -14,
+      "status": "EM PRODUÇÃO",
+      "prontidao": "20/11/2026",
+      "etd": null,
+      "eta": null,
+      "etdConf": null,
+      "etaConf": null,
+      "diasProntidao": 4,
+      "diasEtd": null,
+      "diasEta": null
     },
     {
       "embarque": "TEMU150-1",
@@ -674,30 +674,6 @@
       "diasProntidao": -13,
       "diasEtd": null,
       "diasEta": null
-    },
-    {
-      "embarque": "TEMU156-B",
-      "codProjeto": "TL-00117",
-      "projeto": "Projeto San Bernardo lll",
-      "fornecedor": "Honesty",
-      "destino": "Asuncion",
-      "qtdCntr": 6,
-      "tipoCntr": "20GP",
-      "pedido": "99-00313 / 99-00314 / 99-00315",
-      "invoice": "SH-ZXH-261016-B",
-      "abertura": "01/10/2026",
-      "diasAbertura": -46,
-      "status": "VISTORIA",
-      "prontidao": "10/11/2026",
-      "etd": null,
-      "eta": "30/03/1900",
-      "etdConf": null,
-      "etaConf": "previsao",
-      "diasProntidao": -6,
-      "diasEtd": null,
-      "diasEta": -46252,
-      "acao": "Confirmar se chegou (ETA ainda em vermelho)",
-      "acaoTipo": "confirmar"
     }
   ],
   "semDados": [
@@ -946,28 +922,6 @@
       "diasEta": null
     },
     {
-      "embarque": "TEMU171",
-      "codProjeto": "TL-99999",
-      "projeto": "Amostra",
-      "fornecedor": "Honesty",
-      "destino": "",
-      "qtdCntr": 0,
-      "tipoCntr": "",
-      "pedido": "AMOSTRA / show room",
-      "invoice": "SH-ZXH-261029 / ReferenceNumberP00056",
-      "abertura": "02/11/2026",
-      "diasAbertura": -14,
-      "status": "EM PRODUÇÃO",
-      "prontidao": "20/11/2026",
-      "etd": null,
-      "eta": null,
-      "etdConf": null,
-      "etaConf": null,
-      "diasProntidao": 4,
-      "diasEtd": null,
-      "diasEta": null
-    },
-    {
       "embarque": "TEMU167",
       "codProjeto": "TL-00117",
       "projeto": "Projeto San Bernardo lll",
@@ -1078,6 +1032,28 @@
       "diasEta": 145
     },
     {
+      "embarque": "TEMU171",
+      "codProjeto": "TL-99999",
+      "projeto": "Amostra",
+      "fornecedor": "Honesty",
+      "destino": "",
+      "qtdCntr": 0,
+      "tipoCntr": "",
+      "pedido": "AMOSTRA / show room",
+      "invoice": "SH-ZXH-261029 / ReferenceNumberP00056",
+      "abertura": "02/11/2026",
+      "diasAbertura": -14,
+      "status": "EM PRODUÇÃO",
+      "prontidao": "20/11/2026",
+      "etd": null,
+      "eta": null,
+      "etdConf": null,
+      "etaConf": null,
+      "diasProntidao": 4,
+      "diasEtd": null,
+      "diasEta": null
+    },
+    {
       "embarque": "TEMU172",
       "codProjeto": "TL-00117",
       "projeto": "Projeto San Bernardo lll",
@@ -1137,12 +1113,12 @@
       "diasAbertura": -108,
       "status": "SOBRE AGUAS",
       "prontidao": "09/09/2026",
-      "etd": "27/09/2020",
+      "etd": "27/09/2026",
       "eta": "14/11/2026",
       "etdConf": "confirmado",
       "etaConf": "confirmado",
       "diasProntidao": -68,
-      "diasEtd": -2241,
+      "diasEtd": -50,
       "diasEta": -2,
       "acao": "Chegada confirmada: atualizar o status",
       "acaoTipo": "atualizar"
@@ -1293,30 +1269,6 @@
       }
     ],
     "etaVencido": [
-      {
-        "embarque": "TEMU156-B",
-        "codProjeto": "TL-00117",
-        "projeto": "Projeto San Bernardo lll",
-        "fornecedor": "Honesty",
-        "destino": "Asuncion",
-        "qtdCntr": 6,
-        "tipoCntr": "20GP",
-        "pedido": "99-00313 / 99-00314 / 99-00315",
-        "invoice": "SH-ZXH-261016-B",
-        "abertura": "01/10/2026",
-        "diasAbertura": -46,
-        "status": "VISTORIA",
-        "prontidao": "10/11/2026",
-        "etd": null,
-        "eta": "30/03/1900",
-        "etdConf": null,
-        "etaConf": "previsao",
-        "diasProntidao": -6,
-        "diasEtd": null,
-        "diasEta": -46252,
-        "acao": "Confirmar se chegou (ETA ainda em vermelho)",
-        "acaoTipo": "confirmar"
-      },
       {
         "embarque": "TEMU120",
         "codProjeto": "TL-00100",
@@ -1880,33 +1832,6 @@
         ]
       },
       {
-        "embarque": "TEMU156-B",
-        "codProjeto": "TL-00117",
-        "projeto": "Projeto San Bernardo lll",
-        "fornecedor": "Honesty",
-        "destino": "Asuncion",
-        "qtdCntr": 6,
-        "tipoCntr": "20GP",
-        "pedido": "99-00313 / 99-00314 / 99-00315",
-        "invoice": "SH-ZXH-261016-B",
-        "abertura": "01/10/2026",
-        "diasAbertura": -46,
-        "status": "VISTORIA",
-        "prontidao": "10/11/2026",
-        "etd": null,
-        "eta": "30/03/1900",
-        "etdConf": null,
-        "etaConf": "previsao",
-        "diasProntidao": -6,
-        "diasEtd": null,
-        "diasEta": -46252,
-        "acao": "Confirmar se chegou (ETA ainda em vermelho)",
-        "acaoTipo": "confirmar",
-        "faltas": [
-          "ETD"
-        ]
-      },
-      {
         "embarque": "TEMU157",
         "codProjeto": "TL-00117",
         "projeto": "Projeto San Bernardo lll",
@@ -2246,15 +2171,6 @@
     },
     {
       "prioridade": "alta",
-      "titulo": "Confirmar chegada",
-      "detalhe": "ETA ainda em vermelho e a data já passou. Confirmar se o processo chegou.",
-      "qtd": 1,
-      "itens": [
-        "TEMU156-B"
-      ]
-    },
-    {
-      "prioridade": "alta",
       "titulo": "Atualizar status de chegadas",
       "detalhe": "ETA venceu há mais de 5 dias e o processo continua sem finalizar.",
       "qtd": 7,
@@ -2272,7 +2188,7 @@
       "prioridade": "media",
       "titulo": "Definir ETD dos processos prontos",
       "detalhe": "Prontidão já passou e ainda não há previsão de embarque.",
-      "qtd": 9,
+      "qtd": 8,
       "itens": [
         "TEMU174",
         "TEMU136 / TEMU134-2",
@@ -2281,8 +2197,7 @@
         "TEMU126-2",
         "TEMU138",
         "TEMU139",
-        "TEMU163",
-        "TEMU156-B"
+        "TEMU163"
       ]
     },
     {
@@ -2300,7 +2215,7 @@
       "prioridade": "media",
       "titulo": "Preencher informações faltando",
       "detalhe": "Processos com dados em branco na planilha (prontidão, ETD, ETA, status ou valor).",
-      "qtd": 29,
+      "qtd": 28,
       "itens": [
         "TEMU121-2",
         "TEMU126-2",
@@ -2317,7 +2232,6 @@
         "TEMU134 - 4",
         "TEMU134 -3",
         "TEMU148-3",
-        "TEMU156-B",
         "TEMU157",
         "TEMU160",
         "TEMU164",
@@ -2353,8 +2267,8 @@
       "detalhe": "Processos que ficam prontos e precisam embarcar.",
       "qtd": 6,
       "itens": [
-        "TEMU171",
         "TEMU149",
+        "TEMU171",
         "TEMU150-1",
         "TEMU156-A",
         "TEMU158",
