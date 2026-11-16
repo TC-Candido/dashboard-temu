@@ -1,5 +1,5 @@
 {
-  "geradoEm": "15/11/2026 12:00",
+  "geradoEm": "16/11/2026 07:34",
   "kpis": {
     "totalGeral": 290000.0,
     "totalSemana": 0,
@@ -25,7 +25,7 @@
       "totalCambio": 556000.0,
       "totalChegada": 290000.0,
       "previsao": "24/11/2026",
-      "diasChegada": 9,
+      "diasChegada": 8,
       "semanaLabel": "Próximos 15 dias"
     },
     {
