@@ -1,18 +1,17 @@
 {
-  "geradoEm": "16/11/2026 08:00",
+  "geradoEm": "16/11/2026 08:24",
   "kpis": {
     "totalProjetos": 18,
-    "totalContainers": 37,
-    "etd7dias": 0,
+    "totalContainers": 20,
+    "etd7dias": 1,
     "chegando10dias": 6
   },
   "statusCounts": {
     "FINALIZADO": 24,
-    "DESEMBRAÇO": 5,
-    "SOBRE AGUAS": 8,
+    "DESEMBRAÇO": 7,
+    "SOBRE AGUAS": 6,
     "VISTORIA": 10,
-    "EM PRODUÇÃO": 22,
-    "": 7
+    "EM PRODUÇÃO": 28
   },
   "fornecedorCounts": {
     "Temu": 34,
@@ -20,10 +19,29 @@
     "Daltec": 1,
     "Hontech-Wins": 3,
     "Faread": 1,
-    "Honesty\nTemu": 1,
-    "CIXI MAITE": 1
+    "Honesty\nTemu": 1
   },
   "proximosETD": [
+    {
+      "embarque": "TEMU148-2",
+      "codProjeto": "TL-00120",
+      "projeto": "Projeto Miotto",
+      "fornecedor": "Temu",
+      "destino": "Navegantes",
+      "qtdCntr": 2,
+      "tipoCntr": "2x40hc",
+      "prontidao": "2026-11-12 00:00:00",
+      "etd": "22/11/2026",
+      "eta": "06/01/2027",
+      "status": "VISTORIA",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": true,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "26TM0867\n26TM0868\n26TM0869\n26TM0872",
+      "pedido": "99-00219\n99-00220 \n99-00223\n99-00585",
+      "abertura": null
+    },
     {
       "embarque": "TEMU149",
       "codProjeto": "TL-00119",
@@ -90,8 +108,8 @@
       "projeto": "Projeto San Bernardo lll",
       "fornecedor": "Hontech-Wins",
       "destino": "Asuncion",
-      "qtdCntr": 0,
-      "tipoCntr": "",
+      "qtdCntr": 1,
+      "tipoCntr": "20GP",
       "prontidao": "2026-11-30 00:00:00",
       "etd": "10/12/2026",
       "eta": "10/03/2027",
@@ -123,26 +141,6 @@
       "invoice": "26TM0644\n26TM0645",
       "pedido": "99-00132",
       "abertura": "16/10/2026"
-    },
-    {
-      "embarque": "TEMU153",
-      "codProjeto": "TL-00117",
-      "projeto": "Projeto San Bernardo lll",
-      "fornecedor": "Temu",
-      "destino": "Asuncion",
-      "qtdCntr": 25,
-      "tipoCntr": "40HC",
-      "prontidao": "2026-12-03 00:00:00",
-      "etd": "13/12/2026",
-      "eta": "13/03/2027",
-      "status": "EM PRODUÇÃO",
-      "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": "",
-      "invoice": "26TM0891",
-      "pedido": "99-00132",
-      "abertura": "14/10/2026"
     }
   ],
   "proximosETA": [
@@ -859,7 +857,7 @@
       "prontidao": "2026-07-30 00:00:00",
       "etd": "10/09/2026",
       "eta": "05/11/2026",
-      "status": "SOBRE AGUAS",
+      "status": "DESEMBRAÇO",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
       "chegando10": false,
@@ -879,7 +877,7 @@
       "prontidao": "2026-07-27 00:00:00",
       "etd": "10/09/2026",
       "eta": "06/11/2026",
-      "status": "SOBRE AGUAS",
+      "status": "DESEMBRAÇO",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
       "chegando10": false,
@@ -1074,14 +1072,14 @@
       "projeto": "Projeto Miotto",
       "fornecedor": "Temu",
       "destino": "Navegantes",
-      "qtdCntr": 3,
-      "tipoCntr": "2x40hc\n1x20GP",
-      "prontidao": "2026-11-10 00:00:00",
-      "etd": null,
-      "eta": null,
+      "qtdCntr": 2,
+      "tipoCntr": "2x40hc",
+      "prontidao": "2026-11-12 00:00:00",
+      "etd": "22/11/2026",
+      "eta": "06/01/2027",
       "status": "VISTORIA",
-      "statusOp": "Pronto - Aguardando ETD",
-      "etd7dias": false,
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": true,
       "chegando10": false,
       "observacoes": "",
       "invoice": "26TM0867\n26TM0868\n26TM0869\n26TM0872",
@@ -1314,8 +1312,8 @@
       "projeto": "Projeto San Bernardo lll",
       "fornecedor": "Hontech-Wins",
       "destino": "Asuncion",
-      "qtdCntr": 0,
-      "tipoCntr": "",
+      "qtdCntr": 1,
+      "tipoCntr": "20GP",
       "prontidao": "2026-11-30 00:00:00",
       "etd": "10/12/2026",
       "eta": "10/03/2027",
@@ -1379,7 +1377,7 @@
       "prontidao": "2012-12-07 00:00:00",
       "etd": null,
       "eta": null,
-      "status": "",
+      "status": "EM PRODUÇÃO",
       "statusOp": "Pronto - Aguardando ETD",
       "etd7dias": false,
       "chegando10": false,
@@ -1619,34 +1617,14 @@
       "prontidao": "2027-01-15 00:00:00",
       "etd": null,
       "eta": null,
-      "status": "",
+      "status": "EM PRODUÇÃO",
       "statusOp": "Pronto - Aguardando ETD",
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
       "invoice": "26TM0651\n26TM0652\n26TM0653",
       "pedido": "",
-      "abertura": null
-    },
-    {
-      "embarque": "TEMU143",
-      "codProjeto": "TL-00111",
-      "projeto": "Estoque - não embarcou TEMU140",
-      "fornecedor": "CIXI MAITE",
-      "destino": "Navegantes",
-      "qtdCntr": 0,
-      "tipoCntr": "",
-      "prontidao": "",
-      "etd": null,
-      "eta": null,
-      "status": "",
-      "statusOp": "Sem Prontidão e ETD",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": "",
-      "invoice": "26MTAZU010",
-      "pedido": "",
-      "abertura": null
+      "abertura": "10/11/2026"
     },
     {
       "embarque": "TEMU147",
@@ -1666,7 +1644,7 @@
       "observacoes": "",
       "invoice": "26TM0628",
       "pedido": "",
-      "abertura": null
+      "abertura": "10/11/2026"
     },
     {
       "embarque": "TEMU148-3",
@@ -1679,14 +1657,14 @@
       "prontidao": "",
       "etd": null,
       "eta": null,
-      "status": "",
+      "status": "EM PRODUÇÃO",
       "statusOp": "Sem Prontidão e ETD",
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
       "invoice": "26TM0870\n26TM0871\namostra - hontech\n26TM0901",
       "pedido": "99-00224\n99-0022526\nTM0901 (sem pedido feito)",
-      "abertura": null
+      "abertura": "10/11/2026"
     },
     {
       "embarque": "TEMU166",
@@ -1726,7 +1704,7 @@
       "observacoes": "",
       "invoice": "SH-ZXH-261014",
       "pedido": "",
-      "abertura": "02/11/2026"
+      "abertura": "10/11/2026"
     },
     {
       "embarque": "TEMU175",
@@ -1739,14 +1717,14 @@
       "prontidao": "2026-12-12 00:00:00",
       "etd": null,
       "eta": null,
-      "status": "",
+      "status": "EM PRODUÇÃO",
       "statusOp": "Pronto - Aguardando ETD",
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
       "invoice": "26TM0708\n26TM0709\n26TM0720\n26TM0721\n26TM0722\n26TM0723\n26TM0724\n26TM0725\n26TM0712\n26TM0713\n26TM0714\n26TM0715\n26TM0716\n26TM0717",
       "pedido": "Farrowing \n99-00132\nGestation House Gable 99-00122\nGestation House Side Wall 99-00122",
-      "abertura": null
+      "abertura": "10/11/2026"
     },
     {
       "embarque": "TEMU177",
@@ -1759,14 +1737,14 @@
       "prontidao": "2026-12-12 00:00:00",
       "etd": null,
       "eta": null,
-      "status": "",
+      "status": "EM PRODUÇÃO",
       "statusOp": "Pronto - Aguardando ETD",
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
       "invoice": "26TM0798\n26TM0799\n26TM0800\n26TM0801\n26TM0802\n26TM0803\n26TM0806\n26TM0807\n26TM0808\n26TM0809\n26TM0810\n26TM0811\n26TM0790\n26TM0791\n26TM0792\n26TM0793\n26TM0794\n26TM0795",
       "pedido": "99-00122",
-      "abertura": null
+      "abertura": "10/11/2026"
     },
     {
       "embarque": "TEMU178",
@@ -1779,14 +1757,14 @@
       "prontidao": "2026-12-12 00:00:00",
       "etd": null,
       "eta": null,
-      "status": "",
+      "status": "EM PRODUÇÃO",
       "statusOp": "Pronto - Aguardando ETD",
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
       "invoice": "26TM0753\n26TM0754",
       "pedido": "99-00132",
-      "abertura": null
+      "abertura": "10/11/2026"
     }
   ]
 }
