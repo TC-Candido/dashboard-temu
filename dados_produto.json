@@ -1,7 +1,7 @@
 {
-  "geradoEm": "16/11/2026 09:00",
+  "geradoEm": "16/11/2026 09:34",
   "total": 75,
-  "ativos": 51,
+  "ativos": 48,
   "itens": [
     {
       "produto": "",
@@ -391,8 +391,8 @@
       "eta": "05/11/2026",
       "entrega": "17/11/2026",
       "etaIso": "2026-11-05",
-      "status": "DESEMBRAÇO",
-      "ativo": true
+      "status": "FINALIZADO",
+      "ativo": false
     },
     {
       "produto": "The Front Gate of Farrowing Pen - 3 PC",
@@ -442,8 +442,8 @@
       "eta": "06/11/2026",
       "entrega": "21/11/2026",
       "etaIso": "2026-11-06",
-      "status": "DESEMBRAÇO",
-      "ativo": true
+      "status": "FINALIZADO",
+      "ativo": false
     },
     {
       "produto": "Divided Grid (1 of 4) = 200 units / Male Cage (1 of 4) = 32 units / Farrowing Crate (1 of 4) = 700 units",
@@ -476,8 +476,8 @@
       "eta": "09/11/2026",
       "entrega": "21/11/2026",
       "etaIso": "2026-11-09",
-      "status": "DESEMBRAÇO",
-      "ativo": true
+      "status": "FINALIZADO",
+      "ativo": false
     },
     {
       "produto": "Gestation GSB2 - Controlado pronto 24/07",
@@ -646,7 +646,7 @@
       "eta": "24/11/2026",
       "entrega": "25/11/2026",
       "etaIso": "2026-11-24",
-      "status": "VISTORIA",
+      "status": "SOBRE AGUAS",
       "ativo": true
     },
     {

@@ -1,5 +1,5 @@
 {
-  "geradoEm": "16/11/2026 09:00",
+  "geradoEm": "16/11/2026 09:34",
   "hoje": "16/11/2026",
   "limChegada": "01/12/2026",
   "limProntidao": "01/12/2026",
@@ -10,18 +10,13 @@
   "diasAbertura": 15,
   "diasChegou": 7,
   "dolar": {
-    "atual": 5.6666,
-    "data": "13/11/2026",
-    "variacao": 0.0247,
-    "variacaoPct": 0.44,
+    "atual": 5.6906,
+    "data": "16/11/2026",
+    "variacao": 0.0232,
+    "variacaoPct": 0.41,
     "min": 4.9648,
-    "max": 5.6666,
+    "max": 5.6906,
     "serie": [
-      {
-        "d": "08/10",
-        "iso": "2026-10-08",
-        "v": 5.0179
-      },
       {
         "d": "09/10",
         "iso": "2026-10-09",
@@ -165,12 +160,17 @@
       {
         "d": "13/11",
         "iso": "2026-11-13",
-        "v": 5.6666
+        "v": 5.6674
+      },
+      {
+        "d": "16/11",
+        "iso": "2026-11-16",
+        "v": 5.6906
       }
     ],
     "fonte": "Dólar comercial (compra) — AwesomeAPI",
     "titulo": "Dólar comercial — flutuante",
-    "hora": "18:30",
+    "hora": "09:29",
     "desatualizado": false
   },
   "coresLidas": true,
@@ -187,8 +187,8 @@
     "chegaramQtd": 5,
     "prontidaoMes": 6,
     "chegandoMes": 6,
-    "emAndamento": 51,
-    "finalizados": 24
+    "emAndamento": 48,
+    "finalizados": 27
   },
   "etapas": [
     {
@@ -197,15 +197,15 @@
     },
     {
       "nome": "Vistoria",
-      "qtd": 10
+      "qtd": 9
     },
     {
       "nome": "Sobre águas",
-      "qtd": 6
+      "qtd": 7
     },
     {
       "nome": "Desembaraço",
-      "qtd": 7
+      "qtd": 4
     }
   ],
   "chegandoOp": [
@@ -336,7 +336,7 @@
       "invoice": "FRD2026102306",
       "abertura": "28/10/2026",
       "diasAbertura": -19,
-      "status": "VISTORIA",
+      "status": "SOBRE AGUAS",
       "prontidao": "04/11/2026",
       "etd": "15/11/2026",
       "eta": "24/11/2026",
@@ -1159,7 +1159,7 @@
       "invoice": "26TM0640-1",
       "abertura": "20/06/2026",
       "diasAbertura": -149,
-      "status": "DESEMBRAÇO",
+      "status": "FINALIZADO",
       "prontidao": "30/07/2026",
       "etd": "31/08/2026",
       "eta": "09/11/2026",
@@ -1167,9 +1167,7 @@
       "etaConf": "confirmado",
       "diasProntidao": -109,
       "diasEtd": -77,
-      "diasEta": -7,
-      "acao": "Chegada confirmada: atualizar o status",
-      "acaoTipo": "atualizar"
+      "diasEta": -7
     },
     {
       "embarque": "TEMU126-1",
@@ -1256,7 +1254,7 @@
         "invoice": "FRD2026102306",
         "abertura": "28/10/2026",
         "diasAbertura": -19,
-        "status": "VISTORIA",
+        "status": "SOBRE AGUAS",
         "prontidao": "04/11/2026",
         "etd": "15/11/2026",
         "eta": "24/11/2026",
@@ -1269,54 +1267,6 @@
       }
     ],
     "etaVencido": [
-      {
-        "embarque": "TEMU120",
-        "codProjeto": "TL-00100",
-        "projeto": "Projeto San Bernardo ll",
-        "fornecedor": "Temu",
-        "destino": "Asuncion",
-        "qtdCntr": 4,
-        "tipoCntr": "40hc",
-        "pedido": "99-00119",
-        "invoice": "26TM0638",
-        "abertura": "20/06/2026",
-        "diasAbertura": -149,
-        "status": "DESEMBRAÇO",
-        "prontidao": "30/07/2026",
-        "etd": "10/09/2026",
-        "eta": "05/11/2026",
-        "etdConf": "confirmado",
-        "etaConf": "confirmado",
-        "diasProntidao": -109,
-        "diasEtd": -67,
-        "diasEta": -11,
-        "acao": "Chegada confirmada: atualizar o status",
-        "acaoTipo": "atualizar"
-      },
-      {
-        "embarque": "TEMU132",
-        "codProjeto": "TL-00100",
-        "projeto": "Projeto San Bernardo ll",
-        "fornecedor": "Temu",
-        "destino": "Asuncion",
-        "qtdCntr": 1,
-        "tipoCntr": "40hc",
-        "pedido": "99-00132 / 99-00122",
-        "invoice": "26TM0674 / 26TM0675 / 26TM0678 / 26TM0679",
-        "abertura": null,
-        "diasAbertura": null,
-        "status": "DESEMBRAÇO",
-        "prontidao": "14/07/2026",
-        "etd": "28/07/2026",
-        "eta": "06/11/2026",
-        "etdConf": "confirmado",
-        "etaConf": "confirmado",
-        "diasProntidao": -125,
-        "diasEtd": -111,
-        "diasEta": -10,
-        "acao": "Chegada confirmada: atualizar o status",
-        "acaoTipo": "atualizar"
-      },
       {
         "embarque": "TEMU125",
         "codProjeto": "TL-00100",
@@ -1338,30 +1288,6 @@
         "diasProntidao": -112,
         "diasEtd": -67,
         "diasEta": -10,
-        "acao": "Chegada confirmada: atualizar o status",
-        "acaoTipo": "atualizar"
-      },
-      {
-        "embarque": "TEMU121-1",
-        "codProjeto": "TL-00100",
-        "projeto": "Projeto San Bernardo ll",
-        "fornecedor": "Temu",
-        "destino": "Asuncion",
-        "qtdCntr": 3,
-        "tipoCntr": "1x20GP / 2x40HC",
-        "pedido": "99-00132",
-        "invoice": "26TM0640-1",
-        "abertura": "20/06/2026",
-        "diasAbertura": -149,
-        "status": "DESEMBRAÇO",
-        "prontidao": "30/07/2026",
-        "etd": "31/08/2026",
-        "eta": "09/11/2026",
-        "etdConf": "confirmado",
-        "etaConf": "confirmado",
-        "diasProntidao": -109,
-        "diasEtd": -77,
-        "diasEta": -7,
         "acao": "Chegada confirmada: atualizar o status",
         "acaoTipo": "atualizar"
       },
@@ -1635,7 +1561,7 @@
         "invoice": "FRD2026102306",
         "abertura": "28/10/2026",
         "diasAbertura": -19,
-        "status": "VISTORIA",
+        "status": "SOBRE AGUAS",
         "prontidao": "04/11/2026",
         "etd": "15/11/2026",
         "eta": "24/11/2026",
@@ -2173,12 +2099,9 @@
       "prioridade": "alta",
       "titulo": "Atualizar status de chegadas",
       "detalhe": "ETA venceu há mais de 5 dias e o processo continua sem finalizar.",
-      "qtd": 7,
+      "qtd": 4,
       "itens": [
-        "TEMU120",
-        "TEMU132",
         "TEMU125",
-        "TEMU121-1",
         "TEMU126-1",
         "TEMU134-1",
         "TEMU135"
