@@ -1,7 +1,7 @@
 {
-  "geradoEm": "17/11/2026 16:34",
-  "total": 77,
-  "ativos": 50,
+  "geradoEm": "17/11/2026 17:00",
+  "total": 78,
+  "ativos": 51,
   "itens": [
     {
       "produto": "",
@@ -1310,6 +1310,23 @@
       "entrega": null,
       "etaIso": null,
       "status": "EM PRODUÇÃO",
+      "ativo": true
+    },
+    {
+      "produto": "",
+      "projeto": "Projeto Vilomix",
+      "codProjeto": "?",
+      "embarque": "TEMU180",
+      "pedido": "99-00691",
+      "fornecedor": "Temu",
+      "invoice": "26TM0925",
+      "qtdCntr": 0,
+      "tipoCntr": "",
+      "etd": null,
+      "eta": null,
+      "entrega": "12/01/1900",
+      "etaIso": null,
+      "status": "",
       "ativo": true
     }
   ]

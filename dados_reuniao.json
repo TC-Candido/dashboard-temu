@@ -1,5 +1,5 @@
 {
-  "geradoEm": "17/11/2026 16:34",
+  "geradoEm": "17/11/2026 17:00",
   "hoje": "17/11/2026",
   "limChegada": "02/12/2026",
   "limProntidao": "02/12/2026",
@@ -10,10 +10,10 @@
   "diasAbertura": 15,
   "diasChegou": 7,
   "dolar": {
-    "atual": 5.7775,
+    "atual": 5.7789,
     "data": "17/11/2026",
-    "variacao": -0.0065,
-    "variacaoPct": -0.11,
+    "variacao": -0.0051,
+    "variacaoPct": -0.09,
     "min": 4.9648,
     "max": 5.784,
     "serie": [
@@ -165,12 +165,12 @@
       {
         "d": "17/11",
         "iso": "2026-11-17",
-        "v": 5.7775
+        "v": 5.7789
       }
     ],
     "fonte": "Dólar comercial (compra) — AwesomeAPI",
     "titulo": "Dólar comercial — flutuante",
-    "hora": "16:29",
+    "hora": "16:53",
     "desatualizado": false
   },
   "coresLidas": true,
@@ -181,13 +181,13 @@
     "prontidaoQtd": 8,
     "confirmarQtd": 0,
     "prontosSemEtd": 7,
-    "faltandoQtd": 31,
-    "semDadosQtd": 2,
+    "faltandoQtd": 32,
+    "semDadosQtd": 3,
     "abertosQtd": 18,
     "chegaramQtd": 2,
     "prontidaoMes": 8,
     "chegandoMes": 8,
-    "emAndamento": 50,
+    "emAndamento": 51,
     "finalizados": 27
   },
   "etapas": [
@@ -209,7 +209,7 @@
     },
     {
       "nome": "Sem status",
-      "qtd": 1
+      "qtd": 2
     },
     {
       "nome": "EMITIR NF",
@@ -796,6 +796,28 @@
       "diasProntidao": null,
       "diasEtd": null,
       "diasEta": null
+    },
+    {
+      "embarque": "TEMU180",
+      "codProjeto": "?",
+      "projeto": "Projeto Vilomix",
+      "fornecedor": "Temu",
+      "destino": "",
+      "qtdCntr": 0,
+      "tipoCntr": "",
+      "pedido": "99-00691",
+      "invoice": "26TM0925",
+      "abertura": null,
+      "diasAbertura": null,
+      "status": "",
+      "prontidao": null,
+      "etd": null,
+      "eta": null,
+      "etdConf": null,
+      "etaConf": null,
+      "diasProntidao": null,
+      "diasEtd": null,
+      "diasEta": null
     }
   ],
   "abertos": [
@@ -1372,6 +1394,33 @@
     ],
     "finVencida": [],
     "faltando": [
+      {
+        "embarque": "TEMU180",
+        "codProjeto": "?",
+        "projeto": "Projeto Vilomix",
+        "fornecedor": "Temu",
+        "destino": "",
+        "qtdCntr": 0,
+        "tipoCntr": "",
+        "pedido": "99-00691",
+        "invoice": "26TM0925",
+        "abertura": null,
+        "diasAbertura": null,
+        "status": "",
+        "prontidao": null,
+        "etd": null,
+        "eta": null,
+        "etdConf": null,
+        "etaConf": null,
+        "diasProntidao": null,
+        "diasEtd": null,
+        "diasEta": null,
+        "faltas": [
+          "Prontidão",
+          "Qtd de containers",
+          "Status"
+        ]
+      },
       {
         "embarque": "TEMU121-2",
         "codProjeto": "TL-00100",
@@ -2201,18 +2250,20 @@
       "prioridade": "alta",
       "titulo": "Processos sem containers e sem prontidão",
       "detalhe": "Sem quantidade de containers e sem previsão de prontidão: levantar com o fornecedor/agente.",
-      "qtd": 2,
+      "qtd": 3,
       "itens": [
         "TEMU166",
-        "TEMU170"
+        "TEMU170",
+        "TEMU180"
       ]
     },
     {
       "prioridade": "media",
       "titulo": "Preencher informações faltando",
       "detalhe": "Processos com dados em branco na planilha (prontidão, ETD, ETA, status ou valor).",
-      "qtd": 31,
+      "qtd": 32,
       "itens": [
+        "TEMU180",
         "TEMU121-2",
         "TEMU126-2",
         "TEMU133-2",

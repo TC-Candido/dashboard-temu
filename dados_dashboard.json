@@ -1,7 +1,7 @@
 {
-  "geradoEm": "17/11/2026 16:34",
+  "geradoEm": "17/11/2026 17:00",
   "kpis": {
-    "totalProjetos": 18,
+    "totalProjetos": 19,
     "totalContainers": 20,
     "etd7dias": 1,
     "chegando10dias": 8
@@ -13,11 +13,11 @@
     "SOBRE AGUAS": 6,
     "EM PRODUÇÃO": 28,
     "VISTORIA": 10,
-    "": 1
+    "": 2
   },
   "fornecedorCounts": {
     "Honesty": 12,
-    "Temu": 32,
+    "Temu": 33,
     "Faread": 1,
     "Daltec": 1,
     "Hontech-Wins": 3,
@@ -1807,6 +1807,26 @@
       "invoice": "26TM0927",
       "pedido": "99-00694",
       "abertura": "17/11/2026"
+    },
+    {
+      "embarque": "TEMU180",
+      "codProjeto": "?",
+      "projeto": "Projeto Vilomix",
+      "fornecedor": "Temu",
+      "destino": "",
+      "qtdCntr": 0,
+      "tipoCntr": "",
+      "prontidao": "",
+      "etd": null,
+      "eta": null,
+      "status": "",
+      "statusOp": "Sem Prontidão e ETD",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "26TM0925",
+      "pedido": "99-00691",
+      "abertura": null
     }
   ]
 }
