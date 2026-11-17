@@ -1,5 +1,5 @@
 {
-  "geradoEm": "17/11/2026 10:34",
+  "geradoEm": "17/11/2026 11:00",
   "hoje": "17/11/2026",
   "limChegada": "02/12/2026",
   "limProntidao": "02/12/2026",
@@ -10,12 +10,12 @@
   "diasAbertura": 15,
   "diasChegou": 7,
   "dolar": {
-    "atual": 5.799,
+    "atual": 5.7994,
     "data": "17/11/2026",
-    "variacao": 0.015,
-    "variacaoPct": 0.26,
+    "variacao": 0.0154,
+    "variacaoPct": 0.27,
     "min": 4.9648,
-    "max": 5.799,
+    "max": 5.7994,
     "serie": [
       {
         "d": "11/10",
@@ -165,12 +165,12 @@
       {
         "d": "17/11",
         "iso": "2026-11-17",
-        "v": 5.799
+        "v": 5.7994
       }
     ],
     "fonte": "Dólar comercial (compra) — AwesomeAPI",
     "titulo": "Dólar comercial — flutuante",
-    "hora": "10:27",
+    "hora": "10:53",
     "desatualizado": false
   },
   "coresLidas": true,
@@ -181,19 +181,19 @@
     "prontidaoQtd": 6,
     "confirmarQtd": 2,
     "prontosSemEtd": 8,
-    "faltandoQtd": 28,
+    "faltandoQtd": 29,
     "semDadosQtd": 3,
-    "abertosQtd": 16,
+    "abertosQtd": 17,
     "chegaramQtd": 3,
     "prontidaoMes": 6,
     "chegandoMes": 6,
-    "emAndamento": 48,
+    "emAndamento": 49,
     "finalizados": 27
   },
   "etapas": [
     {
       "nome": "Em produção",
-      "qtd": 28
+      "qtd": 29
     },
     {
       "nome": "Vistoria",
@@ -745,6 +745,28 @@
     }
   ],
   "abertos": [
+    {
+      "embarque": "TEMU179",
+      "codProjeto": "TL-00117",
+      "projeto": "Projeto San Bernardo lll",
+      "fornecedor": "Temu",
+      "destino": "",
+      "qtdCntr": 2,
+      "tipoCntr": "40HC",
+      "pedido": "99-00694",
+      "invoice": "26TM0927",
+      "abertura": "17/11/2026",
+      "diasAbertura": 0,
+      "status": "EM PRODUÇÃO",
+      "prontidao": null,
+      "etd": null,
+      "eta": null,
+      "etdConf": null,
+      "etaConf": null,
+      "diasProntidao": null,
+      "diasEtd": null,
+      "diasEta": null
+    },
     {
       "embarque": "TEMU159",
       "codProjeto": "TL-00117",
@@ -2034,6 +2056,31 @@
         "faltas": [
           "Qtd de containers"
         ]
+      },
+      {
+        "embarque": "TEMU179",
+        "codProjeto": "TL-00117",
+        "projeto": "Projeto San Bernardo lll",
+        "fornecedor": "Temu",
+        "destino": "",
+        "qtdCntr": 2,
+        "tipoCntr": "40HC",
+        "pedido": "99-00694",
+        "invoice": "26TM0927",
+        "abertura": "17/11/2026",
+        "diasAbertura": 0,
+        "status": "EM PRODUÇÃO",
+        "prontidao": null,
+        "etd": null,
+        "eta": null,
+        "etdConf": null,
+        "etaConf": null,
+        "diasProntidao": null,
+        "diasEtd": null,
+        "diasEta": null,
+        "faltas": [
+          "Prontidão"
+        ]
       }
     ]
   },
@@ -2091,7 +2138,7 @@
       "prioridade": "media",
       "titulo": "Preencher informações faltando",
       "detalhe": "Processos com dados em branco na planilha (prontidão, ETD, ETA, status ou valor).",
-      "qtd": 28,
+      "qtd": 29,
       "itens": [
         "TEMU121-2",
         "TEMU126-2",
@@ -2120,7 +2167,8 @@
         "TEMU174",
         "TEMU175",
         "TEMU177",
-        "TEMU178"
+        "TEMU178",
+        "TEMU179"
       ]
     },
     {

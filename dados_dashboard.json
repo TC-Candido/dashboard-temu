@@ -1,5 +1,5 @@
 {
-  "geradoEm": "17/11/2026 10:34",
+  "geradoEm": "17/11/2026 11:00",
   "kpis": {
     "totalProjetos": 18,
     "totalContainers": 20,
@@ -11,11 +11,11 @@
     "DESEMBRAÇO": 4,
     "SOBRE AGUAS": 7,
     "VISTORIA": 9,
-    "EM PRODUÇÃO": 28
+    "EM PRODUÇÃO": 29
   },
   "fornecedorCounts": {
     "Honesty": 11,
-    "Temu": 31,
+    "Temu": 32,
     "Faread": 1,
     "Honesty\nTemu": 1,
     "Hontech-Wins": 3,
@@ -1765,6 +1765,26 @@
       "invoice": "26TM0753\n26TM0754",
       "pedido": "99-00132",
       "abertura": "10/11/2026"
+    },
+    {
+      "embarque": "TEMU179",
+      "codProjeto": "TL-00117",
+      "projeto": "Projeto San Bernardo lll",
+      "fornecedor": "Temu",
+      "destino": "",
+      "qtdCntr": 2,
+      "tipoCntr": "40HC",
+      "prontidao": "",
+      "etd": null,
+      "eta": null,
+      "status": "EM PRODUÇÃO",
+      "statusOp": "Sem Prontidão e ETD",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "26TM0927",
+      "pedido": "99-00694",
+      "abertura": "17/11/2026"
     }
   ]
 }
