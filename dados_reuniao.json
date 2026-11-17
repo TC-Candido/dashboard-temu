@@ -1,5 +1,5 @@
 {
-  "geradoEm": "17/11/2026 15:00",
+  "geradoEm": "17/11/2026 15:34",
   "hoje": "17/11/2026",
   "limChegada": "02/12/2026",
   "limProntidao": "02/12/2026",
@@ -10,10 +10,10 @@
   "diasAbertura": 15,
   "diasChegou": 7,
   "dolar": {
-    "atual": 5.773,
+    "atual": 5.776,
     "data": "17/11/2026",
-    "variacao": -0.011,
-    "variacaoPct": -0.19,
+    "variacao": -0.008,
+    "variacaoPct": -0.14,
     "min": 4.9648,
     "max": 5.784,
     "serie": [
@@ -165,35 +165,35 @@
       {
         "d": "17/11",
         "iso": "2026-11-17",
-        "v": 5.773
+        "v": 5.776
       }
     ],
     "fonte": "Dólar comercial (compra) — AwesomeAPI",
     "titulo": "Dólar comercial — flutuante",
-    "hora": "14:56",
+    "hora": "15:27",
     "desatualizado": false
   },
   "coresLidas": true,
   "avisosCores": [],
   "kpis": {
-    "chegandoQtd": 7,
+    "chegandoQtd": 8,
     "provisao15": 290000.0,
-    "prontidaoQtd": 7,
+    "prontidaoQtd": 8,
     "confirmarQtd": 0,
     "prontosSemEtd": 7,
     "faltandoQtd": 31,
-    "semDadosQtd": 3,
+    "semDadosQtd": 2,
     "abertosQtd": 18,
-    "chegaramQtd": 1,
-    "prontidaoMes": 7,
-    "chegandoMes": 7,
+    "chegaramQtd": 2,
+    "prontidaoMes": 8,
+    "chegandoMes": 8,
     "emAndamento": 50,
     "finalizados": 27
   },
   "etapas": [
     {
       "nome": "Em produção",
-      "qtd": 29
+      "qtd": 28
     },
     {
       "nome": "Vistoria",
@@ -210,9 +210,36 @@
     {
       "nome": "Sem status",
       "qtd": 1
+    },
+    {
+      "nome": "EMITIR NF",
+      "qtd": 1
     }
   ],
   "chegandoOp": [
+    {
+      "embarque": "TEMU147",
+      "codProjeto": "TL-00111",
+      "projeto": "Estoque",
+      "fornecedor": "Temu",
+      "destino": "Navegantes",
+      "qtdCntr": 0,
+      "tipoCntr": "0",
+      "pedido": "AMILTON",
+      "invoice": "26TM0628",
+      "abertura": "10/11/2026",
+      "diasAbertura": -7,
+      "status": "EMITIR NF",
+      "prontidao": "17/11/2026",
+      "etd": "17/11/2026",
+      "eta": "17/11/2026",
+      "etdConf": "confirmado",
+      "etaConf": "confirmado",
+      "diasProntidao": 0,
+      "diasEtd": 0,
+      "diasEta": 0,
+      "provisao": null
+    },
     {
       "embarque": "TEMU146",
       "codProjeto": "TL-00099",
@@ -391,6 +418,29 @@
     }
   ],
   "prontidoes": [
+    {
+      "embarque": "TEMU147",
+      "codProjeto": "TL-00111",
+      "projeto": "Estoque",
+      "fornecedor": "Temu",
+      "destino": "Navegantes",
+      "qtdCntr": 0,
+      "tipoCntr": "0",
+      "pedido": "AMILTON",
+      "invoice": "26TM0628",
+      "abertura": "10/11/2026",
+      "diasAbertura": -7,
+      "status": "EMITIR NF",
+      "prontidao": "17/11/2026",
+      "etd": "17/11/2026",
+      "eta": "17/11/2026",
+      "etdConf": "confirmado",
+      "etaConf": "confirmado",
+      "diasProntidao": 0,
+      "diasEtd": 0,
+      "diasEta": 0,
+      "provisao": null
+    },
     {
       "embarque": "TEMU171",
       "codProjeto": "TL-99999",
@@ -704,28 +754,6 @@
   ],
   "semDados": [
     {
-      "embarque": "TEMU147",
-      "codProjeto": "TL-00111",
-      "projeto": "Estoque - não embarcou",
-      "fornecedor": "Temu",
-      "destino": "Navegantes",
-      "qtdCntr": 0,
-      "tipoCntr": "0",
-      "pedido": "",
-      "invoice": "26TM0628",
-      "abertura": "10/11/2026",
-      "diasAbertura": -7,
-      "status": "EM PRODUÇÃO",
-      "prontidao": null,
-      "etd": null,
-      "eta": null,
-      "etdConf": null,
-      "etaConf": null,
-      "diasProntidao": null,
-      "diasEtd": null,
-      "diasEta": null
-    },
-    {
       "embarque": "TEMU166",
       "codProjeto": "TL-00117",
       "projeto": "Projeto San Bernardo lll",
@@ -818,13 +846,36 @@
     {
       "embarque": "TEMU147",
       "codProjeto": "TL-00111",
-      "projeto": "Estoque - não embarcou",
+      "projeto": "Estoque",
       "fornecedor": "Temu",
       "destino": "Navegantes",
       "qtdCntr": 0,
       "tipoCntr": "0",
-      "pedido": "",
+      "pedido": "AMILTON",
       "invoice": "26TM0628",
+      "abertura": "10/11/2026",
+      "diasAbertura": -7,
+      "status": "EMITIR NF",
+      "prontidao": "17/11/2026",
+      "etd": "17/11/2026",
+      "eta": "17/11/2026",
+      "etdConf": "confirmado",
+      "etaConf": "confirmado",
+      "diasProntidao": 0,
+      "diasEtd": 0,
+      "diasEta": 0,
+      "provisao": null
+    },
+    {
+      "embarque": "TEMU148-3",
+      "codProjeto": "TL-00120",
+      "projeto": "Projeto Miotto",
+      "fornecedor": "Temu",
+      "destino": "",
+      "qtdCntr": 1,
+      "tipoCntr": "40HC",
+      "pedido": "99-00224 / 99-0022526 / TM0901 (sem pedido feito)",
+      "invoice": "26TM0870 / 26TM0871 / amostra - hontech / 26TM0901",
       "abertura": "10/11/2026",
       "diasAbertura": -7,
       "status": "EM PRODUÇÃO",
@@ -924,28 +975,6 @@
       "diasProntidao": 59,
       "diasEtd": 69,
       "diasEta": 159
-    },
-    {
-      "embarque": "TEMU148-3",
-      "codProjeto": "TL-00120",
-      "projeto": "Projeto Miotto",
-      "fornecedor": "Temu",
-      "destino": "",
-      "qtdCntr": 1,
-      "tipoCntr": "40HC",
-      "pedido": "99-00224 / 99-0022526 / TM0901 (sem pedido feito)",
-      "invoice": "26TM0870 / 26TM0871 / amostra - hontech / 26TM0901",
-      "abertura": "10/11/2026",
-      "diasAbertura": -7,
-      "status": "EM PRODUÇÃO",
-      "prontidao": null,
-      "etd": null,
-      "eta": null,
-      "etdConf": null,
-      "etaConf": null,
-      "diasProntidao": null,
-      "diasEtd": null,
-      "diasEta": null
     },
     {
       "embarque": "TEMU170",
@@ -1169,6 +1198,29 @@
     }
   ],
   "chegaram": [
+    {
+      "embarque": "TEMU147",
+      "codProjeto": "TL-00111",
+      "projeto": "Estoque",
+      "fornecedor": "Temu",
+      "destino": "Navegantes",
+      "qtdCntr": 0,
+      "tipoCntr": "0",
+      "pedido": "AMILTON",
+      "invoice": "26TM0628",
+      "abertura": "10/11/2026",
+      "diasAbertura": -7,
+      "status": "EMITIR NF",
+      "prontidao": "17/11/2026",
+      "etd": "17/11/2026",
+      "eta": "17/11/2026",
+      "etdConf": "confirmado",
+      "etaConf": "confirmado",
+      "diasProntidao": 0,
+      "diasEtd": 0,
+      "diasEta": 0,
+      "provisao": null
+    },
     {
       "embarque": "TEMU135",
       "codProjeto": "TL-00100",
@@ -1453,27 +1505,28 @@
       {
         "embarque": "TEMU147",
         "codProjeto": "TL-00111",
-        "projeto": "Estoque - não embarcou",
+        "projeto": "Estoque",
         "fornecedor": "Temu",
         "destino": "Navegantes",
         "qtdCntr": 0,
         "tipoCntr": "0",
-        "pedido": "",
+        "pedido": "AMILTON",
         "invoice": "26TM0628",
         "abertura": "10/11/2026",
         "diasAbertura": -7,
-        "status": "EM PRODUÇÃO",
-        "prontidao": null,
-        "etd": null,
-        "eta": null,
-        "etdConf": null,
-        "etaConf": null,
-        "diasProntidao": null,
-        "diasEtd": null,
-        "diasEta": null,
+        "status": "EMITIR NF",
+        "prontidao": "17/11/2026",
+        "etd": "17/11/2026",
+        "eta": "17/11/2026",
+        "etdConf": "confirmado",
+        "etaConf": "confirmado",
+        "diasProntidao": 0,
+        "diasEtd": 0,
+        "diasEta": 0,
+        "provisao": null,
         "faltas": [
-          "Prontidão",
-          "Qtd de containers"
+          "Qtd de containers",
+          "Valor no financeiro"
         ]
       },
       {
@@ -2148,9 +2201,8 @@
       "prioridade": "alta",
       "titulo": "Processos sem containers e sem prontidão",
       "detalhe": "Sem quantidade de containers e sem previsão de prontidão: levantar com o fornecedor/agente.",
-      "qtd": 3,
+      "qtd": 2,
       "itens": [
-        "TEMU147",
         "TEMU166",
         "TEMU170"
       ]
@@ -2198,8 +2250,9 @@
       "prioridade": "normal",
       "titulo": "Chegadas dos próximos 15 dias",
       "detalhe": "Provisão financeira prevista: R$ 290.000",
-      "qtd": 7,
+      "qtd": 8,
       "itens": [
+        "TEMU147",
         "TEMU146",
         "TEMU136 / TEMU134-2",
         "TEMU140",
@@ -2213,8 +2266,9 @@
       "prioridade": "normal",
       "titulo": "Prontidões dos próximos 15 dias",
       "detalhe": "Processos que ficam prontos e precisam embarcar.",
-      "qtd": 7,
+      "qtd": 8,
       "itens": [
+        "TEMU147",
         "TEMU171",
         "TEMU160",
         "TEMU149",

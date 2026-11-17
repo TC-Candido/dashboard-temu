@@ -1,5 +1,5 @@
 {
-  "geradoEm": "17/11/2026 15:00",
+  "geradoEm": "17/11/2026 15:34",
   "total": 77,
   "ativos": 50,
   "itens": [
@@ -531,6 +531,23 @@
       "ativo": true
     },
     {
+      "produto": "controladores  - Amilton",
+      "projeto": "Estoque",
+      "codProjeto": "TL-00111",
+      "embarque": "TEMU147",
+      "pedido": "AMILTON",
+      "fornecedor": "Temu",
+      "invoice": "26TM0628",
+      "qtdCntr": 0,
+      "tipoCntr": "0",
+      "etd": "17/11/2026",
+      "eta": "17/11/2026",
+      "entrega": null,
+      "etaIso": "2026-11-17",
+      "status": "EMITIR NF",
+      "ativo": true
+    },
+    {
       "produto": "Bolt (M8*70 SS304) / SS304 Nut / SS304 Washer / 0209LW0089 - Base Support FRP for 50504mm beam / 0209LW0090 - Square FRP Beam 50504mm – Upright Stand Column Height 550MM / 0209LW0092 + C FRP Beam / 05011382 - Anchor Bolts, Concrete Bolts Expansion Screws Bolts M8 x 90mm – Stainless",
       "projeto": "Projeto San Bernardo l",
       "codProjeto": "TL-00099",
@@ -633,15 +650,15 @@
       "ativo": true
     },
     {
-      "produto": "controladores  - Amilton",
-      "projeto": "Estoque - não embarcou",
-      "codProjeto": "TL-00111",
-      "embarque": "TEMU147",
-      "pedido": "",
+      "produto": "T60 FEEDING SYSTEM - 99-00224 Silo -1 / T60 FEEDING SYSTEM - 99-00225 Exhaust Fans - 1 / 376pcs fasteners",
+      "projeto": "Projeto Miotto",
+      "codProjeto": "TL-00120",
+      "embarque": "TEMU148-3",
+      "pedido": "99-00224 / 99-0022526 / TM0901 (sem pedido feito)",
       "fornecedor": "Temu",
-      "invoice": "26TM0628",
-      "qtdCntr": 0,
-      "tipoCntr": "0",
+      "invoice": "26TM0870 / 26TM0871 / amostra - hontech / 26TM0901",
+      "qtdCntr": 1,
+      "tipoCntr": "40HC",
       "etd": null,
       "eta": null,
       "entrega": null,
@@ -1241,23 +1258,6 @@
       "eta": "25/04/2027",
       "entrega": "05/05/2027",
       "etaIso": "2027-04-25",
-      "status": "EM PRODUÇÃO",
-      "ativo": true
-    },
-    {
-      "produto": "T60 FEEDING SYSTEM - 99-00224 Silo -1 / T60 FEEDING SYSTEM - 99-00225 Exhaust Fans - 1 / 376pcs fasteners",
-      "projeto": "Projeto Miotto",
-      "codProjeto": "TL-00120",
-      "embarque": "TEMU148-3",
-      "pedido": "99-00224 / 99-0022526 / TM0901 (sem pedido feito)",
-      "fornecedor": "Temu",
-      "invoice": "26TM0870 / 26TM0871 / amostra - hontech / 26TM0901",
-      "qtdCntr": 1,
-      "tipoCntr": "40HC",
-      "etd": null,
-      "eta": null,
-      "entrega": null,
-      "etaIso": null,
       "status": "EM PRODUÇÃO",
       "ativo": true
     },
