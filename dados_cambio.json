@@ -1,10 +1,10 @@
 {
-  "geradoEm": "17/11/2026 14:00",
+  "geradoEm": "17/11/2026 14:34",
   "kpis": {
     "totalSaldo": 2908378.8,
     "qtdAberto": 88,
-    "venc30": 0,
-    "vencidos": 183239.21
+    "venc30": 108555.92,
+    "vencidos": 74683.29
   },
   "fornSaldo": {
     "Honesty": 1107993.05,
@@ -33,9 +33,9 @@
       "pago3": 74683.29,
       "saldo": 74683.29,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "07/11/2026",
-      "previsaoDias": -10,
-      "previsaoLabel": "10d atrás",
+      "previsao": "11/11/2026",
+      "previsaoDias": -6,
+      "previsaoLabel": "6d atrás",
       "statusVenc": "Vencido",
       "pagoEUA": 56012.46
     },
@@ -54,10 +54,10 @@
       "pago3": 20343.96,
       "saldo": 20343.96,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "11/11/2026",
-      "previsaoDias": -6,
-      "previsaoLabel": "6d atrás",
-      "statusVenc": "Vencido",
+      "previsao": "18/11/2026",
+      "previsaoDias": 1,
+      "previsaoLabel": "Amanhã",
+      "statusVenc": "Vence em 30 dias",
       "pagoEUA": 0
     },
     {
@@ -75,10 +75,10 @@
       "pago3": 1386.0,
       "saldo": 1386.0,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "11/11/2026",
-      "previsaoDias": -6,
-      "previsaoLabel": "6d atrás",
-      "statusVenc": "Vencido",
+      "previsao": "18/11/2026",
+      "previsaoDias": 1,
+      "previsaoLabel": "Amanhã",
+      "statusVenc": "Vence em 30 dias",
       "pagoEUA": 0
     },
     {
@@ -96,10 +96,10 @@
       "pago3": 83129.96,
       "saldo": 83129.96,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "16/11/2026",
-      "previsaoDias": -1,
-      "previsaoLabel": "1d atrás",
-      "statusVenc": "Vencido",
+      "previsao": "20/11/2026",
+      "previsaoDias": 3,
+      "previsaoLabel": "3 dias",
+      "statusVenc": "Vence em 30 dias",
       "pagoEUA": 0
     },
     {
@@ -117,10 +117,10 @@
       "pago3": 3696.0,
       "saldo": 3696.0,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "16/11/2026",
-      "previsaoDias": -1,
-      "previsaoLabel": "1d atrás",
-      "statusVenc": "Vencido",
+      "previsao": "20/11/2026",
+      "previsaoDias": 3,
+      "previsaoLabel": "3 dias",
+      "statusVenc": "Vence em 30 dias",
       "pagoEUA": 0
     }
   ],
@@ -2009,9 +2009,9 @@
       "pago3": 74683.29,
       "saldo": 74683.29,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "07/11/2026",
-      "previsaoDias": -10,
-      "previsaoLabel": "10d atrás",
+      "previsao": "11/11/2026",
+      "previsaoDias": -6,
+      "previsaoLabel": "6d atrás",
       "statusVenc": "Vencido",
       "pagoEUA": 56012.46
     },
@@ -2156,10 +2156,10 @@
       "pago3": 20343.96,
       "saldo": 20343.96,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "11/11/2026",
-      "previsaoDias": -6,
-      "previsaoLabel": "6d atrás",
-      "statusVenc": "Vencido",
+      "previsao": "18/11/2026",
+      "previsaoDias": 1,
+      "previsaoLabel": "Amanhã",
+      "statusVenc": "Vence em 30 dias",
       "pagoEUA": 0
     },
     {
@@ -2177,10 +2177,10 @@
       "pago3": 1386.0,
       "saldo": 1386.0,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "11/11/2026",
-      "previsaoDias": -6,
-      "previsaoLabel": "6d atrás",
-      "statusVenc": "Vencido",
+      "previsao": "18/11/2026",
+      "previsaoDias": 1,
+      "previsaoLabel": "Amanhã",
+      "statusVenc": "Vence em 30 dias",
       "pagoEUA": 0
     },
     {
@@ -2198,10 +2198,10 @@
       "pago3": 83129.96,
       "saldo": 83129.96,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "16/11/2026",
-      "previsaoDias": -1,
-      "previsaoLabel": "1d atrás",
-      "statusVenc": "Vencido",
+      "previsao": "20/11/2026",
+      "previsaoDias": 3,
+      "previsaoLabel": "3 dias",
+      "statusVenc": "Vence em 30 dias",
       "pagoEUA": 0
     },
     {
@@ -2219,10 +2219,10 @@
       "pago3": 3696.0,
       "saldo": 3696.0,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "16/11/2026",
-      "previsaoDias": -1,
-      "previsaoLabel": "1d atrás",
-      "statusVenc": "Vencido",
+      "previsao": "20/11/2026",
+      "previsaoDias": 3,
+      "previsaoLabel": "3 dias",
+      "statusVenc": "Vence em 30 dias",
       "pagoEUA": 0
     },
     {
