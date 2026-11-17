@@ -1,14 +1,14 @@
 {
-  "geradoEm": "17/11/2026 16:00",
+  "geradoEm": "17/11/2026 16:34",
   "kpis": {
-    "totalSaldo": 2974531.23,
+    "totalSaldo": 2980957.03,
     "qtdAberto": 90,
     "venc30": 108555.92,
     "vencidos": 74683.29
   },
   "fornSaldo": {
     "Honesty": 1107993.05,
-    "Temu": 1019804.67,
+    "Temu": 1026230.47,
     "TEMU": 776166.39,
     "Hontech": 64793.89,
     "Daltec": 5773.23
@@ -2967,14 +2967,14 @@
       "embarque": "TEMU167",
       "fornecedor": "Temu",
       "fatura": "26TM0861",
-      "valor": 46003.39,
+      "valor": 52429.19,
       "pct1": 30.0,
       "pago1": 13801.02,
       "pct2": 70.0,
-      "pago2": 32202.37,
+      "pago2": 38628.17,
       "pct3": 0,
       "pago3": 0,
-      "saldo": 32202.37,
+      "saldo": 38628.17,
       "statusCambio": "Sem prazo - Verificar",
       "previsao": null,
       "previsaoDias": null,
