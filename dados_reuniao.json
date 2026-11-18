@@ -1,5 +1,5 @@
 {
-  "geradoEm": "18/11/2026 19:34",
+  "geradoEm": "18/11/2026 20:00",
   "hoje": "18/11/2026",
   "limChegada": "03/12/2026",
   "limProntidao": "03/12/2026",
@@ -10,12 +10,12 @@
   "diasAbertura": 15,
   "diasChegou": 7,
   "dolar": {
-    "atual": 5.8815,
+    "atual": 5.883,
     "data": "18/11/2026",
-    "variacao": 0.1035,
-    "variacaoPct": 1.79,
+    "variacao": 0.105,
+    "variacaoPct": 1.82,
     "min": 4.9648,
-    "max": 5.8815,
+    "max": 5.883,
     "serie": [
       {
         "d": "12/10",
@@ -165,12 +165,12 @@
       {
         "d": "18/11",
         "iso": "2026-11-18",
-        "v": 5.8815
+        "v": 5.883
       }
     ],
     "fonte": "Dólar comercial (compra) — AwesomeAPI",
     "titulo": "Dólar comercial — flutuante",
-    "hora": "17:58",
+    "hora": "19:00",
     "desatualizado": false
   },
   "coresLidas": true,
@@ -181,19 +181,19 @@
     "prontidaoQtd": 8,
     "confirmarQtd": 0,
     "prontosSemEtd": 7,
-    "faltandoQtd": 34,
+    "faltandoQtd": 31,
     "semDadosQtd": 4,
-    "abertosQtd": 10,
+    "abertosQtd": 9,
     "chegaramQtd": 3,
     "prontidaoMes": 7,
     "chegandoMes": 7,
-    "emAndamento": 54,
+    "emAndamento": 53,
     "finalizados": 27
   },
   "etapas": [
     {
       "nome": "Em produção",
-      "qtd": 29
+      "qtd": 28
     },
     {
       "nome": "Vistoria",
@@ -731,8 +731,8 @@
   "semDados": [
     {
       "embarque": "TEMU170",
-      "codProjeto": "TL-00117",
-      "projeto": "Projeto San Bernardo lll",
+      "codProjeto": "CANCELADO",
+      "projeto": "CANCELADO",
       "fornecedor": "Honesty",
       "destino": "Asuncion",
       "qtdCntr": 0,
@@ -915,8 +915,8 @@
       "projeto": "Projeto San Bernardo lll",
       "fornecedor": "Temu",
       "destino": "",
-      "qtdCntr": 0,
-      "tipoCntr": "",
+      "qtdCntr": 4,
+      "tipoCntr": "40HC",
       "pedido": "Farrowing / 99-00132 / Gestation House Gable 99-00122 / Gestation House Side Wall 99-00122",
       "invoice": "26TM0708 / 26TM0709 / 26TM0720 / 26TM0721 / 26TM0722 / 26TM0723 / 26TM0724 / 26TM0725 / 26TM0712 / 26TM0713 / 26TM0714 / 26TM0715 / 26TM0716 / 26TM0717",
       "abertura": "10/11/2026",
@@ -932,37 +932,15 @@
       "diasEta": 124
     },
     {
-      "embarque": "TEMU177",
+      "embarque": "TEMU177 / TEMU178",
       "codProjeto": "TL-00117",
       "projeto": "Projeto San Bernardo lll",
       "fornecedor": "Temu",
       "destino": "",
-      "qtdCntr": 0,
-      "tipoCntr": "",
-      "pedido": "99-00122",
-      "invoice": "26TM0798 / 26TM0799 / 26TM0800 / 26TM0801 / 26TM0802 / 26TM0803 / 26TM0806 / 26TM0807 / 26TM0808 / 26TM0809 / 26TM0810 / 26TM0811 / 26TM0790 / 26TM0791 / 26TM0792 / 26TM0793 / 26TM0794 / 26TM0795",
-      "abertura": "10/11/2026",
-      "diasAbertura": -8,
-      "status": "EM PRODUÇÃO",
-      "prontidao": "12/12/2026",
-      "etd": "22/12/2026",
-      "eta": "22/03/2027",
-      "etdConf": "previsao",
-      "etaConf": "previsao",
-      "diasProntidao": 24,
-      "diasEtd": 34,
-      "diasEta": 124
-    },
-    {
-      "embarque": "TEMU178",
-      "codProjeto": "TL-00117",
-      "projeto": "Projeto San Bernardo lll",
-      "fornecedor": "Temu",
-      "destino": "",
-      "qtdCntr": 0,
-      "tipoCntr": "",
-      "pedido": "99-00132",
-      "invoice": "26TM0753 / 26TM0754",
+      "qtdCntr": 1,
+      "tipoCntr": "40",
+      "pedido": "TEMU177 - 99-00122 / TEMU178 - 99-00132",
+      "invoice": "26TM0798 / 26TM0799 / 26TM0800 / 26TM0801 / 26TM0802 / 26TM0803 / 26TM0806 / 26TM0807 / 26TM0808 / 26TM0809 / 26TM0810 / 26TM0811 / 26TM0790 / 26TM0791 / 26TM0792 / 26TM0793 / 26TM0794 / 26TM0795 / ---- / 26TM0753 / 26TM0754",
       "abertura": "10/11/2026",
       "diasAbertura": -8,
       "status": "EM PRODUÇÃO",
@@ -999,8 +977,8 @@
     },
     {
       "embarque": "TEMU170",
-      "codProjeto": "TL-00117",
-      "projeto": "Projeto San Bernardo lll",
+      "codProjeto": "CANCELADO",
+      "projeto": "CANCELADO",
       "fornecedor": "Honesty",
       "destino": "Asuncion",
       "qtdCntr": 0,
@@ -1480,8 +1458,8 @@
       },
       {
         "embarque": "TEMU170",
-        "codProjeto": "TL-00117",
-        "projeto": "Projeto San Bernardo lll",
+        "codProjeto": "CANCELADO",
+        "projeto": "CANCELADO",
         "fornecedor": "Honesty",
         "destino": "Asuncion",
         "qtdCntr": 0,
@@ -2015,81 +1993,6 @@
         ]
       },
       {
-        "embarque": "TEMU175",
-        "codProjeto": "TL-00117",
-        "projeto": "Projeto San Bernardo lll",
-        "fornecedor": "Temu",
-        "destino": "",
-        "qtdCntr": 0,
-        "tipoCntr": "",
-        "pedido": "Farrowing / 99-00132 / Gestation House Gable 99-00122 / Gestation House Side Wall 99-00122",
-        "invoice": "26TM0708 / 26TM0709 / 26TM0720 / 26TM0721 / 26TM0722 / 26TM0723 / 26TM0724 / 26TM0725 / 26TM0712 / 26TM0713 / 26TM0714 / 26TM0715 / 26TM0716 / 26TM0717",
-        "abertura": "10/11/2026",
-        "diasAbertura": -8,
-        "status": "EM PRODUÇÃO",
-        "prontidao": "12/12/2026",
-        "etd": "22/12/2026",
-        "eta": "22/03/2027",
-        "etdConf": "previsao",
-        "etaConf": "previsao",
-        "diasProntidao": 24,
-        "diasEtd": 34,
-        "diasEta": 124,
-        "faltas": [
-          "Qtd de containers"
-        ]
-      },
-      {
-        "embarque": "TEMU177",
-        "codProjeto": "TL-00117",
-        "projeto": "Projeto San Bernardo lll",
-        "fornecedor": "Temu",
-        "destino": "",
-        "qtdCntr": 0,
-        "tipoCntr": "",
-        "pedido": "99-00122",
-        "invoice": "26TM0798 / 26TM0799 / 26TM0800 / 26TM0801 / 26TM0802 / 26TM0803 / 26TM0806 / 26TM0807 / 26TM0808 / 26TM0809 / 26TM0810 / 26TM0811 / 26TM0790 / 26TM0791 / 26TM0792 / 26TM0793 / 26TM0794 / 26TM0795",
-        "abertura": "10/11/2026",
-        "diasAbertura": -8,
-        "status": "EM PRODUÇÃO",
-        "prontidao": "12/12/2026",
-        "etd": "22/12/2026",
-        "eta": "22/03/2027",
-        "etdConf": "previsao",
-        "etaConf": "previsao",
-        "diasProntidao": 24,
-        "diasEtd": 34,
-        "diasEta": 124,
-        "faltas": [
-          "Qtd de containers"
-        ]
-      },
-      {
-        "embarque": "TEMU178",
-        "codProjeto": "TL-00117",
-        "projeto": "Projeto San Bernardo lll",
-        "fornecedor": "Temu",
-        "destino": "",
-        "qtdCntr": 0,
-        "tipoCntr": "",
-        "pedido": "99-00132",
-        "invoice": "26TM0753 / 26TM0754",
-        "abertura": "10/11/2026",
-        "diasAbertura": -8,
-        "status": "EM PRODUÇÃO",
-        "prontidao": "12/12/2026",
-        "etd": "22/12/2026",
-        "eta": "22/03/2027",
-        "etdConf": "previsao",
-        "etaConf": "previsao",
-        "diasProntidao": 24,
-        "diasEtd": 34,
-        "diasEta": 124,
-        "faltas": [
-          "Qtd de containers"
-        ]
-      },
-      {
         "embarque": "TEMU179",
         "codProjeto": "TL-00117",
         "projeto": "Projeto San Bernardo lll",
@@ -2161,7 +2064,7 @@
       "prioridade": "media",
       "titulo": "Preencher informações faltando",
       "detalhe": "Processos com dados em branco na planilha (prontidão, ETD, ETA, status ou valor).",
-      "qtd": 34,
+      "qtd": 31,
       "itens": [
         "TEMU180",
         "TEMU182",
@@ -2193,9 +2096,6 @@
         "TEMU171",
         "TEMU172",
         "TEMU172",
-        "TEMU175",
-        "TEMU177",
-        "TEMU178",
         "TEMU179"
       ]
     },
