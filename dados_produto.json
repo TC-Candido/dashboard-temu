@@ -1,7 +1,7 @@
 {
-  "geradoEm": "18/11/2026 17:34",
-  "total": 78,
-  "ativos": 51,
+  "geradoEm": "18/11/2026 18:00",
+  "total": 79,
+  "ativos": 52,
   "itens": [
     {
       "produto": "",
@@ -973,6 +973,23 @@
       "ativo": true
     },
     {
+      "produto": "Galpão 1 - Reposição 1 (gestação) / Galpão 2 - Reposição 1 (gestação) / Galpão 1 e 2 - Reposição 2 / Farrowing House / Central de Machos elétrica / Central de Machos elétrica / Central de Machos elétrica - Ag. Confirmação",
+      "projeto": "Projeto San Bernardo lll",
+      "codProjeto": "TL-00117",
+      "embarque": "TEMU166",
+      "pedido": "99-00304 / 99-00353 / 99-00355 / 99-00464 / 99-00482 / 99-00490 / 99-00578",
+      "fornecedor": "Honesty",
+      "invoice": "SH-ZXH-261010-1 / SH-ZXH-261010-2 / SH-ZXH-261010-3 / SH-ZXH-261010-4 / SH-ZXH-261010-5 / SH-ZXH-261010-6 / SH-ZXH-261010-7 - Ag. Confirmação",
+      "qtdCntr": 7,
+      "tipoCntr": "40HC",
+      "etd": null,
+      "eta": null,
+      "entrega": null,
+      "etaIso": null,
+      "status": "EM PRODUÇÃO",
+      "ativo": true
+    },
+    {
       "produto": "Gestation and Farrowing SB",
       "projeto": "Projeto San Bernardo lll",
       "codProjeto": "TL-00117",
@@ -1241,7 +1258,7 @@
       "eta": "14/04/2027",
       "entrega": "24/04/2027",
       "etaIso": "2027-04-14",
-      "status": "",
+      "status": "EM PRODUÇÃO",
       "ativo": true
     },
     {
@@ -1258,23 +1275,6 @@
       "eta": "25/04/2027",
       "entrega": "05/05/2027",
       "etaIso": "2027-04-25",
-      "status": "EM PRODUÇÃO",
-      "ativo": true
-    },
-    {
-      "produto": "Galpão 1 - Reposição 1 (gestação) / Galpão 2 - Reposição 1 (gestação) / Galpão 1 e 2 - Reposição 2 / Farrowing House / Central de Machos elétrica / Central de Machos elétrica / Central de Machos elétrica - Ag. Confirmação",
-      "projeto": "Projeto San Bernardo lll",
-      "codProjeto": "TL-00117",
-      "embarque": "TEMU166",
-      "pedido": "99-00304 / 99-00353 / 99-00355 / 99-00464 / 99-00482 / 99-00490 / 99-00578",
-      "fornecedor": "Honesty",
-      "invoice": "SH-ZXH-261010-1 / SH-ZXH-261010-2 / SH-ZXH-261010-3 / SH-ZXH-261010-4 / SH-ZXH-261010-5 / SH-ZXH-261010-6 / SH-ZXH-261010-7 - Ag. Confirmação",
-      "qtdCntr": 0,
-      "tipoCntr": "",
-      "etd": null,
-      "eta": null,
-      "entrega": null,
-      "etaIso": null,
       "status": "EM PRODUÇÃO",
       "ativo": true
     },
@@ -1315,11 +1315,28 @@
     {
       "produto": "finisher house penning-Rev 1",
       "projeto": "Projeto Vilomix",
-      "codProjeto": "?",
+      "codProjeto": "TL-00118",
       "embarque": "TEMU180",
       "pedido": "99-00691",
       "fornecedor": "Temu",
       "invoice": "26TM0925",
+      "qtdCntr": 0,
+      "tipoCntr": "",
+      "etd": null,
+      "eta": null,
+      "entrega": "12/01/1900",
+      "etaIso": null,
+      "status": "",
+      "ativo": true
+    },
+    {
+      "produto": "Finisher House",
+      "projeto": "Projeto Vilomix",
+      "codProjeto": "TL-00118",
+      "embarque": "TEMU181",
+      "pedido": "99-00691",
+      "fornecedor": "Hontech",
+      "invoice": "HT-X26111701BR",
       "qtdCntr": 0,
       "tipoCntr": "",
       "etd": null,

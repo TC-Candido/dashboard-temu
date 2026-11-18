@@ -1,7 +1,7 @@
 {
-  "geradoEm": "18/11/2026 17:34",
+  "geradoEm": "18/11/2026 18:00",
   "kpis": {
-    "totalProjetos": 19,
+    "totalProjetos": 18,
     "totalContainers": 20,
     "etd7dias": 0,
     "chegando10dias": 7
@@ -11,7 +11,7 @@
     "DESEMBRAÇO": 4,
     "EMITIR NF": 1,
     "SOBRE AGUAS": 6,
-    "EM PRODUÇÃO": 28,
+    "EM PRODUÇÃO": 29,
     "VISTORIA": 10,
     "": 2
   },
@@ -21,7 +21,8 @@
     "Faread": 1,
     "Daltec": 1,
     "Hontech-Wins": 3,
-    "Honesty\nTemu": 1
+    "Honesty\nTemu": 1,
+    "Hontech": 1
   },
   "proximosETD": [
     {
@@ -1409,6 +1410,26 @@
       "abertura": "14/10/2026"
     },
     {
+      "embarque": "TEMU166",
+      "codProjeto": "TL-00117",
+      "projeto": "Projeto San Bernardo lll",
+      "fornecedor": "Honesty",
+      "destino": "Asuncion",
+      "qtdCntr": 7,
+      "tipoCntr": "40HC",
+      "prontidao": "2026-12-13 00:00:00",
+      "etd": null,
+      "eta": null,
+      "status": "EM PRODUÇÃO",
+      "statusOp": "Pronto - Aguardando ETD",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "SH-ZXH-261010-1\nSH-ZXH-261010-2\nSH-ZXH-261010-3\nSH-ZXH-261010-4\nSH-ZXH-261010-5\nSH-ZXH-261010-6\nSH-ZXH-261010-7 - Ag. Confirmação",
+      "pedido": "99-00304\n99-00353\n99-00355\n99-00464\n99-00482\n99-00490\n99-00578",
+      "abertura": "02/11/2026"
+    },
+    {
       "embarque": "TEMU174",
       "codProjeto": "TL-00117",
       "projeto": "Projeto San Bernardo lll",
@@ -1713,13 +1734,13 @@
       "codProjeto": "TL-00117",
       "projeto": "Projeto San Bernardo lll",
       "fornecedor": "Honesty",
-      "destino": "",
+      "destino": "Asuncion",
       "qtdCntr": 0,
       "tipoCntr": "",
       "prontidao": "2027-01-04 00:00:00",
       "etd": "14/01/2027",
       "eta": "14/04/2027",
-      "status": "",
+      "status": "EM PRODUÇÃO",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
       "chegando10": false,
@@ -1733,7 +1754,7 @@
       "codProjeto": "TL-00117",
       "projeto": "Projeto San Bernardo lll",
       "fornecedor": "Temu",
-      "destino": "",
+      "destino": "Asuncion",
       "qtdCntr": 6,
       "tipoCntr": "40hc",
       "prontidao": "2027-01-15 00:00:00",
@@ -1747,26 +1768,6 @@
       "invoice": "26TM0651\n26TM0652\n26TM0653",
       "pedido": "",
       "abertura": "10/11/2026"
-    },
-    {
-      "embarque": "TEMU166",
-      "codProjeto": "TL-00117",
-      "projeto": "Projeto San Bernardo lll",
-      "fornecedor": "Honesty",
-      "destino": "Asuncion",
-      "qtdCntr": 0,
-      "tipoCntr": "",
-      "prontidao": "",
-      "etd": null,
-      "eta": null,
-      "status": "EM PRODUÇÃO",
-      "statusOp": "Sem Prontidão e ETD",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": "",
-      "invoice": "SH-ZXH-261010-1\nSH-ZXH-261010-2\nSH-ZXH-261010-3\nSH-ZXH-261010-4\nSH-ZXH-261010-5\nSH-ZXH-261010-6\nSH-ZXH-261010-7 - Ag. Confirmação",
-      "pedido": "99-00304\n99-00353\n99-00355\n99-00464\n99-00482\n99-00490\n99-00578",
-      "abertura": "02/11/2026"
     },
     {
       "embarque": "TEMU170",
@@ -1810,7 +1811,7 @@
     },
     {
       "embarque": "TEMU180",
-      "codProjeto": "?",
+      "codProjeto": "TL-00118",
       "projeto": "Projeto Vilomix",
       "fornecedor": "Temu",
       "destino": "",
@@ -1825,6 +1826,26 @@
       "chegando10": false,
       "observacoes": "",
       "invoice": "26TM0925",
+      "pedido": "99-00691",
+      "abertura": null
+    },
+    {
+      "embarque": "TEMU181",
+      "codProjeto": "TL-00118",
+      "projeto": "Projeto Vilomix",
+      "fornecedor": "Hontech",
+      "destino": "",
+      "qtdCntr": 0,
+      "tipoCntr": "",
+      "prontidao": "",
+      "etd": null,
+      "eta": null,
+      "status": "",
+      "statusOp": "Sem Prontidão e ETD",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "HT-X26111701BR",
       "pedido": "99-00691",
       "abertura": null
     }
