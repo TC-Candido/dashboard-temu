@@ -1,5 +1,5 @@
 {
-  "geradoEm": "18/11/2026 18:00",
+  "geradoEm": "18/11/2026 18:34",
   "hoje": "18/11/2026",
   "limChegada": "03/12/2026",
   "limProntidao": "03/12/2026",
@@ -10,12 +10,12 @@
   "diasAbertura": 15,
   "diasChegou": 7,
   "dolar": {
-    "atual": 5.8818,
+    "atual": 5.8837,
     "data": "18/11/2026",
-    "variacao": 0.1038,
-    "variacaoPct": 1.8,
+    "variacao": 0.1057,
+    "variacaoPct": 1.83,
     "min": 4.9648,
-    "max": 5.8818,
+    "max": 5.8837,
     "serie": [
       {
         "d": "12/10",
@@ -165,12 +165,12 @@
       {
         "d": "18/11",
         "iso": "2026-11-18",
-        "v": 5.8818
+        "v": 5.8837
       }
     ],
     "fonte": "Dólar comercial (compra) — AwesomeAPI",
     "titulo": "Dólar comercial — flutuante",
-    "hora": "17:55",
+    "hora": "17:58",
     "desatualizado": false
   },
   "coresLidas": true,
@@ -181,13 +181,13 @@
     "prontidaoQtd": 8,
     "confirmarQtd": 0,
     "prontosSemEtd": 7,
-    "faltandoQtd": 32,
-    "semDadosQtd": 3,
+    "faltandoQtd": 34,
+    "semDadosQtd": 4,
     "abertosQtd": 10,
     "chegaramQtd": 3,
     "prontidaoMes": 7,
     "chegandoMes": 7,
-    "emAndamento": 52,
+    "emAndamento": 54,
     "finalizados": 27
   },
   "etapas": [
@@ -209,7 +209,7 @@
     },
     {
       "nome": "Sem status",
-      "qtd": 2
+      "qtd": 4
     },
     {
       "nome": "EMITIR NF",
@@ -418,28 +418,6 @@
       "diasEta": null
     },
     {
-      "embarque": "TEMU160",
-      "codProjeto": "TL-00117",
-      "projeto": "Projeto San Bernardo lll",
-      "fornecedor": "Honesty",
-      "destino": "Asuncion",
-      "qtdCntr": 0,
-      "tipoCntr": "40HC",
-      "pedido": "99-00353 / 99-00355 / 99-00304",
-      "invoice": "SH-ZXH-261021",
-      "abertura": "11/10/2026",
-      "diasAbertura": -38,
-      "status": "EM PRODUÇÃO",
-      "prontidao": "20/11/2026",
-      "etd": "30/11/2026",
-      "eta": "28/02/2027",
-      "etdConf": "previsao",
-      "etaConf": "previsao",
-      "diasProntidao": 2,
-      "diasEtd": 12,
-      "diasEta": 102
-    },
-    {
       "embarque": "TEMU149",
       "codProjeto": "TL-00119",
       "projeto": "Projeto Ysaka",
@@ -504,6 +482,28 @@
       "diasProntidao": 7,
       "diasEtd": 17,
       "diasEta": 107
+    },
+    {
+      "embarque": "TEMU160",
+      "codProjeto": "TL-00117",
+      "projeto": "Projeto San Bernardo lll",
+      "fornecedor": "Honesty",
+      "destino": "Asuncion",
+      "qtdCntr": 0,
+      "tipoCntr": "40HC",
+      "pedido": "99-00353 / 99-00355 / 99-00304",
+      "invoice": "SH-ZXH-261021",
+      "abertura": "21/10/2026",
+      "diasAbertura": -28,
+      "status": "EM PRODUÇÃO",
+      "prontidao": "30/11/2026",
+      "etd": "10/12/2026",
+      "eta": "10/03/2027",
+      "etdConf": "previsao",
+      "etaConf": "previsao",
+      "diasProntidao": 12,
+      "diasEtd": 22,
+      "diasEta": 112
     },
     {
       "embarque": "TEMU158",
@@ -774,15 +774,37 @@
       "diasEta": null
     },
     {
-      "embarque": "TEMU181",
-      "codProjeto": "TL-00118",
-      "projeto": "Projeto Vilomix",
-      "fornecedor": "Hontech",
+      "embarque": "TEMU182",
+      "codProjeto": "TL-99999",
+      "projeto": "Amostra",
+      "fornecedor": "Temu",
       "destino": "",
       "qtdCntr": 0,
       "tipoCntr": "",
-      "pedido": "99-00691",
-      "invoice": "HT-X26111701BR",
+      "pedido": "AMOSTRA / show room",
+      "invoice": "26TM0928",
+      "abertura": null,
+      "diasAbertura": null,
+      "status": "",
+      "prontidao": null,
+      "etd": null,
+      "eta": null,
+      "etdConf": null,
+      "etaConf": null,
+      "diasProntidao": null,
+      "diasEtd": null,
+      "diasEta": null
+    },
+    {
+      "embarque": "TEMU182",
+      "codProjeto": "TL-99999",
+      "projeto": "Amostra",
+      "fornecedor": "Temu",
+      "destino": "",
+      "qtdCntr": 0,
+      "tipoCntr": "",
+      "pedido": "AMOSTRA / show room",
+      "invoice": "26TM0926",
       "abertura": null,
       "diasAbertura": null,
       "status": "",
@@ -1246,15 +1268,42 @@
         ]
       },
       {
-        "embarque": "TEMU181",
-        "codProjeto": "TL-00118",
-        "projeto": "Projeto Vilomix",
-        "fornecedor": "Hontech",
+        "embarque": "TEMU182",
+        "codProjeto": "TL-99999",
+        "projeto": "Amostra",
+        "fornecedor": "Temu",
         "destino": "",
         "qtdCntr": 0,
         "tipoCntr": "",
-        "pedido": "99-00691",
-        "invoice": "HT-X26111701BR",
+        "pedido": "AMOSTRA / show room",
+        "invoice": "26TM0928",
+        "abertura": null,
+        "diasAbertura": null,
+        "status": "",
+        "prontidao": null,
+        "etd": null,
+        "eta": null,
+        "etdConf": null,
+        "etaConf": null,
+        "diasProntidao": null,
+        "diasEtd": null,
+        "diasEta": null,
+        "faltas": [
+          "Prontidão",
+          "Qtd de containers",
+          "Status"
+        ]
+      },
+      {
+        "embarque": "TEMU182",
+        "codProjeto": "TL-99999",
+        "projeto": "Amostra",
+        "fornecedor": "Temu",
+        "destino": "",
+        "qtdCntr": 0,
+        "tipoCntr": "",
+        "pedido": "AMOSTRA / show room",
+        "invoice": "26TM0926",
         "abertura": null,
         "diasAbertura": null,
         "status": "",
@@ -1453,6 +1502,32 @@
         "faltas": [
           "Prontidão",
           "Qtd de containers"
+        ]
+      },
+      {
+        "embarque": "TEMU181",
+        "codProjeto": "TL-00118",
+        "projeto": "Projeto Vilomix",
+        "fornecedor": "Hontech",
+        "destino": "",
+        "qtdCntr": 0,
+        "tipoCntr": "",
+        "pedido": "99-00691",
+        "invoice": "HT-X26111701BR",
+        "abertura": null,
+        "diasAbertura": null,
+        "status": "",
+        "prontidao": "15/12/2026",
+        "etd": null,
+        "eta": null,
+        "etdConf": null,
+        "etaConf": null,
+        "diasProntidao": 27,
+        "diasEtd": null,
+        "diasEta": null,
+        "faltas": [
+          "Qtd de containers",
+          "Status"
         ]
       },
       {
@@ -1722,17 +1797,17 @@
         "tipoCntr": "40HC",
         "pedido": "99-00353 / 99-00355 / 99-00304",
         "invoice": "SH-ZXH-261021",
-        "abertura": "11/10/2026",
-        "diasAbertura": -38,
+        "abertura": "21/10/2026",
+        "diasAbertura": -28,
         "status": "EM PRODUÇÃO",
-        "prontidao": "20/11/2026",
-        "etd": "30/11/2026",
-        "eta": "28/02/2027",
+        "prontidao": "30/11/2026",
+        "etd": "10/12/2026",
+        "eta": "10/03/2027",
         "etdConf": "previsao",
         "etaConf": "previsao",
-        "diasProntidao": 2,
-        "diasEtd": 12,
-        "diasEta": 102,
+        "diasProntidao": 12,
+        "diasEtd": 22,
+        "diasEta": 112,
         "faltas": [
           "Qtd de containers"
         ]
@@ -2074,21 +2149,23 @@
       "prioridade": "alta",
       "titulo": "Processos sem containers e sem prontidão",
       "detalhe": "Sem quantidade de containers e sem previsão de prontidão: levantar com o fornecedor/agente.",
-      "qtd": 3,
+      "qtd": 4,
       "itens": [
         "TEMU170",
         "TEMU180",
-        "TEMU181"
+        "TEMU182",
+        "TEMU182"
       ]
     },
     {
       "prioridade": "media",
       "titulo": "Preencher informações faltando",
       "detalhe": "Processos com dados em branco na planilha (prontidão, ETD, ETA, status ou valor).",
-      "qtd": 32,
+      "qtd": 34,
       "itens": [
         "TEMU180",
-        "TEMU181",
+        "TEMU182",
+        "TEMU182",
         "TEMU121-2",
         "TEMU126-2",
         "TEMU133-2",
@@ -2096,6 +2173,7 @@
         "TEMU139",
         "TEMU162",
         "TEMU170",
+        "TEMU181",
         "TEMU133-1",
         "TEMU134 - 4",
         "TEMU134 -3",
@@ -2143,10 +2221,10 @@
       "qtd": 8,
       "itens": [
         "TEMU171",
-        "TEMU160",
         "TEMU149",
         "TEMU150-1",
         "TEMU156-A",
+        "TEMU160",
         "TEMU158",
         "TEMU155",
         "TEMU153"
