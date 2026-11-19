@@ -1,5 +1,5 @@
 {
-  "geradoEm": "19/11/2026 11:34",
+  "geradoEm": "19/11/2026 12:00",
   "hoje": "19/11/2026",
   "limChegada": "04/12/2026",
   "limProntidao": "04/12/2026",
@@ -10,12 +10,12 @@
   "diasAbertura": 15,
   "diasChegou": 7,
   "dolar": {
-    "atual": 5.9017,
+    "atual": 5.9196,
     "data": "19/11/2026",
-    "variacao": 0.0186,
-    "variacaoPct": 0.32,
+    "variacao": 0.0365,
+    "variacaoPct": 0.62,
     "min": 4.9648,
-    "max": 5.9017,
+    "max": 5.9196,
     "serie": [
       {
         "d": "13/10",
@@ -165,12 +165,12 @@
       {
         "d": "19/11",
         "iso": "2026-11-19",
-        "v": 5.9017
+        "v": 5.9196
       }
     ],
     "fonte": "Dólar comercial (compra) — AwesomeAPI",
     "titulo": "Dólar comercial — flutuante",
-    "hora": "11:30",
+    "hora": "11:52",
     "desatualizado": false
   },
   "coresLidas": true,
@@ -181,10 +181,10 @@
     "prontidaoQtd": 9,
     "confirmarQtd": 0,
     "prontosSemEtd": 7,
-    "faltandoQtd": 28,
+    "faltandoQtd": 27,
     "semDadosQtd": 2,
     "abertosQtd": 9,
-    "chegaramQtd": 3,
+    "chegaramQtd": 2,
     "prontidaoMes": 8,
     "chegandoMes": 6,
     "emAndamento": 52,
@@ -232,12 +232,12 @@
       "status": "SOBRE AGUAS",
       "prontidao": "29/07/2026",
       "etd": "03/09/2026",
-      "eta": "19/11/2026",
+      "eta": "20/11/2026",
       "etdConf": "confirmado",
       "etaConf": "confirmado",
       "diasProntidao": -113,
       "diasEtd": -77,
-      "diasEta": 0,
+      "diasEta": 1,
       "provisao": null
     },
     {
@@ -977,29 +977,6 @@
   ],
   "chegaram": [
     {
-      "embarque": "TEMU136 / TEMU134-2",
-      "codProjeto": "TL-00100",
-      "projeto": "Projeto San Bernardo ll",
-      "fornecedor": "Temu",
-      "destino": "Asuncion",
-      "qtdCntr": 1,
-      "tipoCntr": "40hc",
-      "pedido": "99-00122 / 99-00132",
-      "invoice": "26TM0796 / 26TM0797 / 26TM0804 / 26TM0805 / 26TM0788 / 26TM0789 / 26TM0773-2",
-      "abertura": "19/06/2026",
-      "diasAbertura": -153,
-      "status": "SOBRE AGUAS",
-      "prontidao": "29/07/2026",
-      "etd": "03/09/2026",
-      "eta": "19/11/2026",
-      "etdConf": "confirmado",
-      "etaConf": "confirmado",
-      "diasProntidao": -113,
-      "diasEtd": -77,
-      "diasEta": 0,
-      "provisao": null
-    },
-    {
       "embarque": "TEMU146",
       "codProjeto": "TL-00099",
       "projeto": "Projeto San Bernardo l",
@@ -1529,12 +1506,12 @@
         "status": "SOBRE AGUAS",
         "prontidao": "29/07/2026",
         "etd": "03/09/2026",
-        "eta": "19/11/2026",
+        "eta": "20/11/2026",
         "etdConf": "confirmado",
         "etaConf": "confirmado",
         "diasProntidao": -113,
         "diasEtd": -77,
-        "diasEta": 0,
+        "diasEta": 1,
         "provisao": null,
         "faltas": [
           "Valor no financeiro"
@@ -1640,31 +1617,6 @@
         "diasEta": null,
         "faltas": [
           "ETD"
-        ]
-      },
-      {
-        "embarque": "TEMU157",
-        "codProjeto": "TL-00117",
-        "projeto": "Projeto San Bernardo lll",
-        "fornecedor": "Temu",
-        "destino": "Asuncion",
-        "qtdCntr": 0,
-        "tipoCntr": "",
-        "pedido": "99-00122",
-        "invoice": "26TM0896",
-        "abertura": "19/10/2026",
-        "diasAbertura": -31,
-        "status": "EM PRODUÇÃO",
-        "prontidao": "10/12/2026",
-        "etd": "20/12/2026",
-        "eta": "20/03/2027",
-        "etdConf": "previsao",
-        "etaConf": "previsao",
-        "diasProntidao": 21,
-        "diasEtd": 31,
-        "diasEta": 121,
-        "faltas": [
-          "Qtd de containers"
         ]
       },
       {
@@ -1939,7 +1891,7 @@
       "prioridade": "media",
       "titulo": "Preencher informações faltando",
       "detalhe": "Processos com dados em branco na planilha (prontidão, ETD, ETA, status ou valor).",
-      "qtd": 28,
+      "qtd": 27,
       "itens": [
         "TEMU180",
         "TEMU121-2",
@@ -1959,7 +1911,6 @@
         "TEMU148-2",
         "TEMU148-3",
         "TEMU156-B",
-        "TEMU157",
         "TEMU160",
         "TEMU163",
         "TEMU164",

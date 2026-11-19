@@ -1,5 +1,5 @@
 {
-  "geradoEm": "19/11/2026 11:34",
+  "geradoEm": "19/11/2026 12:00",
   "total": 79,
   "ativos": 52,
   "itens": [
@@ -575,9 +575,9 @@
       "qtdCntr": 1,
       "tipoCntr": "40hc",
       "etd": "03/09/2026",
-      "eta": "19/11/2026",
-      "entrega": "01/12/2026",
-      "etaIso": "2026-11-19",
+      "eta": "20/11/2026",
+      "entrega": "02/12/2026",
+      "etaIso": "2026-11-20",
       "status": "SOBRE AGUAS",
       "ativo": true
     },
@@ -854,23 +854,6 @@
       "ativo": true
     },
     {
-      "produto": "Farrowing Crate - Refer The Specification Sheet Same Design/Specification With Jair Ansolin Project - Pronto / _ / 01170001-1-V2 spot feeder for Finisher,disassembled  - 200 pc / 01170004-1-V2 spot feeder for weaner,disassembled - 50 pc / 0205BJ1427 Stainless Steel Bar Post - 500 pc / 05010106 Hex head bolt 304 DIN933 M8*55 A2-70 - 2000 pc / 05020002 Stainless steel nut M8 - 2000pc / 05030001 Stainless steel flat washer M8*24*1.5 - 2000pc",
-      "projeto": "Projeto Ysaka",
-      "codProjeto": "TL-00119",
-      "embarque": "TEMU149",
-      "pedido": "99-00628",
-      "fornecedor": "Honesty / Temu",
-      "invoice": "SH-ZXH-260928 / 26TM0878",
-      "qtdCntr": 1,
-      "tipoCntr": "40HC",
-      "etd": "28/11/2026",
-      "eta": "15/01/2027",
-      "entrega": "21/01/2027",
-      "etaIso": "2027-01-15",
-      "status": "EM PRODUÇÃO",
-      "ativo": true
-    },
-    {
       "produto": "Gestation Cage - 7260 cages / Gostaria de separar duas remessas — a primeira com 4840 gaiolas de gestação, 12*40HC, data estimada de entrega para 25 de novembro.",
       "projeto": "Projeto San Bernardo lll",
       "codProjeto": "TL-00117",
@@ -884,6 +867,23 @@
       "eta": "05/03/2027",
       "entrega": "17/03/2027",
       "etaIso": "2027-03-05",
+      "status": "EM PRODUÇÃO",
+      "ativo": true
+    },
+    {
+      "produto": "Farrowing Crate - Refer The Specification Sheet Same Design/Specification With Jair Ansolin Project - Pronto / _ / 01170001-1-V2 spot feeder for Finisher,disassembled  - 200 pc / 01170004-1-V2 spot feeder for weaner,disassembled - 50 pc / 0205BJ1427 Stainless Steel Bar Post - 500 pc / 05010106 Hex head bolt 304 DIN933 M8*55 A2-70 - 2000 pc / 05020002 Stainless steel nut M8 - 2000pc / 05030001 Stainless steel flat washer M8*24*1.5 - 2000pc",
+      "projeto": "Projeto Ysaka",
+      "codProjeto": "TL-00119",
+      "embarque": "TEMU149",
+      "pedido": "99-00628",
+      "fornecedor": "Honesty / Temu",
+      "invoice": "SH-ZXH-260928 / 26TM0878",
+      "qtdCntr": 1,
+      "tipoCntr": "40HC",
+      "etd": "28/11/2026",
+      "eta": "15/01/2027",
+      "entrega": "21/01/2027",
+      "etaIso": "2027-01-15",
       "status": "EM PRODUÇÃO",
       "ativo": true
     },
@@ -1031,8 +1031,8 @@
       "pedido": "99-00122",
       "fornecedor": "Temu",
       "invoice": "26TM0896",
-      "qtdCntr": 0,
-      "tipoCntr": "",
+      "qtdCntr": 2,
+      "tipoCntr": "1x20GP / 1x40HC",
       "etd": "20/12/2026",
       "eta": "20/03/2027",
       "entrega": "30/03/2027",
