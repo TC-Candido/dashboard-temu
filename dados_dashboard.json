@@ -1,10 +1,10 @@
 {
-  "geradoEm": "18/11/2026 23:34",
+  "geradoEm": "19/11/2026 00:00",
   "kpis": {
     "totalProjetos": 19,
     "totalContainers": 20,
     "etd7dias": 0,
-    "chegando10dias": 5
+    "chegando10dias": 4
   },
   "statusCounts": {
     "FINALIZADO": 27,
@@ -148,26 +148,6 @@
   ],
   "proximosETA": [
     {
-      "embarque": "TEMU146",
-      "codProjeto": "TL-00099",
-      "projeto": "Projeto San Bernardo l",
-      "fornecedor": "Temu",
-      "destino": "PARANÁGUA",
-      "qtdCntr": 2,
-      "tipoCntr": "20DRY\n40HC",
-      "prontidao": "2026-09-09 00:00:00",
-      "etd": "27/09/2026",
-      "eta": "18/11/2026",
-      "status": "SOBRE AGUAS",
-      "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
-      "chegando10": true,
-      "observacoes": "",
-      "invoice": "26TM0842",
-      "pedido": "",
-      "abertura": "31/07/2026"
-    },
-    {
       "embarque": "TEMU136\nTEMU134-2",
       "codProjeto": "TL-00100",
       "projeto": "Projeto San Bernardo ll",
@@ -266,6 +246,26 @@
       "invoice": "26TM0773-3",
       "pedido": "99-00132",
       "abertura": "12/07/2026"
+    },
+    {
+      "embarque": "TEMU133-1",
+      "codProjeto": "TL-00100",
+      "projeto": "Projeto San Bernardo ll",
+      "fornecedor": "Temu",
+      "destino": "Asuncion",
+      "qtdCntr": 3,
+      "tipoCntr": "2*40HC\n1*20GP",
+      "prontidao": "2026-08-12 00:00:00",
+      "etd": "14/09/2026",
+      "eta": "30/11/2026",
+      "status": "SOBRE AGUAS",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "26TM0643",
+      "pedido": "99-00132",
+      "abertura": "03/07/2026"
     }
   ],
   "embarques": [
@@ -923,7 +923,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": "",
       "invoice": "26TM0842",
       "pedido": "",
