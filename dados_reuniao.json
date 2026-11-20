@@ -1,5 +1,5 @@
 {
-  "geradoEm": "20/11/2026 12:00",
+  "geradoEm": "20/11/2026 12:34",
   "hoje": "20/11/2026",
   "limChegada": "05/12/2026",
   "limProntidao": "05/12/2026",
@@ -170,7 +170,7 @@
     ],
     "fonte": "Dólar comercial (compra) — AwesomeAPI",
     "titulo": "Dólar comercial — flutuante",
-    "hora": "11:53",
+    "hora": "12:18",
     "desatualizado": false
   },
   "coresLidas": true,
