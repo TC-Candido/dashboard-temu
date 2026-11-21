@@ -1,10 +1,10 @@
 {
-  "geradoEm": "20/11/2026 22:00",
+  "geradoEm": "21/11/2026 12:38",
   "kpis": {
     "totalProjetos": 19,
     "totalContainers": 20,
-    "etd7dias": 0,
-    "chegando10dias": 6
+    "etd7dias": 1,
+    "chegando10dias": 5
   },
   "statusCounts": {
     "FINALIZADO": 27,
@@ -38,7 +38,7 @@
       "eta": "15/01/2027",
       "status": "EM PRODUÇÃO",
       "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
+      "etd7dias": true,
       "chegando10": false,
       "observacoes": "OBRIGATORIO EMBARCAR EM 01x40HC",
       "invoice": "SH-ZXH-260928\n26TM0878",
@@ -148,26 +148,6 @@
   ],
   "proximosETA": [
     {
-      "embarque": "TEMU136\nTEMU134-2",
-      "codProjeto": "TL-00100",
-      "projeto": "Projeto San Bernardo ll",
-      "fornecedor": "Temu",
-      "destino": "Asuncion",
-      "qtdCntr": 1,
-      "tipoCntr": "40hc",
-      "prontidao": "2026-07-29 00:00:00",
-      "etd": "03/09/2026",
-      "eta": "20/11/2026",
-      "status": "SOBRE AGUAS",
-      "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
-      "chegando10": true,
-      "observacoes": "",
-      "invoice": "26TM0796\n26TM0797\n26TM0804\n26TM0805\n26TM0788\n26TM0789\n26TM0773-2",
-      "pedido": "99-00122\n99-00132",
-      "abertura": "19/06/2026"
-    },
-    {
       "embarque": "TEMU140",
       "codProjeto": "TL-00111",
       "projeto": "Estoque Temu 1",
@@ -266,6 +246,26 @@
       "invoice": "26TM0643",
       "pedido": "99-00132",
       "abertura": "03/07/2026"
+    },
+    {
+      "embarque": "TEMU137",
+      "codProjeto": "TL-00120",
+      "projeto": "Projeto Miotto + agroter + Estoque + Garantia",
+      "fornecedor": "Honesty",
+      "destino": "Navegantes",
+      "qtdCntr": 1,
+      "tipoCntr": "40hc",
+      "prontidao": "2026-10-25 00:00:00",
+      "etd": "10/11/2026",
+      "eta": "02/01/2027",
+      "status": "VISTORIA",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "ABRIR PROCESSO COM DESPACHANTE",
+      "invoice": "SH-ZXH-260917\nSH-ZXH-260714\n4 Units Auto Sow\n SH-ZXH-260814\n SH-ZXH-260811\nGRAMPO\nCOMEDOURO\nFRD2026092301",
+      "pedido": "99-00585",
+      "abertura": "15/09/2026"
     }
   ],
   "embarques": [
@@ -943,7 +943,7 @@
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
-      "chegando10": true,
+      "chegando10": false,
       "observacoes": "",
       "invoice": "26TM0796\n26TM0797\n26TM0804\n26TM0805\n26TM0788\n26TM0789\n26TM0773-2",
       "pedido": "99-00122\n99-00132",
@@ -1302,7 +1302,7 @@
       "eta": "15/01/2027",
       "status": "EM PRODUÇÃO",
       "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
+      "etd7dias": true,
       "chegando10": false,
       "observacoes": "OBRIGATORIO EMBARCAR EM 01x40HC",
       "invoice": "SH-ZXH-260928\n26TM0878",
