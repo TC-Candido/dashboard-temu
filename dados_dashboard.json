@@ -1,5 +1,5 @@
 {
-  "geradoEm": "22/11/2026 21:00",
+  "geradoEm": "22/11/2026 21:34",
   "kpis": {
     "totalProjetos": 19,
     "totalContainers": 20,
@@ -1750,6 +1750,26 @@
       "abertura": null
     },
     {
+      "embarque": "TEMU179",
+      "codProjeto": "TL-00117",
+      "projeto": "Projeto San Bernardo lll",
+      "fornecedor": "Temu",
+      "destino": "",
+      "qtdCntr": 2,
+      "tipoCntr": "40HC",
+      "prontidao": "2026-01-08 00:00:00",
+      "etd": null,
+      "eta": null,
+      "status": "EM PRODUÇÃO",
+      "statusOp": "Pronto - Aguardando ETD",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "26TM0927",
+      "pedido": "99-00694",
+      "abertura": "17/11/2026"
+    },
+    {
       "embarque": "TEMU176",
       "codProjeto": "TL-00117",
       "projeto": "Projeto San Bernardo lll",
@@ -1788,26 +1808,6 @@
       "invoice": "SH-ZXH-261014",
       "pedido": "",
       "abertura": "10/11/2026"
-    },
-    {
-      "embarque": "TEMU179",
-      "codProjeto": "TL-00117",
-      "projeto": "Projeto San Bernardo lll",
-      "fornecedor": "Temu",
-      "destino": "",
-      "qtdCntr": 2,
-      "tipoCntr": "40HC",
-      "prontidao": "",
-      "etd": null,
-      "eta": null,
-      "status": "EM PRODUÇÃO",
-      "statusOp": "Sem Prontidão e ETD",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": "",
-      "invoice": "26TM0927",
-      "pedido": "99-00694",
-      "abertura": "17/11/2026"
     },
     {
       "embarque": "TEMU180",

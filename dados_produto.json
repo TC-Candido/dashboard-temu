@@ -1,5 +1,5 @@
 {
-  "geradoEm": "22/11/2026 21:00",
+  "geradoEm": "22/11/2026 21:34",
   "total": 79,
   "ativos": 52,
   "itens": [
@@ -1262,6 +1262,23 @@
       "ativo": true
     },
     {
+      "produto": "360 sets of Spotfeeder for Weaner and Finisher",
+      "projeto": "Projeto San Bernardo lll",
+      "codProjeto": "TL-00117",
+      "embarque": "TEMU179",
+      "pedido": "99-00694",
+      "fornecedor": "Temu",
+      "invoice": "26TM0927",
+      "qtdCntr": 2,
+      "tipoCntr": "40HC",
+      "etd": null,
+      "eta": null,
+      "entrega": null,
+      "etaIso": null,
+      "status": "EM PRODUÇÃO",
+      "ativo": true
+    },
+    {
       "produto": "Gestation House",
       "projeto": "Projeto San Bernardo lll",
       "codProjeto": "TL-00117",
@@ -1288,23 +1305,6 @@
       "invoice": "SH-ZXH-261014",
       "qtdCntr": 0,
       "tipoCntr": "",
-      "etd": null,
-      "eta": null,
-      "entrega": null,
-      "etaIso": null,
-      "status": "EM PRODUÇÃO",
-      "ativo": true
-    },
-    {
-      "produto": "360 sets of Spotfeeder for Weaner and Finisher",
-      "projeto": "Projeto San Bernardo lll",
-      "codProjeto": "TL-00117",
-      "embarque": "TEMU179",
-      "pedido": "99-00694",
-      "fornecedor": "Temu",
-      "invoice": "26TM0927",
-      "qtdCntr": 2,
-      "tipoCntr": "40HC",
       "etd": null,
       "eta": null,
       "entrega": null,

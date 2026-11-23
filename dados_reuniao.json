@@ -1,5 +1,5 @@
 {
-  "geradoEm": "22/11/2026 21:00",
+  "geradoEm": "22/11/2026 21:34",
   "hoje": "22/11/2026",
   "limChegada": "07/12/2026",
   "limProntidao": "07/12/2026",
@@ -180,7 +180,7 @@
     "provisao15": 290000.0,
     "prontidaoQtd": 8,
     "confirmarQtd": 0,
-    "prontosSemEtd": 7,
+    "prontosSemEtd": 8,
     "faltandoQtd": 25,
     "semDadosQtd": 2,
     "abertosQtd": 9,
@@ -528,6 +528,28 @@
   ],
   "prontosSemEtd": [
     {
+      "embarque": "TEMU179",
+      "codProjeto": "TL-00117",
+      "projeto": "Projeto San Bernardo lll",
+      "fornecedor": "Temu",
+      "destino": "",
+      "qtdCntr": 2,
+      "tipoCntr": "40HC",
+      "pedido": "99-00694",
+      "invoice": "26TM0927",
+      "abertura": "17/11/2026",
+      "diasAbertura": -5,
+      "status": "EM PRODUÇÃO",
+      "prontidao": "08/01/2026",
+      "etd": null,
+      "eta": null,
+      "etdConf": null,
+      "etaConf": null,
+      "diasProntidao": -318,
+      "diasEtd": null,
+      "diasEta": null
+    },
+    {
       "embarque": "TEMU133-2",
       "codProjeto": "TL-00100",
       "projeto": "Projeto San Bernardo ll",
@@ -742,12 +764,12 @@
       "abertura": "17/11/2026",
       "diasAbertura": -5,
       "status": "EM PRODUÇÃO",
-      "prontidao": null,
+      "prontidao": "08/01/2026",
       "etd": null,
       "eta": null,
       "etdConf": null,
       "etaConf": null,
-      "diasProntidao": null,
+      "diasProntidao": -318,
       "diasEtd": null,
       "diasEta": null
     },
@@ -1787,16 +1809,16 @@
         "abertura": "17/11/2026",
         "diasAbertura": -5,
         "status": "EM PRODUÇÃO",
-        "prontidao": null,
+        "prontidao": "08/01/2026",
         "etd": null,
         "eta": null,
         "etdConf": null,
         "etaConf": null,
-        "diasProntidao": null,
+        "diasProntidao": -318,
         "diasEtd": null,
         "diasEta": null,
         "faltas": [
-          "Prontidão"
+          "ETD"
         ]
       }
     ]
@@ -1820,8 +1842,9 @@
       "prioridade": "media",
       "titulo": "Definir ETD dos processos prontos",
       "detalhe": "Prontidão já passou e ainda não há previsão de embarque.",
-      "qtd": 7,
+      "qtd": 8,
       "itens": [
+        "TEMU179",
         "TEMU133-2",
         "TEMU121-2",
         "TEMU126-2",
