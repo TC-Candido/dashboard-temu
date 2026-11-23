@@ -1,5 +1,5 @@
 {
-  "geradoEm": "23/11/2026 09:34",
+  "geradoEm": "23/11/2026 10:00",
   "hoje": "23/11/2026",
   "limChegada": "08/12/2026",
   "limProntidao": "08/12/2026",
@@ -10,12 +10,12 @@
   "diasAbertura": 15,
   "diasChegou": 7,
   "dolar": {
-    "atual": 5.977,
+    "atual": 5.9747,
     "data": "23/11/2026",
-    "variacao": 0.0282,
-    "variacaoPct": 0.47,
+    "variacao": 0.0259,
+    "variacaoPct": 0.44,
     "min": 4.9648,
-    "max": 5.977,
+    "max": 5.9747,
     "serie": [
       {
         "d": "15/10",
@@ -165,12 +165,12 @@
       {
         "d": "23/11",
         "iso": "2026-11-23",
-        "v": 5.977
+        "v": 5.9747
       }
     ],
     "fonte": "Dólar comercial (compra) — AwesomeAPI",
     "titulo": "Dólar comercial — flutuante",
-    "hora": "09:27",
+    "hora": "09:30",
     "desatualizado": false
   },
   "coresLidas": true,
@@ -180,8 +180,8 @@
     "provisao15": 290000.0,
     "prontidaoQtd": 8,
     "confirmarQtd": 0,
-    "prontosSemEtd": 8,
-    "faltandoQtd": 25,
+    "prontosSemEtd": 7,
+    "faltandoQtd": 24,
     "semDadosQtd": 2,
     "abertosQtd": 8,
     "chegaramQtd": 3,
@@ -193,15 +193,15 @@
   "etapas": [
     {
       "nome": "Em produção",
-      "qtd": 28
+      "qtd": 27
     },
     {
       "nome": "Vistoria",
-      "qtd": 10
+      "qtd": 9
     },
     {
       "nome": "Sobre águas",
-      "qtd": 6
+      "qtd": 8
     },
     {
       "nome": "Desembaraço",
@@ -660,28 +660,6 @@
       "diasEta": null
     },
     {
-      "embarque": "TEMU148-2",
-      "codProjeto": "TL-00120",
-      "projeto": "Projeto Miotto",
-      "fornecedor": "Temu",
-      "destino": "Navegantes",
-      "qtdCntr": 2,
-      "tipoCntr": "2x40hc",
-      "pedido": "99-00219 / 99-00220 / 99-00223 / 99-00585",
-      "invoice": "26TM0867 / 26TM0868 / 26TM0869 / 26TM0872",
-      "abertura": null,
-      "diasAbertura": null,
-      "status": "VISTORIA",
-      "prontidao": "12/11/2026",
-      "etd": null,
-      "eta": null,
-      "etdConf": null,
-      "etaConf": null,
-      "diasProntidao": -11,
-      "diasEtd": null,
-      "diasEta": null
-    },
-    {
       "embarque": "TEMU171",
       "codProjeto": "TL-99999",
       "projeto": "Amostra",
@@ -831,15 +809,15 @@
       "invoice": "26TM0870 / 26TM0871 / amostra - hontech / 26TM0901",
       "abertura": "10/11/2026",
       "diasAbertura": -13,
-      "status": "EM PRODUÇÃO",
+      "status": "SOBRE AGUAS",
       "prontidao": null,
-      "etd": null,
-      "eta": null,
-      "etdConf": null,
-      "etaConf": null,
+      "etd": "06/11/2026",
+      "eta": "15/12/2026",
+      "etdConf": "confirmado",
+      "etaConf": "confirmado",
       "diasProntidao": null,
-      "diasEtd": null,
-      "diasEta": null
+      "diasEtd": -17,
+      "diasEta": 22
     },
     {
       "embarque": "TEMU175",
@@ -1572,31 +1550,6 @@
         ]
       },
       {
-        "embarque": "TEMU148-2",
-        "codProjeto": "TL-00120",
-        "projeto": "Projeto Miotto",
-        "fornecedor": "Temu",
-        "destino": "Navegantes",
-        "qtdCntr": 2,
-        "tipoCntr": "2x40hc",
-        "pedido": "99-00219 / 99-00220 / 99-00223 / 99-00585",
-        "invoice": "26TM0867 / 26TM0868 / 26TM0869 / 26TM0872",
-        "abertura": null,
-        "diasAbertura": null,
-        "status": "VISTORIA",
-        "prontidao": "12/11/2026",
-        "etd": null,
-        "eta": null,
-        "etdConf": null,
-        "etaConf": null,
-        "diasProntidao": -11,
-        "diasEtd": null,
-        "diasEta": null,
-        "faltas": [
-          "ETD"
-        ]
-      },
-      {
         "embarque": "TEMU148-3",
         "codProjeto": "TL-00120",
         "projeto": "Projeto Miotto",
@@ -1608,15 +1561,15 @@
         "invoice": "26TM0870 / 26TM0871 / amostra - hontech / 26TM0901",
         "abertura": "10/11/2026",
         "diasAbertura": -13,
-        "status": "EM PRODUÇÃO",
+        "status": "SOBRE AGUAS",
         "prontidao": null,
-        "etd": null,
-        "eta": null,
-        "etdConf": null,
-        "etaConf": null,
+        "etd": "06/11/2026",
+        "eta": "15/12/2026",
+        "etdConf": "confirmado",
+        "etaConf": "confirmado",
         "diasProntidao": null,
-        "diasEtd": null,
-        "diasEta": null,
+        "diasEtd": -17,
+        "diasEta": 22,
         "faltas": [
           "Prontidão"
         ]
@@ -1845,7 +1798,7 @@
       "prioridade": "media",
       "titulo": "Definir ETD dos processos prontos",
       "detalhe": "Prontidão já passou e ainda não há previsão de embarque.",
-      "qtd": 8,
+      "qtd": 7,
       "itens": [
         "TEMU179",
         "TEMU133-2",
@@ -1853,7 +1806,6 @@
         "TEMU126-2",
         "TEMU138",
         "TEMU139",
-        "TEMU148-2",
         "TEMU171"
       ]
     },
@@ -1871,7 +1823,7 @@
       "prioridade": "media",
       "titulo": "Preencher informações faltando",
       "detalhe": "Processos com dados em branco na planilha (prontidão, ETD, ETA, status ou valor).",
-      "qtd": 25,
+      "qtd": 24,
       "itens": [
         "TEMU180",
         "TEMU121-2",
@@ -1888,7 +1840,6 @@
         "TEMU134 - 4",
         "TEMU134 -3",
         "TEMU147",
-        "TEMU148-2",
         "TEMU148-3",
         "TEMU160",
         "TEMU163",
