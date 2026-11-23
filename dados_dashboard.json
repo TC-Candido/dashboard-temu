@@ -1,9 +1,9 @@
 {
-  "geradoEm": "22/11/2026 23:34",
+  "geradoEm": "23/11/2026 00:00",
   "kpis": {
     "totalProjetos": 19,
     "totalContainers": 20,
-    "etd7dias": 1,
+    "etd7dias": 2,
     "chegando10dias": 5
   },
   "statusCounts": {
@@ -58,7 +58,7 @@
       "eta": "05/02/2026",
       "status": "VISTORIA",
       "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
+      "etd7dias": true,
       "chegando10": false,
       "observacoes": "",
       "invoice": "SH-ZXH-261016-B",
@@ -1122,7 +1122,7 @@
       "eta": "05/02/2026",
       "status": "VISTORIA",
       "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
+      "etd7dias": true,
       "chegando10": false,
       "observacoes": "",
       "invoice": "SH-ZXH-261016-B",
