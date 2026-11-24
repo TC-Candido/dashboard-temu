@@ -1,5 +1,5 @@
 {
-  "geradoEm": "24/11/2026 16:00",
+  "geradoEm": "24/11/2026 16:34",
   "hoje": "24/11/2026",
   "limChegada": "09/12/2026",
   "limProntidao": "09/12/2026",
@@ -10,10 +10,10 @@
   "diasAbertura": 15,
   "diasChegou": 7,
   "dolar": {
-    "atual": 5.902,
+    "atual": 5.8945,
     "data": "24/11/2026",
-    "variacao": -0.0275,
-    "variacaoPct": -0.46,
+    "variacao": -0.035,
+    "variacaoPct": -0.59,
     "min": 4.9648,
     "max": 5.9488,
     "serie": [
@@ -165,12 +165,12 @@
       {
         "d": "24/11",
         "iso": "2026-11-24",
-        "v": 5.902
+        "v": 5.8945
       }
     ],
     "fonte": "Dólar comercial (compra) — AwesomeAPI",
     "titulo": "Dólar comercial — flutuante",
-    "hora": "15:53",
+    "hora": "16:27",
     "desatualizado": false
   },
   "coresLidas": true,
@@ -180,20 +180,20 @@
     "provisao15": 290000.0,
     "prontidaoQtd": 8,
     "confirmarQtd": 0,
-    "prontosSemEtd": 6,
-    "faltandoQtd": 21,
+    "prontosSemEtd": 5,
+    "faltandoQtd": 20,
     "semDadosQtd": 3,
     "abertosQtd": 10,
     "chegaramQtd": 5,
     "prontidaoMes": 6,
     "chegandoMes": 4,
-    "emAndamento": 47,
+    "emAndamento": 46,
     "finalizados": 33
   },
   "etapas": [
     {
       "nome": "Em produção",
-      "qtd": 30
+      "qtd": 29
     },
     {
       "nome": "Vistoria",
@@ -349,12 +349,12 @@
       "embarque": "TEMU182",
       "codProjeto": "TL-99999",
       "projeto": "Amostra",
-      "fornecedor": "Temu",
+      "fornecedor": "Temu / Honesty",
       "destino": "Navegantes",
       "qtdCntr": 0,
       "tipoCntr": "40HC",
       "pedido": "AMOSTRA / show room",
-      "invoice": "26TM0928 / 26TM0926",
+      "invoice": "26TM0928 / 26TM0926 / + add. 934 / TEMU171 / SH-ZXH-261029 / ReferenceNumberP00056",
       "abertura": "20/11/2026",
       "diasAbertura": -4,
       "status": "EM PRODUÇÃO",
@@ -632,28 +632,6 @@
       "diasProntidao": -85,
       "diasEtd": null,
       "diasEta": null
-    },
-    {
-      "embarque": "TEMU171",
-      "codProjeto": "TL-99999",
-      "projeto": "Amostra",
-      "fornecedor": "Honesty",
-      "destino": "",
-      "qtdCntr": 0,
-      "tipoCntr": "",
-      "pedido": "AMOSTRA / show room",
-      "invoice": "SH-ZXH-261029 / ReferenceNumberP00056",
-      "abertura": "02/11/2026",
-      "diasAbertura": -22,
-      "status": "EM PRODUÇÃO",
-      "prontidao": "20/11/2026",
-      "etd": null,
-      "eta": null,
-      "etdConf": null,
-      "etaConf": null,
-      "diasProntidao": -4,
-      "diasEtd": null,
-      "diasEta": null
     }
   ],
   "semDados": [
@@ -729,12 +707,12 @@
       "embarque": "TEMU182",
       "codProjeto": "TL-99999",
       "projeto": "Amostra",
-      "fornecedor": "Temu",
+      "fornecedor": "Temu / Honesty",
       "destino": "Navegantes",
       "qtdCntr": 0,
       "tipoCntr": "40HC",
       "pedido": "AMOSTRA / show room",
-      "invoice": "26TM0928 / 26TM0926",
+      "invoice": "26TM0928 / 26TM0926 / + add. 934 / TEMU171 / SH-ZXH-261029 / ReferenceNumberP00056",
       "abertura": "20/11/2026",
       "diasAbertura": -4,
       "status": "EM PRODUÇÃO",
@@ -1277,32 +1255,6 @@
         ]
       },
       {
-        "embarque": "TEMU171",
-        "codProjeto": "TL-99999",
-        "projeto": "Amostra",
-        "fornecedor": "Honesty",
-        "destino": "",
-        "qtdCntr": 0,
-        "tipoCntr": "",
-        "pedido": "AMOSTRA / show room",
-        "invoice": "SH-ZXH-261029 / ReferenceNumberP00056",
-        "abertura": "02/11/2026",
-        "diasAbertura": -22,
-        "status": "EM PRODUÇÃO",
-        "prontidao": "20/11/2026",
-        "etd": null,
-        "eta": null,
-        "etdConf": null,
-        "etaConf": null,
-        "diasProntidao": -4,
-        "diasEtd": null,
-        "diasEta": null,
-        "faltas": [
-          "ETD",
-          "Qtd de containers"
-        ]
-      },
-      {
         "embarque": "TEMU180",
         "codProjeto": "TL-00118",
         "projeto": "Projeto Vilomix",
@@ -1612,12 +1564,12 @@
         "embarque": "TEMU182",
         "codProjeto": "TL-99999",
         "projeto": "Amostra",
-        "fornecedor": "Temu",
+        "fornecedor": "Temu / Honesty",
         "destino": "Navegantes",
         "qtdCntr": 0,
         "tipoCntr": "40HC",
         "pedido": "AMOSTRA / show room",
-        "invoice": "26TM0928 / 26TM0926",
+        "invoice": "26TM0928 / 26TM0926 / + add. 934 / TEMU171 / SH-ZXH-261029 / ReferenceNumberP00056",
         "abertura": "20/11/2026",
         "diasAbertura": -4,
         "status": "EM PRODUÇÃO",
@@ -1649,14 +1601,13 @@
       "prioridade": "media",
       "titulo": "Definir ETD dos processos prontos",
       "detalhe": "Prontidão já passou e ainda não há previsão de embarque.",
-      "qtd": 6,
+      "qtd": 5,
       "itens": [
         "TEMU133-2",
         "TEMU121-2",
         "TEMU126-2",
         "TEMU138",
-        "TEMU139",
-        "TEMU171"
+        "TEMU139"
       ]
     },
     {
@@ -1674,7 +1625,7 @@
       "prioridade": "media",
       "titulo": "Preencher informações faltando",
       "detalhe": "Processos com dados em branco na planilha (prontidão, ETD, ETA, status ou valor).",
-      "qtd": 21,
+      "qtd": 20,
       "itens": [
         "TEMU121-2",
         "TEMU126-2",
@@ -1683,7 +1634,6 @@
         "TEMU139",
         "TEMU164",
         "TEMU170",
-        "TEMU171",
         "TEMU180",
         "TEMU181",
         "TEMU183",
