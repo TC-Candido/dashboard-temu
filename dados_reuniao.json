@@ -1,5 +1,5 @@
 {
-  "geradoEm": "24/11/2026 15:34",
+  "geradoEm": "24/11/2026 16:00",
   "hoje": "24/11/2026",
   "limChegada": "09/12/2026",
   "limProntidao": "09/12/2026",
@@ -10,9 +10,9 @@
   "diasAbertura": 15,
   "diasChegou": 7,
   "dolar": {
-    "atual": 5.9025,
+    "atual": 5.902,
     "data": "24/11/2026",
-    "variacao": -0.027,
+    "variacao": -0.0275,
     "variacaoPct": -0.46,
     "min": 4.9648,
     "max": 5.9488,
@@ -165,12 +165,12 @@
       {
         "d": "24/11",
         "iso": "2026-11-24",
-        "v": 5.9025
+        "v": 5.902
       }
     ],
     "fonte": "Dólar comercial (compra) — AwesomeAPI",
     "titulo": "Dólar comercial — flutuante",
-    "hora": "15:27",
+    "hora": "15:53",
     "desatualizado": false
   },
   "coresLidas": true,
@@ -381,13 +381,13 @@
       "diasAbertura": -39,
       "status": "EM PRODUÇÃO",
       "prontidao": "25/11/2026",
-      "etd": "05/12/2026",
-      "eta": "05/03/2027",
+      "etd": "10/12/2026",
+      "eta": "10/03/2027",
       "etdConf": "previsao",
       "etaConf": "previsao",
       "diasProntidao": 1,
-      "diasEtd": 11,
-      "diasEta": 101
+      "diasEtd": 16,
+      "diasEta": 106
     },
     {
       "embarque": "TEMU156-A",
