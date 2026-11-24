@@ -1,5 +1,5 @@
 {
-  "geradoEm": "24/11/2026 10:00",
+  "geradoEm": "24/11/2026 10:34",
   "kpis": {
     "totalSaldo": 3186396.51,
     "qtdAberto": 95,
@@ -55,9 +55,9 @@
       "pago3": 83129.96,
       "saldo": 83129.96,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "20/11/2026",
-      "previsaoDias": -4,
-      "previsaoLabel": "4d atrás",
+      "previsao": "17/11/2026",
+      "previsaoDias": -7,
+      "previsaoLabel": "7d atrás",
       "statusVenc": "Vencido",
       "pagoEUA": 0
     },
@@ -76,9 +76,9 @@
       "pago3": 3696.0,
       "saldo": 3696.0,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "20/11/2026",
-      "previsaoDias": -4,
-      "previsaoLabel": "4d atrás",
+      "previsao": "17/11/2026",
+      "previsaoDias": -7,
+      "previsaoLabel": "7d atrás",
       "statusVenc": "Vencido",
       "pagoEUA": 0
     },
@@ -1685,7 +1685,7 @@
       "codProjeto": "TL-00117",
       "embarque": "TEMU138",
       "fornecedor": "='Follow Up'!E40",
-      "fatura": "FRD2026102306",
+      "fatura": "SH-ZXH-260917\nSH-ZXH-260714\n4 Units Auto Sow\n SH-ZXH-260814\n SH-ZXH-260811\nGRAMPO\nCOMEDOURO\nFRD2026092301",
       "valor": 9734.4,
       "pct1": 30.0,
       "pago1": 2920.32,
@@ -2199,9 +2199,9 @@
       "pago3": 83129.96,
       "saldo": 83129.96,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "20/11/2026",
-      "previsaoDias": -4,
-      "previsaoLabel": "4d atrás",
+      "previsao": "17/11/2026",
+      "previsaoDias": -7,
+      "previsaoLabel": "7d atrás",
       "statusVenc": "Vencido",
       "pagoEUA": 0
     },
@@ -2220,9 +2220,9 @@
       "pago3": 3696.0,
       "saldo": 3696.0,
       "statusCambio": "Aguardando 3ª Parcela",
-      "previsao": "20/11/2026",
-      "previsaoDias": -4,
-      "previsaoLabel": "4d atrás",
+      "previsao": "17/11/2026",
+      "previsaoDias": -7,
+      "previsaoLabel": "7d atrás",
       "statusVenc": "Vencido",
       "pagoEUA": 0
     },
@@ -2543,7 +2543,7 @@
     },
     {
       "projeto": "Projeto San Bernardo lll",
-      "codProjeto": "TL-00117",
+      "codProjeto": "TL-00100",
       "embarque": "TEMU159",
       "fornecedor": "TEMU",
       "fatura": "26TM0860",
@@ -2648,7 +2648,7 @@
     },
     {
       "projeto": "Projeto San Bernardo lll",
-      "codProjeto": "TL-00117",
+      "codProjeto": "TL-00100",
       "embarque": "TEMU156-B",
       "fornecedor": "Honesty",
       "fatura": "SH-ZXH-261016-B",
@@ -2669,7 +2669,7 @@
     },
     {
       "projeto": "Projeto San Bernardo lll",
-      "codProjeto": "TL-00117",
+      "codProjeto": "TL-00100",
       "embarque": "TEMU157",
       "fornecedor": "TEMU",
       "fatura": "26TM0896",
@@ -2690,7 +2690,7 @@
     },
     {
       "projeto": "Projeto San Bernardo lll",
-      "codProjeto": "TL-00117",
+      "codProjeto": "TL-00100",
       "embarque": "TEMU158",
       "fornecedor": "Hontech",
       "fatura": "SUMMARY",
