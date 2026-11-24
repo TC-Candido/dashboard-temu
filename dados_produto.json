@@ -1,5 +1,5 @@
 {
-  "geradoEm": "24/11/2026 14:00",
+  "geradoEm": "24/11/2026 14:34",
   "total": 80,
   "ativos": 47,
   "itens": [
@@ -593,7 +593,7 @@
       "tipoCntr": "40HC",
       "etd": "15/10/2026",
       "eta": "24/11/2026",
-      "entrega": null,
+      "entrega": "04/12/2026",
       "etaIso": "2026-11-24",
       "status": "SOBRE AGUAS",
       "ativo": true
@@ -922,7 +922,7 @@
       "ativo": true
     },
     {
-      "produto": "- TEC120-ONCON CONTROLLER - 1.5kW drive unit *1, 0.25kW discharger *2, feedline sensor *2 | ABS | ABB / - TEC200-ONCON CONTROLLER - 1.5kW drive unit *2, feedline sensor *2,| ABS | ABB",
+      "produto": "- TEC120-ONCON CONTROLLER - Controladores 3 unds I Mala marcio",
       "projeto": "Projeto Agroter",
       "codProjeto": "TL-00101",
       "embarque": "TEMU164",
@@ -930,11 +930,11 @@
       "fornecedor": "Temu",
       "invoice": "25TM0571-1",
       "qtdCntr": 0,
-      "tipoCntr": "",
-      "etd": "22/12/2026",
-      "eta": "22/03/2027",
-      "entrega": "01/04/2027",
-      "etaIso": "2027-03-22",
+      "tipoCntr": "AIR",
+      "etd": "30/11/2026",
+      "eta": "04/12/2026",
+      "entrega": "04/12/2026",
+      "etaIso": "2026-12-04",
       "status": "EM PRODUÇÃO",
       "ativo": true
     },

@@ -1,5 +1,5 @@
 {
-  "geradoEm": "24/11/2026 14:00",
+  "geradoEm": "24/11/2026 14:34",
   "hoje": "24/11/2026",
   "limChegada": "09/12/2026",
   "limProntidao": "09/12/2026",
@@ -10,10 +10,10 @@
   "diasAbertura": 15,
   "diasChegou": 7,
   "dolar": {
-    "atual": 5.8928,
+    "atual": 5.8995,
     "data": "24/11/2026",
-    "variacao": -0.0367,
-    "variacaoPct": -0.62,
+    "variacao": -0.03,
+    "variacaoPct": -0.51,
     "min": 4.9648,
     "max": 5.9488,
     "serie": [
@@ -165,18 +165,18 @@
       {
         "d": "24/11",
         "iso": "2026-11-24",
-        "v": 5.8928
+        "v": 5.8995
       }
     ],
     "fonte": "Dólar comercial (compra) — AwesomeAPI",
     "titulo": "Dólar comercial — flutuante",
-    "hora": "13:51",
+    "hora": "14:31",
     "desatualizado": false
   },
   "coresLidas": true,
   "avisosCores": [],
   "kpis": {
-    "chegandoQtd": 4,
+    "chegandoQtd": 5,
     "provisao15": 290000.0,
     "prontidaoQtd": 8,
     "confirmarQtd": 0,
@@ -303,6 +303,29 @@
       "diasProntidao": -104,
       "diasEtd": -71,
       "diasEta": 6,
+      "provisao": null
+    },
+    {
+      "embarque": "TEMU164",
+      "codProjeto": "TL-00101",
+      "projeto": "Projeto Agroter",
+      "fornecedor": "Temu",
+      "destino": "RS",
+      "qtdCntr": 0,
+      "tipoCntr": "AIR",
+      "pedido": "99-00151",
+      "invoice": "25TM0571-1",
+      "abertura": "28/10/2026",
+      "diasAbertura": -27,
+      "status": "EM PRODUÇÃO",
+      "prontidao": "12/12/2026",
+      "etd": "30/11/2026",
+      "eta": "04/12/2026",
+      "etdConf": "confirmado",
+      "etaConf": "confirmado",
+      "diasProntidao": 18,
+      "diasEtd": 6,
+      "diasEta": 10,
       "provisao": null
     }
   ],
@@ -1201,6 +1224,33 @@
         ]
       },
       {
+        "embarque": "TEMU164",
+        "codProjeto": "TL-00101",
+        "projeto": "Projeto Agroter",
+        "fornecedor": "Temu",
+        "destino": "RS",
+        "qtdCntr": 0,
+        "tipoCntr": "AIR",
+        "pedido": "99-00151",
+        "invoice": "25TM0571-1",
+        "abertura": "28/10/2026",
+        "diasAbertura": -27,
+        "status": "EM PRODUÇÃO",
+        "prontidao": "12/12/2026",
+        "etd": "30/11/2026",
+        "eta": "04/12/2026",
+        "etdConf": "confirmado",
+        "etaConf": "confirmado",
+        "diasProntidao": 18,
+        "diasEtd": 6,
+        "diasEta": 10,
+        "provisao": null,
+        "faltas": [
+          "Qtd de containers",
+          "Valor no financeiro"
+        ]
+      },
+      {
         "embarque": "TEMU170",
         "codProjeto": "CANCELADO",
         "projeto": "CANCELADO",
@@ -1459,31 +1509,6 @@
         ]
       },
       {
-        "embarque": "TEMU164",
-        "codProjeto": "TL-00101",
-        "projeto": "Projeto Agroter",
-        "fornecedor": "Temu",
-        "destino": "Navegantes",
-        "qtdCntr": 0,
-        "tipoCntr": "",
-        "pedido": "99-00151",
-        "invoice": "25TM0571-1",
-        "abertura": "28/10/2026",
-        "diasAbertura": -27,
-        "status": "EM PRODUÇÃO",
-        "prontidao": "12/12/2026",
-        "etd": "22/12/2026",
-        "eta": "22/03/2027",
-        "etdConf": "previsao",
-        "etaConf": "previsao",
-        "diasProntidao": 18,
-        "diasEtd": 28,
-        "diasEta": 118,
-        "faltas": [
-          "Qtd de containers"
-        ]
-      },
-      {
         "embarque": "TEMU167",
         "codProjeto": "TL-00117",
         "projeto": "Projeto San Bernardo lll",
@@ -1656,6 +1681,7 @@
         "TEMU133-2",
         "TEMU138",
         "TEMU139",
+        "TEMU164",
         "TEMU170",
         "TEMU171",
         "TEMU180",
@@ -1666,7 +1692,6 @@
         "TEMU134 -3",
         "TEMU160",
         "TEMU163",
-        "TEMU164",
         "TEMU167",
         "TEMU168",
         "TEMU169",
@@ -1678,12 +1703,13 @@
       "prioridade": "normal",
       "titulo": "Chegadas dos próximos 15 dias",
       "detalhe": "Provisão financeira prevista: R$ 290.000",
-      "qtd": 4,
+      "qtd": 5,
       "itens": [
         "TEMU140",
         "TEMU134 - 4",
         "TEMU134 -3",
-        "TEMU133-1"
+        "TEMU133-1",
+        "TEMU164"
       ]
     },
     {
