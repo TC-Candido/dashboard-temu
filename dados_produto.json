@@ -1,7 +1,7 @@
 {
-  "geradoEm": "24/11/2026 09:34",
-  "total": 79,
-  "ativos": 52,
+  "geradoEm": "24/11/2026 10:00",
+  "total": 80,
+  "ativos": 53,
   "itens": [
     {
       "produto": "",
@@ -1326,7 +1326,7 @@
       "eta": null,
       "entrega": "12/01/1900",
       "etaIso": null,
-      "status": "",
+      "status": "EM PRODUÇÃO",
       "ativo": true
     },
     {
@@ -1343,7 +1343,24 @@
       "eta": "21/01/2027",
       "entrega": "02/02/2027",
       "etaIso": "2027-01-21",
-      "status": "",
+      "status": "EM PRODUÇÃO",
+      "ativo": true
+    },
+    {
+      "produto": "99-00663 Farm Component for San Bernardo / T60 FEEDING SYSTEM",
+      "projeto": "Projeto San Bernardo lll",
+      "codProjeto": "TL-00117",
+      "embarque": "TEMU183",
+      "pedido": "99-00691",
+      "fornecedor": "Temu",
+      "invoice": "26TM0893",
+      "qtdCntr": 0,
+      "tipoCntr": "",
+      "etd": null,
+      "eta": null,
+      "entrega": "12/01/1900",
+      "etaIso": null,
+      "status": "EM PRODUÇÃO",
       "ativo": true
     }
   ]
