@@ -1,5 +1,5 @@
 {
-  "geradoEm": "24/11/2026 07:31",
+  "geradoEm": "24/11/2026 08:00",
   "total": 79,
   "ativos": 52,
   "itens": [
@@ -1271,10 +1271,10 @@
       "invoice": "26TM0927",
       "qtdCntr": 2,
       "tipoCntr": "40HC",
-      "etd": null,
-      "eta": null,
+      "etd": "18/01/2026",
+      "eta": "18/04/2026",
       "entrega": null,
-      "etaIso": null,
+      "etaIso": "2026-04-18",
       "status": "EM PRODUÇÃO",
       "ativo": true
     },

@@ -1,5 +1,5 @@
 {
-  "geradoEm": "24/11/2026 07:31",
+  "geradoEm": "24/11/2026 08:00",
   "hoje": "24/11/2026",
   "limChegada": "09/12/2026",
   "limProntidao": "09/12/2026",
@@ -179,9 +179,9 @@
     "chegandoQtd": 5,
     "provisao15": 290000.0,
     "prontidaoQtd": 8,
-    "confirmarQtd": 0,
-    "prontosSemEtd": 7,
-    "faltandoQtd": 24,
+    "confirmarQtd": 2,
+    "prontosSemEtd": 6,
+    "faltandoQtd": 22,
     "semDadosQtd": 2,
     "abertosQtd": 8,
     "chegaramQtd": 5,
@@ -528,28 +528,6 @@
   ],
   "prontosSemEtd": [
     {
-      "embarque": "TEMU179",
-      "codProjeto": "TL-00117",
-      "projeto": "Projeto San Bernardo lll",
-      "fornecedor": "Temu",
-      "destino": "",
-      "qtdCntr": 2,
-      "tipoCntr": "40HC",
-      "pedido": "99-00694",
-      "invoice": "26TM0927",
-      "abertura": "17/11/2026",
-      "diasAbertura": -7,
-      "status": "EM PRODUÇÃO",
-      "prontidao": "08/01/2026",
-      "etd": null,
-      "eta": null,
-      "etdConf": null,
-      "etaConf": null,
-      "diasProntidao": -320,
-      "diasEtd": null,
-      "diasEta": null
-    },
-    {
       "embarque": "TEMU133-2",
       "codProjeto": "TL-00100",
       "projeto": "Projeto San Bernardo ll",
@@ -743,13 +721,15 @@
       "diasAbertura": -7,
       "status": "EM PRODUÇÃO",
       "prontidao": "08/01/2026",
-      "etd": null,
-      "eta": null,
-      "etdConf": null,
-      "etaConf": null,
+      "etd": "18/01/2026",
+      "eta": "18/04/2026",
+      "etdConf": "previsao",
+      "etaConf": "previsao",
       "diasProntidao": -320,
-      "diasEtd": null,
-      "diasEta": null
+      "diasEtd": -310,
+      "diasEta": -220,
+      "acao": "Confirmar se chegou (ETA ainda em vermelho)",
+      "acaoTipo": "confirmar"
     },
     {
       "embarque": "TEMU159",
@@ -810,12 +790,12 @@
       "abertura": "10/11/2026",
       "diasAbertura": -14,
       "status": "SOBRE AGUAS",
-      "prontidao": null,
+      "prontidao": "01/11/2026",
       "etd": "06/11/2026",
       "eta": "15/12/2026",
       "etdConf": "confirmado",
       "etaConf": "confirmado",
-      "diasProntidao": null,
+      "diasProntidao": -23,
       "diasEtd": -18,
       "diasEta": 21
     },
@@ -1029,7 +1009,32 @@
     }
   ],
   "alertas": {
-    "confirmarEmbarque": [],
+    "confirmarEmbarque": [
+      {
+        "embarque": "TEMU179",
+        "codProjeto": "TL-00117",
+        "projeto": "Projeto San Bernardo lll",
+        "fornecedor": "Temu",
+        "destino": "",
+        "qtdCntr": 2,
+        "tipoCntr": "40HC",
+        "pedido": "99-00694",
+        "invoice": "26TM0927",
+        "abertura": "17/11/2026",
+        "diasAbertura": -7,
+        "status": "EM PRODUÇÃO",
+        "prontidao": "08/01/2026",
+        "etd": "18/01/2026",
+        "eta": "18/04/2026",
+        "etdConf": "previsao",
+        "etaConf": "previsao",
+        "diasProntidao": -320,
+        "diasEtd": -310,
+        "diasEta": -220,
+        "acao": "Confirmar se chegou (ETA ainda em vermelho)",
+        "acaoTipo": "confirmar"
+      }
+    ],
     "etaVencido": [
       {
         "embarque": "TEMU163",
@@ -1078,6 +1083,30 @@
         "diasEta": -292,
         "acao": "Chegada confirmada: atualizar o status",
         "acaoTipo": "atualizar"
+      },
+      {
+        "embarque": "TEMU179",
+        "codProjeto": "TL-00117",
+        "projeto": "Projeto San Bernardo lll",
+        "fornecedor": "Temu",
+        "destino": "",
+        "qtdCntr": 2,
+        "tipoCntr": "40HC",
+        "pedido": "99-00694",
+        "invoice": "26TM0927",
+        "abertura": "17/11/2026",
+        "diasAbertura": -7,
+        "status": "EM PRODUÇÃO",
+        "prontidao": "08/01/2026",
+        "etd": "18/01/2026",
+        "eta": "18/04/2026",
+        "etdConf": "previsao",
+        "etaConf": "previsao",
+        "diasProntidao": -320,
+        "diasEtd": -310,
+        "diasEta": -220,
+        "acao": "Confirmar se chegou (ETA ainda em vermelho)",
+        "acaoTipo": "confirmar"
       },
       {
         "embarque": "TEMU125",
@@ -1620,31 +1649,6 @@
         ]
       },
       {
-        "embarque": "TEMU148-3",
-        "codProjeto": "TL-00120",
-        "projeto": "Projeto Miotto",
-        "fornecedor": "Temu",
-        "destino": "",
-        "qtdCntr": 1,
-        "tipoCntr": "40HC",
-        "pedido": "99-00224 / 99-0022526 / TM0901 (sem pedido feito)",
-        "invoice": "26TM0870 / 26TM0871 / amostra - hontech / 26TM0901",
-        "abertura": "10/11/2026",
-        "diasAbertura": -14,
-        "status": "SOBRE AGUAS",
-        "prontidao": null,
-        "etd": "06/11/2026",
-        "eta": "15/12/2026",
-        "etdConf": "confirmado",
-        "etaConf": "confirmado",
-        "diasProntidao": null,
-        "diasEtd": -18,
-        "diasEta": 21,
-        "faltas": [
-          "Prontidão"
-        ]
-      },
-      {
         "embarque": "TEMU160",
         "codProjeto": "TL-00117",
         "projeto": "Projeto San Bernardo lll",
@@ -1820,35 +1824,28 @@
         "faltas": [
           "Qtd de containers"
         ]
-      },
-      {
-        "embarque": "TEMU179",
-        "codProjeto": "TL-00117",
-        "projeto": "Projeto San Bernardo lll",
-        "fornecedor": "Temu",
-        "destino": "",
-        "qtdCntr": 2,
-        "tipoCntr": "40HC",
-        "pedido": "99-00694",
-        "invoice": "26TM0927",
-        "abertura": "17/11/2026",
-        "diasAbertura": -7,
-        "status": "EM PRODUÇÃO",
-        "prontidao": "08/01/2026",
-        "etd": null,
-        "eta": null,
-        "etdConf": null,
-        "etaConf": null,
-        "diasProntidao": -320,
-        "diasEtd": null,
-        "diasEta": null,
-        "faltas": [
-          "ETD"
-        ]
       }
     ]
   },
   "pauta": [
+    {
+      "prioridade": "alta",
+      "titulo": "Confirmar embarque",
+      "detalhe": "ETD ainda em vermelho e a data já passou. Confirmar se embarcou e atualizar a planilha.",
+      "qtd": 1,
+      "itens": [
+        "TEMU179"
+      ]
+    },
+    {
+      "prioridade": "alta",
+      "titulo": "Confirmar chegada",
+      "detalhe": "ETA ainda em vermelho e a data já passou. Confirmar se o processo chegou.",
+      "qtd": 1,
+      "itens": [
+        "TEMU179"
+      ]
+    },
     {
       "prioridade": "alta",
       "titulo": "Atualizar status de chegadas",
@@ -1869,9 +1866,8 @@
       "prioridade": "media",
       "titulo": "Definir ETD dos processos prontos",
       "detalhe": "Prontidão já passou e ainda não há previsão de embarque.",
-      "qtd": 7,
+      "qtd": 6,
       "itens": [
-        "TEMU179",
         "TEMU133-2",
         "TEMU121-2",
         "TEMU126-2",
@@ -1894,7 +1890,7 @@
       "prioridade": "media",
       "titulo": "Preencher informações faltando",
       "detalhe": "Processos com dados em branco na planilha (prontidão, ETD, ETA, status ou valor).",
-      "qtd": 24,
+      "qtd": 22,
       "itens": [
         "TEMU180",
         "TEMU121-2",
@@ -1911,15 +1907,13 @@
         "TEMU134 - 4",
         "TEMU134 -3",
         "TEMU147",
-        "TEMU148-3",
         "TEMU160",
         "TEMU163",
         "TEMU164",
         "TEMU167",
         "TEMU168",
         "TEMU169",
-        "TEMU172",
-        "TEMU179"
+        "TEMU172"
       ]
     },
     {
