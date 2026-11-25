@@ -1,11 +1,11 @@
 {
-  "geradoEm": "24/11/2026 23:34",
+  "geradoEm": "25/11/2026 00:00",
   "kpis": {
     "totalGeral": 290000.0,
-    "totalSemana": 290000.0,
-    "totalQuinzena": 290000.0,
-    "totalMes": 290000.0,
-    "qtdChegando": 1
+    "totalSemana": 0,
+    "totalQuinzena": 0,
+    "totalMes": 0,
+    "qtdChegando": 0
   },
   "composicao": {
     "impostos": 121000.0,
@@ -25,8 +25,8 @@
       "totalCambio": 556000.0,
       "totalChegada": 290000.0,
       "previsao": "24/11/2026",
-      "diasChegada": 0,
-      "semanaLabel": "Esta semana"
+      "diasChegada": -1,
+      "semanaLabel": "Atrasado"
     },
     {
       "projeto": "Projeto Agroter 3  - 2° embarque",
