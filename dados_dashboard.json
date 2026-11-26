@@ -1,7 +1,7 @@
 {
-  "geradoEm": "26/11/2026 03:00",
+  "geradoEm": "26/11/2026 14:22",
   "kpis": {
-    "totalProjetos": 19,
+    "totalProjetos": 18,
     "totalContainers": 19,
     "etd7dias": 5,
     "chegando10dias": 4
@@ -15,8 +15,8 @@
     "": 1
   },
   "fornecedorCounts": {
-    "Temu": 29,
-    "Honesty": 10,
+    "Temu": 30,
+    "Honesty": 9,
     "Daltec": 1,
     "Hontech-Wins": 3,
     "Honesty\nTemu": 1,
@@ -87,7 +87,7 @@
     {
       "embarque": "TEMU149",
       "codProjeto": "TL-00119",
-      "projeto": "Projeto Ysaka",
+      "projeto": "Projeto Vilomix",
       "fornecedor": "Honesty\nTemu",
       "destino": "",
       "qtdCntr": 1,
@@ -140,7 +140,7 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0928\n26TM0926\n+ add. 934\n\nTEMU171\nSH-ZXH-261029\nReferenceNumberP00056",
+      "invoice": "26TM0928\n26TM0926\n26TM0934\n\nTEMU171\nSH-ZXH-261029\nReferenceNumberP00056",
       "pedido": "AMOSTRA\nshow room",
       "abertura": "20/11/2026"
     }
@@ -156,7 +156,7 @@
       "tipoCntr": "7*40hc\n1*20GP",
       "prontidao": "2026-09-05 00:00:00",
       "etd": "17/09/2026",
-      "eta": "27/11/2026",
+      "eta": "28/11/2026",
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
@@ -998,7 +998,7 @@
       "tipoCntr": "7*40hc\n1*20GP",
       "prontidao": "2026-09-05 00:00:00",
       "etd": "17/09/2026",
-      "eta": "27/11/2026",
+      "eta": "28/11/2026",
       "status": "SOBRE AGUAS",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
@@ -1269,9 +1269,29 @@
       "abertura": null
     },
     {
+      "embarque": "TEMU156-A",
+      "codProjeto": "TL-00117",
+      "projeto": "Projeto San Bernardo lll",
+      "fornecedor": "Honesty",
+      "destino": "Asuncion",
+      "qtdCntr": 6,
+      "tipoCntr": "20GP",
+      "prontidao": "2026-11-25 00:00:00",
+      "etd": "05/12/2026",
+      "eta": "05/03/2027",
+      "status": "EM PRODUÇÃO",
+      "statusOp": "Prontidão e ETD OK",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "SH-ZXH-261016-A",
+      "pedido": "99-00313\n99-00314\n99-00315",
+      "abertura": "16/10/2026"
+    },
+    {
       "embarque": "TEMU149",
       "codProjeto": "TL-00119",
-      "projeto": "Projeto Ysaka",
+      "projeto": "Projeto Vilomix",
       "fornecedor": "Honesty\nTemu",
       "destino": "",
       "qtdCntr": 1,
@@ -1304,29 +1324,9 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0928\n26TM0926\n+ add. 934\n\nTEMU171\nSH-ZXH-261029\nReferenceNumberP00056",
+      "invoice": "26TM0928\n26TM0926\n26TM0934\n\nTEMU171\nSH-ZXH-261029\nReferenceNumberP00056",
       "pedido": "AMOSTRA\nshow room",
       "abertura": "20/11/2026"
-    },
-    {
-      "embarque": "TEMU156-A",
-      "codProjeto": "TL-00117",
-      "projeto": "Projeto San Bernardo lll",
-      "fornecedor": "Honesty",
-      "destino": "Asuncion",
-      "qtdCntr": 6,
-      "tipoCntr": "20GP",
-      "prontidao": "2026-11-25 00:00:00",
-      "etd": "05/12/2026",
-      "eta": "05/03/2027",
-      "status": "EM PRODUÇÃO",
-      "statusOp": "Prontidão e ETD OK",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": "",
-      "invoice": "SH-ZXH-261016-A",
-      "pedido": "99-00314",
-      "abertura": "16/10/2026"
     },
     {
       "embarque": "TEMU160",
@@ -1336,9 +1336,9 @@
       "destino": "Asuncion",
       "qtdCntr": 0,
       "tipoCntr": "40HC",
-      "prontidao": "2026-11-30 00:00:00",
-      "etd": "10/12/2026",
-      "eta": "10/03/2027",
+      "prontidao": "2026-12-10 00:00:00",
+      "etd": "20/12/2026",
+      "eta": "20/03/2027",
       "status": "EM PRODUÇÃO",
       "statusOp": "Prontidão e ETD OK",
       "etd7dias": false,
@@ -1346,7 +1346,7 @@
       "observacoes": "",
       "invoice": "SH-ZXH-261021",
       "pedido": "99-00353\n99-00355 \n99-00304",
-      "abertura": "21/10/2026"
+      "abertura": "31/10/2026"
     },
     {
       "embarque": "TEMU158",
@@ -1711,7 +1711,7 @@
     {
       "embarque": "TEMU179",
       "codProjeto": "TL-00117",
-      "projeto": "Projeto Ysaka",
+      "projeto": "Projeto Vilomix",
       "fornecedor": "Temu",
       "destino": "Asuncion",
       "qtdCntr": 2,
@@ -1789,26 +1789,6 @@
       "abertura": null
     },
     {
-      "embarque": "TEMU170",
-      "codProjeto": "CANCELADO",
-      "projeto": "CANCELADO",
-      "fornecedor": "Honesty",
-      "destino": "Asuncion",
-      "qtdCntr": 0,
-      "tipoCntr": "",
-      "prontidao": "",
-      "etd": null,
-      "eta": null,
-      "status": "EM PRODUÇÃO",
-      "statusOp": "Sem Prontidão e ETD",
-      "etd7dias": false,
-      "chegando10": false,
-      "observacoes": "",
-      "invoice": "SH-ZXH-261014",
-      "pedido": "",
-      "abertura": "10/11/2026"
-    },
-    {
       "embarque": "TEMU180",
       "codProjeto": "TL-00118",
       "projeto": "Projeto Vilomix",
@@ -1836,6 +1816,26 @@
       "destino": "Asuncion",
       "qtdCntr": 0,
       "tipoCntr": "",
+      "prontidao": "2027-01-15 00:00:00",
+      "etd": null,
+      "eta": null,
+      "status": "EM PRODUÇÃO",
+      "statusOp": "Pronto - Aguardando ETD",
+      "etd7dias": false,
+      "chegando10": false,
+      "observacoes": "",
+      "invoice": "26TM0893",
+      "pedido": "99-00691",
+      "abertura": "20/11/2026"
+    },
+    {
+      "embarque": "TEMU184",
+      "codProjeto": "",
+      "projeto": "Projeto San Bernardo l",
+      "fornecedor": "Temu",
+      "destino": "Asuncion",
+      "qtdCntr": 0,
+      "tipoCntr": "",
       "prontidao": "",
       "etd": null,
       "eta": null,
@@ -1844,8 +1844,8 @@
       "etd7dias": false,
       "chegando10": false,
       "observacoes": "",
-      "invoice": "26TM0893",
-      "pedido": "99-00691",
+      "invoice": "26TM0936",
+      "pedido": "",
       "abertura": "20/11/2026"
     }
   ]
