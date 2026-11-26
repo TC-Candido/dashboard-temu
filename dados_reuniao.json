@@ -1,5 +1,5 @@
 {
-  "geradoEm": "26/11/2026 17:00",
+  "geradoEm": "26/11/2026 17:34",
   "hoje": "26/11/2026",
   "limChegada": "11/12/2026",
   "limProntidao": "11/12/2026",
@@ -10,10 +10,10 @@
   "diasAbertura": 15,
   "diasChegou": 7,
   "dolar": {
-    "atual": 5.747,
+    "atual": 5.7125,
     "data": "26/11/2026",
-    "variacao": -0.074,
-    "variacaoPct": -1.27,
+    "variacao": -0.1085,
+    "variacaoPct": -1.86,
     "min": 4.9648,
     "max": 5.9488,
     "serie": [
@@ -165,12 +165,12 @@
       {
         "d": "26/11",
         "iso": "2026-11-26",
-        "v": 5.747
+        "v": 5.7125
       }
     ],
     "fonte": "Dólar comercial (compra) — AwesomeAPI",
     "titulo": "Dólar comercial — flutuante",
-    "hora": "16:50",
+    "hora": "17:28",
     "desatualizado": false
   },
   "coresLidas": true,
